@@ -1,0 +1,19 @@
+<svg id="insert_chart_black_24dp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_78580" data-name="Rectangle 78580" width="21.703" height="23.658" fill="#00A4DC"/>
+    </clipPath>
+  </defs>
+  <path id="Path_4" data-name="Path 4" d="M0,0H28V28H0Z" fill="none"/>
+  <g id="Group_59874" data-name="Group 59874" transform="translate(3.356 1.944)">
+    <g id="Group_59874-2" data-name="Group 59874" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_22117" data-name="Path 22117" d="M16.808,23.658H3.072A3.018,3.018,0,0,1,0,20.7V2.954A3.018,3.018,0,0,1,3.072,0H16.808a3.018,3.018,0,0,1,3.072,2.954V6.7a.9.9,0,1,1-1.8,0V2.954A1.222,1.222,0,0,0,16.808,1.8H3.072A1.222,1.222,0,0,0,1.8,2.954V20.7a1.222,1.222,0,0,0,1.276,1.157H16.808A1.222,1.222,0,0,0,18.085,20.7a.9.9,0,0,1,1.8,0,3.018,3.018,0,0,1-3.072,2.954" transform="translate(0 0)" fill="#00A4DC"/>
+      <path id="Path_22118" data-name="Path 22118" d="M20.808,22.5a5.133,5.133,0,1,1,5.133-5.134A5.139,5.139,0,0,1,20.808,22.5m0-8.47a3.337,3.337,0,1,0,3.337,3.337,3.34,3.34,0,0,0-3.337-3.337" transform="translate(-6.289 -4.908)" fill="#00A4DC"/>
+      <path id="Path_22119" data-name="Path 22119" d="M31.885,29.439a.894.894,0,0,1-.606-.236l-3.367-3.08A.9.9,0,1,1,29.125,24.8l3.367,3.081a.9.9,0,0,1-.607,1.56" transform="translate(-11.081 -9.854)" fill="#00A4DC"/>
+      <path id="Path_22120" data-name="Path 22120" d="M12.115,11.666H6.222a.9.9,0,0,1,0-1.8h5.893a.9.9,0,0,1,0,1.8" transform="translate(-2.136 -3.96)" fill="#00A4DC"/>
+      <path id="Path_22121" data-name="Path 22121" d="M11.046,29.251H6.221a.9.9,0,0,1,0-1.8h4.825a.9.9,0,0,1,0,1.8" transform="translate(-2.136 -11.015)" fill="#00A4DC"/>
+      <path id="Path_22122" data-name="Path 22122" d="M8.834,20.18H6.222a.9.9,0,0,1,0-1.8H8.834a.9.9,0,1,1,0,1.8" transform="translate(-2.136 -7.375)" fill="#00A4DC"/>
+      <path id="Path_22123" data-name="Path 22123" d="M24.827,21.445a.6.6,0,0,1-.6-.577,1.1,1.1,0,0,0-.691-1.065.6.6,0,0,1-.382-.753.6.6,0,0,1,.74-.39,2.3,2.3,0,0,1,1.531,2.165.6.6,0,0,1-.577.62h-.022" transform="translate(-9.279 -7.476)" fill="#00A4DC"/>
+    </g>
+  </g>
+</svg>

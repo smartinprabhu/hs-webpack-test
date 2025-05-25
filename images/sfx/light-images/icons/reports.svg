@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.922" height="20.263" viewBox="0 0 15.922 20.263">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.7;
+      }
+
+      .cls-2 {
+        fill: #2d9483;
+      }
+    </style>
+  </defs>
+  <g id="Group_108" data-name="Group 108" class="cls-1" transform="translate(-866.104 -4467.927)">
+    <g id="Group_107" data-name="Group 107">
+      <path id="Path_201" data-name="Path 201" class="cls-2" d="M880.578,4485.3v.947c0,.376-.122.5-.492.5h-.959c0,.331,0,.647,0,.962,0,.364-.119.483-.481.483H866.61c-.394,0-.505-.111-.505-.5q0-8.19,0-16.381c0-.361.122-.482.484-.483h.962v-.917c0-.423.1-.53.522-.53H869c0-.33,0-.639,0-.949,0-.384.11-.495.487-.495q4.311,0,8.623,0a.656.656,0,0,1,.505.208q1.6,1.619,3.221,3.223a.59.59,0,0,1,.187.45q0,6.505,0,13.012c0,.346-.13.476-.472.478C881.237,4485.3,880.921,4485.3,880.578,4485.3Zm.711-13.026h-.229c-.967,0-1.935,0-2.9,0-.365,0-.48-.117-.481-.484q0-1.44,0-2.881v-.238h-7.93v15.891h11.543Zm-1.451,13.025h-7.509c-.961,0-1.921,0-2.882,0-.314,0-.437-.126-.444-.434,0-.057,0-.113,0-.17V4470.1h-.7V4486h11.54Zm-13-13.738v15.893h11.549v-.708h-10.28c-.466,0-.558-.093-.558-.558v-14.627Zm14.056-.023-2.478-2.48v2.48Z"/>
+      <rect id="Rectangle_119" data-name="Rectangle 119" class="cls-2" width="8.856" height="0.847" rx="0.399" transform="translate(871.1 4474.63)"/>
+      <rect id="Rectangle_120" data-name="Rectangle 120" class="cls-2" width="5.932" height="0.847" rx="0.399" transform="translate(871.1 4476.679)"/>
+      <rect id="Rectangle_121" data-name="Rectangle 121" class="cls-2" width="8.856" height="0.847" rx="0.399" transform="translate(871.1 4478.727)"/>
+      <rect id="Rectangle_122" data-name="Rectangle 122" class="cls-2" width="5.932" height="0.847" rx="0.399" transform="translate(871.1 4480.774)"/>
+    </g>
+  </g>
+</svg>

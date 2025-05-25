@@ -1,0 +1,16 @@
+<svg id="insert_chart_black_24dp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_78560" data-name="Rectangle 78560" width="23.105" height="22.823" fill="#00355A"/>
+    </clipPath>
+  </defs>
+  <path id="Path_4" data-name="Path 4" d="M0,0H28V28H0Z" fill="none"/>
+  <g id="Group_59857" data-name="Group 59857" transform="translate(2.447 2.589)">
+    <g id="Group_59857-2" data-name="Group 59857" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_22017" data-name="Path 22017" d="M20.2,22.823H2.907A2.911,2.911,0,0,1,0,19.916V2.907A2.911,2.911,0,0,1,2.907,0H20.2a2.91,2.91,0,0,1,2.907,2.907V19.916A2.911,2.911,0,0,1,20.2,22.823M2.907,1.886A1.023,1.023,0,0,0,1.886,2.907V19.916a1.023,1.023,0,0,0,1.021,1.021H20.2a1.022,1.022,0,0,0,1.021-1.021V2.907A1.022,1.022,0,0,0,20.2,1.886Z" transform="translate(0 0)" fill="#00355A"/>
+      <path id="Path_22018" data-name="Path 22018" d="M9.3,21.927a.943.943,0,0,1-.943-.943V14.06a.943.943,0,0,1,1.886,0v6.924a.943.943,0,0,1-.943.943" transform="translate(-3.103 -4.872)" fill="#00355A"/>
+      <path id="Path_22019" data-name="Path 22019" d="M26.347,23.241A.943.943,0,0,1,25.4,22.3V17.6a.943.943,0,1,1,1.886,0v4.7a.943.943,0,0,1-.943.943" transform="translate(-9.435 -6.185)" fill="#00355A"/>
+      <path id="Path_22020" data-name="Path 22020" d="M17.624,20.463a.943.943,0,0,1-.943-.943v-9.4a.943.943,0,1,1,1.886,0v9.4a.943.943,0,0,1-.943.943" transform="translate(-6.196 -3.408)" fill="#00355A"/>
+    </g>
+  </g>
+</svg>

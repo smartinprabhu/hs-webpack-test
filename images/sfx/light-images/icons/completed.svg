@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.362" height="21.151" viewBox="0 0 21.362 21.151">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".941" x2=".059" y1=".243" y2=".757" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#00d74b"/>
+            <stop offset="1" stop-color="#00be4b"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_131" transform="translate(-1527 -202.859)">
+        <rect id="Rectangle_181" width="21.362" height="21.151" fill="url(#linear-gradient)" rx="9.975" transform="translate(1527 202.859)"/>
+        <g id="Group_130">
+            <path id="Path_173" d="M1537.095 214.331l-.071-.066c-.39-.39-.779-.781-1.17-1.169a.378.378 0 0 0-.606 0l-.3.3a.376.376 0 0 0 0 .6q.909.91 1.819 1.818a.447.447 0 0 0 .633 0q.447-.444.891-.89l2.125-2.125a.376.376 0 0 0 0-.585l-.3-.3a.381.381 0 0 0-.618 0q-.765.762-1.527 1.526c-.287.297-.578.591-.876.891z" class="cls-2"/>
+            <path id="Path_174" d="M1539.034 219.161a5.912 5.912 0 1 1 4.4-4.4 5.921 5.921 0 0 1-4.4 4.4zm.035-10.679a5.126 5.126 0 0 0-6.312 6.312 5.041 5.041 0 0 0 3.537 3.536 5.125 5.125 0 0 0 6.31-6.311 5.04 5.04 0 0 0-3.535-3.537z" class="cls-2"/>
+        </g>
+    </g>
+</svg>

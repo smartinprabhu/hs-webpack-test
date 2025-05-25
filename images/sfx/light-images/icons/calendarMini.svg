@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.959" height="15.3" viewBox="0 0 13.959 15.3">
+    <defs>
+        <style>
+            .cls-1{fill:#2d9483}
+        </style>
+    </defs>
+    <g id="Group_15" transform="translate(-1732 -219.792)">
+        <g id="Group_14">
+            <path id="Path_13" d="M1735.654 222.963c.658 0 1.193-.709 1.193-1.585s-.535-1.586-1.193-1.586-1.194.711-1.194 1.586.535 1.585 1.194 1.585z" class="cls-1"/>
+            <path id="Path_14" d="M1742.307 222.963c.659 0 1.192-.709 1.192-1.585s-.533-1.586-1.192-1.586-1.194.711-1.194 1.586.534 1.585 1.194 1.585z" class="cls-1"/>
+            <path id="Path_15" d="M1745.436 221.394h-1.414a1.75 1.75 0 1 1-3.431 0h-3.222a1.749 1.749 0 1 1-3.43 0h-1.416a.523.523 0 0 0-.523.523v12.652a.523.523 0 0 0 .523.523h12.913a.523.523 0 0 0 .523-.523v-12.652a.523.523 0 0 0-.523-.523zm-.523 12.652h-11.973v-8.925h11.973z" class="cls-1"/>
+            <path id="Rectangle_18" d="M0 0H1.503V1.504H0z" class="cls-1" transform="translate(1734.058 226.2)"/>
+            <path id="Rectangle_19" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1736.838 226.2)"/>
+            <path id="Rectangle_20" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1739.618 226.2)"/>
+            <path id="Rectangle_21" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1742.398 226.2)"/>
+            <path id="Rectangle_22" d="M0 0H1.503V1.503H0z" class="cls-1" transform="translate(1734.058 228.816)"/>
+            <path id="Rectangle_23" d="M0 0H1.504V1.503H0z" class="cls-1" transform="translate(1736.838 228.816)"/>
+            <path id="Rectangle_24" d="M0 0H1.504V1.503H0z" class="cls-1" transform="translate(1739.618 228.816)"/>
+            <path id="Rectangle_25" d="M0 0H1.504V1.503H0z" class="cls-1" transform="translate(1742.398 228.816)"/>
+            <path id="Rectangle_26" d="M0 0H1.503V1.504H0z" class="cls-1" transform="translate(1734.058 231.431)"/>
+            <path id="Rectangle_27" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1736.838 231.431)"/>
+            <path id="Rectangle_28" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1739.618 231.431)"/>
+            <path id="Rectangle_29" d="M0 0H1.504V1.504H0z" class="cls-1" transform="translate(1742.398 231.431)"/>
+        </g>
+    </g>
+</svg>

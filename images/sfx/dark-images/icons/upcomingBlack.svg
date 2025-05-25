@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".933" y1=".25" x2=".067" y2=".75" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="silver"/>
+            <stop offset="1" stop-color="#ccc"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_235" data-name="Group 235" transform="translate(-1245.972 -465.038)">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="12" cy="12" r="12" transform="translate(1245.972 465.038)" style="fill:ffffff"/>
+        <g id="Group_234" data-name="Group 234">
+            <path id="Path_333" data-name="Path 333" class="cls-2" d="M1258.417 476.271v-2.548a.425.425 0 1 0-.851 0v2.547a.882.882 0 0 0-.451.766.853.853 0 0 0 .034.241l-1.108 1.107a.426.426 0 1 0 .6.6l1.109-1.109a.875.875 0 0 0 .665-1.607zm-.45.765h.049a.028.028 0 0 1-.025.024z"/>
+            <path id="Path_334" data-name="Path 334" class="cls-2" d="M1263.482 474.709a6 6 0 1 0 .47 2.328 5.966 5.966 0 0 0-.47-2.328zm-.457 2.328a5.062 5.062 0 0 1-3.087 4.655 5.08 5.08 0 0 1-3.931 0 5.054 5.054 0 1 1 7.018-4.655z"/>
+        </g>
+    </g>
+</svg>

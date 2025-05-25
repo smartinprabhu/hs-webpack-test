@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Outer Circle -->
+  <circle cx="12" cy="12" r="10" stroke="#ec5824" stroke-width="2" fill="none"/>
+  
+  <!-- Clock Hands -->
+  <line x1="12" y1="7" x2="12" y2="12" stroke="#ec5824" stroke-width="2" stroke-linecap="round"/>
+  <line x1="12" y1="12" x2="15" y2="15" stroke="#ec5824" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Strikethrough (Missed) -->
+  <line x1="7" y1="17" x2="17" y2="7" stroke="#ec5824" stroke-width="2" stroke-linecap="round"/>
+</svg>
