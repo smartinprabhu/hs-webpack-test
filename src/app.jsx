@@ -254,7 +254,21 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(false); // Simulate loading time
+    const authServiceInstance = AuthService();
+    const currentRefreshToken = authServiceInstance.getRefreshToken();
+    const publicPathsForBypassCheck = ['/bypassLogin', '/login', '/accountlogin', '/okta-login', '/aws/callback'];
+
+    if (!currentRefreshToken) {
+      if (!publicPathsForBypassCheck.some(path => window.location.pathname.includes(path))) {
+        window.location.href = '/bypassLogin';
+        // If we redirect, we might not want to immediately setLoading(false) here,
+        // as the page will change. However, for simplicity and to ensure it's set if no redirect occurs:
+        setLoading(false); 
+        return; // Early exit after redirect
+      }
+    }
+    
+    setLoading(false); // Simulate loading time or set after checks
   }, []);
 
   const menuNames = getColumnArrayByIdCase(

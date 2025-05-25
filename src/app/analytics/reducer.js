@@ -18,6 +18,7 @@ const initialState = {
   ninjaDashboardExpandCode: {},
   ninjaDefaultFilters: {},
   sldRouteData: {},
+  ninjaCodeCache: {},
 };
 
 function reducer(state, action) {
@@ -123,7 +124,11 @@ function reducer(state, action) {
     case 'GET_ND_DETAILS_INFO_SUCCESS':
       return {
         ...state,
-        ninjaDashboardCode: (state.ninjaDashboardCode, { loading: false, data: action.payload.data, err: null }),
+        ninjaDashboardCode: { loading: false, data: action.payload.data, err: null },
+        ninjaCodeCache: {
+          ...state.ninjaCodeCache,
+          [action.id]: { data: action.payload.data, timestamp: Date.now() },
+        },
       };
     case 'GET_ND_DETAILS_INFO_FAILURE':
       return {
@@ -309,6 +314,11 @@ function reducer(state, action) {
       return {
         ...state,
         sldRouteData: (state.sldRouteData, action.payload),
+      };
+    case 'GET_ND_DETAILS_FROM_CACHE':
+      return {
+        ...state,
+        ninjaDashboardCode: { loading: false, data: action.payload.data, err: null },
       };
     default:
       return state;
