@@ -254,22 +254,8 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const authServiceInstance = AuthService();
-    const currentRefreshToken = authServiceInstance.getRefreshToken();
-    const publicPathsForBypassCheck = ['/bypassLogin', '/login', '/accountlogin', '/okta-login', '/aws/callback', '/saml/signin'];
-
-    if (!currentRefreshToken) {
-      // Check if the current path is one of the public paths to avoid redirect loops
-      const isPublicPath = publicPathsForBypassCheck.some(path => window.location.pathname.includes(path));
-      
-      if (!isPublicPath) {
-        window.location.href = '/bypassLogin';
-        return; // Exit early after redirecting
-      }
-    }
-    
-    setLoading(false); // This will only run if no redirect happened
-  }, []); // Empty dependency array to run only on mount
+    setLoading(false); // Simulate loading time
+  }, []);
 
   const menuNames = getColumnArrayByIdCase(
     userRoles && userRoles.data ? userRoles.data.allowed_modules : [],

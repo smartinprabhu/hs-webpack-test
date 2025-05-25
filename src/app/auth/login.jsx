@@ -86,6 +86,7 @@ const Login = (props) => {
   const [endpoints, setEndpoints] = useState(false);
   const [traditionalLoginTrue, setTraditionalLogin] = useState(false);
   const [microsoftLoginTrue, setMicrosoftLogin] = useState(false);
+  const [staticLoginAttempted, setStaticLoginAttempted] = useState(false);
   // const [oktaLoginError, setOktaLoginError] = useState('');
   const [clientToken, setClientToken] = useState(!!isNoCaptcha);
   const [apiCall, setApiCall] = useState(false);
@@ -485,6 +486,36 @@ const Login = (props) => {
       handleSwitchAccount();
     }
   }, [accountIdLoginInfo]);
+
+  useEffect(() => {
+    if (
+      formikRef.current && // Ensure Formik ref is available
+      !staticLoginAttempted && // Only attempt once
+      endpoints && 
+      endpoints.length > 0 && // Ensure endpoints are loaded
+      endpoints.some(ep => ep.type === 'Traditional') && // Check if Traditional login is an option
+      !(loginData && loginData.data) && // Not already processing a login
+      !(loginData && loginData.loading) && // Not currently loading a login
+      !(userInfo && userInfo.data) // Not already logged in / user info loaded
+    ) {
+      const traditionalEndpoint = endpoints.find(ep => ep.type === 'Traditional');
+      if (traditionalEndpoint) {
+        // console.log('Attempting static login with vignesh@dev.com'); // Optional: for debugging
+        formikRef.current.setFieldValue('username', 'vignesh@dev.com');
+        formikRef.current.setFieldValue('password', 'vignesh@dev.com');
+        
+        setTraditionalLogin(true); // Simulate the click's side-effect
+
+        setTimeout(() => {
+          if (formikRef.current) { // Check ref again inside timeout
+            formikRef.current.submitForm();
+          }
+        }, 0); // A minimal timeout
+
+        setStaticLoginAttempted(true);
+      }
+    }
+  }, [endpoints, staticLoginAttempted, loginData, userInfo, traditionalLoginTrue]);
 
   const cpatchaLoad = isNoCaptcha ? false : ((googleCaptchaCheck && googleCaptchaCheck.loading) || !clientToken || !isGoogleCaptchaVerified);
 

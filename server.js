@@ -1107,37 +1107,6 @@ app.post('/siteWater', async (req, res) => {
   }
 });
 
-app.get('/bypassLogin', (req, res) => {
-  const dummy_access_token = "dummy_access_token_bypassed";
-  const dummy_refresh_token = "dummy_refresh_token_bypassed";
-  const dummy_client_id = "dummy_client_id";
-  const dummy_account_id = "dummy_account_id";
-  const dummy_client_secret = "dummy_client_secret";
-
-  const cookieOptions = {
-    httpOnly: true,
-    secure: false, // For local HTTP testing. Should be true in production.
-    sameSite: 'strict',
-  };
-
-  const accessTokenExp = new Date();
-  accessTokenExp.setTime(accessTokenExp.getTime() + (3600 * 1000)); // 1 hour expiry
-  res.cookie('access_token', dummy_access_token, { ...cookieOptions, expires: accessTokenExp });
-
-  const refreshTokenExp = new Date();
-  refreshTokenExp.setTime(refreshTokenExp.getTime() + (28800 * 1000)); // 8 hours expiry
-  res.cookie('refresh_token', dummy_refresh_token, { ...cookieOptions, expires: refreshTokenExp });
-
-  res.cookie('sessionExpiry', '1', cookieOptions);
-  res.cookie('client_id', dummy_client_id, cookieOptions);
-  res.cookie('accountId', dummy_account_id, cookieOptions);
-  res.cookie('client_secret', dummy_client_secret, cookieOptions);
-  res.cookie('login_bypass_active', 'true', cookieOptions);
-
-  // Redirect to the application root.
-  res.redirect('/');
-});
-
 app.use((_, res) => {
   res.sendFile(join(__dirname, 'dist', 'index.html'));
 });
