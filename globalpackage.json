@@ -1,0 +1,66 @@
+{
+  "name": "helixsense",
+  "version": "1.6.0",
+  "description": "",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "test": "jest",
+    "dev-start": "webpack-dev-server --mode=development",
+    "dev": "webpack --mode=production",
+    "qa": "webpack --mode=production",
+    "prod": "webpack --mode=production",
+    "stage": "webpack --mode=production",
+    "start": "node server.js",
+    "lint": "eslint --ext .jsx --ext .js .",
+    "lint:fix": "eslint --ext .jsx --ext .js . --fix",
+    "test:watch": "npm test -- --watch"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "request": "^2.88.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-react-jsx"
+    ]
+  },
+  "repository": "https://github.com/HelixSense/hsense-web-app"
+}

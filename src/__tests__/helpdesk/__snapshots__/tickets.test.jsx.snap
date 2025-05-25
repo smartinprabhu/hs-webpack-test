@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tickets testing tickets snapshots tickets testing 1`] = `
+<DocumentFragment>
+  <div
+    class="ml-1 mr-1 mt-2 mb-2 p-3 border row"
+  >
+    <div
+      class="col-12 col-sm-12 col-md-12 col-lg-12"
+    >
+      <div
+        class="pl-3 m-0 row"
+      >
+        <div
+          class="p-0 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <h3
+            class="mt-1"
+          >
+            <img
+              alt="actions"
+              class="mr-3 mb-1"
+              height="30"
+              src="test-file-stub"
+              width="30"
+            />
+            Helpdesk
+          </h3>
+        </div>
+        <div
+          class="col-12 col-sm-6 col-md-6 col-lg-9"
+        >
+          <ul
+            class="nav"
+          >
+            <li
+              class="nav-item"
+            >
+              <a
+                class="navbar-link p-1 mr-4 nav-link"
+                href="/helpdesk-overview"
+              >
+                <img
+                  alt="ticket"
+                  class="mr-2"
+                  height="20"
+                  src="test-file-stub"
+                  width="20"
+                />
+                Insights
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                class="navbar-link active p-1 mr-4 nav-link"
+                href="/helpdesk/tickets"
+              >
+                <img
+                  alt="ticket"
+                  class="mr-2"
+                  height="20"
+                  src="test-file-stub"
+                  width="20"
+                />
+                Tickets
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                class="navbar-link p-1 mr-4 nav-link"
+                href="/helpdesk/add-ticket"
+              >
+                <img
+                  alt="ticket"
+                  class="mr-2"
+                  height="20"
+                  src="test-file-stub"
+                  width="20"
+                />
+                Raise a ticket
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr
+        class="m-0"
+      />
+      <div
+        class="pt-2 row"
+      >
+        <div
+          class="col-12 col-sm-3 col-md-3 col-lg-3"
+        >
+          <div
+            class="p-1 bg-lightblue h-100 card"
+          >
+            <div
+              class="mt-2 ml-2 mb-1 mr-2 sfilterarrow card-title"
+            >
+              <h5>
+                Tickets Filters
+              </h5>
+              <hr
+                class="m-0 border-color-grey"
+              />
+            </div>
+            <div
+              class="pl-1 p-0 mt-2 h-100 position-relative scrollable-list thin-scrollbar card-body"
+            >
+              <div
+                class="m-0 row"
+              >
+                <div
+                  class="p-0 col-md-8"
+                >
+                  <p
+                    class="m-0 font-weight-800 collapse-heading"
+                  >
+                    BY  STATUS
+                  </p>
+                </div>
+                <div
+                  class="text-right p-0 col-md-4"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-chevron-up fa-w-14 fa-sm mr-2 cursor-pointer"
+                    data-icon="chevron-up"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="collapse show"
+              >
+                <div />
+              </div>
+              <hr
+                class="mt-2"
+              />
+              <div
+                class="m-0 row"
+              >
+                <div
+                  class="p-0 col-md-8"
+                >
+                  <p
+                    class="m-0 font-weight-800 collapse-heading"
+                  >
+                    BY  PRIORITY
+                  </p>
+                </div>
+                <div
+                  class="text-right p-0 col-md-4"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-chevron-down fa-w-14 fa-sm mr-2 cursor-pointer"
+                    data-icon="chevron-down"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="collapse"
+              >
+                <div
+                  class="pl-1"
+                />
+              </div>
+              <hr
+                class="mt-2"
+              />
+              <div
+                class="m-0 row"
+              >
+                <div
+                  class="p-0 col-md-8"
+                >
+                  <p
+                    class="m-0 font-weight-800 collapse-heading"
+                  >
+                    BY  CATEGORY
+                  </p>
+                </div>
+                <div
+                  class="text-right p-0 col-md-4"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-chevron-down fa-w-14 fa-sm mr-2 cursor-pointer"
+                    data-icon="chevron-down"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="collapse"
+              >
+                <div
+                  class="pl-1"
+                />
+              </div>
+              <hr
+                class="mt-2"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-sm-9 col-md-9 col-lg-9"
+        >
+          <div
+            class="p-2 bg-lightblue h-100 card"
+          >
+            <div
+              class="bg-color-white p-1 m-0 card-body"
+            >
+              <div
+                class="p-2 row"
+              >
+                <div
+                  class="col-md-8"
+                >
+                  <div
+                    class="content-inline"
+                  >
+                    <span
+                      class="p-0 font-weight-600 font-medium mr-2"
+                    >
+                      Tickets List:0
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4"
+                >
+                  <div
+                    class="float-right"
+                  >
+                    <img
+                      alt="Add"
+                      aria-hidden="true"
+                      class="cursor-pointer mr-2"
+                      id="Add"
+                      src="test-file-stub"
+                    />
+                    <img
+                      alt="DateFilters"
+                      aria-hidden="true"
+                      class="cursor-pointer mr-2"
+                      id="DateFilters"
+                      src="test-file-stub"
+                    />
+                    <img
+                      alt="Columns"
+                      aria-hidden="true"
+                      class="cursor-pointer mr-2"
+                      id="Columns"
+                      src="test-file-stub"
+                    />
+                    <img
+                      alt="Export"
+                      aria-hidden="true"
+                      class="cursor-pointer mr-2"
+                      id="Export"
+                      src="test-file-stub"
+                    />
+                    <img
+                      alt="Filters"
+                      aria-hidden="true"
+                      class="cursor-pointer mr-2"
+                      id="Filters"
+                      src="test-file-stub"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

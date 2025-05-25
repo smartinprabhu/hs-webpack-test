@@ -1,0 +1,3416 @@
+{
+    "errorResponse": [{
+        "name": "werkzeug.exceptions.Unauthorized",
+        "message": "401: Unauthorized",
+        "arguments": [],
+        "exception_type": "error",
+        "code": 401,
+        "description": "The server could not verify that you are authorized to access the URL requested.  You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required."
+    }],
+    "equipmentListResponse": [{
+            "category_id": [
+                6204,
+                "Electrical / Transformer"
+            ],
+            "equipment_seq": "DTP-E-00016",
+            "id": 1,
+            "location_id": [
+                237,
+                "DTP/BC1/FG/SSE"
+            ],
+            "maintenance_team_id": [
+                255,
+                "B4-Electrician Team"
+            ],
+            "name": "Transformer#1",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                4,
+                "Electrical/Transformer"
+            ],
+            "equipment_seq": "DTP-E-00002",
+            "id": 2,
+            "location_id": [
+                36,
+                "DTP/BC1/SNE/HT Yard"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "Transformer#2",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                4,
+                "Electrical/Transformer"
+            ],
+            "equipment_seq": "DTP-E-60006",
+            "id": 3,
+            "location_id": [
+                36,
+                "DTP/BC1/SNE/HT Yard"
+            ],
+            "maintenance_team_id": [
+                7,
+                "C1-DG Operator Team"
+            ],
+            "name": "Transformer#3",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00004",
+            "id": 4,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#1",
+            "state": "op"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00005",
+            "id": 5,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#2",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00006",
+            "id": 6,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#3",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00007",
+            "id": 7,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#4",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00008",
+            "id": 8,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#5",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00009",
+            "id": 9,
+            "location_id": [
+                339,
+                "DTP/BC1/F1/F1_PLL_NE"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Engine#6",
+            "state": "mn"
+        },
+        {
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "equipment_seq": "DTP-E-00010",
+            "id": 10,
+            "location_id": [
+                38,
+                "DTP/BC1/FB2/DG Room"
+            ],
+            "maintenance_team_id": [
+                3,
+                "C1-Electrician Team"
+            ],
+            "name": "DG Alternator#1",
+            "state": "mn"
+        }
+    ],
+    "equipmentCountResponse": [{
+        "__count": 3089,
+        "id": 1
+    }],
+    "categoryResponse": [{
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    193
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                193,
+                "Electrical/Ventilation Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    302
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                302,
+                "STP/Sewage Transfer Pump"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    303
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                303,
+                "STP/Brine Tank"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    306
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                306,
+                "STP/Salt Mixing Pump"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    307
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                307,
+                "STP/Lime Dosing Pump"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5668
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5668,
+                "Electrical/DG"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    4
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                4,
+                "Electrical/Transformer"
+            ],
+            "category_id_count": 19
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5,
+                "Electrical/Generators"
+            ],
+            "category_id_count": 12
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6,
+                "HVAC/Chillers"
+            ],
+            "category_id_count": 15
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    7
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                7,
+                "HVAC/AHU"
+            ],
+            "category_id_count": 218
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    8
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                8,
+                "HVAC/Jet Fan"
+            ],
+            "category_id_count": 73
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    9
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                9,
+                "Electrical/UPS"
+            ],
+            "category_id_count": 19
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    12
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                12,
+                "HVAC/Air Blower"
+            ],
+            "category_id_count": 52
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    13
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                13,
+                "STP/Filter Press"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    14
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                14,
+                "Electrical/Elevators"
+            ],
+            "category_id_count": 98
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    15
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                15,
+                "HVAC/Air Flow Unit"
+            ],
+            "category_id_count": 35
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    16
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                16,
+                "WTP/Tanks"
+            ],
+            "category_id_count": 9
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    19
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                19,
+                "Electrical/Energy Meter"
+            ],
+            "category_id_count": 420
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    20
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                20,
+                "Electrical"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    21
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                21,
+                "Electrical/LT Panel"
+            ],
+            "category_id_count": 165
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    24
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                24,
+                "WTP/Flow Meter"
+            ],
+            "category_id_count": 57
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    25
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                25,
+                "HVAC/BTU Meter"
+            ],
+            "category_id_count": 27
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    27
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                27,
+                "HVAC/Chillers/Cooling Tower"
+            ],
+            "category_id_count": 13
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    40
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                40,
+                "HVAC"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    42
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                42,
+                "WTP"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    45
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                45,
+                "Electrical/Transformer/OLTC"
+            ],
+            "category_id_count": 18
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    46
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                46,
+                "Electrical/Transformer/Bus Duct"
+            ],
+            "category_id_count": 7
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    47
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                47,
+                "Electrical/DG"
+            ],
+            "category_id_count": 36
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    48
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                48,
+                "HVAC/Primary Pump"
+            ],
+            "category_id_count": 18
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    49
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                49,
+                "HVAC/Secondary Pump"
+            ],
+            "category_id_count": 28
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    50
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                50,
+                "HVAC/Condenser Pump"
+            ],
+            "category_id_count": 11
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    51
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                51,
+                "HVAC/Blower Motor"
+            ],
+            "category_id_count": 50
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    52
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                52,
+                "STP/Air Blower"
+            ],
+            "category_id_count": 8
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    53
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                53,
+                "HVAC/Exhaust Fan"
+            ],
+            "category_id_count": 52
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    54
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                54,
+                "HVAC/Fresh Air Fan"
+            ],
+            "category_id_count": 42
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    55
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                55,
+                "Electrical/UPS Battery"
+            ],
+            "category_id_count": 149
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    58
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                58,
+                "Fire/Jockey Pump"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    59
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                59,
+                "Fire/Hydrant Pump"
+            ],
+            "category_id_count": 11
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    60
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                60,
+                "Fire/Sprinkler Pump"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    62
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                62,
+                "Pumps/Dewatering Pump"
+            ],
+            "category_id_count": 16
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    63
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                63,
+                "STP/Raw Water Pump"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    64
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                64,
+                "STP/Sludge Transfer Pump"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    65
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                65,
+                "STP/Filter Press Feed Pump"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    66
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                66,
+                "STP/Filter Feed Pump"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    67
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                67,
+                "STP/Chlorine Dosing Pump"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    71
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                71,
+                "Misc."
+            ],
+            "category_id_count": 136
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    73
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                73,
+                "WTP/Chlorine Dosing Pump"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    74
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                74,
+                "HVAC/Chemical Dosing Pump"
+            ],
+            "category_id_count": 9
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    75
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                75,
+                "Fire/Booster Pump"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    76
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                76,
+                "Fire/Diesel Pump"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    77
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                77,
+                "Fire/Fire Pump"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    78
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                78,
+                "WTP/Filter Feed Pump"
+            ],
+            "category_id_count": 15
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    79
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                79,
+                "WTP/Treated Water Pump"
+            ],
+            "category_id_count": 20
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    80
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                80,
+                "WTP/Flushing Water Pump"
+            ],
+            "category_id_count": 9
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    81
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                81,
+                "Misc./Water Body Pump"
+            ],
+            "category_id_count": 17
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    82
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                82,
+                "Misc./Water Body Filtration Pump"
+            ],
+            "category_id_count": 9
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    83
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                83,
+                "STP/Irrigation Pump"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    84
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                84,
+                "HVAC/Makeup Pump"
+            ],
+            "category_id_count": 8
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    86
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                86,
+                "STP/Sand Filter"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    87
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                87,
+                "STP/Carbon Filter"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    88
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                88,
+                "STP/Softener Filter"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    89
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                89,
+                "WTP/Sand Filter"
+            ],
+            "category_id_count": 17
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    91
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                91,
+                "WTP/Softener Filter"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    93
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                93,
+                "WTP/Carbon Filter"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    94
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                94,
+                "WTP/Brine Tank"
+            ],
+            "category_id_count": 13
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    95
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                95,
+                "Electrical/DG/Diesel Tank"
+            ],
+            "category_id_count": 37
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    96
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                96,
+                "Misc./Storm Water Tank"
+            ],
+            "category_id_count": 18
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    97
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                97,
+                "Fire/Fire Tank"
+            ],
+            "category_id_count": 20
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    98
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                98,
+                "WTP/Domestic Tank"
+            ],
+            "category_id_count": 20
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    99
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                99,
+                "STP/Flush Tank"
+            ],
+            "category_id_count": 12
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    100
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                100,
+                "Misc./Raw Water Tank"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    101
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                101,
+                "Electrical/Control Panel"
+            ],
+            "category_id_count": 142
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    102
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                102,
+                "Electrical/Utility Panel"
+            ],
+            "category_id_count": 16
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    103
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                103,
+                "Electrical/Jio Panel"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    104
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                104,
+                "Electrical/Food Court Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    107
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                107,
+                "Electrical/Main Lift Panel"
+            ],
+            "category_id_count": 51
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    108
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                108,
+                "Electrical/DG Sync Panel"
+            ],
+            "category_id_count": 123
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    109
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                109,
+                "Electrical/RTCC Panel"
+            ],
+            "category_id_count": 17
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    110
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                110,
+                "Electrical/Circuit Breakers"
+            ],
+            "category_id_count": 29
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    111
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                111,
+                "HVAC/VFD Panel"
+            ],
+            "category_id_count": 25
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    112
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                112,
+                "Electrical/Chiller Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    113
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                113,
+                "Electrical/STP Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    114
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                114,
+                "Electrical/Lighting Panel"
+            ],
+            "category_id_count": 27
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    115
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                115,
+                "Electrical/Fire Pump Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    116
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                116,
+                "Electrical/AC Panel"
+            ],
+            "category_id_count": 48
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    118
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                118,
+                "Electrical/APFC Panel"
+            ],
+            "category_id_count": 48
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    119
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                119,
+                "Electrical/Phe Panel"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    120
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                120,
+                "Electrical/Ventilation Panel"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    121
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                121,
+                "Electrical/Pressurization Panel"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    122
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                122,
+                "Electrical/Fire Panel"
+            ],
+            "category_id_count": 12
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    123
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                123,
+                "Electrical/LT Kiosk"
+            ],
+            "category_id_count": 120
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    124
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                124,
+                "HVAC/Blowdown Meter"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    125
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                125,
+                "Electrical/DG/Alternator"
+            ],
+            "category_id_count": 9
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    128
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                128,
+                "Pumps/Storm Water Pump"
+            ],
+            "category_id_count": 34
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    129
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                129,
+                "STP/Flushing Pump"
+            ],
+            "category_id_count": 8
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    130
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                130,
+                "STP/Softener Pump"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    134
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                134,
+                "Pumps/Dewatering Pump"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    137
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                137,
+                "Misc./Seepage Water Pump"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    140
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                140,
+                "STP/Softener Tank"
+            ],
+            "category_id_count": 3
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    142
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                142,
+                "WTP/Treated Water Tank"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    143
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                143,
+                "Fire/Diesel Tank"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    144
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                144,
+                "STP/Bar Screen Chamber"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    145
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                145,
+                "STP/Aeration Tank"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    146
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                146,
+                "STP/Raw Water Tank"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    147
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                147,
+                "HVAC/Cooling Tower Makeup Tank"
+            ],
+            "category_id_count": 5
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    267
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                267,
+                "HVAC/Softener Pump"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    319
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                319,
+                "Electrical/DG/Diesel Tank/Diesel Transfer Pump"
+            ],
+            "category_id_count": 16
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    320
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                320,
+                "Electrical/Distribution Board"
+            ],
+            "category_id_count": 63
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    3845
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                3845,
+                "HVAC/Pressurization Fan"
+            ],
+            "category_id_count": 11
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    3847
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                3847,
+                "WTP/Rain Water Pump"
+            ],
+            "category_id_count": 10
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    3848
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                3848,
+                "HVAC/Chillers/Cooling Tower/Cooling Tower Fan"
+            ],
+            "category_id_count": 16
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    3853
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                3853,
+                "STP/Collection Tank"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    3855
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                3855,
+                "STP/Decant tank"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5176
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5176,
+                "Misc./Tool Box"
+            ],
+            "category_id_count": 8
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5347
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5347,
+                "Electrical/Emergency Panel"
+            ],
+            "category_id_count": 14
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5348
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5348,
+                "Electrical/HT Panel"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    5357
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                5357,
+                "HVAC/Smart Sensor"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6204
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6204,
+                "Electrical / Transformer"
+            ],
+            "category_id_count": 2
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6205
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6205,
+                "Electrical 01"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6206
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6206,
+                "Electrical 01/Transformer 01"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6207
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6207,
+                "Electrical 01/Elevator 01"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6223
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6223,
+                "Electrical/Car"
+            ],
+            "category_id_count": 1
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6227
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6227,
+                "Furniture"
+            ],
+            "category_id_count": 5
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6228
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6228,
+                "Furniture/Chair"
+            ],
+            "category_id_count": 6
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    6229
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": [
+                6229,
+                "Furniture/Tables"
+            ],
+            "category_id_count": 4
+        },
+        {
+            "__domain": [
+                "&",
+                [
+                    "category_id",
+                    "=",
+                    false
+                ],
+                [
+                    "company_id",
+                    "in",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "category_id": false,
+            "category_id_count": 1
+        }
+    ],
+    "categoryListResponse": [{
+            "id": 307,
+            "name": "Lime Dosing Pump"
+        },
+        {
+            "id": 306,
+            "name": "Salt Mixing Pump"
+        },
+        {
+            "id": 302,
+            "name": "Sewage Transfer Pump"
+        },
+        {
+            "id": 303,
+            "name": "Brine Tank"
+        },
+        {
+            "id": 78,
+            "name": "Filter Feed Pump"
+        },
+        {
+            "id": 19,
+            "name": "Energy Meter"
+        },
+        {
+            "id": 42,
+            "name": "WTP"
+        },
+        {
+            "id": 80,
+            "name": "Flushing Water Pump"
+        },
+        {
+            "id": 27,
+            "name": "Cooling Tower"
+        },
+        {
+            "id": 45,
+            "name": "OLTC"
+        }
+    ],
+    "teamsResponse": [{
+            "id": 3,
+            "name": "C1-Electrician Team"
+        },
+        {
+            "id": 7,
+            "name": "C1-DG Operator Team"
+        },
+        {
+            "id": 8,
+            "name": "C1-AC Technician Team"
+        },
+        {
+            "id": 9,
+            "name": "C1-Plumber Team"
+        },
+        {
+            "id": 10,
+            "name": "C1-STP Team"
+        },
+        {
+            "id": 11,
+            "name": "C1-Fire Team"
+        },
+        {
+            "id": 13,
+            "name": "C1-Soft Services Team"
+        },
+        {
+            "id": 220,
+            "name": "A1-Electrician Team"
+        },
+        {
+            "id": 221,
+            "name": "A1-DG Operator Team"
+        },
+        {
+            "id": 222,
+            "name": "A1-AC Technician Team"
+        }
+    ],
+    "employeesResponse": [{
+            "id": 995,
+            "name": "(Pm Office)Govindamma"
+        },
+        {
+            "id": 880,
+            "name": "2"
+        },
+        {
+            "id": 843,
+            "name": "AntonyMary"
+        },
+        {
+            "id": 35,
+            "name": "Arun Kumar"
+        },
+        {
+            "id": 423,
+            "name": "Balakrishna"
+        },
+        {
+            "id": 1247,
+            "name": "Devendar Rao  Perala"
+        },
+        {
+            "id": 1047,
+            "name": "Ela"
+        },
+        {
+            "id": 1022,
+            "name": "Ela-MANAGER"
+        },
+        {
+            "id": 1019,
+            "name": "Elavarasan"
+        },
+        {
+            "id": 1248,
+            "name": "Ella"
+        }
+    ],
+    "equipmentDetails": [{
+        "id": 1,
+        "state": "mn",
+        "active": true,
+        "image_medium": "4.23 Kb",
+        "name": "Transformer#1",
+        "location_id": [237, "DTP/BC1/FG/SSE"],
+        "equipment_seq": "DTP-E-00016",
+        "model": "MNO890",
+        "serial": "G14LO3266",
+        "category_id": [6204, "Electrical / Transformer"],
+        "alias_name": false,
+        "equipment_number": "Transformer-1(2000KVA)-OIL TYPE",
+        "company_id": [3, "Divyasree Technopark.."],
+        "criticality": "0",
+        "commodity_id": [39121109, "39121109 - Transmission transformers"],
+        "class_id": [39121100, "39121100 - Distribution and control centers and accessories"],
+        "family_id": [39120000, "39120000 - Electrical equipment and components and supplies"],
+        "segment_id": [39000000, "39000000 - Electrical Systems and Lighting and Components and Accessories and Supplies"],
+        "is_parent": true,
+        "partner_id": false,
+        "parent_id": false,
+        "qr_code": false,
+        "block_id": [19, "DTP/BC1"],
+        "floor_id": [25, "DTP/BC1/FG"],
+        "monitored_by_id": false,
+        "managed_by_id": false,
+        "maintained_by_id": false,
+        "maintenance_team_id": [255, "B4-Electrician Team"],
+        "start_date": "2010-01-06",
+        "last_breakdown_on": false,
+        "breakdown_reason": false,
+        "no_of_breakdowns": 6,
+        "total_breakdown_duration": 0.3775,
+        "risk_cost": 200.0,
+        "resource_calendar_id": [1, "Standard 40 Hours/Week"],
+        "expected_mtbf": 0.0,
+        "mtbf_hours": 16654.7013888889,
+        "mttr_hours": 0.0629166666666667,
+        "mttf_hours": 99999.0,
+        "manufacturer_id": [1069, "Trane"],
+        "vendor_id": [1069, "Trane"],
+        "amc_type": "comprehensive",
+        "warranty_start_date": "2010-01-01",
+        "warranty_end_date": "2021-03-30",
+        "customer_id": false,
+        "purchase_date": "2020-04-26",
+        "asset_id": false,
+        "validation_status": "Valid",
+        "validated_by": [2, "Administrator"],
+        "validated_on": "2020-04-29 03:11:16",
+        "tag_status": "None",
+        "comment": "",
+        "gauge_lines_ids": [447, 448, 449, 450, 2794, 2795, 2861, 2862, 2863, 2864],
+        "meter_lines_ids": [],
+        "latitude": false,
+        "longitude": false,
+        "operating_hours": false,
+        "make": false,
+        "capacity": false,
+        "xpos": "639",
+        "ypos": "282",
+        "last_service_done": false,
+        "refilling_due_date": false,
+        "employee_id": false,
+        "space_label_ids": [1, 2],
+        "note": "<p><br></p>",
+        "mro_equ_tmpl_lines": [341, 875, 876, 877, 100448],
+        "message_follower_ids": [32, 359580, 359588],
+        "activity_ids": [],
+        "message_ids": [19753622, 19681733, 19681732, 19675209, 18801678, 16395661, 16395659, 16395658, 16394888, 16361836, 16234076, 16234075, 16234074, 16234073, 15787536, 15707495, 15707494, 15707493, 15707492, 15615757, 15599692, 15580690, 15473131, 15473125, 15319292, 15319268, 15319266, 15300961, 15289100, 15054093, 15047129, 14932231, 14794368, 14776853, 14775593, 14748554],
+        "doc_count": 1,
+        "mroord_count": 636,
+        "gauge_count": 563,
+        "meter_count": 0,
+        "__last_update": "2020-11-04 21:30:41",
+        "work_email": false,
+        "maintenance_date": "2020-03-26 10:44:07",
+        "message_attachment_count": 1,
+        "display_name": "Transformer#1"
+    }],
+    "floorsDetails": [{
+            "id": 20,
+            "space_name": "Basement#3"
+        },
+        {
+            "id": 21,
+            "space_name": "Basement#2"
+        },
+        {
+            "id": 22,
+            "space_name": "Basement#1"
+        },
+        {
+            "id": 23,
+            "space_name": "Floor#10"
+        },
+        {
+            "id": 24,
+            "space_name": "Floor#1"
+        }
+    ],
+    "floorsChilds": [{
+            "id": 39,
+            "name": "Chiller Plant"
+        },
+        {
+            "id": 43,
+            "name": "Pump Room"
+        },
+        {
+            "id": 52,
+            "name": "Store"
+        },
+        {
+            "id": 53,
+            "name": "Fire Store"
+        },
+        {
+            "id": 54,
+            "name": "Exhaust Fan Unit#1"
+        },
+        {
+            "id": 58,
+            "name": "Parking"
+        },
+        {
+            "id": 65,
+            "name": "Exhaust Fan Unit#2"
+        },
+        {
+            "id": 66,
+            "name": "Exhaust Fan Unit#3"
+        },
+        {
+            "id": 67,
+            "name": "Fresh Air Unit#1"
+        },
+        {
+            "id": 68,
+            "name": "Fresh Air Unit#2"
+        },
+        {
+            "id": 69,
+            "name": "Fresh Air Unit#3"
+        },
+        {
+            "id": 376,
+            "name": "B3_SLL_NW"
+        },
+        {
+            "id": 377,
+            "name": "B3_PLL_NW"
+        }
+    ],
+    "spaceDetails": [{
+        "__last_update": "2020-11-04 09:24:18",
+        "active": true,
+        "alias_name_space": false,
+        "area_sqft": 59000,
+        "asset_categ_type": "floor",
+        "asset_category_id": [
+            9,
+            "Floor"
+        ],
+        "asset_seq_code": 0,
+        "asset_subcategory_id": false,
+        "block_id": [
+            19,
+            "DTP/BC1"
+        ],
+        "child_ids": [
+            39,
+            43,
+            52,
+            53,
+            54,
+            58,
+            65,
+            66,
+            67,
+            68,
+            69,
+            376,
+            377
+        ],
+        "comment": false,
+        "company_id": [
+            3,
+            "Divyasree Technopark.."
+        ],
+        "complete_name": "BC1/FB3",
+        "create_date": "2019-01-29 10:46:52",
+        "create_uid": [
+            9,
+            "Technopark"
+        ],
+        "default_scrap": false,
+        "default_warehouse": true,
+        "display_name": "DTP/BC1/FB3",
+        "employee_id": false,
+        "file_path": "https://api.dev.helixsense.com/web/image/mro.equipment.location/20/upload_images/20.svg+xml",
+        "gauge_count": 0,
+        "gauge_lines_ids": [],
+        "id": 20,
+        "is_booking_allowed": false,
+        "latitude": false,
+        "longitude": false,
+        "maintained_by_id": false,
+        "maintenance_team_id": [
+            13,
+            "C1-Soft Services Team"
+        ],
+        "managed_by_id": false,
+        "manager_id": false,
+        "max_occupancy": 0,
+        "meter_count": 0,
+        "meter_lines_ids": [],
+        "monitored_by_id": false,
+        "mroequi_count": 116,
+        "mroord_count": 2076,
+        "name": "FB3",
+        "note": "<p><br></p>",
+        "operating_hours": false,
+        "parent_id": [
+            19,
+            "DTP/BC1"
+        ],
+        "parent_left": 0,
+        "parent_path": "19/20/",
+        "parent_path_name": "DTP/BC1",
+        "parent_right": 0,
+        "path_name": "DTP/BC1/FB3",
+        "qr_code": false,
+        "sequence_asset_hierarchy": "DTP-A-00002",
+        "shift_count": 0,
+        "sort_sequence": 1,
+        "space_label_ids": [],
+        "space_name": "Basement#3",
+        "space_status": "Ready",
+        "sub_type_id": false,
+        "tenant_id": false,
+        "type_id": false
+    }],
+    "dashboardData": [{
+            "datasets": [
+                151.0
+            ],
+            "ks_dashboard_item_type": "ks_tile",
+            "labels": [
+                "Breakdown"
+            ],
+            "name": "Breakdown"
+        },
+        {
+            "datasets": [
+                146.0
+            ],
+            "ks_dashboard_item_type": "ks_tile",
+            "labels": [
+                "Warehouse"
+            ],
+            "name": "Warehouse"
+        },
+        {
+            "datasets": [
+                12346.0
+            ],
+            "ks_dashboard_item_type": "ks_tile",
+            "labels": [
+                "Operative"
+            ],
+            "name": "Operative"
+        },
+        {
+            "datasets": [
+                1518.0
+            ],
+            "ks_dashboard_item_type": "ks_tile",
+            "labels": [
+                "Maintenance (PPM)"
+            ],
+            "name": "Maintenance (PPM)"
+        },
+        {
+            "datasets": [],
+            "ks_dashboard_item_type": "ks_polarArea_chart",
+            "labels": [],
+            "name": "Breakdown Assets by Sites"
+        },
+        {
+            "datasets": [],
+            "ks_dashboard_item_type": "ks_pie_chart",
+            "labels": [],
+            "name": "Asset Status by Sites"
+        }
+    ],
+    "expiryAssets": [{
+            "id": 8,
+            "name": "DG Engine#5",
+            "state": "mn"
+        },
+        {
+            "id": 9,
+            "name": "DG Engine#6",
+            "state": "mn"
+        }
+    ],
+    "equipmentFormValues": {
+        "values": {
+            "name": "Main Team",
+            "location_id": 24,
+            "category_id": 306,
+            "maintenance_team_id": 10,
+            "purchase_date": false,
+            "purchase_value": "",
+            "warranty_start_date": false,
+            "warranty_end_date": false,
+            "validation_status": "",
+            "validated_on": false,
+            "validated_by": false,
+            "comment": "",
+            "serial": "565777",
+            "model": "MC76776",
+            "criticality": "1",
+            "equipment_number": "Chiller#1"
+        }
+    }
+}
