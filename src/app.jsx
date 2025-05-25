@@ -256,20 +256,20 @@ const App = () => {
   useEffect(() => {
     const authServiceInstance = AuthService();
     const currentRefreshToken = authServiceInstance.getRefreshToken();
-    const publicPathsForBypassCheck = ['/bypassLogin', '/login', '/accountlogin', '/okta-login', '/aws/callback'];
+    const publicPathsForBypassCheck = ['/bypassLogin', '/login', '/accountlogin', '/okta-login', '/aws/callback', '/saml/signin'];
 
     if (!currentRefreshToken) {
-      if (!publicPathsForBypassCheck.some(path => window.location.pathname.includes(path))) {
+      // Check if the current path is one of the public paths to avoid redirect loops
+      const isPublicPath = publicPathsForBypassCheck.some(path => window.location.pathname.includes(path));
+      
+      if (!isPublicPath) {
         window.location.href = '/bypassLogin';
-        // If we redirect, we might not want to immediately setLoading(false) here,
-        // as the page will change. However, for simplicity and to ensure it's set if no redirect occurs:
-        setLoading(false); 
-        return; // Early exit after redirect
+        return; // Exit early after redirecting
       }
     }
     
-    setLoading(false); // Simulate loading time or set after checks
-  }, []);
+    setLoading(false); // This will only run if no redirect happened
+  }, []); // Empty dependency array to run only on mount
 
   const menuNames = getColumnArrayByIdCase(
     userRoles && userRoles.data ? userRoles.data.allowed_modules : [],

@@ -21,7 +21,6 @@ export const GET_NINJA_DASHBOARD_ITEM_INFO_FAILURE = 'GET_NINJA_DASHBOARD_ITEM_I
 export const GET_ND_DETAILS_INFO = 'GET_ND_DETAILS_INFO';
 export const GET_ND_DETAILS_INFO_SUCCESS = 'GET_ND_DETAILS_INFO_SUCCESS';
 export const GET_ND_DETAILS_INFO_FAILURE = 'GET_ND_DETAILS_INFO_FAILURE';
-export const GET_ND_DETAILS_FROM_CACHE = 'GET_ND_DETAILS_FROM_CACHE';
 
 export const UPDATE_DASHBOARD_LAYOUT_INFO = 'UPDATE_DASHBOARD_LAYOUT_INFO';
 export const UPDATE_DASHBOARD_LAYOUT_INFO_SUCCESS = 'UPDATE_DASHBOARD_LAYOUT_INFO_SUCCESS';
@@ -190,52 +189,26 @@ export function getNinjaDashboardItemInfo(method, model, dashboardId, domain, se
 }
 
 export function getNinjaCodeInfo(id, modelName, operator, comsumptionDashboard, code) {
-  return (dispatch, getState) => { // Convert to thunk
-    const { analytics } = getState();
-    const cacheKey = isV3Dashboard ? `${id}V3` : id; // isV3Dashboard is already defined in the file
-
-    if (analytics.ninjaCodeCache && analytics.ninjaCodeCache[cacheKey]) {
-      // Data found in cache
-      dispatch({
-        type: GET_ND_DETAILS_FROM_CACHE,
-        payload: { data: analytics.ninjaCodeCache[cacheKey].data }, // Pass cacheKey in payload for reducer if needed, though reducer might already have it via action.id
-        id: cacheKey, // Ensure action itself carries cacheKey if reducer needs it directly from action
-      });
-      return Promise.resolve(); // Prevent API call
-    }
-
-    // Data not in cache, proceed with API call
-    const fields = '["name",("company_id",["name","id"]),"ks_dashboard_menu_name","id","ks_date_filter_selection","code","ks_set_interval","dashboard_json",["ks_dashboard_items_ids", ["id", "name", ("ks_date_filter_field", ["id", "name"]), "dashboard_item_json", ("company_id", ["id", "name", ("state_id", ["id", "name"])]), ["ks_graph_status_records", ["id", "name", "ks_color_picker_id"]],["ks_action_lines", ["id","sequence",("ks_item_action_field", ["id", "field_description"])]]]]]';
-    
-    let apiId = isV3Dashboard ? `${id}V3` : id; // This is the ID for the API endpoint if not overridden by 'code' param
-    // The 'id' parameter to this function is the original dashboard code (e.g., "XYZ_Dashboard")
-    // 'cacheKey' is this original 'id' potentially with "V3" (e.g., "XYZ_DashboardV3")
-    // 'apiId' is also this original 'id' potentially with "V3", used for forming the API endpoint URL.
-
-    let domainPayload = `["code","=","${apiId}"]`; // Default domain uses apiId (which is id + V3 or id)
-
-    if (operator) {
-      // If operator is present, domain uses the original 'id' (e.g. "XYZ_Dashboard"), not apiId or cacheKey
-      domainPayload = `["code","${operator}",${JSON.stringify(id)}]`; 
-    }
-    // If 'code' parameter is present, it overrides the domain for search. This 'code' is a specific record ID.
-    if (code) { 
-      domainPayload = `["id","=",${code}]`;
-    }
-
-    let endpoint = `ninjadashboard/configuration?code=${apiId}&fields=${fields}`; // Default endpoint uses apiId
-    if (comsumptionDashboard || code) { // if 'code' (param) or comsumptionDashboard, use search with domainPayload
-      endpoint = `search/${modelName}?model=${modelName}&domain=[${domainPayload}]&fields=${fields}`;
-    }
-
-    dispatch({
-      [CALL_API]: {
-        endpoint,
-        types: [GET_ND_DETAILS_INFO, GET_ND_DETAILS_INFO_SUCCESS, GET_ND_DETAILS_INFO_FAILURE],
-        method: 'GET',
-        id: cacheKey, // This 'id' is for the reducer to use the cacheKey for storing the data
-      },
-    });
+  const fields = '["name",("company_id",["name","id"]),"ks_dashboard_menu_name","id","ks_date_filter_selection","code","ks_set_interval","dashboard_json",["ks_dashboard_items_ids", ["id", "name", ("ks_date_filter_field", ["id", "name"]), "dashboard_item_json", ("company_id", ["id", "name", ("state_id", ["id", "name"])]), ["ks_graph_status_records", ["id", "name", "ks_color_picker_id"]],["ks_action_lines", ["id","sequence",("ks_item_action_field", ["id", "field_description"])]]]]]';
+  id = isV3Dashboard ? `${id}V3` : id;
+  let payload = `["code","=","${id}"]`;
+  if (operator) {
+    payload = `["code","${operator}",${JSON.stringify(id)}]`;
+  }
+  if (code) {
+    payload = `["id","=",${code}]`;
+  }
+  let endpoint = `ninjadashboard/configuration?code=${id}&fields=${fields}`;
+  if (comsumptionDashboard || code) {
+    endpoint = `search/${modelName}?model=${modelName}&domain=[${payload}]&fields=${fields}`;
+  }
+  return {
+    [CALL_API]: {
+      endpoint,
+      types: [GET_ND_DETAILS_INFO, GET_ND_DETAILS_INFO_SUCCESS, GET_ND_DETAILS_INFO_FAILURE],
+      method: 'GET',
+      id,
+    },
   };
 }
 
