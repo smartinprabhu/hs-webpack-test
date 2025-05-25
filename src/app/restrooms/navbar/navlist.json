@@ -1,0 +1,19 @@
+{
+    "data": {
+        "Insights": {
+            "id": 1,
+            "name": "",
+            "displayname": "Insights",
+            "compareName": "Insights",
+            "pathName": "/restrooms-insights-overview"
+        },
+        "SLD": {
+            "id": 1,
+            "name": "",
+            "displayname": "SLD",
+            "compareName": "SLD",
+            "pathName": "/restrooms-sld-overview"
+        },
+        "title": "Restrooms"
+    }
+}

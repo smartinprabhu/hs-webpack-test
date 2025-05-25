@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Add an Asset",
+    "icon": "faPlusCircle",
+    "url": "/asset-overview/add-asset",
+    "inactive": false
+  },
+  {
+    "id": 2,
+    "name": "View All Assets",
+    "icon": "faEye",
+    "url": "/asset-overview/equipments",
+    "inactive": false
+  }
+]

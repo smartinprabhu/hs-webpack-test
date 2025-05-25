@@ -1,0 +1,48 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Email",
+            "property": "email"
+        },
+        {
+            "heading": "Associates To",
+            "property": "associates_to"
+        }
+    ],
+    "entityFields": [
+        {
+            "heading": "Associated Entity",
+            "property": "vendor_id"
+        }
+    ],
+    "employeeFields": [
+        {
+            "heading": "Employee ID",
+            "property": "employee_id_seq"
+        }
+    ],
+    "departmentFields": [
+        {
+            "heading": "Department",
+            "property": "hr_department"
+        }
+    ],   
+    "shiftFields": [
+        {
+            "heading": "Shift",
+            "property": "resource_calendar_id"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

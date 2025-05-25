@@ -1,0 +1,106 @@
+{    
+    "fields": [      
+        {
+            "label": "Reference",
+            "value": "reference"
+        },
+        {
+            "label": "Title",
+            "value": "name"
+        }         
+    ],   
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "gatepass_number",
+            "Header": "Sequence"
+        },
+        {
+            "accessor": "description",
+            "Header": "Purpose"
+        },
+        {
+            "accessor": "type",
+            "Header": "Type"
+        },
+        {
+            "accessor": "requestor_id",
+            "Header": "Requestor"
+        },
+        {
+            "accessor": "requested_on",
+            "Header": "Requested on",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "state",
+            "Header": "Status",
+            "func":true
+        },
+        {
+            "accessor": "reference",
+            "Header": "Reference"
+        },
+        {
+            "accessor": "space_id",
+            "Header": "Space"
+        },
+        {
+            "accessor": "name",
+            "Header": "Bearer Name"
+        },
+        {
+            "accessor": "email",
+            "Header": "Bearer Email"
+        },
+        {
+            "accessor": "bearer_return_on",
+            "Header": "Returned on",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "approved_on",
+            "Header": "Approved on",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "approved_by",
+            "Header": "Approved by"
+        }
+    ]
+       
+}

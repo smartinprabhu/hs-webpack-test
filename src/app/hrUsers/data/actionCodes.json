@@ -1,0 +1,8 @@
+{
+    "Add Team": "as_site_teams_addteam",
+    "Edit Team": "as_site_teams_editteam",
+    "Add Team Member": "as_site_teammember_addmember",
+    "Edit Team Member": "as_site_teammember_editmember",
+    "Edit Site Team Member": "as_site_teammember_editmember_singlesite",
+    "Change Password": "as_user_change_password"
+}

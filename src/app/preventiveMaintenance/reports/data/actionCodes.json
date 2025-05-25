@@ -1,0 +1,9 @@
+{
+    "DMR Report Export": "dmr_downloadexcel_pdf",
+    "Smart Logger Report Export": "smartlogger_downloadexcel_pdf",
+    "PPM Report Export": "ppm_downloadexcel_pdf",
+    "Inspection Checklist Report Export": "inspection_downloadexcel_pdf",
+    "Inspection Employee Report Export": "inspection_employee_downloadexcel_pdf",
+    "PPM Status Report Export": "ppmstatus_downloadexcel_pdf",
+    "PPM Vendor Report Export": "ppm_vendor_downloadexcel"
+}

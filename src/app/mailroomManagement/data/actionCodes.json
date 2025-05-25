@@ -1,0 +1,16 @@
+{
+    "Create Inbound" :"mailroom_inbound_create",    
+    "Edit Inbound" :"mailroom_inbound_edit",
+    "Delete Inbound" :"mailroom_inbound_delete",
+    "Create Outbound" :"mailroom_outbound_create",    
+    "Edit Outbound" :"mailroom_outbound_edit",
+    "Delete Outbound" :"mailroom_outbound_delete",
+    "Deliver" :"mailroom_inbound_delivered",
+    "Archived" :"mailroom_inbound_archeived",
+    "Shredded" :"mailroom_inbound_returned",
+    "Returned" :"mailroom_inbound_shredded",
+    "Delivered OutBound" :"mailroom_outbound_delivered",
+    "Archived OutBound" :"mailroom_outbound_archeived",
+    "Shredded OutBound" :"mailroom_outbound_shredded",
+    "Returned OutBound" :"mailroom_outbound_returned"
+}

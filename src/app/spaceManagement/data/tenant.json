@@ -1,0 +1,7 @@
+[
+  {
+    "conference_room_space_sub_type_id" :[1,"Conference Room"],
+    "office_room_space_sub_type_id" :[2,"Office Room"],
+    "workstation_space_sub_type_id" :[3,"Workstation"]
+  }
+]

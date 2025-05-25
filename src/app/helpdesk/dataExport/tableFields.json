@@ -1,0 +1,495 @@
+{
+    "fields": [
+        {
+            "heading": "Ticket No",
+            "property": "ticket_number"
+        },
+        {
+            "heading": "Subject",
+            "property": "subject"
+        },
+        {
+            "heading": "Last Comment",
+            "property": "log_note"
+        },
+        {
+            "property": "last_commented_by",
+            "heading": "Last Commented By"
+        },
+        {
+            "property": "log_note_date",
+            "heading": "Last Commented on",
+            "type": "datetime"
+        },
+        {
+            "heading": "Status",
+            "property": "state_id"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        },
+        {
+            "heading": "Location",
+            "property": "asset_id",
+            "alternativeProperty": "equipment_location_id"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority_id"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Description",
+            "property": "description"
+        },
+        {
+            "heading": "Created on",
+            "property": "create_date",
+            "type": "datetime"
+        },
+        {
+            "heading": "Created by",
+            "property": "create_uid"
+        },
+        {
+            "heading": "Requestor",
+            "property": "requestee_id"
+        },
+        {
+            "heading": "Closed by",
+            "property": "closed_by_id"
+        },
+        {
+            "heading": "Closed on",
+            "property": "close_time",
+            "type": "datetime"
+        },  
+        {
+            "heading": "Channel",
+            "property": "channel"
+        },
+        {
+            "heading": "SLA Status",
+            "property": "sla_status"
+        },
+        {
+            "accessor": "purchase_date",
+            "Header": "Purchase Date"
+        },
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Escalation Level",
+            "property": "current_escalation_level"
+        },
+        {
+            "heading": "Sub Categoty",
+            "property": "sub_category_id"
+        },
+        {
+            "heading": "Problem Type",
+            "property": "issue_type"
+        },
+        {
+            "heading": "Due Date",
+            "property": "sla_end_date",
+            "type": "datetime"
+        },
+        {
+            "heading": "Parent Ticket",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Email",
+            "property": "email"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Tenant",
+            "property": "tenant_name"
+        },
+        {
+            "heading": "Region",
+            "property": "region_id"
+        },
+        {
+            "heading": "City Name",
+            "property": "city_name"
+        },
+        {
+            "heading": "State Name",
+            "property": "state_name"
+        },
+        {
+            "heading": "Site Subcategory",
+            "property": "site_sub_categ_id"
+        },
+        
+        {
+            "heading": "Constraints",
+            "property": "constraints"
+        },
+        {
+            "heading": "Cost",
+            "property": "cost"
+        },
+        {
+            "heading": "Ticket Type",
+            "property": "ticket_type"
+        }
+    ],
+    "incidentFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Incident No",
+            "property": "ticket_number"
+        },
+        {
+            "heading": "Subject",
+            "property": "subject"
+        },
+        {
+            "heading": "Location",
+            "property": "asset_id",
+            "alternativeProperty": "equipment_location_id"
+        },
+        {
+            "heading": "Incident Status",
+            "property": "incident_state"
+        },
+        {
+            "heading": "Last Comment",
+            "property": "log_note"
+        },
+        {
+            "property": "last_commented_by",
+            "heading": "Last Commented By"
+        },
+        {
+            "property": "log_note_date",
+            "heading": "Last Commented on",
+            "type": "datetime"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority_id"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Created on",
+            "property": "create_date",
+            "type": "datetime"
+        },
+        {
+            "heading": "Created by",
+            "property": "create_uid"
+        },
+        {
+            "heading": "Requestor", 
+            "property": "person_name"
+        },
+        {
+            "heading": "Closed by",
+            "property": "closed_by_id"
+        },
+        {
+            "heading": "Closed on",
+            "property": "close_time",
+            "type": "datetime"
+        },
+        {
+            "heading": "Sub Categoty",
+            "property": "sub_category_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state_id"
+        },
+        {
+            "heading": "SLA Status",
+            "property": "sla_status"
+        },
+        {
+            "heading": "Region",
+            "property": "region_id"
+        },
+        {
+            "heading": "City Name",
+            "property": "city_name"
+        },
+        {
+            "heading": "State Name",
+            "property": "state_name"
+        }
+    ],
+    "fieldsStatic": [
+        {
+            "heading": "Ticket No",
+            "property": "ticket_number"
+        },
+        {
+            "heading": "Subject",
+            "property": "subject"
+        },
+        {
+            "heading": "Last Comment",
+            "property": "log_note"
+        },
+        {
+            "property": "last_commented_by",
+            "heading": "Last Commented By"
+        },
+        {
+            "property": "log_note_date",
+            "heading": "Last Commented on",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Status",
+            "property": "state_id"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        },
+        {
+            "heading": "Location",
+            "property": "asset_id",
+            "alternativeProperty": "equipment_location_id"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority_id"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Description",
+            "property": "description"
+        },
+        {
+            "heading": "Created on",
+            "property": "create_date",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Created by",
+            "property": "create_uid"
+        },
+        {
+            "heading": "Requestor",
+            "property": "requestee_id"
+        },
+        {
+            "heading": "Closed by",
+            "property": "closed_by_id"
+        },
+        {
+            "heading": "Closed on",
+            "property": "close_time",
+            "isDate": "yes"
+        },  
+        {
+            "heading": "Channel",
+            "property": "channel"
+        },
+        {
+            "heading": "SLA Status",
+            "property": "sla_status"
+        },
+        {
+            "accessor": "purchase_date",
+            "Header": "Purchase Date",
+            "isDate": "yes"
+        },
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Escalation Level",
+            "property": "level"
+        },
+        {
+            "heading": "Sub Categoty",
+            "property": "sub_category_id"
+        },
+        {
+            "heading": "Problem Type",
+            "property": "issue_type"
+        },
+        {
+            "heading": "Due Date",
+            "property": "sla_end_date",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Parent Ticket",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Email",
+            "property": "email"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Tenant",
+            "property": "tenant_name"
+        },
+        {
+            "heading": "Region",
+            "property": "region_id"
+        },
+        {
+            "heading": "City Name",
+            "property": "city_name"
+        },
+        {
+            "heading": "State Name",
+            "property": "state_name"
+        },
+        {
+            "heading": "Site Subcategory",
+            "property": "site_sub_categ_id"
+        },
+        
+        {
+            "heading": "Constraints",
+            "property": "constraints"
+        },
+        {
+            "heading": "Cost",
+            "property": "cost"
+        },
+        {
+            "heading": "Ticket Type",
+            "property": "ticket_type"
+        }
+    ],
+    "incidentFieldsStatic": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Incident No",
+            "property": "ticket_number"
+        },
+        {
+            "heading": "Subject",
+            "property": "subject"
+        },
+        {
+            "heading": "Location",
+            "property": "asset_id",
+            "alternativeProperty": "equipment_location_id"
+        },
+        {
+            "heading": "Incident Status",
+            "property": "incident_state"
+        },
+        {
+            "heading": "Last Comment",
+            "property": "log_note"
+        },
+        {
+            "property": "last_commented_by",
+            "heading": "Last Commented By"
+        },
+        {
+            "property": "log_note_date",
+            "heading": "Last Commented on",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority_id"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Created on",
+            "property": "create_date",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Created by",
+            "property": "create_uid"
+        },
+        {
+            "heading": "Requestor", 
+            "property": "person_name"
+        },
+        {
+            "heading": "Closed by",
+            "property": "closed_by_id"
+        },
+        {
+            "heading": "Closed on",
+            "property": "close_time",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Sub Categoty",
+            "property": "sub_category_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state_id"
+        },
+        {
+            "heading": "SLA Status",
+            "property": "sla_status"
+        },
+        {
+            "heading": "Region",
+            "property": "region_id"
+        },
+        {
+            "heading": "City Name",
+            "property": "city_name"
+        },
+        {
+            "heading": "State Name",
+            "property": "state_name"
+        }
+    ]
+}

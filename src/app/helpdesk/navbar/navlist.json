@@ -1,0 +1,64 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "activename": "INSIGHTSACTIVE",
+      "displayname": "Insights",
+      "pathName": "/helpdesk-insights-overview"
+    },
+    "Tickets": {
+      "id": 2,
+      "name": "TICKETS",
+      "activename": "TICKETSACTIVE",
+      "displayname": "Tickets",
+      "pathName": "/helpdesk-insights-overview/helpdesk/tickets"
+    },
+    "Raise a ticket": {
+      "id": 3,
+      "name": "ADD_TICKET",
+      "activename": "ADD_TICKETACTIVE",
+      "displayname": "Raise a Ticket",
+      "pathName": "/helpdesk-insights-overview/helpdesk/add-ticket"
+    },
+    "Report": {
+      "id": 4,
+      "name": "REPORT",
+      "activename": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/helpdesk-insights-overview/helpdesk/reports"
+    },
+    "title": "Helpdesk"
+  },
+  "data1": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "activename": "INSIGHTSACTIVE",
+      "displayname": "Insights",
+      "pathName": "/fitTracker-overview"
+    },
+    "Tickets": {
+      "id": 2,
+      "name": "TICKETS",
+      "activename": "TICKETSACTIVE",
+      "displayname": "Tickets",
+      "pathName": "/fitTracker/tickets"
+    },
+    "Raise a ticket": {
+      "id": 3,
+      "name": "ADD_TICKET",
+      "activename": "ADD_TICKETACTIVE",
+      "displayname": "Raise a Ticket",
+      "pathName": "/fitTracker/add-ticket"
+    },
+    "Report": {
+      "id": 4,
+      "name": "REPORT",
+      "activename": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/fitTracker/reports"
+    },
+    "title": "FIT Tracker"
+  }
+}

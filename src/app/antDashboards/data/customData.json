@@ -1,0 +1,3027 @@
+{
+    "readings": [{
+            "section": "Environment",
+            "name": "Temperature",
+            "min": -40,
+            "max": 140,
+            "value": "76",
+            "uom": "*F",
+            "desc": "none",
+            "scale": "Good",
+            "color": "Green",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "temperature"
+        },
+        {
+            "section": "Environment",
+            "name": "ATM Pressure",
+            "min": 500,
+            "max": 1100,
+            "value": "1102",
+            "uom": "Pa",
+            "desc": "none",
+            "scale": "Moderate",
+            "color": "Green",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "pressure"
+        },
+        {
+            "section": "Environment",
+            "name": "Humidity",
+            "min": 0,
+            "max": 100,
+            "value": "79.5",
+            "uom": "g.m-3",
+            "desc": "none",
+            "scale": "Humid",
+            "color": "Red",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "humidity"
+        },
+        {
+            "section": "Carbon",
+            "name": "Dew Point Temperature",
+            "min": 0,
+            "max": 100,
+            "value": "69.11",
+            "uom": "*F",
+            "desc": "none",
+            "scale": "Good",
+            "color": "Green",
+            "action": "The Room was unhealthy to stay for longer",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Dew_Point"
+        },
+        {
+            "section": "Particle Matter",
+            "name": "Particle Matter 1.0",
+            "min": 0,
+            "max": 500,
+            "value": "200",
+            "uom": "µg/m³",
+            "desc": "none",
+            "scale": "Moderatly Poluted",
+            "color": "Orange",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_pm_1"
+        },
+        {
+            "section": "Particle Matter",
+            "name": "Particle Matter 2.5",
+            "min": 0,
+            "max": 500,
+            "value": "200",
+            "uom": "µg/m³",
+            "desc": "none",
+            "scale": "Moderatly Poluted",
+            "color": "Orange",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_pm_2_5"
+        },
+        {
+            "section": "Particle Matter",
+            "name": "Particle Matter 10",
+            "min": 0,
+            "max": 600,
+            "value": "69",
+            "uom": "µg/m³",
+            "desc": "none",
+            "scale": "Moderatly Poluted",
+            "color": "Orange",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_pm_10"
+        },
+        {
+            "section": "Carbon",
+            "name": "Carbon Dioxide (CO2)",
+            "min": 0,
+            "max": 2500,
+            "value": "410",
+            "uom": "ppm",
+            "desc": "none",
+            "scale": "Good",
+            "color": "Green",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_CO2"
+        },
+        {
+            "section": "Ozone",
+            "name": "Ozone (O)",
+            "min": 0,
+            "max": 500,
+            "value": "20",
+            "uom": "ppb",
+            "desc": "none",
+            "scale": "Good",
+            "color": "Green",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_O3"
+        },
+        {
+            "section": "Carbon",
+            "name": "Carbon Monoxide (CO)",
+            "min": 0,
+            "max": 400,
+            "value": "15",
+            "uom": "co",
+            "desc": "none",
+            "scale": "Good",
+            "color": "Green",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "Winsen_CO"
+        },
+        {
+            "section": "Ozone",
+            "name": "Volatile Organic Compound (VOC)",
+            "min": 0,
+            "max": 10,
+            "value": "600",
+            "uom": "ppb",
+            "desc": "none",
+            "scale": "Moderate",
+            "color": "Orange",
+            "sequence": "1",
+            "kpi": "Up",
+            "dataname": "voc"
+        },
+        {
+          "section": "Particle Matter",
+          "name": "IAQ",
+          "min": 0,
+          "max": 500,
+          "value": "28",
+          "uom": "Unit(s)",
+          "desc": "none",
+          "scale": "Moderatly Poluted",
+          "color": "Orange",
+          "sequence": "1",
+          "kpi": "Up",
+          "dataname": "iaq"
+      }
+    ],
+      "sampleData":[
+        {
+            "key": 69035,
+            "doc_count": 10102,
+            "top_result": {
+                "hits": {
+                    "total": {
+                        "value": 10102,
+                        "relation": "eq"
+                    },
+                    "max_score": null,
+                    "hits": [
+                        {
+                            "_index": "hsense_airquality",
+                            "_type": "_doc",
+                            "_id": "b6Q1jIEBd5itGZOe081w",
+                            "_score": null,
+                            "_source": {
+                                "Winsen_CO": 0.5,
+                                "Winsen_pm_2_5": 5,
+                                "co2Value": 628,
+                                "Winsen_O3": 0,
+                                "Winsen_CH2O": 0.6,
+                                "temperature_F": 77.01,
+                                "voc": 1,
+                                "pressure": 99846,
+                                "Winsen_pm_1": 4,
+                                "Winsen_CO2": 408,
+                                "Winsen_pm_10": 5,
+                                "dew": 13.2,
+                                "iaq": 98,
+                                "humidity": 49.25,
+                                "Winsen_NO2": 0.2,
+                                "timestamp": "2022-06-22T16:19:05.933Z"
+                            },
+                            "sort": [
+                                1655914745933
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "key": 69038,
+            "doc_count": 9026,
+            "top_result": {
+                "hits": {
+                    "total": {
+                        "value": 9026,
+                        "relation": "eq"
+                    },
+                    "max_score": null,
+                    "hits": [
+                        {
+                            "_index": "hsense_airquality",
+                            "_type": "_doc",
+                            "_id": "S6TCfoEBd5itGZOe16Am",
+                            "_score": null,
+                            "_source": {
+                                "Winsen_CO": 0.5,
+                                "Winsen_pm_2_5": 12,
+                                "co2Value": 526,
+                                "Winsen_O3": 0,
+                                "Winsen_CH2O": 0.7,
+                                "temperature_F": 74,
+                                "voc": 1,
+                                "pressure": 100286,
+                                "Winsen_pm_1": 9,
+                                "Winsen_CO2": 408,
+                                "Winsen_pm_10": 14,
+                                "dew": 11.9,
+                                "iaq": 40,
+                                "humidity": 46.39,
+                                "Winsen_NO2": 0.3,
+                                "timestamp": "2022-06-20T01:38:23.300Z"
+                            },
+                            "sort": [
+                                1655689103300
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "key": 69037,
+            "doc_count": 5028,
+            "top_result": {
+                "hits": {
+                    "total": {
+                        "value": 5028,
+                        "relation": "eq"
+                    },
+                    "max_score": null,
+                    "hits": [
+                        {
+                            "_index": "hsense_airquality",
+                            "_type": "_doc",
+                            "_id": "cKQ1jIEBd5itGZOe8s2w",
+                            "_score": null,
+                            "_source": {
+                                "Winsen_CO": 0.5,
+                                "Winsen_pm_2_5": 19,
+                                "co2Value": 530.21,
+                                "Winsen_O3": 0.02,
+                                "Winsen_CH2O": 1.52,
+                                "temperature_F": 71.98,
+                                "voc": 0.56,
+                                "pressure": 99781,
+                                "Winsen_pm_1": 16,
+                                "Winsen_CO2": 431,
+                                "Winsen_pm_10": 22,
+                                "dew": 13.17,
+                                "iaq": 42.29,
+                                "humidity": 57.49,
+                                "Winsen_NO2": 0.01,
+                                "timestamp": "2022-06-22T16:19:11.785Z"
+                            },
+                            "sort": [
+                                1655914751785
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "key": 69039,
+            "doc_count": 4142,
+            "top_result": {
+                "hits": {
+                    "total": {
+                        "value": 4142,
+                        "relation": "eq"
+                    },
+                    "max_score": null,
+                    "hits": [
+                        {
+                            "_index": "hsense_airquality",
+                            "_type": "_doc",
+                            "_id": "cqQ3jIEBd5itGZOeE83A",
+                            "_score": null,
+                            "_source": {
+                                "Winsen_CO": 0.5,
+                                "Winsen_pm_2_5": 11,
+                                "co2Value": 489,
+                                "Winsen_O3": 0.02,
+                                "Winsen_CH2O": 0.1,
+                                "temperature_F": 82.86,
+                                "voc": 0,
+                                "pressure": 99804,
+                                "Winsen_pm_1": 8,
+                                "Winsen_CO2": 411,
+                                "Winsen_pm_10": 12,
+                                "dew": 22.5,
+                                "iaq": 22,
+                                "humidity": 67.07,
+                                "Winsen_NO2": 0.6,
+                                "timestamp": "2022-06-22T16:20:17.530Z"
+                            },
+                            "sort": [
+                                1655914827530
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "sampledata1":[
+        {
+            "key_as_string": "2022-06-17T07:00:00.000Z",
+            "key": 1656313200000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 512.8800048828125,
+                "max": 512.8800048828125,
+                "avg": 512.8800048828125,
+                "sum": 512.8800048828125
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.8300000429153442,
+                "max": 1.8300000429153442,
+                "avg": 1.8300000429153442,
+                "sum": 1.8300000429153442
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4800033569336,
+                "max": 76.4800033569336,
+                "avg": 76.4800033569336,
+                "sum": 76.4800033569336
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99994,
+                "max": 99994,
+                "avg": 99994,
+                "sum": 99994
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 0.5199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 444,
+                "max": 444,
+                "avg": 444,
+                "sum": 444
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.579999923706055,
+                "max": 13.579999923706055,
+                "avg": 13.579999923706055,
+                "sum": 13.579999923706055
+            },
+            "iaq": {
+                "count": 1,
+                "min": 32.369998931884766,
+                "max": 32.369998931884766,
+                "avg": 32.369998931884766,
+                "sum": 32.369998931884766
+            },
+            "humidity": {
+                "count": 1,
+                "min": 52.790000915527344,
+                "max": 52.790000915527344,
+                "avg": 52.790000915527344,
+                "sum": 52.790000915527344
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656313327710,
+                "max": 1656313327710,
+                "avg": 1656313327710,
+                "sum": 1656313327710,
+                "min_as_string": "2022-06-27T07:02:07.710Z",
+                "max_as_string": "2022-06-27T07:02:07.710Z",
+                "avg_as_string": "2022-06-27T07:02:07.710Z",
+                "sum_as_string": "2022-06-27T07:02:07.710Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-17T07:03:00.000Z",
+            "key": 1656313380000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 18,
+                "max": 18,
+                "avg": 18,
+                "sum": 18
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 511.1400146484375,
+                "max": 511.1400146484375,
+                "avg": 511.1400146484375,
+                "sum": 511.1400146484375
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.8300000429153442,
+                "max": 1.8300000429153442,
+                "avg": 1.8300000429153442,
+                "sum": 1.8300000429153442
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4800033569336,
+                "max": 76.4800033569336,
+                "avg": 76.4800033569336,
+                "sum": 76.4800033569336
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99992,
+                "max": 99992,
+                "avg": 99992,
+                "sum": 99992
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 0.5199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 15,
+                "max": 15,
+                "avg": 15,
+                "sum": 15
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 439,
+                "max": 439,
+                "avg": 439,
+                "sum": 439
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 21,
+                "max": 21,
+                "avg": 21,
+                "sum": 21
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.630000114440918,
+                "max": 13.630000114440918,
+                "avg": 13.630000114440918,
+                "sum": 13.630000114440918
+            },
+            "iaq": {
+                "count": 1,
+                "min": 31.3799991607666,
+                "max": 31.3799991607666,
+                "avg": 31.3799991607666,
+                "sum": 31.3799991607666
+            },
+            "humidity": {
+                "count": 1,
+                "min": 52.91999816894531,
+                "max": 52.91999816894531,
+                "avg": 52.91999816894531,
+                "sum": 52.91999816894531
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656313449050,
+                "max": 1656313449050,
+                "avg": 1656313449050,
+                "sum": 1656313449050,
+                "min_as_string": "2022-06-27T07:04:09.050Z",
+                "max_as_string": "2022-06-27T07:04:09.050Z",
+                "avg_as_string": "2022-06-27T07:04:09.050Z",
+                "sum_as_string": "2022-06-27T07:04:09.050Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:06:00.000Z",
+            "key": 1656313560000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 19,
+                "max": 20,
+                "avg": 19.5,
+                "sum": 39
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 510.5400085449219,
+                "max": 510.8800048828125,
+                "avg": 510.7100067138672,
+                "sum": 1021.4200134277344
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7999999523162842,
+                "max": 1.8200000524520874,
+                "avg": 1.8100000023841858,
+                "sum": 3.6200000047683716
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.41999816894531,
+                "max": 76.41999816894531,
+                "avg": 76.41999816894531,
+                "sum": 152.83999633789062
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99988,
+                "max": 99992,
+                "avg": 99990,
+                "sum": 199980
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 1.0399999618530273
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 16,
+                "max": 17,
+                "avg": 16.5,
+                "sum": 33
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 433,
+                "max": 436,
+                "avg": 434.5,
+                "sum": 869
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 22,
+                "max": 23,
+                "avg": 22.5,
+                "sum": 45
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.710000038146973,
+                "max": 13.720000267028809,
+                "avg": 13.71500015258789,
+                "sum": 27.43000030517578
+            },
+            "iaq": {
+                "count": 2,
+                "min": 31.030000686645508,
+                "max": 31.229999542236328,
+                "avg": 31.130000114440918,
+                "sum": 62.260000228881836
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.18000030517578,
+                "max": 53.20000076293945,
+                "avg": 53.19000053405762,
+                "sum": 106.38000106811523
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656313574865,
+                "max": 1656313696397,
+                "avg": 1656313635631,
+                "sum": 3312627271262,
+                "min_as_string": "2022-06-27T07:06:14.865Z",
+                "max_as_string": "2022-06-27T07:08:16.397Z",
+                "avg_as_string": "2022-06-27T07:07:15.631Z",
+                "sum_as_string": "2074-12-21T14:14:31.262Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:09:00.000Z",
+            "key": 1656313740000,
+            "doc_count": 0,
+            "Winsen_CO": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "occupancyCount": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "co2Value": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_O3": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_CH2O": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "temperature_F": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "pressure": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "voc": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_1": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_CO2": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_10": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "dew": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "iaq": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "humidity": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_NO2": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "timestamp": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:12:00.000Z",
+            "key": 1656313920000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 19,
+                "max": 19,
+                "avg": 19,
+                "sum": 19
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 508.7300109863281,
+                "max": 508.7300109863281,
+                "avg": 508.7300109863281,
+                "sum": 508.7300109863281
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7699999809265137,
+                "max": 1.7699999809265137,
+                "avg": 1.7699999809265137,
+                "sum": 1.7699999809265137
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4800033569336,
+                "max": 76.4800033569336,
+                "avg": 76.4800033569336,
+                "sum": 76.4800033569336
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99992,
+                "max": 99992,
+                "avg": 99992,
+                "sum": 99992
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 0.5199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 16,
+                "max": 16,
+                "avg": 16,
+                "sum": 16
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 431,
+                "max": 431,
+                "avg": 431,
+                "sum": 431
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 22,
+                "max": 22,
+                "avg": 22,
+                "sum": 22
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.829999923706055,
+                "max": 13.829999923706055,
+                "avg": 13.829999923706055,
+                "sum": 13.829999923706055
+            },
+            "iaq": {
+                "count": 1,
+                "min": 29.989999771118164,
+                "max": 29.989999771118164,
+                "avg": 29.989999771118164,
+                "sum": 29.989999771118164
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.40999984741211,
+                "max": 53.40999984741211,
+                "avg": 53.40999984741211,
+                "sum": 53.40999984741211
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656313942218,
+                "max": 1656313942218,
+                "avg": 1656313942218,
+                "sum": 1656313942218,
+                "min_as_string": "2022-06-27T07:12:22.218Z",
+                "max_as_string": "2022-06-27T07:12:22.218Z",
+                "avg_as_string": "2022-06-27T07:12:22.218Z",
+                "sum_as_string": "2022-06-27T07:12:22.218Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:15:00.000Z",
+            "key": 1656314100000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 18,
+                "max": 18,
+                "avg": 18,
+                "sum": 18
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 503.05999755859375,
+                "max": 503.05999755859375,
+                "avg": 503.05999755859375,
+                "sum": 503.05999755859375
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7300000190734863,
+                "max": 1.7300000190734863,
+                "avg": 1.7300000190734863,
+                "sum": 1.7300000190734863
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.51000213623047,
+                "max": 76.51000213623047,
+                "avg": 76.51000213623047,
+                "sum": 76.51000213623047
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99981,
+                "max": 99981,
+                "avg": 99981,
+                "sum": 99981
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 15,
+                "max": 15,
+                "avg": 15,
+                "sum": 15
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 426,
+                "max": 426,
+                "avg": 426,
+                "sum": 426
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 19,
+                "max": 19,
+                "avg": 19,
+                "sum": 19
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.84000015258789,
+                "max": 13.84000015258789,
+                "avg": 13.84000015258789,
+                "sum": 13.84000015258789
+            },
+            "iaq": {
+                "count": 1,
+                "min": 26.75,
+                "max": 26.75,
+                "avg": 26.75,
+                "sum": 26.75
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.380001068115234,
+                "max": 53.380001068115234,
+                "avg": 53.380001068115234,
+                "sum": 53.380001068115234
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656314188710,
+                "max": 1656314188710,
+                "avg": 1656314188710,
+                "sum": 1656314188710,
+                "min_as_string": "2022-06-27T07:16:28.710Z",
+                "max_as_string": "2022-06-27T07:16:28.710Z",
+                "avg_as_string": "2022-06-27T07:16:28.710Z",
+                "sum_as_string": "2022-06-27T07:16:28.710Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:18:00.000Z",
+            "key": 1656314280000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 18,
+                "max": 19,
+                "avg": 18.5,
+                "sum": 37
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 502.04998779296875,
+                "max": 502.8900146484375,
+                "avg": 502.4700012207031,
+                "sum": 1004.9400024414062
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7200000286102295,
+                "max": 1.7300000190734863,
+                "avg": 1.725000023841858,
+                "sum": 3.450000047683716
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.51000213623047,
+                "max": 76.51000213623047,
+                "avg": 76.51000213623047,
+                "sum": 153.02000427246094
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99975,
+                "max": 99977,
+                "avg": 99976,
+                "sum": 199952
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5099999904632568,
+                "avg": 0.5049999952316284,
+                "sum": 1.0099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 15,
+                "max": 16,
+                "avg": 15.5,
+                "sum": 31
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 426,
+                "max": 427,
+                "avg": 426.5,
+                "sum": 853
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 20,
+                "max": 22,
+                "avg": 21,
+                "sum": 42
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.8100004196167,
+                "max": 13.8100004196167,
+                "avg": 13.8100004196167,
+                "sum": 27.6200008392334
+            },
+            "iaq": {
+                "count": 2,
+                "min": 26.170000076293945,
+                "max": 26.649999618530273,
+                "avg": 26.40999984741211,
+                "sum": 52.81999969482422
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.310001373291016,
+                "max": 53.33000183105469,
+                "avg": 53.32000160217285,
+                "sum": 106.6400032043457
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656314311121,
+                "max": 1656314432358,
+                "avg": 1656314371739.5,
+                "sum": 3312628743479,
+                "min_as_string": "2022-06-27T07:18:31.121Z",
+                "max_as_string": "2022-06-27T07:20:32.358Z",
+                "avg_as_string": "2022-06-27T07:19:31.739Z",
+                "sum_as_string": "2074-12-21T14:39:03.479Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:21:00.000Z",
+            "key": 1656314460000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 503.2099914550781,
+                "max": 503.2099914550781,
+                "avg": 503.2099914550781,
+                "sum": 503.2099914550781
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7300000190734863,
+                "max": 1.7300000190734863,
+                "avg": 1.7300000190734863,
+                "sum": 1.7300000190734863
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.48999786376953,
+                "max": 76.48999786376953,
+                "avg": 76.48999786376953,
+                "sum": 76.48999786376953
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99975,
+                "max": 99975,
+                "avg": 99975,
+                "sum": 99975
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 427,
+                "max": 427,
+                "avg": 427,
+                "sum": 427
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.800000190734863,
+                "max": 13.800000190734863,
+                "avg": 13.800000190734863,
+                "sum": 13.800000190734863
+            },
+            "iaq": {
+                "count": 1,
+                "min": 26.81999969482422,
+                "max": 26.81999969482422,
+                "avg": 26.81999969482422,
+                "sum": 26.81999969482422
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.310001373291016,
+                "max": 53.310001373291016,
+                "avg": 53.310001373291016,
+                "sum": 53.310001373291016
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656314558861,
+                "max": 1656314558861,
+                "avg": 1656314558861,
+                "sum": 1656314558861,
+                "min_as_string": "2022-06-27T07:22:38.861Z",
+                "max_as_string": "2022-06-27T07:22:38.861Z",
+                "avg_as_string": "2022-06-27T07:22:38.861Z",
+                "sum_as_string": "2022-06-27T07:22:38.861Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:24:00.000Z",
+            "key": 1656314640000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 19,
+                "max": 20,
+                "avg": 19.5,
+                "sum": 39
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 503.8599853515625,
+                "max": 504.1300048828125,
+                "avg": 503.9949951171875,
+                "sum": 1007.989990234375
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7300000190734863,
+                "max": 1.7300000190734863,
+                "avg": 1.7300000190734863,
+                "sum": 3.4600000381469727
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.4800033569336,
+                "max": 76.48999786376953,
+                "avg": 76.48500061035156,
+                "sum": 152.97000122070312
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99971,
+                "max": 99973,
+                "avg": 99972,
+                "sum": 199944
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 1.0199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 16,
+                "max": 17,
+                "avg": 16.5,
+                "sum": 33
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 426,
+                "max": 427,
+                "avg": 426.5,
+                "sum": 853
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 22,
+                "max": 23,
+                "avg": 22.5,
+                "sum": 45
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.760000228881836,
+                "max": 13.779999732971191,
+                "avg": 13.769999980926514,
+                "sum": 27.539999961853027
+            },
+            "iaq": {
+                "count": 2,
+                "min": 27.190000534057617,
+                "max": 27.34000015258789,
+                "avg": 27.265000343322754,
+                "sum": 54.53000068664551
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.25,
+                "max": 53.27000045776367,
+                "avg": 53.260000228881836,
+                "sum": 106.52000045776367
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656314679614,
+                "max": 1656314802870,
+                "avg": 1656314741242,
+                "sum": 3312629482484,
+                "min_as_string": "2022-06-27T07:24:39.614Z",
+                "max_as_string": "2022-06-27T07:26:42.870Z",
+                "avg_as_string": "2022-06-27T07:25:41.242Z",
+                "sum_as_string": "2074-12-21T14:51:22.484Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:27:00.000Z",
+            "key": 1656314820000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 504.760009765625,
+                "max": 504.760009765625,
+                "avg": 504.760009765625,
+                "sum": 504.760009765625
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7300000190734863,
+                "max": 1.7300000190734863,
+                "avg": 1.7300000190734863,
+                "sum": 1.7300000190734863
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4800033569336,
+                "max": 76.4800033569336,
+                "avg": 76.4800033569336,
+                "sum": 76.4800033569336
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99969,
+                "max": 99969,
+                "avg": 99969,
+                "sum": 99969
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 429,
+                "max": 429,
+                "avg": 429,
+                "sum": 429
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.739999771118164,
+                "max": 13.739999771118164,
+                "avg": 13.739999771118164,
+                "sum": 13.739999771118164
+            },
+            "iaq": {
+                "count": 1,
+                "min": 27.700000762939453,
+                "max": 27.700000762939453,
+                "avg": 27.700000762939453,
+                "sum": 27.700000762939453
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.20000076293945,
+                "max": 53.20000076293945,
+                "avg": 53.20000076293945,
+                "sum": 53.20000076293945
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656314924349,
+                "max": 1656314924349,
+                "avg": 1656314924349,
+                "sum": 1656314924349,
+                "min_as_string": "2022-06-27T07:28:44.349Z",
+                "max_as_string": "2022-06-27T07:28:44.349Z",
+                "avg_as_string": "2022-06-27T07:28:44.349Z",
+                "sum_as_string": "2022-06-27T07:28:44.349Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:30:00.000Z",
+            "key": 1656315000000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 19,
+                "max": 19,
+                "avg": 19,
+                "sum": 38
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 504.3299865722656,
+                "max": 505.0299987792969,
+                "avg": 504.67999267578125,
+                "sum": 1009.3599853515625
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7300000190734863,
+                "max": 1.75,
+                "avg": 1.7400000095367432,
+                "sum": 3.4800000190734863
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.44000244140625,
+                "max": 76.45999908447266,
+                "avg": 76.45000076293945,
+                "sum": 152.9000015258789
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99961,
+                "max": 99963,
+                "avg": 99962,
+                "sum": 199924
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 1.0199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 16,
+                "max": 16,
+                "avg": 16,
+                "sum": 32
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 427,
+                "max": 430,
+                "avg": 428.5,
+                "sum": 857
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 22,
+                "max": 22,
+                "avg": 22,
+                "sum": 44
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.710000038146973,
+                "max": 13.720000267028809,
+                "avg": 13.71500015258789,
+                "sum": 27.43000030517578
+            },
+            "iaq": {
+                "count": 2,
+                "min": 27.469999313354492,
+                "max": 27.860000610351562,
+                "avg": 27.664999961853027,
+                "sum": 55.329999923706055
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.15999984741211,
+                "max": 53.16999816894531,
+                "avg": 53.16499900817871,
+                "sum": 106.32999801635742
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656315050857,
+                "max": 1656315169994,
+                "avg": 1656315110425.5,
+                "sum": 3312630220851,
+                "min_as_string": "2022-06-27T07:30:50.857Z",
+                "max_as_string": "2022-06-27T07:32:49.994Z",
+                "avg_as_string": "2022-06-27T07:31:50.425Z",
+                "sum_as_string": "2074-12-21T15:03:40.851Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:33:00.000Z",
+            "key": 1656315180000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 507.75,
+                "max": 507.75,
+                "avg": 507.75,
+                "sum": 507.75
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.75,
+                "max": 1.75,
+                "avg": 1.75,
+                "sum": 1.75
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4000015258789,
+                "max": 76.4000015258789,
+                "avg": 76.4000015258789,
+                "sum": 76.4000015258789
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99961,
+                "max": 99961,
+                "avg": 99961,
+                "sum": 99961
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 429,
+                "max": 429,
+                "avg": 429,
+                "sum": 429
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.699999809265137,
+                "max": 13.699999809265137,
+                "avg": 13.699999809265137,
+                "sum": 13.699999809265137
+            },
+            "iaq": {
+                "count": 1,
+                "min": 29.420000076293945,
+                "max": 29.420000076293945,
+                "avg": 29.420000076293945,
+                "sum": 29.420000076293945
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.18000030517578,
+                "max": 53.18000030517578,
+                "avg": 53.18000030517578,
+                "sum": 53.18000030517578
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656315294592,
+                "max": 1656315294592,
+                "avg": 1656315294592,
+                "sum": 1656315294592,
+                "min_as_string": "2022-06-27T07:34:54.592Z",
+                "max_as_string": "2022-06-27T07:34:54.592Z",
+                "avg_as_string": "2022-06-27T07:34:54.592Z",
+                "sum_as_string": "2022-06-27T07:34:54.592Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:36:00.000Z",
+            "key": 1656315360000,
+            "doc_count": 0,
+            "Winsen_CO": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "occupancyCount": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "co2Value": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_O3": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_CH2O": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "temperature_F": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "pressure": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "voc": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_1": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_CO2": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_pm_10": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "dew": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "iaq": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "humidity": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "Winsen_NO2": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            },
+            "timestamp": {
+                "count": 0,
+                "min": null,
+                "max": null,
+                "avg": null,
+                "sum": 0
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:39:00.000Z",
+            "key": 1656315540000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 18,
+                "max": 20,
+                "avg": 19,
+                "sum": 38
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 507.1600036621094,
+                "max": 507.6000061035156,
+                "avg": 507.3800048828125,
+                "sum": 1014.760009765625
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.75,
+                "max": 1.7699999809265137,
+                "avg": 1.7599999904632568,
+                "sum": 3.5199999809265137
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.4000015258789,
+                "max": 76.41999816894531,
+                "avg": 76.40999984741211,
+                "sum": 152.81999969482422
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99961,
+                "max": 99967,
+                "avg": 99964,
+                "sum": 199928
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 1.0199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 15,
+                "max": 17,
+                "avg": 16,
+                "sum": 32
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 430,
+                "max": 431,
+                "avg": 430.5,
+                "sum": 861
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 19,
+                "max": 23,
+                "avg": 21,
+                "sum": 42
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.670000076293945,
+                "max": 13.670000076293945,
+                "avg": 13.670000076293945,
+                "sum": 27.34000015258789
+            },
+            "iaq": {
+                "count": 2,
+                "min": 29.100000381469727,
+                "max": 29.329999923706055,
+                "avg": 29.21500015258789,
+                "sum": 58.43000030517578
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.09000015258789,
+                "max": 53.11000061035156,
+                "avg": 53.10000038146973,
+                "sum": 106.20000076293945
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656315542273,
+                "max": 1656315662637,
+                "avg": 1656315602455,
+                "sum": 3312631204910,
+                "min_as_string": "2022-06-27T07:39:02.273Z",
+                "max_as_string": "2022-06-27T07:41:02.637Z",
+                "avg_as_string": "2022-06-27T07:40:02.455Z",
+                "sum_as_string": "2074-12-21T15:20:04.910Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:42:00.000Z",
+            "key": 1656315720000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 509.2799987792969,
+                "max": 509.2799987792969,
+                "avg": 509.2799987792969,
+                "sum": 509.2799987792969
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7699999809265137,
+                "max": 1.7699999809265137,
+                "avg": 1.7699999809265137,
+                "sum": 1.7699999809265137
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.4000015258789,
+                "max": 76.4000015258789,
+                "avg": 76.4000015258789,
+                "sum": 76.4000015258789
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99963,
+                "max": 99963,
+                "avg": 99963,
+                "sum": 99963
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 0.5199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 431,
+                "max": 431,
+                "avg": 431,
+                "sum": 431
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.670000076293945,
+                "max": 13.670000076293945,
+                "avg": 13.670000076293945,
+                "sum": 13.670000076293945
+            },
+            "iaq": {
+                "count": 1,
+                "min": 30.299999237060547,
+                "max": 30.299999237060547,
+                "avg": 30.299999237060547,
+                "sum": 30.299999237060547
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.099998474121094,
+                "max": 53.099998474121094,
+                "avg": 53.099998474121094,
+                "sum": 53.099998474121094
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656315785158,
+                "max": 1656315785158,
+                "avg": 1656315785158,
+                "sum": 1656315785158,
+                "min_as_string": "2022-06-27T07:43:05.158Z",
+                "max_as_string": "2022-06-27T07:43:05.158Z",
+                "avg_as_string": "2022-06-27T07:43:05.158Z",
+                "sum_as_string": "2022-06-27T07:43:05.158Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:45:00.000Z",
+            "key": 1656315900000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 19,
+                "max": 19,
+                "avg": 19,
+                "sum": 38
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 503.760009765625,
+                "max": 508.79998779296875,
+                "avg": 506.2799987792969,
+                "sum": 1012.5599975585938
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7799999713897705,
+                "max": 1.7799999713897705,
+                "avg": 1.7799999713897705,
+                "sum": 3.559999942779541
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.4000015258789,
+                "max": 76.4000015258789,
+                "avg": 76.4000015258789,
+                "sum": 152.8000030517578
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99959,
+                "max": 99965,
+                "avg": 99962,
+                "sum": 199924
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5099999904632568,
+                "max": 0.5199999809265137,
+                "avg": 0.5149999856948853,
+                "sum": 1.0299999713897705
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 16,
+                "max": 16,
+                "avg": 16,
+                "sum": 32
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 431,
+                "max": 432,
+                "avg": 431.5,
+                "sum": 863
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 22,
+                "max": 22,
+                "avg": 22,
+                "sum": 44
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.649999618530273,
+                "max": 13.65999984741211,
+                "avg": 13.654999732971191,
+                "sum": 27.309999465942383
+            },
+            "iaq": {
+                "count": 2,
+                "min": 27.149999618530273,
+                "max": 30.030000686645508,
+                "avg": 28.59000015258789,
+                "sum": 57.18000030517578
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.060001373291016,
+                "max": 53.09000015258789,
+                "avg": 53.07500076293945,
+                "sum": 106.1500015258789
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656315911755,
+                "max": 1656316031106,
+                "avg": 1656315971430.5,
+                "sum": 3312631942861,
+                "min_as_string": "2022-06-27T07:45:11.755Z",
+                "max_as_string": "2022-06-27T07:47:11.106Z",
+                "avg_as_string": "2022-06-27T07:46:11.430Z",
+                "sum_as_string": "2074-12-21T15:32:22.861Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:48:00.000Z",
+            "key": 1656316080000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 509.20001220703125,
+                "max": 509.20001220703125,
+                "avg": 509.20001220703125,
+                "sum": 509.20001220703125
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7799999713897705,
+                "max": 1.7799999713897705,
+                "avg": 1.7799999713897705,
+                "sum": 1.7799999713897705
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.38999938964844,
+                "max": 76.38999938964844,
+                "avg": 76.38999938964844,
+                "sum": 76.38999938964844
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99961,
+                "max": 99961,
+                "avg": 99961,
+                "sum": 99961
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5199999809265137,
+                "max": 0.5199999809265137,
+                "avg": 0.5199999809265137,
+                "sum": 0.5199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 431,
+                "max": 431,
+                "avg": 431,
+                "sum": 431
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.649999618530273,
+                "max": 13.649999618530273,
+                "avg": 13.649999618530273,
+                "sum": 13.649999618530273
+            },
+            "iaq": {
+                "count": 1,
+                "min": 30.260000228881836,
+                "max": 30.260000228881836,
+                "avg": 30.260000228881836,
+                "sum": 30.260000228881836
+            },
+            "humidity": {
+                "count": 1,
+                "min": 53.06999969482422,
+                "max": 53.06999969482422,
+                "avg": 53.06999969482422,
+                "sum": 53.06999969482422
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656316155417,
+                "max": 1656316155417,
+                "avg": 1656316155417,
+                "sum": 1656316155417,
+                "min_as_string": "2022-06-27T07:49:15.417Z",
+                "max_as_string": "2022-06-27T07:49:15.417Z",
+                "avg_as_string": "2022-06-27T07:49:15.417Z",
+                "sum_as_string": "2022-06-27T07:49:15.417Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:51:00.000Z",
+            "key": 1656316260000,
+            "doc_count": 2,
+            "Winsen_CO": {
+                "count": 2,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 1
+            },
+            "occupancyCount": {
+                "count": 2,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 2,
+                "min": 18,
+                "max": 20,
+                "avg": 19,
+                "sum": 38
+            },
+            "co2Value": {
+                "count": 2,
+                "min": 503.6099853515625,
+                "max": 505.6700134277344,
+                "avg": 504.63999938964844,
+                "sum": 1009.2799987792969
+            },
+            "Winsen_O3": {
+                "count": 2,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.03999999910593033
+            },
+            "Winsen_CH2O": {
+                "count": 2,
+                "min": 1.7799999713897705,
+                "max": 1.7799999713897705,
+                "avg": 1.7799999713897705,
+                "sum": 3.559999942779541
+            },
+            "temperature_F": {
+                "count": 2,
+                "min": 76.4000015258789,
+                "max": 76.4000015258789,
+                "avg": 76.4000015258789,
+                "sum": 152.8000030517578
+            },
+            "pressure": {
+                "count": 2,
+                "min": 99959,
+                "max": 99959,
+                "avg": 99959,
+                "sum": 199918
+            },
+            "voc": {
+                "count": 2,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 1.0199999809265137
+            },
+            "Winsen_pm_1": {
+                "count": 2,
+                "min": 15,
+                "max": 17,
+                "avg": 16,
+                "sum": 32
+            },
+            "Winsen_CO2": {
+                "count": 2,
+                "min": 430,
+                "max": 431,
+                "avg": 430.5,
+                "sum": 861
+            },
+            "Winsen_pm_10": {
+                "count": 2,
+                "min": 19,
+                "max": 23,
+                "avg": 21,
+                "sum": 42
+            },
+            "dew": {
+                "count": 2,
+                "min": 13.640000343322754,
+                "max": 13.649999618530273,
+                "avg": 13.644999980926514,
+                "sum": 27.289999961853027
+            },
+            "iaq": {
+                "count": 2,
+                "min": 27.059999465942383,
+                "max": 28.239999771118164,
+                "avg": 27.649999618530273,
+                "sum": 55.29999923706055
+            },
+            "humidity": {
+                "count": 2,
+                "min": 53.040000915527344,
+                "max": 53.060001373291016,
+                "avg": 53.05000114440918,
+                "sum": 106.10000228881836
+            },
+            "Winsen_NO2": {
+                "count": 2,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.019999999552965164
+            },
+            "timestamp": {
+                "count": 2,
+                "min": 1656316278109,
+                "max": 1656316401598,
+                "avg": 1656316339853.5,
+                "sum": 3312632679707,
+                "min_as_string": "2022-06-27T07:51:18.109Z",
+                "max_as_string": "2022-06-27T07:53:21.598Z",
+                "avg_as_string": "2022-06-27T07:52:19.853Z",
+                "sum_as_string": "2074-12-21T15:44:39.707Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:54:00.000Z",
+            "key": 1656316440000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 20,
+                "max": 20,
+                "avg": 20,
+                "sum": 20
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 504.6499938964844,
+                "max": 504.6499938964844,
+                "avg": 504.6499938964844,
+                "sum": 504.6499938964844
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.7000000476837158,
+                "max": 1.7000000476837158,
+                "avg": 1.7000000476837158,
+                "sum": 1.7000000476837158
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.3499984741211,
+                "max": 76.3499984741211,
+                "avg": 76.3499984741211,
+                "sum": 76.3499984741211
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99955,
+                "max": 99955,
+                "avg": 99955,
+                "sum": 99955
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 434,
+                "max": 434,
+                "avg": 434,
+                "sum": 434
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 23,
+                "max": 23,
+                "avg": 23,
+                "sum": 23
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.430000305175781,
+                "max": 13.430000305175781,
+                "avg": 13.430000305175781,
+                "sum": 13.430000305175781
+            },
+            "iaq": {
+                "count": 1,
+                "min": 27.65999984741211,
+                "max": 27.65999984741211,
+                "avg": 27.65999984741211,
+                "sum": 27.65999984741211
+            },
+            "humidity": {
+                "count": 1,
+                "min": 52.599998474121094,
+                "max": 52.599998474121094,
+                "avg": 52.599998474121094,
+                "sum": 52.599998474121094
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656316531909,
+                "max": 1656316531909,
+                "avg": 1656316531909,
+                "sum": 1656316531909,
+                "min_as_string": "2022-06-27T07:55:31.909Z",
+                "max_as_string": "2022-06-27T07:55:31.909Z",
+                "avg_as_string": "2022-06-27T07:55:31.909Z",
+                "sum_as_string": "2022-06-27T07:55:31.909Z"
+            }
+        },
+        {
+            "key_as_string": "2022-06-27T07:57:00.000Z",
+            "key": 1656316620000,
+            "doc_count": 1,
+            "Winsen_CO": {
+                "count": 1,
+                "min": 0.5,
+                "max": 0.5,
+                "avg": 0.5,
+                "sum": 0.5
+            },
+            "occupancyCount": {
+                "count": 1,
+                "min": 0,
+                "max": 0,
+                "avg": 0,
+                "sum": 0
+            },
+            "Winsen_pm_2_5": {
+                "count": 1,
+                "min": 22,
+                "max": 22,
+                "avg": 22,
+                "sum": 22
+            },
+            "co2Value": {
+                "count": 1,
+                "min": 504.80999755859375,
+                "max": 504.80999755859375,
+                "avg": 504.80999755859375,
+                "sum": 504.80999755859375
+            },
+            "Winsen_O3": {
+                "count": 1,
+                "min": 0.019999999552965164,
+                "max": 0.019999999552965164,
+                "avg": 0.019999999552965164,
+                "sum": 0.019999999552965164
+            },
+            "Winsen_CH2O": {
+                "count": 1,
+                "min": 1.6799999475479126,
+                "max": 1.6799999475479126,
+                "avg": 1.6799999475479126,
+                "sum": 1.6799999475479126
+            },
+            "temperature_F": {
+                "count": 1,
+                "min": 76.37000274658203,
+                "max": 76.37000274658203,
+                "avg": 76.37000274658203,
+                "sum": 76.37000274658203
+            },
+            "pressure": {
+                "count": 1,
+                "min": 99959,
+                "max": 99959,
+                "avg": 99959,
+                "sum": 99959
+            },
+            "voc": {
+                "count": 1,
+                "min": 0.5099999904632568,
+                "max": 0.5099999904632568,
+                "avg": 0.5099999904632568,
+                "sum": 0.5099999904632568
+            },
+            "Winsen_pm_1": {
+                "count": 1,
+                "min": 17,
+                "max": 17,
+                "avg": 17,
+                "sum": 17
+            },
+            "Winsen_CO2": {
+                "count": 1,
+                "min": 451,
+                "max": 451,
+                "avg": 451,
+                "sum": 451
+            },
+            "Winsen_pm_10": {
+                "count": 1,
+                "min": 24,
+                "max": 24,
+                "avg": 24,
+                "sum": 24
+            },
+            "dew": {
+                "count": 1,
+                "min": 13.220000267028809,
+                "max": 13.220000267028809,
+                "avg": 13.220000267028809,
+                "sum": 13.220000267028809
+            },
+            "iaq": {
+                "count": 1,
+                "min": 27.75,
+                "max": 27.75,
+                "avg": 27.75,
+                "sum": 27.75
+            },
+            "humidity": {
+                "count": 1,
+                "min": 52.06999969482422,
+                "max": 52.06999969482422,
+                "avg": 52.06999969482422,
+                "sum": 52.06999969482422
+            },
+            "Winsen_NO2": {
+                "count": 1,
+                "min": 0.009999999776482582,
+                "max": 0.009999999776482582,
+                "avg": 0.009999999776482582,
+                "sum": 0.009999999776482582
+            },
+            "timestamp": {
+                "count": 1,
+                "min": 1656316772319,
+                "max": 1656316772319,
+                "avg": 1656316772319,
+                "sum": 1656316772319,
+                "min_as_string": "2022-06-27T07:59:32.319Z",
+                "max_as_string": "2022-06-27T07:59:32.319Z",
+                "avg_as_string": "2022-06-27T07:59:32.319Z",
+                "sum_as_string": "2022-06-27T07:59:32.319Z"
+            }
+        }
+    ],
+    "thresholdsNames": {
+        "Temperature": {
+            "name": "Temperature",
+            "dataname": "temperature_F",
+            "shortCode": "Temp"
+        },
+        "Pressure": {
+            "name": "ATM Pressure",
+            "dataname": "pressure",
+            "shortCode": "Pressure"
+        },
+        "Humidity": {
+            "name": "Humidity",
+            "dataname": "humidity",
+            "shortCode": "RH"
+        },
+        "TVOC": {
+            "name": "Total Volatile Organic Compound (TVOC)",
+            "dataname": "voc",
+            "shortCode": "TVOC"
+        },
+        "eCO2": {
+            "name": "Carbon Dioxide (CO2)",
+            "dataname": "co2Value",
+            "shortCode": "CO₂"
+        },
+        "PM_1": {
+            "name": "Particulate Matter 1.0",
+            "dataname": "Winsen_pm_1",
+            "shortCode": "PM1"
+        },
+        "PM 2.5": {
+            "name": "Particulate Matter 2.5",
+            "dataname": "Winsen_pm_2_5",
+            "shortCode": "PM2.5"
+        },
+        "PM 10": {
+            "name": "Particulate Matter 10",
+            "dataname": "Winsen_pm_10",
+            "shortCode": "PM10"
+        },
+        "IAQ": {
+            "name": "IAQ",
+            "dataname": "iaq",
+            "shortCode": "IAQ"
+        },
+        "CO (Carbon monoxide)": {
+            "name": "Carbon Monoxide (CO)",
+            "dataname": "Winsen_CO",
+            "shortCode": "CO"
+        },
+        "O3(Ozone)": {
+            "name": "Ozone (O)",
+            "dataname": "Winsen_O3",
+            "shortCode": "O₃"
+        },
+        "Dew Point": {
+            "name": "Dew Point Temperature",
+            "dataname": "dew",
+            "shortCode": "Dew Point"
+        },
+        "NO2(Nitrogen Dioxide)": {
+            "name": "Nitrogen Dioxide (NO2)",
+            "dataname": "Winsen_NO2",
+            "shortCode": "NO₂"
+        },
+        "CH2O(Formaldehyde)": {
+            "name": "Formaldehyde (CH2O)",
+            "dataname": "Winsen_CH2O",
+            "shortCode": "CH₂O"
+        },
+        "NDIR CO2": {
+            "name": "NDIR (CO2)",
+            "dataname": "Winsen_CO2",
+            "shortCode": "NDIR (CO2)"
+        },
+        "AQI": {
+            "name": "AQI",
+            "dataname": "aqi",
+            "shortCode": "AQI"
+        }
+    },
+    "thresholdsColors": [{
+        "name": "Dew Point Temperature",
+        "color": "#1F85DE"
+    },
+    {
+        "name": "Carbon Monoxide (CO)",
+        "color": "#781FDE"
+    },
+    {
+        "name": "NDIR (CO2)",
+        "color": "#44d0ce"
+    },
+    {
+        "name": "Ozone (O)",
+        "color": "#d04485"
+    },
+    {
+        "name": "Particulate Matter 1.0",
+        "color": "#44c1d0"
+    },
+    {
+        "name": "Particulate Matter 2.5",
+        "color": "#d06f44"
+    },
+    {
+        "name": "Particulate Matter 10",
+        "color": "#ac44d0"
+    },
+    {
+        "name": "Humidity",
+        "color": "#44D0A1"
+    },
+    {
+        "name": "IAQ",
+        "color": "#44D0A1"
+    },
+    {
+        "name": "ATM Pressure",
+        "color": "#add044"
+    },
+    {
+        "name": "Temperature",
+        "color": "#bfd044"
+    },
+    {
+        "name": "Total Volatile Organic Compound (TVOC)",
+        "color": "#d0cd44"
+    }
+]
+}

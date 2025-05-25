@@ -1,0 +1,23 @@
+
+{
+    "fields": [
+        {
+            "heading": "User Name",
+            "property": "user_id"
+        },
+        {
+            "heading": "Type",
+            "property": "type"
+        },
+        {
+            "heading": "Login Date",
+            "property": "login_date"
+        },
+        {
+            "heading": "Address",
+            "property": "ip"
+        }
+    ]
+    
+       
+}

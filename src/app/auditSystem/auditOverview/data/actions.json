@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "name": "Lookup by Workorder",
+        "icon": "faSearch",
+        "url": "#"
+    },
+    {
+        "id": 3,
+        "name": "See all Work Orders",
+        "icon": "faEye",
+        "url": "/maintenance/workorders"
+    }
+]

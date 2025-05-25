@@ -1,0 +1,20 @@
+{
+    "tabsList": {
+        "Warehouses": {
+            "id": 1,
+            "name": "Warehouses"
+        },
+        "Locations": {
+            "id": 2,
+            "name": "Locations"
+        },
+        "Operation Types": {
+            "id": 3,
+            "name": "Operation Types"
+        },
+        "Reordering Rules": {
+            "id": 4,
+            "name": "Reordering Rules"
+        }
+    }
+}

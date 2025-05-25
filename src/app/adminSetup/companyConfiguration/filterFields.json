@@ -1,0 +1,50 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Email",
+            "value": "email"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Email",
+            "accessor": "email"
+        },
+        {
+            "Header": "Associates to",
+            "accessor": "partner_id"
+        },
+        {
+            "Header": "Roles",
+            "accessor": "role_ids"
+        },
+        {
+            "Header": "Last Updated on",
+            "accessor": "__last_update",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Company",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Mobile",
+            "accessor": "mobile"
+        },
+        {
+            "Header": "Active",
+            "accessor": "active",
+            "func": true
+        }
+    ]
+}

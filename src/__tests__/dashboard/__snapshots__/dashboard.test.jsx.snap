@@ -1,0 +1,1644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard testing Dashboard snapshots snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="m-0 pt-2 pb-3 row"
+  >
+    <div
+      class="pr-1 pl-1 col-12 col-sm-12 col-md-12 col-lg-6"
+    >
+      <div
+        class="m-0 bg-azure p-3 row"
+      >
+        <div
+          class="p-0 col-12 col-sm-12 col-md-12 col-lg-2"
+        >
+          <img
+            alt="actions"
+            class="mr-1 ml-2 circle-icon"
+            height="10"
+            src="test-file-stub"
+            width="10"
+          />
+        </div>
+        <div
+          class="p-0 col-12 col-sm-12 col-md-12 col-lg-10"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-5"
+            >
+              <h3
+                class="text-grey"
+              >
+                All Buildings
+              </h3>
+            </div>
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-7"
+            >
+              <span
+                class="float-right"
+              >
+                <div
+                  class="mt-2 form-check form-check-inline"
+                >
+                  <label
+                    class="custom-radio-btn mr-1"
+                  >
+                    <input
+                      class="form-check-input form-check-input"
+                      name="viewType"
+                      type="radio"
+                      value="0"
+                    />
+                    <span
+                      class="checkmark"
+                    />
+                  </label>
+                  <span
+                    class="mb-2"
+                  >
+                    List View
+                  </span>
+                </div>
+                <div
+                  class="mt-2 form-check form-check-inline"
+                >
+                  <label
+                    class="custom-radio-btn mr-1"
+                  >
+                    <input
+                      checked=""
+                      class="form-check-input form-check-input"
+                      name="viewType"
+                      type="radio"
+                      value="1"
+                    />
+                    <span
+                      class="checkmark"
+                    />
+                  </label>
+                  <span
+                    class="mb-2"
+                  >
+                     Map View
+                  </span>
+                </div>
+              </span>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="arrow_box"
+              >
+                <div
+                  class="rounded-0 card"
+                >
+                  <div
+                    class="p-2 card-body"
+                  >
+                    <div
+                      class="m-0 pb-0 row"
+                    >
+                      <div
+                        class="p-0 mt-1 col-12 col-sm-12 col-md-12 col-lg-9"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-map-marker-alt fa-w-12 fa-sm mr-1 ml-1"
+                          data-icon="map-marker-alt"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 384 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <small>
+                          Sites : 
+                        </small>
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-city fa-w-20 fa-sm mr-1 ml-2"
+                          data-icon="city"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 640 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M616 192H480V24c0-13.26-10.74-24-24-24H312c-13.26 0-24 10.74-24 24v72h-64V16c0-8.84-7.16-16-16-16h-16c-8.84 0-16 7.16-16 16v80h-64V16c0-8.84-7.16-16-16-16H80c-8.84 0-16 7.16-16 16v80H24c-13.26 0-24 10.74-24 24v360c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V216c0-13.26-10.75-24-24-24zM128 404c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12H76c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm128 192c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12V76c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm160 288c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40zm0-96c0 6.63-5.37 12-12 12h-40c-6.63 0-12-5.37-12-12v-40c0-6.63 5.37-12 12-12h40c6.63 0 12 5.37 12 12v40z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <small>
+                          Buildings : 
+                        </small>
+                        <img
+                          alt="actions"
+                          class="mr-1 ml-2"
+                          height="10"
+                          src="test-file-stub"
+                          width="10"
+                        />
+                        <small>
+                          Total Area :
+                        </small>
+                      </div>
+                      <div
+                        class="p-0 col-12 col-sm-3 col-md-3 col-lg-3"
+                      >
+                        <input
+                          class="rounded-pill form-control-sm form-control"
+                          placeholder="search"
+                          type="text"
+                          value=""
+                        />
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-search fa-w-16 fa-sm search-icon"
+                          color="lightgrey"
+                          data-icon="search"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-0 pt-2 col-12 col-sm-12 col-md-12 col-lg-12"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="p-2 card-body"
+            >
+              <div
+                class="map"
+              >
+                <div
+                  style="width: 100%; height: 100%; margin: 0px; padding: 0px; position: relative;"
+                >
+                  <div
+                    style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+                  />
+                  <div
+                    style="width: 50%; height: 50%; left: 50%; top: 50%; margin: 0px; padding: 0px; position: absolute;"
+                  >
+                    <div
+                      style="width: 100%; height: 100%; left: 0px; top: 0px; margin: 0px; padding: 0px; position: absolute;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m-0 pr-3 pl-3 pt-0 pb-0 row"
+      >
+        <div
+          class="p-2 col-12 col-sm-12 col-md-12 col-lg-12"
+        >
+          <h3
+            class="text-lightblue"
+          >
+            <img
+              alt="handPointer"
+              class="mr-2"
+              src="test-file-stub"
+            />
+            Apps
+          </h3>
+        </div>
+      </div>
+      <div
+        class="m-0 pr-3 pl-3 pt-0 pb-0 ml-4 app-list row"
+      >
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Asset Registry
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      HSpace - Space Management
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Helpdesk
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      PPM Schedule
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Work Orders
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Purchase
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      IoT System
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Incident Management
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Audit & Compilance
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Predictive Maintenance
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-2 col-12 col-sm-6 col-md-6 col-lg-3"
+        >
+          <div
+            class="bg-azure card"
+          >
+            <div
+              class="p-2 mt-2 card-body"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <img
+                    alt="actions"
+                    class="mr-2"
+                    height="35"
+                    src="test-file-stub"
+                    width="35"
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="text-center col-12 col-sm-12 col-md-12 col-lg-12"
+                >
+                  <div
+                    class="text-line-height-11 mt-1"
+                  >
+                    <small
+                      class="text-grey"
+                    >
+                      Vendor Management
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pr-1 pl-1 col-12 col-sm-12 col-md-12 col-lg-6"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="m-0 pr-3 pl-1 pt-2 pb-0 row"
+        >
+          <div
+            class="p-2 col-12 col-sm-12 col-md-12 col-lg-12"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-bell fa-w-14 fa-2x mr-2"
+              data-icon="bell"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="badge notification rounded-pill mr-1 mt-1"
+            >
+              7
+            </span>
+            <h3
+              class="d-inline-block"
+            >
+              Notifications
+            </h3>
+          </div>
+        </div>
+        <div
+          class="pt-0 notification-list thin-scrollbar card-body"
+        >
+          <div
+            class="sticky row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-azure rounded-0 card"
+              >
+                <div
+                  class="p-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pr-0 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <img
+                        alt="filter"
+                        class="mr-2"
+                        src="test-file-stub"
+                      />
+                      <small>
+                        Filtered By :
+                      </small>
+                       
+                      <div
+                        class="mr-1 btn-group"
+                      >
+                        <button
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          class="defaultDropDown  bg-white dropdown-toggle btn btn-secondary"
+                          type="button"
+                        >
+                          <small>
+                            Category All
+                          </small>
+                        </button>
+                        <div
+                          aria-hidden="true"
+                          class="dropdown-menu"
+                          role="menu"
+                          tabindex="-1"
+                        >
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                        </div>
+                      </div>
+                       
+                      <div
+                        class="mr-1 btn-group"
+                      >
+                        <button
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          class="defaultDropDown  bg-white dropdown-toggle btn btn-secondary"
+                          type="button"
+                        >
+                          <small>
+                             Action Required All
+                          </small>
+                        </button>
+                        <div
+                          aria-hidden="true"
+                          class="dropdown-menu"
+                          role="menu"
+                          tabindex="-1"
+                        >
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                        </div>
+                      </div>
+                       
+                      <div
+                        class="mr-1 btn-group"
+                      >
+                        <button
+                          aria-expanded="false"
+                          aria-haspopup="true"
+                          class="defaultDropDown  bg-white dropdown-toggle btn btn-secondary"
+                          type="button"
+                        >
+                          <small>
+                             Date All
+                          </small>
+                        </button>
+                        <div
+                          aria-hidden="true"
+                          class="dropdown-menu"
+                          role="menu"
+                          tabindex="-1"
+                        >
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                          <button
+                            class="dropdown-item"
+                            role="menuitem"
+                            tabindex="0"
+                            type="button"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0 col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        Work Orders
+                      </span>
+                       
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-normal-notify"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0  text-danger col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        Warning Alert
+                      </span>
+                       
+                      <span
+                        class="badge badge-danger p-1"
+                      >
+                        Action Required
+                      </span>
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        Warehouse Building -  there has been reported a complaint with cleaning procedures.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <button
+                        class="bg-white mb-2 padding-btn-1 text-dark btn btn-outline-secondary btn-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-search fa-w-16 fa-sm mr-2"
+                          data-icon="search"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <span
+                          class="font-weight-700 font-11 pt-1"
+                        >
+                          REVIEW
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-alert"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0 col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        Work Orders
+                      </span>
+                       
+                      <span
+                        class="badge badge-dark p-1"
+                      >
+                        Action Required
+                      </span>
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-600"
+                      >
+                        Warehouse New Work Order 2020
+                      </span>
+                       
+                      <br />
+                      <span
+                        class="font-weight-400"
+                      >
+                        Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <button
+                        class="bg-white mb-2 padding-btn-1 text-dark btn btn-outline-secondary btn-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-search fa-w-16 fa-sm mr-2"
+                          data-icon="search"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <span
+                          class="font-weight-700 font-11 pt-1"
+                        >
+                          REVIEW
+                        </span>
+                      </button>
+                        
+                      <button
+                        class="bg-white padding-btn-1 mb-2 border-success text-success btn btn-outline-secondary btn-sm"
+                      >
+                        <img
+                          alt="approve"
+                          class="mr-2"
+                          height="14"
+                          src="test-file-stub"
+                        />
+                        <span
+                          class="font-weight-700 font-11 pt-1"
+                        >
+                          APPROVE
+                        </span>
+                      </button>
+                       
+                      <button
+                        class="bg-white padding-btn-1 mb-2 border-danger text-danger btn btn-outline-secondary btn-sm"
+                      >
+                        <img
+                          alt="decline"
+                          class="mr-2"
+                          src="test-file-stub"
+                        />
+                        <span
+                          class="font-weight-700 font-11 pt-1"
+                        >
+                          DECLINE
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-normal-notify"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0 col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        Online Meeting - Office Staff
+                      </span>
+                       
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        New online meeting with office staff has been created on 1 st October 2020 at 04:00 PM.Please Confirm your attendance
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-normal-notify"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0  text-danger col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        COVID Incident Alert!
+                      </span>
+                       
+                      <span
+                        class="badge badge-danger p-1"
+                      >
+                        Action Required
+                      </span>
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        Warehouse Building -  there has been COVID Incident.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <button
+                        class="bg-white mb-2 padding-btn-1 text-dark btn btn-outline-secondary btn-sm"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="svg-inline--fa fa-search fa-w-16 fa-sm mr-2"
+                          data-icon="search"
+                          data-prefix="fas"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <span
+                          class="font-weight-700 font-11 pt-1"
+                        >
+                          REVIEW
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-alert"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0 col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        Preventive Maintenance
+                      </span>
+                       
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-normal-notify"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="pt-3 row"
+          >
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-12"
+            >
+              <div
+                class="bg-light overflow-hidden card"
+              >
+                <div
+                  class="pt-1 pb-1 card-body"
+                >
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="p-0 col-12 col-sm-7 col-md-7 col-lg-7"
+                    >
+                      <img
+                        alt="notification"
+                        class="mr-2"
+                        height="14"
+                        src="test-file-stub"
+                      />
+                      <span
+                        class="font-weight-800"
+                      >
+                        IoT
+                      </span>
+                       
+                    </div>
+                    <div
+                      class="text-right p-0 col-12 col-sm-5 col-md-5 col-lg-5"
+                    >
+                      <small>
+                        16/08/2020
+                      </small>
+                       
+                      <small>
+                        12:00PM
+                      </small>
+                       
+                      <svg
+                        aria-hidden="true"
+                        class="svg-inline--fa fa-star fa-w-18 fa-sm mr-2"
+                        data-icon="star"
+                        data-prefix="fas"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 576 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="pt-3 pb-3 ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    >
+                      <span
+                        class="font-weight-400"
+                      >
+                        Configuring the helixsense IoT notification system has been successful.
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="ml-2 col-12 col-sm-12 col-md-12 col-lg-12"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="arrow-down-normal-notify"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

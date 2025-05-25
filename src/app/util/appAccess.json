@@ -1,0 +1,291 @@
+{
+  "menus": {
+    "Home": {
+      "name": "HOME",
+      "displayName": "Home",
+      "path": "/",
+      "pathString": " "
+    },
+    "Helpdesk": {
+      "name": "HELPDESK",
+      "displayName": "Helpdesk",
+      "path": "/helpdesk-insights-overview",
+      "pathString": "helpdesk"
+    },
+    "Asset Registry": {
+      "name": "ASSETS",
+      "displayName": "Assets",
+      "path": "/asset-overview",
+      "pathString": "asset"
+    },
+    "Work Orders": {
+      "name": "WORK ORDERS",
+      "displayName": "Work Orders",
+      "path": "/workorders-overview",
+      "pathString": "workorders"
+    },
+    "HX Incident Report": {
+      "name": "INCIDENT",
+      "displayName": "Incident",
+      "path": "/hx-incident-overview",
+      "pathString": "hx-"
+    },
+    "Incident Management": {
+      "name": "INCIDENT",
+      "displayName": "Incident Management",
+      "path": "/incident-overview",
+      "pathString": "incident"
+    },
+    "Inventory": {
+      "name": "INVENTORY",
+      "displayName": "Inventory",
+      "path": "/inventory-overview",
+      "pathString": "inventory"
+    },
+    "Building Compliance": {
+      "name": "BUILDING COMPLIANCE",
+      "displayName": "Building Compliance",
+      "path": "/buildingcompliance-overview",
+      "pathString": "building"
+    },
+    "Visitor Management": {
+      "name": "VISITOR MANAGEMENT",
+      "displayName": "Visitor Management",
+      "path": "/visitormanagement-overview",
+      "pathString": "visitormanagement"
+    },
+    "Analytics": {
+      "name": "ANALYTICS",
+      "displayName": "Analytics",
+      "path": "/analytics",
+      "pathString": "analytics"
+    },
+    "NOC Dashboard": {
+      "name": "NOC Dashboard",
+      "displayName": "NOC Dashboards",
+      "path": "/noc/engineering",
+      "pathString": "noc"
+    },
+    "HSpace - Space Management": {
+      "name": "SPACE MANAGEMENT",
+      "displayName": "Space Management",
+      "path": "/spaceManagement-overview",
+      "pathString": "space-management"
+    },
+    "52 Week PPM": {
+      "name": "52 WEEK PPM",
+      "displayName": "52 WEEK PPM",
+      "path": "/preventive-overview",
+      "pathString": "preventive"
+    },
+    "Inspection Schedule": {
+      "name": "INSPECTION MAINTENANCE",
+      "displayName": "Inspection Schedule",
+      "path": "/inspection-overview",
+      "pathString": "inspection"
+    },
+    "Purchase": {
+      "name": "PURCHASE",
+      "displayName": "Purchase",
+      "path": "/purchase/requestforquotation",
+      "pathString": "purchase"
+    },
+    "Pantry Management": {
+      "name": "PANTRY MANAGEMENT",
+      "displayName": "Pantry Management",
+      "path": "/pantry-overview",
+      "pathString": "pantry"
+    },
+    "Survey": {
+      "name": "SURVEY",
+      "displayName": "Survey",
+      "path": "/survey-overview",
+      "pathString": "survey"
+    },
+    "HR Settings": {
+      "name": "HR SETTINGS",
+      "displayName": "HR Settings",
+      "path": "/hr/employees",
+      "pathString": "employees"
+    },
+    "Mail Room Management": {
+      "name": "MAILROOM",
+      "displayName": "Mail Room Management",
+      "path": "/mailroom-overview",
+      "pathString": "mailroom"
+    },
+    "Commodity Transactions": {
+      "name": "COMMODITYTRANSACTIONS",
+      "displayName": "Commodity Transactions",
+      "path": "/commodity-overview",
+      "pathString": "commodity"
+    },
+    "IT Asset Management": {
+      "name": "IT ASSET MANAGEMENT",
+      "displayName": "IT Asset Management",
+      "path": "/itasset-overview",
+      "pathString": "ita"
+    },
+    "Work Permit": {
+      "name": "WORKPERMIT",
+      "displayName": "Work Permit",
+      "path": "/workpermit-overview",
+      "pathString": "workpermit"
+    },
+    "Gate Pass": {
+      "name": "GATEPASS",
+      "displayName": "Gate Pass",
+      "path": "/gatepass-overview",
+      "pathString": "gatepass"
+    },
+    "Configuration": {
+      "name": "CONFIGURATION",
+      "displayName": "Configuration",
+      "path": "/configuration/overview",
+      "pathString": "configuration"
+    },
+    "Breakdown Tracker": {
+      "name": "BREAKDOWNTRACKER",
+      "displayName": "Breakdown Tracker",
+      "path": "/breakdown-overview",
+      "pathString": "breakdown"
+    },
+    "Audit System": {
+      "name": "AUDITSYSTEM",
+      "displayName": "Audit System",
+      "path": "/audit-overview",
+      "pathString": "audit"
+    },
+    "Admin Setup": {
+      "name": "ADMIN SETUP",
+      "displayName": "Admin Setup",
+      "path": "/setup-overview",
+      "pathString": "setup"
+    },
+    "IOT System": {
+      "name": "IOT SYSTEM",
+      "displayName": "IOT System",
+      "path": "http://ec2-3-121-188-84.eu-central-1.compute.amazonaws.com:9001/"
+    },
+    "Energy Management": {
+      "name": "ENERGY MANAGEMENT",
+      "displayName": "Energy Management",
+      "path": "http://52.66.109.243:8080/dashboard/011054f0-dbe6-11ea-b3d8-67574b317d9f?publicId=32f81850-ec20-11ea-b3d8-67574b317d9f"
+    },
+    "Smart Washroom": {
+      "name": "SMART WASHROOM",
+      "displayName": "Smart Washroom",
+      "path": "/smart-clean",
+      "pathString": "smart-clean"
+    },
+    "IAQ Dashboard": {
+      "name": "IAQ DASHBOARD",
+      "displayName": "IAQ",
+      "path": "/iaq-dashboard",
+      "pathString": "iaq-dashboard"
+    },
+    "UPS": {
+      "name": "UPS",
+      "displayName": "UPS",
+      "path": "/ups-summary-overview",
+      "pathString": "ups"
+    },
+    "Air Quality Monitoring": {
+      "name": "AIRQUALITY",
+      "displayName": "Air Quality Monitoring",
+      "path": "/airquality-overview",
+      "pathString": "airquality"
+    },
+    "Attendance Logs": {
+      "name": "Attendance Logs",
+      "displayName": "Attendance Logs",
+      "path": "/attendance-overview",
+      "pathString": "attendance-overview"
+    },
+    "Energy": {
+      "name": "Energy",
+      "displayName": "Energy",
+      "path": "/energy-insights-overview",
+      "pathString": "energy"
+    },
+    "Restrooms": {
+      "name": "Restrooms",
+      "displayName": "Restrooms",
+      "path": "/restrooms-insights-overview",
+      "pathString": "restrooms"
+    },
+    "Users": {
+      "name": "Users",
+      "displayName": "Users",
+      "path": "/team-members",
+      "pathString": "team"
+    },
+    "FIT Tracker": {
+      "name": "FITTRACKER",
+      "displayName": "FIT Tracker",
+      "path": "/fitTracker-overview",
+      "pathString": "fit"
+    },
+    "SLA-KPI Audit": {
+      "name": "SLAAUDIT",
+      "displayName": "SLA-KPI Audit",
+      "path": "/sla-audit-overview",
+      "pathString": "sla-"
+    },
+    "Consumption Tracker": {
+      "name": "CONSUMPTIONTRACKER",
+      "displayName": "Consumption Tracker",
+      "path": "/consumption-tracker-overview",
+      "pathString": "-tracker"
+    },
+    "ESG": {
+      "name": "ESG",
+      "displayName": "ESG",
+      "path": "/esg-environmental",
+      "pathString": "esg-"
+    },
+    "Occupancy": {
+      "name": "OCCUPANCY",
+      "displayName": "Occupancy",
+      "path": "/occupancy",
+      "pathString": "occupancy"
+    },
+    "Waste Tracker": {
+      "name": "BUILDING COMPLIANCE",
+      "displayName": "Waste Tracker",
+      "path": "/waste-overview",
+      "pathString": "waste"
+   },
+   "CXO Analytics": {
+    "name": "CXO ANALYTICS",
+    "displayName": "CXO Analytics",
+    "path": "/cxo-summary",
+    "pathString": "cxo"
+ },
+  "Hazards": {
+    "name": "HAZARDS",
+    "displayName": "Hazards",
+    "path": "/hazard-overview",
+    "pathString": "hazard"
+  },
+  "BMS Alarms": {
+    "name": "BMSALARMS",
+    "displayName": "BMS Alarms",
+    "path": "/bms-alarms-overview",
+    "pathString": "bms"
+  },
+  "Audit Management": {
+    "name": "AUDITMANAGEMENT",
+    "displayName": "Audit Management",
+    "path": "/audit-management-overview",
+    "pathString": "audit"
+  },
+  "ESG Tracker": {
+    "name": "ESGTRACKER",
+    "displayName": "ESG",
+    "path": "/environment",
+    "pathString": "esg"
+  }
+
+  }
+}

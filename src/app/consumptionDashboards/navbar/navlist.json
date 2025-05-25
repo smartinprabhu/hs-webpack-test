@@ -1,0 +1,32 @@
+{
+  "data": {
+    "UPS Summary": {
+      "id": 1,
+      "name": "",
+      "displayname": "UPS Summary",
+      "compareName": "UPS Summary",
+      "pathName": "/ups-summary-overview"
+    },
+    "120 KVA UPS": {
+      "id": 1,
+      "name": "",
+      "displayname": "120 KVA UPS",
+      "compareName": "120 KVA UPS",
+      "pathName": "/ups-summary-overview/120-kva-ups-overview"
+    },
+    "20 KVA UPS#1": {
+      "id": 1,
+      "name": "",
+      "displayname": "20 KVA UPS#1",
+      "compareName": "20 KVA UPS#1",
+      "pathName": "/ups-summary-overview/120-kva-ups1-overview"
+    },
+    "20 KVA UPS#2": {
+      "id": 1,
+      "name": "",
+      "displayname": "20 KVA UPS#2",
+      "compareName": "120 KVA UPS",
+      "pathName": "/ups-summary-overview/120-kva-ups2-overview"
+    }
+  }
+}

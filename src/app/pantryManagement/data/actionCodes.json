@@ -1,0 +1,6 @@
+{
+    "Ordered": "pantry_management_create_pantry_order",
+    "Confirmed": "pantry_management_confirm_pantry_order",
+    "Delivered": "pantry_management_delivered_order",
+    "Cancelled": "pantry_management_cancel_order"
+}

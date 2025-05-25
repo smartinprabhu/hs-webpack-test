@@ -1,0 +1,6 @@
+{
+    "Audit Report Export": "ar_downloadexcel_pdf",
+    "Warranty Age Download Excel/PDF": "ar_warrantyagedownloadexcel_pdf",
+    "Asset Audit Availability Download Excel/PDF": "assetaudit_availability_downloadexcel_pdf",
+    "Asset Audit Misplaced Download Excel/PDF": "assetaudit_misplaced_downloadexcel_pdf"
+}

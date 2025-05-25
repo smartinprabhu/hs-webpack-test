@@ -1,0 +1,17 @@
+
+{
+    "reportList": [
+        {
+            "id": 1,
+            "name": "Inbound Report",
+            "label": "Inbound Report"
+        },
+        {
+            "id": 2,
+            "name": "Outbound Report",
+            "label": "Outbound Report"
+        }      
+       
+    ]
+       
+}

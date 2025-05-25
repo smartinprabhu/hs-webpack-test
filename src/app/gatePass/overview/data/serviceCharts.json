@@ -1,0 +1,9 @@
+{
+    "options": {
+        "tooltips": {
+          "displayColors": false
+        },
+        "maintainAspectRatio": false,
+        "responsive": true
+      }
+}

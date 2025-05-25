@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/sla-audit-overview"
+    },
+    "Audits": {
+      "id": 2,
+      "name": "SLAAUDITS",
+      "displayname": "SLA Audits",
+      "pathName": "/sla-audits"
+    },
+    "title": "SLA Audits"
+  }
+}

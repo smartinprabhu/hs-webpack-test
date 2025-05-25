@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "status": "ready",
+        "label": "Ready to Maintenance"
+    },
+    {
+        "id": 2,
+        "status": "in_progress",
+        "label": "In Progress"
+    },
+    {
+        "id": 3,
+        "status": "done",
+        "label": "Done"
+    },
+    {
+        "id": 4,
+        "status": "draft",
+        "label": "Draft"
+    },
+    {
+        "id": 5,
+        "status": "cancel",
+        "label": "Cancelled"
+    },
+    {
+        "id": 6,
+        "status": "released",
+        "label": "Waiting  Parts"
+    },
+    {
+        "id": 7,
+        "status": "assigned",
+        "label": "Assigned"
+    },
+    {
+        "id": 7,
+        "status": "pause",
+        "label": "Pause"
+    }
+]

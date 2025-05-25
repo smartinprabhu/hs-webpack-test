@@ -1,0 +1,108 @@
+@import '../../../../styles/variables.scss';
+
+.svgPopover {
+    width: 100px;
+}
+
+.searchIcon {
+    height: 20px;
+
+}
+
+.iconButton {
+    padding: 0px;
+    cursor: auto;
+}
+
+.mapViewCard {
+    height: 50px;
+}
+
+.searchInputName {
+    float: right;
+    right: 15px;
+    left: auto;
+    position: absolute;
+    width: 110px;
+}
+
+.MuiTouchRipple-root {
+    position: relative;
+}
+
+.addButton {
+    float: right;
+    margin-top: -12px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+.pr-none {
+    padding-right: 0px;
+}
+
+#containerImage {
+    height: 620px;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    float: left;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+
+#map-overview{
+    width:450px;
+}
+
+.box-shadow-none {
+    box-shadow: none !important;
+}
+.tooltip>.tooltip-inner{
+   max-width: 260px;
+}
+.tooltip{
+    pointer-events: none;
+}
+
+.add-icon{
+    height: 11px;
+    width: 13px;
+}
+.icon-outline-none{
+    outline: none;
+    box-shadow: none;
+}
+.expand-margin-left{
+    margin-left: 1.1rem !important;
+}
+.no-spaces-text{
+    margin-left: 10rem !important;
+    margin-top: 2rem !important;
+}
+.zommcontrols{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    background-color: $color-pure-white ;
+    img{
+        display: block;
+    }
+} 
+.transform-component-module_wrapper__1_Fgj {
+    width: auto !important;
+}
+.react-transform-component {
+    width: unset !important;
+    height: unset !important;
+}
+.floorView-map {
+    height: auto;
+    width:100%;
+    overflow:auto;
+    float:left;
+    text-align:center;
+  }
+

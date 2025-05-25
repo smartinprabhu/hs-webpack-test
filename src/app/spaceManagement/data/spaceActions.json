@@ -1,0 +1,30 @@
+{
+  "space":[
+  {
+    "value": "Ready",
+    "label": "Ready"
+  },
+  {
+    "value": "Occupied",
+    "label": "Occupied"
+  },
+  {
+    "value": "Released",
+    "label": "Released"
+  },
+  {
+    "value": "Maintenance in Progress",
+    "label": "Maintenance in Progress"
+  }
+],
+"booking":[
+  {
+    "value": "1",
+    "label": "Yes"
+  },
+  {
+    "value": "0",
+    "label": "No"
+  }
+]
+}

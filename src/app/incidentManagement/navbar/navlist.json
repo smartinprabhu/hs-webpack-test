@@ -1,0 +1,26 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "activename": "INSIGHTSACTIVE",
+      "displayname": "Insights",
+      "pathName": "/incident-overview"
+    },
+    "Incidents": {
+      "id": 2,
+      "name": "INCIDENTS",
+      "activename": "INCIDENTSACTIVE",
+      "displayname": "Incidents",
+      "pathName": "/incident/incidents"
+    },
+    "Report an Incidents": {
+      "id": 3,
+      "name": "ADD_INCIDENT",
+      "activename": "ADD_INCIDENTACTIVE",
+      "displayname": "Report an Incident",
+      "pathName": "/incident/report-incident"
+    },
+    "title": "Incident"
+  }
+}

@@ -1,0 +1,26 @@
+
+{
+    "tabsList": [ 
+         {
+            "id": 8,
+            "name": "Scorecard"
+        },
+        {
+            "id": 1,
+            "name": "General Information"
+        },
+        {
+            "id": 3,
+            "name": "Assessment"
+        },
+        {
+            "id": 7,
+            "name": "Actions"
+        },
+        {
+            "id": 9,
+            "name": "Attachments"
+        }
+    ]
+       
+}

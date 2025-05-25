@@ -1,0 +1,70 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Compliance",
+            "property": "compliance_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Compliance Act",
+            "property": "compliance_act"
+        },
+        {
+            "heading": "Next Expiry Date",
+            "property": "next_expiry_date"
+        },
+        {
+            "heading": "Submitted To",
+            "property": "submitted_to"
+        }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],   
+    "categoryFields": [
+        {
+            "heading": "Category",
+            "property": "compliance_category_id"
+        }
+    ],   
+    "slaFields": [
+        {
+            "heading": "SLA Status",
+            "property": "sla_status"
+        }
+    ],   
+    "applyFields": [
+        {
+            "heading": "Applies To",
+            "property": "applies_to"
+        }
+    ],   
+    "createdFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],   
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

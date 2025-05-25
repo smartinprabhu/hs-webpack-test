@@ -1,0 +1,36 @@
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Work Order Overview"
+        },
+        {
+            "id": 2,
+            "name": "Audit Logs"
+        },
+        {
+            "id": 3,
+            "name": "Parts"
+        },        
+        {
+            "id": 4,
+            "name": "Attachments"
+        },      
+        {
+            "id": 5,
+            "name": "Lookup Parts"
+        },
+        {
+            "id": 6,
+            "name": "Tools"
+        },
+        {
+            "id": 7,
+            "name": "Check List"
+        },
+        {
+            "id": 8,
+            "name": "Timesheet"
+        }       
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "viewName": "Insights",
+      "pathName": "/hx-incident-overview"
+    },
+    "Incident": {
+      "id": 2,
+      "name": "HXINCIDENTS",
+      "displayname": "Incident",
+      "viewName": "Incidents",
+      "pathName": "/hx-incidents"
+    },
+    "title": "Incidents"
+  }
+}

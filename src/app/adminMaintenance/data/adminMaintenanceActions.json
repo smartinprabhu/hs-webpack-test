@@ -1,0 +1,227 @@
+{
+    "states": {
+        "draft": {
+            "color": "info",
+            "text": "Draft"
+        },
+        "released": {
+            "color": "torchred",
+            "text": "Waiting Parts"
+        },
+        "ready": {
+            "color": "torchred",
+            "text": "Ready to maintenance"
+        },
+        "assigned": {
+            "color": "blue",
+            "text": "Assigned"
+        },
+        "in_progress": {
+            "color": "yellow",
+            "text": "In Progress"
+        },
+        "pause": {
+            "color": "yellow",
+            "text": "Pause"
+        },
+        "done": {
+            "color": "lightGreen",
+            "text": "Done"
+        },
+        "cancel": {
+            "color": "lightGreen",
+            "text": "Cancelled"
+        }
+    },
+    "priorities": {
+        "0": {
+            "color": "primary",
+            "text": "Low"
+        },
+        "1": {
+            "color": "warning",
+            "text": "Normal"
+        },
+        "2": {
+            "color": "danger",
+            "text": "High"
+        },
+        "3": {
+            "color": "danger",
+            "text": "Breakdown"
+        }
+    },
+    "maintenanceTypes": {
+        "bm": {
+            "id": "bm",
+            "label": "Corrective"
+        },
+        "pm": {
+            "id": "pm",
+            "label": "Preventive"
+       },
+        "oc": {
+            "id": "oc",
+            "label": "On Condition"
+        },
+        "pr": {
+            "id": "pr",
+            "label": "Periodic"
+        },
+        "pd": {
+            "id": "pd",
+            "label": "Predictive"
+        }
+    },
+    "woTypes": {
+        "equipment": {
+            "id": "equipment",
+            "label": "Equipment"
+        },
+        "asset": {
+            "id": "asset",
+            "label": "Space"
+       }
+    },
+    "issueTypes": {
+        "request": {
+            "id": "request",
+            "label": "Request"
+        },
+        "complaint": {
+            "id": "complaint",
+            "label": "Complaint"
+       },
+       "incident": {
+            "id": "incident",
+            "label": "Incident"
+      },
+      "ehs": {
+            "id": "ehs",
+            "label": "EHS"
+      },
+      "asset_installation": {
+            "id": "asset_installation",
+            "label": "Asset Installation"
+      }
+    },
+    "otherTags":[
+        {
+            "id": 1,
+            "name" : "Dates"
+        },
+        {
+            "id": 2,
+            "name" : "Costing"
+        },
+        {
+            "id": 3,
+            "name" : "Visit Request"
+        },
+        {
+            "id": 4,
+            "name" : "Order Log"
+        }
+    ],
+    "dashboardStatus": {
+        "IPO": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "tags":[
+                {
+                    "id": "assigned",
+                    "label": "ASSIGNED"
+                },
+                {
+                    "id": "in_progress",
+                    "label": "IN PROGRESS"
+                }
+            ]
+        },
+        "CO": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags":[
+                {
+                    "id": "done",
+                    "label": "DONE"
+                }
+            ]
+        },
+        "OO": {
+            "id": "Open",
+            "label": "Open",
+            "tags":[
+                {
+                    "id": "ready",
+                    "label": "READY TO MAINTENANCE"
+                }
+            ]
+        },
+        "PO": {
+            "id": "Pause",
+            "label": "Pause",
+            "tags":[
+                {
+                    "id": "pause",
+                    "label": "PAUSE"
+                }
+            ]
+       }    
+    },
+    "tableColumns": [
+        {
+            "value": "issue_type",
+            "label": "Issue Type"
+        },
+        {
+            "value": "maintenance_type",
+            "label": "Maintenance Type"
+        },
+        {
+            "value": "employee_id",
+            "label": "Technican"
+        },
+        {
+            "value": "type_category",
+            "label": "Type"
+        }
+        
+    ],
+    "viewFields": [
+        "id",
+        "name",
+        "sequence",
+        "state",
+        "priority",
+        "date_execution",
+        "date_scheduled",
+        "equipment_id",
+        "equipment_location_id",
+        "asset_id",
+        "maintenance_team_id",
+        "type_category",
+        "maintenance_type",  
+        "task_id",
+        "message_ids",
+        "origin",
+        "employee_id",
+        "issue_type",
+        "check_list_ids",
+        "parts_lines",
+        "date_start_execution",
+        "date_start_scheduled",
+        "date_planned",
+        "order_duration",
+        "actual_duration",
+        "worked_hours",
+        "std_mat_cost",
+        "std_tool_cost",
+        "std_labour_cost",
+        "act_mat_cost",
+        "act_tool_cost",
+        "act_labour_cost",
+        "mro_timesheet_ids"
+  ]
+
+}

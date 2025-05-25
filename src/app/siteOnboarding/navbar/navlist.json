@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Overview": {
+      "id": 1,
+      "name": "OVERVIEW",
+      "displayname": "Overview",
+      "pathName": "/configuration/overview"
+    },
+    "Sites": {
+      "id": 2,
+      "name": "SITES",
+      "displayname": "Sites",
+      "pathName": "/configuration/sites"
+    },
+    "title": "Configuration"
+  }
+}

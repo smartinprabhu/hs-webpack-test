@@ -1,0 +1,35 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/audit-management-overview"
+    },
+    "Audits": {
+      "id": 2,
+      "name": "AUIDITS",
+      "displayname": "Audits",
+      "pathName": "/audits"
+    },
+    "Audit Actions": {
+      "id": 3,
+      "name": "AUIDITACTIONS",
+      "displayname": "Audit Actions",
+      "pathName": "/audits/actions"
+    },
+    "Report": {
+      "id": 4,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/audit/reports"
+    },
+    "Configurations": {
+      "id": 5,
+      "name": "CONFIGURATION",
+      "displayname": "Configurations",
+      "pathName": "/audits/configuration"
+    },
+    "title": "Audit Management"
+  }
+}

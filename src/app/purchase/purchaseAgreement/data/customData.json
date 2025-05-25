@@ -1,0 +1,193 @@
+{
+    "listFieldsAgree": [
+        "name",        
+        "ordering_date",
+        "date_end",
+        "user_id",
+        "type_id",
+        "state",
+        "company_id",        
+        "create_date",
+        "line_ids"
+    ],
+    "listfieldsAgreeShows": [
+        "name",        
+        "ordering_date",
+        "date_end",
+        "user_id",
+        "type_id",
+        "state"
+    ],   
+    "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "agreeStates":[
+        {
+            "value": "draft",
+            "label": "Draft"
+        },      
+        {
+            "value": "ongoing",
+            "label": "Ongoing"
+        },
+        {
+            "value": "in_progress",
+            "label": "Confirmed"
+        },   
+        {
+            "value": "open",
+            "label": "Bid Selection"
+        },
+        {
+            "value": "done",
+            "label": "Closed"
+        },
+        {
+            "value": "cancel",
+            "label": "Cancelled"
+        }
+    ],   
+    "agreeStatesLabel": {
+        "draft": {
+            "id": "draft",
+            "label": "Draft",
+            "color":"secondary"
+        },     
+        "ongoing": {
+            "id": "ongoing",
+            "label": "Ongoing",
+            "color": "primary"
+       },
+       "in_progress": {
+            "id": "in_progress",
+            "label": "Confirmed",
+            "color": "warning"
+        },        
+        "open": {
+            "id": "open",
+            "label": "Bid Selection",
+            "color": "info"
+       },
+       "done": {
+            "id": "done",
+            "label": "Closed",
+            "color": "success"
+        },
+        "cancel": {
+            "id": "cancel",
+            "label": "Cancelled",
+            "color": "danger"
+        }
+    },   
+    "tableColumnsAgree": [    
+        {
+            "label": "Company",
+            "value": "company_id"
+        },  
+        {
+            "label": "Created On",
+            "value": "create_date"
+        }            
+    ],  
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "NEWQUOTATION",
+         "displayname": "New Quotation"
+       },
+        {
+         "id": 2,
+         "name": "VALIDATE",
+         "displayname": "Validate"
+       },       
+        {
+         "id": 3,
+         "name": "CONFIRMORDER",
+         "displayname": "Confirm Order"
+       },    
+        {
+         "id": 4,
+         "name": "CANCEL",
+         "displayname": "Cancel"
+       },     
+        {
+         "id": 5,
+         "name": "CLOSE",
+         "displayname": "Close"
+       },     
+        {
+         "id": 6,
+         "name": "RESETTODRAFT",
+         "displayname": "Reset to Draft"
+       },     
+        {
+         "id": 7,
+         "name": "REQUESTFORQUOTATION",
+         "displayname": "Request for Quotation/ Orders"
+       }     
+    
+     ],
+     "actionTypes": {
+        "Cancel": {
+            "value": "action_cancel",
+            "text": "Cancel",
+            "msg": "cancelled",
+            "button": "Cancel"
+        },
+        "Confirm Order": {
+            "value": "action_in_progress",
+            "text": "Confirm Order",
+            "msg": "Confirmed",
+            "button": "Confirm"
+        },
+        "Close": {
+            "value": "action_done",
+            "text": "Close",
+            "msg": "closed",
+            "button": "Close"
+        },
+        "Validate": {
+            "value": "action_open",
+            "text": "Validate",
+            "msg": "validated",
+            "button": "Validate"
+        },
+        "Reset to Draft": {
+            "value": "action_draft",
+            "text": "Reset to Draft",
+            "msg": "reset to draft",
+            "button": "Reset"
+        },
+        "Request for Quotation/ Orders": {
+            "value": "",
+            "text": "Request for Quotation/ Orders",
+            "msg": "",
+            "button": "rfq"
+        },
+        "New Quotation": {
+            "value": "",
+            "text": "New Quotation",
+            "msg": "",
+            "button": "rfq"
+        }
+    }
+}

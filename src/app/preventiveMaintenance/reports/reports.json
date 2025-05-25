@@ -1,0 +1,43 @@
+{
+    "reportList": [
+        {
+            "id": 1,
+            "name": "PPM Report",
+            "apiname": "ppm_calendar",
+            "label": "PPM Report"
+        },
+        {
+            "id": 2,
+            "name": "PPM Checklist Report",
+            "label": "PPM Checklist Report"
+        },
+        {
+            "id": 4,
+            "name": "PPM Scheduler Report",
+            "label": "PPM Scheduler Report"
+        },
+        {
+            "id": 5,
+            "name": "PPM Yearly Report",
+            "label": "PPM Yearly Report"
+        }
+    ],
+    "reportListInsp": [
+        {
+            "id": 1,
+            "name": "Inspection Checklist Report",
+            "label": "Inspection Checklist Report"
+        },
+        {
+            "id": 2,
+            "name": "Smart Logger Report",
+            "label": "Smart Logger Report",
+            "apiname": "smart_reading"
+        },
+        {
+            "id": 3,
+            "name": "Inspections by Employee Report",
+            "label": "Inspections by Employee Report"
+        }
+    ]
+}

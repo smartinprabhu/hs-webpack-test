@@ -1,0 +1,32 @@
+{
+    "tabsList": {
+        "Buildings": {
+            "id": 1,
+            "name": "BUILDINGS"
+        },
+        "Floors": {
+            "id": 2,
+            "name": "FLOORS"
+        },
+        "Wings": {
+            "id": 3,
+            "name": "WINGS"
+        },
+        "Rooms": {
+            "id": 4,
+            "name": "ROOMS"
+        },
+        "Spaces": {
+            "id": 5,
+            "name": "SPACES"
+        },
+        "Equipment": {
+            "id": 6,
+            "name": "EQUIPMENT"
+        },
+        "Bulk Upload": {
+            "id": 7,
+            "name": "BULK UPLOAD"
+        }
+    }
+}

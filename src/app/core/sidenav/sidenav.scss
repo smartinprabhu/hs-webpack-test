@@ -1,0 +1,73 @@
+@import "../../../styles/variables.scss";
+
+.sidenav {
+    left: 0px;
+    // align-items: center;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.rect {
+    height: 22px;
+    width: 22px;
+    // background-color: #4e5664;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.highlight { 
+    background: white;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #4e5664;
+}
+
+.side-nav-align{
+    visibility: visible !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rect-expand {
+    width: 200px;
+    // background-color: #4e5664;
+    position: relative;
+    display:flex;
+    // justify-content:center;
+    // align-items:center;
+}
+
+.highlight-expand { 
+    width: 200px;
+    position: relative;
+    display:flex;
+    // background: white;
+    // justify-content:center;
+    // align-items:center;
+    color: #4e5664;
+}
+
+.highlight-nav-item { 
+    background: white;
+    color: #4e5664 !important;
+}
+
+.sidemenu-nav-item:hover { 
+    background: #7e8187;
+    color: #4e5664 !important;
+}
+
+.sidemenu-nav-item:hover > .rect-expand {
+    color: #4e5664 !important;
+}
+
+// .white-border{
+//     border-color: $color-storm-grey;
+// }

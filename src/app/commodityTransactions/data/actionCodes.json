@@ -1,0 +1,10 @@
+{
+    "Create Transaction" :"commodity_transactions_create_transaction",    
+    "Edit Transaction" :"commodity_transactions_edit_transaction",
+    "Delete Transaction" :"commodity_transactions_delete transaction",
+    "Add Vendors": "commodity_transactions_createvendors",
+    "Create Tanker" :"commodity_transactions_create_tanker",    
+    "Edit Tanker" :"commodity_transactions_edit_tanker",
+    "Delete Tanker" :"commodity_transactions_delete_tanker",
+    "Tanker Out" :"commodity_transactions_tanker_out"
+}

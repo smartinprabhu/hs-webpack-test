@@ -1,0 +1,2057 @@
+[
+    [
+        "Daily",
+        {
+            "fresh_consumption_daily": {
+                "percent_change": "-100.00 %",
+                "predicted_today": "0.00 KL",
+                "total_fresh_consumption": "8104053077.50 KL",
+                "yesterday": "133294379.00 KL"
+            },
+            "intensity_daily": {
+                "percent_change": "-100.00 %",
+                "predicted_today": "0.00 KL",
+                "total_intensity": "4940.23 KL",
+                "yesterday": "36.08 KL"
+            },
+            "stp_consumption_daily": {
+                "percent_change": "-100.00 %",
+                "predicted_today": "1947.62 KL",
+                "total_stp_consumption": "10145147365.50 KL",
+                "yesterday": "133294379.00 KL",
+                "yesterday_date": "10-02-2025"
+            },
+            "stp_percentage_daily": {
+                "total_consumption": "18249200443.00 KL",
+                "total_stp_consumption": "10145147365.50 KL",
+                "total_stp_percentage": "55.59 %"
+            },
+            "tower_stacked_bar_daily": {
+                "data": [
+                    {
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Fresh Water (Domestic Source)",
+                        "text": [
+                            671152529.0,
+                            1973033345.0,
+                            1559599756.0,
+                            692398539.0,
+                            1287090886.0,
+                            125983600.0,
+                            429802272.0,
+                            978780930.5,
+                            386211220.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            671152529.0,
+                            1973033345.0,
+                            1559599756.0,
+                            692398539.0,
+                            1287090886.0,
+                            125983600.0,
+                            429802272.0,
+                            978780930.5,
+                            386211220.0
+                        ]
+                    },
+                    {
+                        "marker": {
+                            "color": "green"
+                        },
+                        "name": "STP (Recycled Water)",
+                        "text": [
+                            646852334.0,
+                            657361499.0,
+                            686749538.0,
+                            957283706.5,
+                            2105193337.5,
+                            1668964623.5,
+                            1293028226.0,
+                            1598729294.08,
+                            531879050.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            646852334.0,
+                            657361499.0,
+                            686749538.0,
+                            957283706.5,
+                            2105193337.5,
+                            1668964623.5,
+                            1293028226.0,
+                            1598729294.08,
+                            531879050.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "barmode": "stack",
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.2
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Daily Water Consumption per Tower",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Tower"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Total Water Consumption (KL)"
+                        }
+                    }
+                }
+            },
+            "trend_cost_plot_daily": {
+                "data": [
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-06<br>Consumption: 132704490.00 KL",
+                            "Date: 2025-02-07<br>Consumption: 133294379.00 KL",
+                            "Date: 2025-02-08<br>Consumption: 133294379.00 KL",
+                            "Date: 2025-02-09<br>Consumption: 133294379.00 KL",
+                            "Date: 2025-02-10<br>Consumption: 133294379.00 KL"
+                        ],
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Actual",
+                        "type": "bar",
+                        "x": [
+                            "2025-02-06",
+                            "2025-02-07",
+                            "2025-02-08",
+                            "2025-02-09",
+                            "2025-02-10"
+                        ],
+                        "y": [
+                            132704490.0,
+                            133294379.0,
+                            133294379.0,
+                            133294379.0,
+                            133294379.0
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-11<br>Consumption: 1947.62 KL",
+                            "Date: 2025-02-12<br>Consumption: 16019.50 KL",
+                            "Date: 2025-02-13<br>Consumption: 6291.60 KL",
+                            "Date: 2025-02-14<br>Consumption: 5862.00 KL",
+                            "Date: 2025-02-15<br>Consumption: 7794.69 KL"
+                        ],
+                        "marker": {
+                            "color": "lightblue"
+                        },
+                        "name": "Forecast",
+                        "opacity": 0.6,
+                        "type": "bar",
+                        "x": [
+                            "2025-02-11",
+                            "2025-02-12",
+                            "2025-02-13",
+                            "2025-02-14",
+                            "2025-02-15"
+                        ],
+                        "y": [
+                            1947.62,
+                            16019.5,
+                            6291.6,
+                            5862.0,
+                            7794.69
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-06<br>Cost: ₹1693309107.40",
+                            "Date: 2025-02-07<br>Cost: ₹1700836091.04",
+                            "Date: 2025-02-08<br>Cost: ₹1700836091.04",
+                            "Date: 2025-02-09<br>Cost: ₹1700836091.04",
+                            "Date: 2025-02-10<br>Cost: ₹1700836091.04",
+                            "Date: 2025-02-11<br>Cost: ₹24666.63",
+                            "Date: 2025-02-12<br>Cost: ₹204223.82",
+                            "Date: 2025-02-13<br>Cost: ₹80095.82",
+                            "Date: 2025-02-14<br>Cost: ₹74614.12",
+                            "Date: 2025-02-15<br>Cost: ₹99275.24"
+                        ],
+                        "line": {
+                            "color": "red",
+                            "width": 2
+                        },
+                        "mode": "lines",
+                        "name": "Cost",
+                        "type": "scatter",
+                        "x": [
+                            "2025-02-06",
+                            "2025-02-07",
+                            "2025-02-08",
+                            "2025-02-09",
+                            "2025-02-10",
+                            "2025-02-11",
+                            "2025-02-12",
+                            "2025-02-13",
+                            "2025-02-14",
+                            "2025-02-15"
+                        ],
+                        "y": [
+                            1693309107.3999999,
+                            1700836091.04,
+                            1700836091.04,
+                            1700836091.04,
+                            1700836091.04,
+                            24666.631199999996,
+                            204223.81999999998,
+                            80095.816,
+                            74614.12,
+                            99275.2444
+                        ],
+                        "yaxis": "y2"
+                    }
+                ],
+                "layout": {
+                    "annotations": [
+                        {
+                            "align": "left",
+                            "font": {
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Total Cost<br><span style='color:red'>₹232859773047.68</span>",
+                            "x": 1.05,
+                            "xref": "paper",
+                            "y": 0,
+                            "yref": "paper"
+                        }
+                    ],
+                    "autosize": true,
+                    "legend": {
+                        "font": {
+                            "size": 8
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 1.1
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Daily Trend and Cost Over Time",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 0.95
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "domain": [
+                            0,
+                            0.85
+                        ],
+                        "showgrid": false,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "tickformat": "%b %d %Y",
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Date"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "side": "left",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Consumption (KL)"
+                        }
+                    },
+                    "yaxis2": {
+                        "automargin": true,
+                        "overlaying": "y",
+                        "showgrid": false,
+                        "side": "right",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Cost (₹)"
+                        }
+                    }
+                }
+            },
+            "utility_pie_chart_daily": {
+                "data": [
+                    {
+                        "hole": 0.3,
+                        "hoverinfo": "text+value",
+                        "insidetextorientation": "radial",
+                        "labels": [
+                            "AC Soft Source",
+                            "DG Soft Source",
+                            "Domestic Source",
+                            "Flush Source",
+                            "Soft Source"
+                        ],
+                        "marker": {
+                            "colors": [
+                                "darkblue",
+                                "lightblue",
+                                "skyblue",
+                                "green",
+                                "lightgreen"
+                            ]
+                        },
+                        "text": [
+                            "AC Soft Source (STP (Recycled Water))",
+                            "DG Soft Source (STP (Recycled Water))",
+                            "Domestic Source (Fresh Water)",
+                            "Flush Source (STP (Recycled Water))",
+                            "Soft Source (STP (Recycled Water))"
+                        ],
+                        "textinfo": "label+percent",
+                        "type": "pie",
+                        "values": [
+                            3097382163.5,
+                            2052762221.5,
+                            8104053077.5,
+                            3779266934.5,
+                            1215736046.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.1
+                    },
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Daily Water Consumption by Utility",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        "Weekly",
+        {
+            "fresh_consumption_weekly": {
+                "last_week": "836725061.00 KL",
+                "percent_change": "-100.00 %",
+                "predicted_this_week": "0.00 KL",
+                "total_fresh_consumption": "9154617275.00 KL"
+            },
+            "intensity_weekly": {
+                "last_week": "36.10 KL",
+                "percent_change": "-99.95 %",
+                "predicted_this_week": "0.02 KL",
+                "total_intensity": "4940.24 KL"
+            },
+            "stp_consumption_weekly": {
+                "last_week": "133338053.89 KL",
+                "percent_change": "-99.95 %",
+                "predicted_this_week": "66505.51 KL",
+                "total_stp_consumption": "9094626842.89 KL"
+            },
+            "stp_percentage_weekly": {
+                "total_consumption": "18249244117.89 KL",
+                "total_stp_consumption": "9094626842.89 KL",
+                "total_stp_percentage": "49.84 %"
+            },
+            "tower_stacked_bar_weekly": {
+                "data": [
+                    {
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Fresh Water (Domestic Source)",
+                        "text": [
+                            1888721855.0,
+                            481675805.0,
+                            0.0,
+                            1135755513.0,
+                            385962300.0,
+                            0.0,
+                            0.0,
+                            3920135967.0,
+                            1342365835.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            1888721855.0,
+                            481675805.0,
+                            0.0,
+                            1135755513.0,
+                            385962300.0,
+                            0.0,
+                            0.0,
+                            3920135967.0,
+                            1342365835.0
+                        ]
+                    },
+                    {
+                        "marker": {
+                            "color": "green"
+                        },
+                        "name": "STP (Recycled Water)",
+                        "text": [
+                            0.0,
+                            1120288831.0,
+                            512675370.0,
+                            2159849750.0,
+                            1271863769.0,
+                            761809918.0,
+                            1466024483.0,
+                            1802985625.88,
+                            0.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            0.0,
+                            1120288831.0,
+                            512675370.0,
+                            2159849750.0,
+                            1271863769.0,
+                            761809918.0,
+                            1466024483.0,
+                            1802985625.88,
+                            0.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "barmode": "stack",
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.2
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekly Water Consumption per Tower",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Tower"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Total Water Consumption (KL)"
+                        }
+                    }
+                }
+            },
+            "trend_cost_plot_weekly": {
+                "data": [
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Week Start: 2025-02-02<br>Consumption: 881542961.00 KL",
+                            "Week Start: 2025-02-09<br>Consumption: 923773667.00 KL",
+                            "Week Start: 2025-02-16<br>Consumption: 133338053.89 KL"
+                        ],
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Actual",
+                        "type": "bar",
+                        "x": [
+                            "2025-02-02",
+                            "2025-02-09",
+                            "2025-02-16"
+                        ],
+                        "y": [
+                            881542961.0,
+                            923773667.0,
+                            133338053.89
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Week Start: 2025-02-23<br>Consumption: 66505.51 KL",
+                            "Week Start: 2025-03-02<br>Consumption: 94340.93 KL",
+                            "Week Start: 2025-03-09<br>Consumption: 110369.21 KL"
+                        ],
+                        "marker": {
+                            "color": "lightblue"
+                        },
+                        "name": "Current Forecast",
+                        "opacity": 0.6,
+                        "type": "bar",
+                        "x": [
+                            "2025-02-23",
+                            "2025-03-02",
+                            "2025-03-09"
+                        ],
+                        "y": [
+                            66505.51000000001,
+                            94340.93000000001,
+                            110369.20999999999
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Week Start: 2025-03-16<br>Consumption: 109667.41 KL",
+                            "Week Start: 2025-03-23<br>Consumption: 107785.91 KL",
+                            "Week Start: 2025-03-30<br>Consumption: 118053.69 KL"
+                        ],
+                        "marker": {
+                            "color": "skyblue"
+                        },
+                        "name": "Next Forecast",
+                        "opacity": 0.4,
+                        "type": "bar",
+                        "x": [
+                            "2025-03-16",
+                            "2025-03-23",
+                            "2025-03-30"
+                        ],
+                        "y": [
+                            109667.41,
+                            107785.90999999999,
+                            118053.69
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Week Start: 2025-02-02<br>Cost: ₹11248487997.36",
+                            "Week Start: 2025-02-09<br>Cost: ₹11787351805.92",
+                            "Week Start: 2025-02-16<br>Cost: ₹1701393382.64",
+                            "Week Start: 2025-02-23<br>Cost: ₹848425.31",
+                            "Week Start: 2025-03-02<br>Cost: ₹1203605.27",
+                            "Week Start: 2025-03-09<br>Cost: ₹1408126.12",
+                            "Week Start: 2025-03-16<br>Cost: ₹1399171.15",
+                            "Week Start: 2025-03-23<br>Cost: ₹1375163.21",
+                            "Week Start: 2025-03-30<br>Cost: ₹1506180.08"
+                        ],
+                        "line": {
+                            "color": "red",
+                            "width": 2
+                        },
+                        "mode": "lines",
+                        "name": "Cost",
+                        "type": "scatter",
+                        "x": [
+                            "2025-02-02",
+                            "2025-02-09",
+                            "2025-02-16",
+                            "2025-02-23",
+                            "2025-03-02",
+                            "2025-03-09",
+                            "2025-03-16",
+                            "2025-03-23",
+                            "2025-03-30"
+                        ],
+                        "y": [
+                            11248487997.359999,
+                            11787351805.919998,
+                            1701393382.6364,
+                            848425.3076000002,
+                            1203605.2668,
+                            1408126.1195999999,
+                            1399171.1516,
+                            1375163.2115999998,
+                            1506180.0844
+                        ],
+                        "yaxis": "y2"
+                    }
+                ],
+                "layout": {
+                    "annotations": [
+                        {
+                            "align": "left",
+                            "font": {
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Total Cost<br><span style='color:red'>₹232860351244.28</span>",
+                            "x": 1.05,
+                            "xref": "paper",
+                            "y": 0,
+                            "yref": "paper"
+                        }
+                    ],
+                    "autosize": true,
+                    "legend": {
+                        "font": {
+                            "size": 8
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 1.1
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekly Trend and Cost Over Time",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 0.95
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "domain": [
+                            0,
+                            0.85
+                        ],
+                        "showgrid": false,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "tickformat": "%b %Y",
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Week Start Date"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "side": "left",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Consumption (KL)"
+                        }
+                    },
+                    "yaxis2": {
+                        "automargin": true,
+                        "overlaying": "y",
+                        "showgrid": false,
+                        "side": "right",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Cost (₹)"
+                        }
+                    }
+                }
+            },
+            "utility_pie_chart_weekly": {
+                "data": [
+                    {
+                        "hole": 0.3,
+                        "hoverinfo": "text+value",
+                        "insidetextorientation": "radial",
+                        "labels": [
+                            "AC Soft Source",
+                            "DG Soft Source",
+                            "Domestic Source",
+                            "Flush Source",
+                            "Soft Source"
+                        ],
+                        "marker": {
+                            "colors": [
+                                "darkblue",
+                                "lightblue",
+                                "skyblue",
+                                "green",
+                                "lightgreen"
+                            ]
+                        },
+                        "text": [
+                            "AC Soft Source (STP (Recycled Water))",
+                            "DG Soft Source (STP (Recycled Water))",
+                            "Domestic Source (Fresh Water)",
+                            "Flush Source (STP (Recycled Water))",
+                            "Soft Source (STP (Recycled Water))"
+                        ],
+                        "textinfo": "label+percent",
+                        "type": "pie",
+                        "values": [
+                            1801604209.0,
+                            1814114585.0,
+                            9154617275.0,
+                            5345569995.0,
+                            133338053.89
+                        ]
+                    }
+                ],
+                "layout": {
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.1
+                    },
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekly Water Consumption by Utility",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        "Monthly",
+        {
+            "fresh_consumption_monthly": {
+                "last_month": "1313776298.75 KL",
+                "percent_change": "-100.00 %",
+                "predicted_this_month": "0.00 KL",
+                "total_fresh_consumption": "3682959621.75 KL"
+            },
+            "intensity_monthly": {
+                "last_month": "355.65 KL",
+                "percent_change": "-99.96 %",
+                "predicted_this_month": "0.13 KL",
+                "total_intensity": "4940.28 KL"
+            },
+            "stp_consumption_monthly": {
+                "last_month": "5030343076.00 KL",
+                "percent_change": "-99.99 %",
+                "predicted_this_month": "493333.77 KL",
+                "total_stp_consumption": "14566417520.00 KL"
+            },
+            "stp_percentage_monthly": {
+                "total_consumption": "18249377141.75 KL",
+                "total_stp_consumption": "14566417520.00 KL",
+                "total_stp_percentage": "79.82 %"
+            },
+            "tower_stacked_bar_monthly": {
+                "data": [
+                    {
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Fresh Water (Domestic Source)",
+                        "text": [
+                            1313776298.75,
+                            2369183323.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#08"
+                        ],
+                        "y": [
+                            1313776298.7499995,
+                            2369183323.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    {
+                        "marker": {
+                            "color": "green"
+                        },
+                        "name": "STP (Recycled Water)",
+                        "text": [
+                            0.0,
+                            0.0,
+                            4532275644.0,
+                            5030343076.0,
+                            5004536680.13
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#08"
+                        ],
+                        "y": [
+                            0.0,
+                            0.0,
+                            4532275644.0,
+                            5030343076.0,
+                            5004536680.13
+                        ]
+                    }
+                ],
+                "layout": {
+                    "barmode": "stack",
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.2
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Monthly Water Consumption per Tower",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Tower"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Total Water Consumption (KL)"
+                        }
+                    }
+                }
+            },
+            "trend_cost_plot_monthly": {
+                "data": [
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Month: 2024-12<br>Consumption: 4532275644.00 KL",
+                            "Month: 2025-01<br>Consumption: 5030343076.00 KL",
+                            "Month: 2025-02<br>Consumption: 1313776298.75 KL"
+                        ],
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Actual",
+                        "type": "bar",
+                        "x": [
+                            "2024-12",
+                            "2025-01",
+                            "2025-02"
+                        ],
+                        "y": [
+                            4532275644.0,
+                            5030343076.0,
+                            1313776298.7499995
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Month: 2025-03<br>Consumption: 493333.77 KL",
+                            "Month: 2025-04<br>Consumption: 20335.80 KL",
+                            "Month: 2025-04<br>Consumption: 224210.56 KL"
+                        ],
+                        "marker": {
+                            "color": "lightblue"
+                        },
+                        "name": "Current Forecast",
+                        "opacity": 0.6,
+                        "type": "bar",
+                        "x": [
+                            "2025-03",
+                            "2025-04",
+                            "2025-04"
+                        ],
+                        "y": [
+                            493333.7699999999,
+                            20335.8,
+                            224210.56
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [],
+                        "marker": {
+                            "color": "skyblue"
+                        },
+                        "name": "Next Forecast",
+                        "opacity": 0.4,
+                        "type": "bar",
+                        "x": [],
+                        "y": []
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Month: 2024-12<br>Cost: ₹57831837032.44",
+                            "Month: 2025-01<br>Cost: ₹64187177464.76",
+                            "Month: 2025-02<br>Cost: ₹16763785387.05",
+                            "Month: 2025-03<br>Cost: ₹6294753.91",
+                            "Month: 2025-04<br>Cost: ₹259299.81",
+                            "Month: 2025-04<br>Cost: ₹2860741.75"
+                        ],
+                        "line": {
+                            "color": "red",
+                            "width": 2
+                        },
+                        "mode": "lines",
+                        "name": "Cost",
+                        "type": "scatter",
+                        "x": [
+                            "2024-12",
+                            "2025-01",
+                            "2025-02",
+                            "2025-03",
+                            "2025-04",
+                            "2025-04"
+                        ],
+                        "y": [
+                            57831837032.44,
+                            64187177464.76,
+                            16763785387.049994,
+                            6294753.905199998,
+                            259299.80799999996,
+                            2860741.7455999996
+                        ],
+                        "yaxis": "y2"
+                    }
+                ],
+                "layout": {
+                    "annotations": [
+                        {
+                            "align": "left",
+                            "font": {
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Total Cost<br><span style='color:red'>₹232862051403.73</span>",
+                            "x": 1.05,
+                            "xref": "paper",
+                            "y": 0,
+                            "yref": "paper"
+                        }
+                    ],
+                    "autosize": true,
+                    "legend": {
+                        "font": {
+                            "size": 8
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 1.1
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Monthly Trend and Cost Over Time",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 0.95
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "domain": [
+                            0,
+                            0.85
+                        ],
+                        "showgrid": false,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "tickformat": "%b %Y",
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Month"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "side": "left",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Consumption (KL)"
+                        }
+                    },
+                    "yaxis2": {
+                        "automargin": true,
+                        "overlaying": "y",
+                        "showgrid": false,
+                        "side": "right",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Cost (₹)"
+                        }
+                    }
+                }
+            },
+            "utility_pie_chart_monthly": {
+                "data": [
+                    {
+                        "hole": 0.3,
+                        "hoverinfo": "text+value",
+                        "insidetextorientation": "radial",
+                        "labels": [
+                            "Domestic Source",
+                            "Flush Source"
+                        ],
+                        "marker": {
+                            "colors": [
+                                "darkblue",
+                                "lightblue",
+                                "skyblue",
+                                "green",
+                                "lightgreen"
+                            ]
+                        },
+                        "text": [
+                            "Domestic Source (Fresh Water)",
+                            "Flush Source (STP (Recycled Water))"
+                        ],
+                        "textinfo": "label+percent",
+                        "type": "pie",
+                        "values": [
+                            3682959621.7499995,
+                            14566417520.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.1
+                    },
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Monthly Water Consumption by Utility",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        "Weekdays",
+        {
+            "fresh_consumption_weekdays": {
+                "last_weekday": "30822158.00 KL",
+                "percent_change": "-100.00 %",
+                "predicted_next_weekday": "0.00 KL",
+                "total_fresh_consumption": "1851742781.00 KL"
+            },
+            "intensity_weekdays": {
+                "last_weekday": "36.08 KL",
+                "percent_change": "-100.00 %",
+                "predicted_next_weekday": "0.00 KL",
+                "total_intensity": "3565.32 KL"
+            },
+            "stp_consumption_weekdays": {
+                "last_weekday": "102472221.00 KL",
+                "percent_change": "-100.00 %",
+                "predicted_next_weekday": "1947.62 KL",
+                "total_stp_consumption": "11318566687.50 KL"
+            },
+            "stp_percentage_weekdays": {
+                "total_consumption": "13170309468.50 KL",
+                "total_stp_consumption": "11318566687.50 KL",
+                "total_stp_percentage": "85.94 %"
+            },
+            "tower_stacked_bar_weekdays": {
+                "data": [
+                    {
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Fresh Water (Domestic Source)",
+                        "text": [
+                            313808532.0,
+                            76976370.0,
+                            88437644.0,
+                            151120828.0,
+                            122773296.0,
+                            250958124.0,
+                            171082917.0,
+                            539102442.0,
+                            137482628.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            313808532.0,
+                            76976370.0,
+                            88437644.0,
+                            151120828.0,
+                            122773296.0,
+                            250958124.0,
+                            171082917.0,
+                            539102442.0,
+                            137482628.0
+                        ]
+                    },
+                    {
+                        "marker": {
+                            "color": "green"
+                        },
+                        "name": "STP (Recycled Water)",
+                        "text": [
+                            490793355.0,
+                            423922980.0,
+                            2143956524.0,
+                            5363695672.5,
+                            714796333.0,
+                            448036420.0,
+                            708086972.0,
+                            132279138.89,
+                            893669800.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            490793355.0,
+                            423922980.0,
+                            2143956524.0,
+                            5363695672.5,
+                            714796333.0,
+                            448036420.0,
+                            708086972.0,
+                            132279138.89,
+                            893669800.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "barmode": "stack",
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.2
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekdays Water Consumption per Tower",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Tower"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Total Water Consumption (KL)"
+                        }
+                    }
+                }
+            },
+            "trend_cost_plot_weekdays": {
+                "data": [
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-10<br>Day: Monday<br>Consumption: 1797536.00 KL",
+                            "Date: 2025-02-10<br>Day: Monday<br>Consumption: 2330722.00 KL",
+                            "Date: 2025-02-10<br>Day: Monday<br>Consumption: 2422182.00 KL",
+                            "Date: 2025-02-10<br>Day: Monday<br>Consumption: 2270107.00 KL",
+                            "Date: 2025-02-10<br>Day: Monday<br>Consumption: 5470084.00 KL"
+                        ],
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Actual (Weekdays)",
+                        "type": "bar",
+                        "x": [
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10"
+                        ],
+                        "y": [
+                            1797536.0,
+                            2330722.0,
+                            2422182.0,
+                            2270107.0,
+                            5470084.0
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-11<br>Day: Tuesday<br>Consumption: 1947.62 KL",
+                            "Date: 2025-02-12<br>Day: Wednesday<br>Consumption: 16019.50 KL",
+                            "Date: 2025-02-13<br>Day: Thursday<br>Consumption: 6291.60 KL",
+                            "Date: 2025-02-14<br>Day: Friday<br>Consumption: 5862.00 KL",
+                            "Date: 2025-02-17<br>Day: Monday<br>Consumption: 9308.28 KL"
+                        ],
+                        "marker": {
+                            "color": "lightblue"
+                        },
+                        "name": "Forecast (Weekdays)",
+                        "opacity": 0.6,
+                        "type": "bar",
+                        "x": [
+                            "2025-02-11",
+                            "2025-02-12",
+                            "2025-02-13",
+                            "2025-02-14",
+                            "2025-02-17"
+                        ],
+                        "y": [
+                            1947.62,
+                            16019.5,
+                            6291.6,
+                            5862.0,
+                            9308.28
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-10<br>Day: Monday<br>Cost: ₹22936374.36",
+                            "Date: 2025-02-10<br>Day: Monday<br>Cost: ₹29739827.72",
+                            "Date: 2025-02-10<br>Day: Monday<br>Cost: ₹30906857.32",
+                            "Date: 2025-02-10<br>Day: Monday<br>Cost: ₹28966380.32",
+                            "Date: 2025-02-10<br>Day: Monday<br>Cost: ₹69798086.84",
+                            "Date: 2025-02-11<br>Day: Tuesday<br>Cost: ₹24666.63",
+                            "Date: 2025-02-12<br>Day: Wednesday<br>Cost: ₹204223.82",
+                            "Date: 2025-02-13<br>Day: Thursday<br>Cost: ₹80095.82",
+                            "Date: 2025-02-14<br>Day: Friday<br>Cost: ₹74614.12",
+                            "Date: 2025-02-17<br>Day: Monday<br>Cost: ₹118588.65"
+                        ],
+                        "line": {
+                            "color": "red",
+                            "width": 2
+                        },
+                        "mode": "lines",
+                        "name": "Cost",
+                        "type": "scatter",
+                        "x": [
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-10",
+                            "2025-02-11",
+                            "2025-02-12",
+                            "2025-02-13",
+                            "2025-02-14",
+                            "2025-02-17"
+                        ],
+                        "y": [
+                            22936374.36,
+                            29739827.72,
+                            30906857.32,
+                            28966380.32,
+                            69798086.83999999,
+                            24666.631199999996,
+                            204223.81999999998,
+                            80095.816,
+                            74614.12,
+                            118588.65280000001
+                        ],
+                        "yaxis": "y2"
+                    }
+                ],
+                "layout": {
+                    "annotations": [
+                        {
+                            "align": "left",
+                            "font": {
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Total Cost<br><span style='color:red'>₹168052518708.06</span>",
+                            "x": 1.05,
+                            "xref": "paper",
+                            "y": 0,
+                            "yref": "paper"
+                        }
+                    ],
+                    "autosize": true,
+                    "legend": {
+                        "font": {
+                            "size": 8
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 1.1
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekdays Trend and Cost Over Time",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 0.95
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "domain": [
+                            0,
+                            0.85
+                        ],
+                        "showgrid": false,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "tickformat": "%b %Y",
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Date"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "side": "left",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Consumption (KL)"
+                        }
+                    },
+                    "yaxis2": {
+                        "automargin": true,
+                        "overlaying": "y",
+                        "showgrid": false,
+                        "side": "right",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Cost (₹)"
+                        }
+                    }
+                }
+            },
+            "utility_pie_chart_weekdays": {
+                "data": [
+                    {
+                        "hole": 0.3,
+                        "hoverinfo": "text+value",
+                        "insidetextorientation": "radial",
+                        "labels": [
+                            "AC Soft Source",
+                            "DG Soft Source",
+                            "Domestic Source",
+                            "Flush Source",
+                            "Soft Source"
+                        ],
+                        "marker": {
+                            "colors": [
+                                "darkblue",
+                                "lightblue",
+                                "skyblue",
+                                "green",
+                                "lightgreen"
+                            ]
+                        },
+                        "text": [
+                            "AC Soft Source (STP (Recycled Water))",
+                            "DG Soft Source (STP (Recycled Water))",
+                            "Domestic Source (Fresh Water)",
+                            "Flush Source (STP (Recycled Water))",
+                            "Soft Source (STP (Recycled Water))"
+                        ],
+                        "textinfo": "label+percent",
+                        "type": "pie",
+                        "values": [
+                            7255940822.833333,
+                            1129317577.6666667,
+                            1851742781.0,
+                            2615201817.0,
+                            318106470.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.1
+                    },
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekdays Water Consumption by Utility",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    }
+                }
+            }
+        }
+    ],
+    [
+        "Weekends",
+        {
+            "fresh_consumption_weekends": {
+                "last_weekend": "30822158.00 KL",
+                "percent_change": "-100.00 %",
+                "predicted_next_weekend": "0.00 KL",
+                "total_fresh_consumption": "745608213.00 KL"
+            },
+            "intensity_weekends": {
+                "last_weekend": "36.08 KL",
+                "percent_change": "-99.99 %",
+                "predicted_next_weekend": "0.00 KL",
+                "total_intensity": "1374.90 KL"
+            },
+            "stp_consumption_weekends": {
+                "last_weekend": "102472221.00 KL",
+                "percent_change": "-99.99 %",
+                "predicted_next_weekend": "7794.69 KL",
+                "total_stp_consumption": "4333282761.50 KL"
+            },
+            "stp_percentage_weekends": {
+                "total_consumption": "5078890974.50 KL",
+                "total_stp_consumption": "4333282761.50 KL",
+                "total_stp_percentage": "85.32 %"
+            },
+            "tower_stacked_bar_weekends": {
+                "data": [
+                    {
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Fresh Water (Domestic Source)",
+                        "text": [
+                            131024142.0,
+                            29672549.0,
+                            34322110.0,
+                            65992938.0,
+                            50502391.0,
+                            101593071.0,
+                            67849001.0,
+                            208777410.0,
+                            55874601.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            131024142.0,
+                            29672549.0,
+                            34322110.0,
+                            65992938.0,
+                            50502391.0,
+                            101593071.0,
+                            67849001.0,
+                            208777410.0,
+                            55874601.0
+                        ]
+                    },
+                    {
+                        "marker": {
+                            "color": "green"
+                        },
+                        "name": "STP (Recycled Water)",
+                        "text": [
+                            199868270.0,
+                            160255619.5,
+                            873064025.0,
+                            2021534824.17,
+                            232719315.5,
+                            175658066.33,
+                            253022598.0,
+                            54946234.19,
+                            362437544.0
+                        ],
+                        "textposition": "auto",
+                        "type": "bar",
+                        "x": [
+                            "Tower#01",
+                            "Tower#02",
+                            "Tower#03",
+                            "Tower#04",
+                            "Tower#05",
+                            "Tower#06",
+                            "Tower#07",
+                            "Tower#08",
+                            "Tower#09"
+                        ],
+                        "y": [
+                            199868270.0,
+                            160255619.5,
+                            873064025.0,
+                            2021534824.1666667,
+                            232719315.5,
+                            175658066.33333334,
+                            253022598.0,
+                            54946234.19,
+                            362437544.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "barmode": "stack",
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.2
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekends Water Consumption per Tower",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Tower"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Total Water Consumption (KL)"
+                        }
+                    }
+                }
+            },
+            "trend_cost_plot_weekends": {
+                "data": [
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-09<br>Day: Sunday<br>Consumption: 4719794.00 KL",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Consumption: 1797536.00 KL",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Consumption: 4502772.00 KL",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Consumption: 2270107.00 KL",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Consumption: 2422182.00 KL"
+                        ],
+                        "marker": {
+                            "color": "blue"
+                        },
+                        "name": "Actual (Weekends)",
+                        "type": "bar",
+                        "x": [
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09"
+                        ],
+                        "y": [
+                            4719794.0,
+                            1797536.0,
+                            4502772.0,
+                            2270107.0,
+                            2422182.0
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-15<br>Day: Saturday<br>Consumption: 7794.69 KL",
+                            "Date: 2025-02-16<br>Day: Sunday<br>Consumption: 5759.48 KL",
+                            "Date: 2025-02-22<br>Day: Saturday<br>Consumption: 10908.69 KL",
+                            "Date: 2025-02-23<br>Day: Sunday<br>Consumption: 9267.35 KL",
+                            "Date: 2025-03-01<br>Day: Saturday<br>Consumption: 14842.61 KL"
+                        ],
+                        "marker": {
+                            "color": "lightblue"
+                        },
+                        "name": "Forecast (Weekends)",
+                        "opacity": 0.6,
+                        "type": "bar",
+                        "x": [
+                            "2025-02-15",
+                            "2025-02-16",
+                            "2025-02-22",
+                            "2025-02-23",
+                            "2025-03-01"
+                        ],
+                        "y": [
+                            7794.69,
+                            5759.48,
+                            10908.69,
+                            9267.35,
+                            14842.61
+                        ]
+                    },
+                    {
+                        "hoverinfo": "text",
+                        "hovertext": [
+                            "Date: 2025-02-09<br>Day: Sunday<br>Cost: ₹60224386.44",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Cost: ₹22936374.36",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Cost: ₹57455185.72",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Cost: ₹28966380.32",
+                            "Date: 2025-02-09<br>Day: Sunday<br>Cost: ₹30906857.32",
+                            "Date: 2025-02-15<br>Day: Saturday<br>Cost: ₹99275.24",
+                            "Date: 2025-02-16<br>Day: Sunday<br>Cost: ₹73305.96",
+                            "Date: 2025-02-22<br>Day: Saturday<br>Cost: ₹139009.88",
+                            "Date: 2025-02-23<br>Day: Sunday<br>Cost: ₹118066.39",
+                            "Date: 2025-03-01<br>Day: Saturday<br>Cost: ₹189206.70"
+                        ],
+                        "line": {
+                            "color": "red",
+                            "width": 2
+                        },
+                        "mode": "lines",
+                        "name": "Cost",
+                        "type": "scatter",
+                        "x": [
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-09",
+                            "2025-02-15",
+                            "2025-02-16",
+                            "2025-02-22",
+                            "2025-02-23",
+                            "2025-03-01"
+                        ],
+                        "y": [
+                            60224386.44,
+                            22936374.36,
+                            57455185.72,
+                            28966380.32,
+                            30906857.32,
+                            99275.2444,
+                            73305.9648,
+                            139009.88439999998,
+                            118066.386,
+                            189206.70359999998
+                        ],
+                        "yaxis": "y2"
+                    }
+                ],
+                "layout": {
+                    "annotations": [
+                        {
+                            "align": "left",
+                            "font": {
+                                "size": 10
+                            },
+                            "showarrow": false,
+                            "text": "Total Cost<br><span style='color:red'>₹64806396494.62</span>",
+                            "x": 1.05,
+                            "xref": "paper",
+                            "y": 0,
+                            "yref": "paper"
+                        }
+                    ],
+                    "autosize": true,
+                    "legend": {
+                        "font": {
+                            "size": 8
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 1.1
+                    },
+                    "paper_bgcolor": "white",
+                    "plot_bgcolor": "white",
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekends Trend and Cost Over Time",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": 0.95
+                    },
+                    "xaxis": {
+                        "automargin": true,
+                        "domain": [
+                            0,
+                            0.85
+                        ],
+                        "showgrid": false,
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "tickformat": "%b %Y",
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Date"
+                        }
+                    },
+                    "yaxis": {
+                        "automargin": true,
+                        "showgrid": true,
+                        "side": "left",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Consumption (KL)"
+                        }
+                    },
+                    "yaxis2": {
+                        "automargin": true,
+                        "overlaying": "y",
+                        "showgrid": false,
+                        "side": "right",
+                        "tickfont": {
+                            "size": 8
+                        },
+                        "title": {
+                            "font": {
+                                "size": 10
+                            },
+                            "text": "Cost (₹)"
+                        }
+                    }
+                }
+            },
+            "utility_pie_chart_weekends": {
+                "data": [
+                    {
+                        "hole": 0.3,
+                        "hoverinfo": "text+value",
+                        "insidetextorientation": "radial",
+                        "labels": [
+                            "AC Soft Source",
+                            "DG Soft Source",
+                            "Domestic Source",
+                            "Flush Source",
+                            "Soft Source"
+                        ],
+                        "marker": {
+                            "colors": [
+                                "darkblue",
+                                "lightblue",
+                                "skyblue",
+                                "green",
+                                "lightgreen"
+                            ]
+                        },
+                        "text": [
+                            "AC Soft Source (STP (Recycled Water))",
+                            "DG Soft Source (STP (Recycled Water))",
+                            "Domestic Source (Fresh Water)",
+                            "Flush Source (STP (Recycled Water))",
+                            "Soft Source (STP (Recycled Water))"
+                        ],
+                        "textinfo": "label+percent",
+                        "type": "pie",
+                        "values": [
+                            2760386297.0,
+                            396163708.0,
+                            745608213.0,
+                            1045698272.5,
+                            131034484.0
+                        ]
+                    }
+                ],
+                "layout": {
+                    "legend": {
+                        "font": {
+                            "size": 10
+                        },
+                        "orientation": "h",
+                        "x": 0.5,
+                        "xanchor": "center",
+                        "y": -0.1
+                    },
+                    "showlegend": true,
+                    "title": {
+                        "font": {
+                            "size": 12
+                        },
+                        "text": "Weekends Water Consumption by Utility",
+                        "x": 0.5,
+                        "xanchor": "center"
+                    }
+                }
+            }
+        }
+    ]
+]

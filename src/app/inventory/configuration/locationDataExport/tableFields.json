@@ -1,0 +1,128 @@
+
+{
+    "fields": [
+        {
+            "heading": "Location",
+            "property": "display_name"
+        },
+        {
+            "heading": "Location Type",
+            "property": "usage",
+            "labels": {
+                "supplier": {
+                    "id": "supplier",
+                    "text": "Vendor Location",
+                    "color":"success"
+                },
+                "view": {
+                    "id": "view",
+                    "text": "View",
+                    "color": "success"
+                },
+                "internal": {
+                    "id": "internal",
+                    "text": "Internal Location",
+                    "color": "success"
+                },
+                "customer": {
+                    "id": "customer",
+                    "text": "Customer Location",
+                    "color": "success"
+                },
+                "inventory": {
+                    "id": "inventory",
+                    "text": "Inventory Loss",
+                    "color": "success"
+                },
+                "procurement": {
+                    "id": "procurement",
+                    "text": "Procurement",
+                    "color": "success"
+                },
+                "production": {
+                    "id": "production",
+                    "text": "Production",
+                    "color": "success"
+                },
+                "transit": {
+                    "id": "transit",
+                    "text": "Transit Location",
+                    "color": "success"
+                },
+                "equi": {
+                    "id": "equi",
+                    "text": "Spare Parts Consumption",
+                    "color": "success"
+                }
+            }
+        },
+        {
+            "heading": "Is a Scrap Location",
+            "property": "scrap_location"
+        },
+        {
+            "heading": "Is a Return Location",
+            "property": "return_location"
+        },
+        {
+            "heading": "External Note",
+            "property": "comment"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Status",
+            "property": "active",
+            "labels": {
+                "Active": {
+                    "id": "active",
+                    "text": "Active",
+                    "color":"success"
+                },
+                "Inactive": {
+                    "id": "inactive",
+                    "text": "Inactive",
+                    "color": "danger"
+               }
+            }
+        }
+    ],
+    "ownerFields": [
+        {
+            "heading": "Owner",
+            "property": "partner_id"
+        }
+    ],
+    "posxFields": [
+        {
+            "heading": "Corridor (X)",
+            "property": "posx"
+        }
+    ],
+    "posyFields": [
+        {
+            "heading": "Shelves (Y)",
+            "property": "posy"
+        }
+    ],
+    "poszFields": [
+        {
+            "heading": "Height (Z)",
+            "property": "posz"
+        }
+    ],
+    "barcodeFields": [
+        {
+            "heading": "Barcode",
+            "property": "barcode"
+        }
+    ],
+    "dateFields": [
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ]
+}

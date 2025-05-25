@@ -1,0 +1,18 @@
+{
+    "Add  Quotation" :"pur_request for quotation_addquotation",
+    "Edit Quotation" :"pur_request for quotation_editquotation",
+    "Send by Email" :"pur_request for quotation_sendbyemail",
+    "Print RFQ" :"pur_request for quotation_printrfq",
+    "Confirm Order" :"pur_request for quotation_confirmorder",
+    "Cancel": "pur_request for quotation_cancelquotation",
+    "Add Orders": "pur_purchase orders_addorders",
+    "Edit Orders": "pur_purchase orders_editorders",
+    "Send PO by Email": "pur_purchase orders_sendbyemail",
+    "Print PO RFQ": "pur_purchase orders_printrfq",
+    "Cancel Order": "pur_purchase orders_cancelorder",
+    "Set to Draft": "pur_request for quotation_settodraf",
+    "Re-send by Email": "pur_request for quotation_resendbyemail",
+    "Lock": "pur_request for quotation_Lock",
+    "Unlock": "pur_request for quotation_unlock",
+    "Receive Products": "pur_request for quotation_receiveproducts"
+}

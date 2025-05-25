@@ -1,0 +1,20 @@
+{
+    "fields": [
+        {
+            "heading": "Space",
+            "property": "space_name"
+        },
+        {
+            "heading": "Path",
+            "property": "path_name"
+        },
+        {
+            "heading": "Category",
+            "property": "asset_category_id"
+        },
+        {
+            "heading": "Space Numder",
+            "property": "sequence_asset_hierarchy"
+        }
+    ]
+}

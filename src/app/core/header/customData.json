@@ -1,0 +1,36 @@
+{
+  
+    "reports":
+    { 
+        "hx.inspection_checklist_log": 
+        {
+            "reportName": "Inspection Checklist Report",
+            "downloadType":"excel",
+            "iconName":"HX Inspection Checklist"
+        },
+        "ppm.scheduler_week": 
+        {
+            "reportName": "PPM Checklist Report",
+            "downloadType":"both",
+            "iconName":"52 Week PPM"
+        },
+        "stock.picking.summary": 
+        {
+            "reportName": "Transfers Report - Summary",
+            "downloadType":"both",
+            "iconName":"Inventory"
+        },
+        "stock.picking.detailed": 
+        {
+            "reportName": "Transfers Report - Detail",
+            "downloadType":"excel",
+            "iconName":"Inventory"
+        },           
+        "stock.picking.overview": 
+        {
+            "reportName": "Inventory Overview",
+            "downloadType":"both",
+            "iconName":"Inventory"
+        }
+    }   
+}

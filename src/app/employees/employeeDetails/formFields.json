@@ -1,0 +1,54 @@
+
+{
+    "fields": [
+        {
+            "id": 1,
+            "label": "Name",
+            "name": "name",
+            "value": "",
+            "type": "name",
+            "readonly": false
+        },
+        {
+            "id": 2,
+            "label": "Email",
+            "name": "email",
+            "value": "",
+            "type": "email",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "Employee Number",
+            "name": "employee_id_seq",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 4,
+            "label": "Work Phone",
+            "name": "work_phone",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 5,
+            "label": "Registration Status",
+            "name": "registration_status",
+            "value": "",
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 6,
+            "label": "Allowed Neighbourhoods",
+            "name": "neighbour_groups_ids",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        }
+    ]
+       
+}

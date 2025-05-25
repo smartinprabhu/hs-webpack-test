@@ -1,0 +1,577 @@
+{
+    "listFields": [
+        "name",
+        "reference",
+        "audit_system_id",        
+        "facility_manager_id",        
+        "date",
+        "state",
+        "create_date",
+        "company_id"
+    ],
+    "listFieldsOpp": [
+        "name",
+        "reference",
+        "type_action",        
+        "user_id",        
+        "date_deadline",
+        "stage_id",
+        "create_date",
+        "company_id"
+    ],
+    "listfieldsShowsOpp": [     
+        "name",
+        "reference",
+        "type_action",        
+        "date_deadline",        
+        "user_id",
+        "state",
+        "stage_id"
+    ],
+    "listfieldsShowsNC": [  
+        "name",
+        "date_deadline",
+        "type_action",
+        "audit_id",        
+        "user_id",        
+        "helpdesk_id",
+        "system_id",
+        "state"
+    ],       
+    "tableColumns": [
+        {
+            "value": "create_date",
+            "label": "Create Date"
+        }
+    ], 
+    "tableColumnsOpp": [
+        {
+            "value": "create_date",
+            "label": "Create Date"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+    ], 
+    "states": [
+        {
+            "value": "new",
+            "label": "New"
+        },
+        {
+            "value": "open",
+            "label": "In Progress"
+        },
+        {
+            "value": "done",
+            "label": "Closed"
+        },
+        {
+            "value": "cancelled",
+            "label": "Cancelled"
+        }
+    ], 
+    "statesLabel": {
+        "new": {
+            "id": "New",
+            "label": "New",
+            "color":"info"
+        }, 
+        "open": {
+            "id": "open",
+            "label": "In Progress",
+            "color":"primary"
+        },    
+        "done": {
+            "id": "done",
+            "label": "Closed",
+            "color": "danger"
+       },
+       "cancelled": {
+        "id": "done",
+        "label": "Cancelled",
+        "color": "danger"
+        }
+    },
+    "statusLabel": {
+        "Draft": {
+            "id": "draft",
+            "label": "Draft",
+            "color":"info"
+        },     
+        "inprogress": {
+            "id": "inprogress",
+            "label": "Inprogress",
+            "color": "secondary"
+       },
+        "closed": {
+            "id": "closed",
+            "label": "Closed",
+            "color": "success"
+       },
+        "cancelled": {
+            "id": "cancelled",
+            "label": "Cancelled",
+            "color": "danger"
+       }
+    },
+    "langLabel": {
+        "en_US": {
+            "id": "English",
+            "label": "English",
+            "color":"info"
+        },     
+        "es_ES": {
+            "id": "Spanish",
+            "label": "Spanish",
+            "color": "danger"
+       }
+    },
+    "responseTypeObj": {
+        "improvement": {
+            "id": "improvement",
+            "label": "Improvements",
+            "color":"info"
+        },     
+        "non_conformity": {
+            "id": "non_conformity",
+            "label": "Non-Compliance",
+            "color": "danger"
+       }
+    },
+    "responseTypes": [
+        {
+            "value": "improvement",
+            "label": "Improvements"
+        },
+        {
+            "value": "non_conformity",
+            "label": "Non-Compliance"
+        }
+    ], 
+    "stages": {
+        "Draft": {
+            "color": "info",
+            "colorClass": "text-info",
+            "text": "Draft"
+        },
+        "In Progress": {
+            "color": "warning",
+            "colorClass": "text-warning",
+            "text": "In Progress"
+        },
+        "Analysis": {
+            "color": "success",
+            "colorClass": "text-success",
+            "text": "Analysis"
+        },
+        "Closed": {
+            "color": "danger",
+            "colorClass": "text-danger",
+            "text": "Closed"
+        },
+        "Cancelled": {
+            "color": "secondary",
+            "colorClass": "text-secondary",
+            "text": "Cancelled"
+        },
+        "Action Plan": {
+            "color": "primary",
+            "colorClass": "text-primary",
+            "text": "Action Plan"
+        }        
+    },
+    "responsibleTypeLabel": {
+        "immediate": {
+            "id": "English",
+            "label": "Immediate Action",
+            "color":"info"
+        },     
+        "correction": {
+            "id": "Spanish",
+            "label": "Corrective Action",
+            "color": "danger"
+       },
+       "prevention": {
+        "id": "Spanish",
+        "label": "Preventive Action",
+        "color": "danger"
+        },
+      "improvement": {
+        "id": "Spanish",
+        "label": "Improvements",
+        "color": "danger"
+        }
+    },
+    "dashboardStatus": {     
+        "RQ": {
+            "id": "Requested",
+            "label": "Requested",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Requested",
+                    "value": "Requested",
+                    "label": "Requested",
+                    "type": "inarray"
+                }
+            ]
+        },      
+        "IP": {
+            "id": "Issued Permit",
+            "label": "Issued Permit",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Issued Permit",
+                    "value": "Issued Permit",
+                    "label": "Issued Permit",
+                    "type": "inarray"
+                }
+            ]
+        }, 
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Closed",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        },     
+        "AP": {
+            "id": "All Permits",
+            "label": "All Permits",
+            "tags":[{
+                "value": "All Permits",
+                "title" : "All Permits",
+                "label": "All Permits"
+            }]
+        }        
+    },
+    "actionItems":[
+        {
+            "id": 1,
+            "name": "START",
+            "displayname": "Start Audit",
+            "method": "Started",
+            "message": "Audit has been started successfully.."
+        },
+        {
+            "id": 2,
+            "name": "PERFORM",
+            "displayname": "Perform Audit",
+            "method": "Inprogress",
+            "message": "This audit has been put into In-Progress successfully.."
+        }, 
+        {
+            "id": 3,
+            "name": "CANCEL",
+            "displayname": "Cancel Audit",
+            "method": "Canceled",
+            "message": "This audit has been cancelled successfully.."
+        },
+        {
+            "id": 4,
+            "name": "REVIEW",
+            "displayname": "Review Audit",
+            "method": "Reviewed",
+            "message": "This audit has been reviewed successfully.."
+        },
+        {
+            "id": 5,
+            "name": "SIGN",
+            "displayname": "Sign off Audit",
+            "method": "Signed off",
+            "message": "This audit has been signed off successfully.."
+        },
+        {
+            "id": 6,
+            "name": "EXPORT",
+            "displayname": "Export Report",
+            "method": "Inprogress",
+            "message": "This audit has been put into In-Progress successfully.."
+        },
+        {
+            "id": 7,
+            "name": "POSTPOND",
+            "displayname": "Prepone / Postpone Audit",
+            "method": "Signed off",
+            "message": "This audit has been signed off successfully.."
+        },
+        {
+            "id": 8,
+            "name": "POSTPONDAPPROVAL",
+            "displayname": "Prepone / Postpone Approval",
+            "method": "Signed off",
+            "message": "This audit has been signed off successfully.."
+        },
+        {
+            "id": 9,
+            "name": "POSTPONDCANCEL",
+            "displayname": "Cancel Prepone / Postpone Request",
+            "method": "Signed off",
+            "message": "This audit has been signed off successfully.."
+        }    
+     ],
+     "groupFilters": [
+        {
+            "value": "audit_system_id",
+            "label": "System"
+        },
+        {
+            "value": "audit_category_id",
+            "label": "Category"
+        },
+        {
+            "value": "department_id",
+            "label": "Department"
+        },
+        {
+            "value": "audit_spoc_id",
+            "label": "SPOC"
+        }
+    ],
+     "viewerFilters": [
+        {
+            "value": "All",
+            "label": "All"
+        },
+        {
+            "value": "Started",
+            "label": "Started"
+        },
+        {
+            "value": "Upcoming",
+            "label": "Upcoming"
+        },
+        {
+            "value": "Inprogress",
+            "label": "Inprogress"
+        },
+        {
+            "value": "Completed",
+            "label": "Completed"
+        },
+        {
+            "value": "Missed",
+            "label": "Missed"
+        },
+        {
+            "value": "Canceled",
+            "label": "Cancelled"
+        },
+        {
+            "value": "Reviewed",
+            "label": "Reviewed"
+        },
+        {
+            "value": "Signed off",
+            "label": "Signed off"
+        }
+    ],
+     "actionItems2":[
+        {
+            "id": 1,
+            "name": "INPROGRESS",
+            "displayname": "Move Into In-Progress",
+            "method": "action_in_progress",
+            "message": "This audit action has been moved into inprogress successfully.."
+        },
+        {
+            "id": 2,
+            "name": "ONHOLD",
+            "displayname": "Put On-Hold",
+            "method": "action_on_hold",
+            "message": "This audit action has been put into on-hold successfully.."
+        }, 
+        {
+            "id": 3,
+            "name": "CANCEL",
+            "displayname": "Cancel",
+            "method": "action_on_cancelled",
+            "message": "This audit action has been cancelled successfully.."
+        },
+        {
+            "id": 4,
+            "name": "CLOSE",
+            "displayname": "Close",
+            "method": "action_on_closed",
+            "message": "This audit action has been closed successfully.."
+        },
+        {
+            "id": 5,
+            "name": "DRAFT",
+            "displayname": "Set to Draft",
+            "method": "action_set_to_draft",
+            "message": "This audit action has been set to draft successfully.."
+        }     
+     ],
+     "statusMsg": {
+        "Upcoming": { 
+            "msg": "Start the Audit to continue"
+        },     
+        "Started": {
+           "msg": "Perform the Audit"
+       },
+        "Inprogress": {
+           "msg": "Perform and Complete the Audit"
+       },
+        "Completed": {
+            "msg": "Review the Audit"
+       },
+       "Reviewed": {
+            "msg": "Close the actions and sign off the audit"
+       },
+       "Missed": {
+            "msg": "You have missed this audit.You may contact the facility SPOC for further support"
+       }
+    },     
+     "actionTypes": {
+        "Approve": {
+            "value": "action_authorized",
+            "text": "Approve",
+            "msg": "approved",
+            "button": "Approve"
+        },       
+        "Prepare": {
+            "value": "action_prepared",
+            "text": "Prepare",
+            "msg": "prepared",
+            "button": "Prepare"
+        },       
+        "Issue Permit": {
+            "value": "action_permit",
+            "text": "Issue Permit",
+            "msg": "issued",
+            "button": "Issue Permit"
+        },       
+        "Validate": {
+            "value": "action_validated",
+            "text": "Validate",
+            "msg": "validated",
+            "button": "Validate"
+        },       
+        "Review": {
+            "value": "Review",
+            "text": "Review",
+            "msg": "reviewed",
+            "button": "Review"
+        }     
+    },
+    "dashboardStatusAudit": {
+        "OA": {
+            "id": "open",
+            "label": "Status",
+            "type": "Audits",
+            "tags":[{
+                "key": "state",
+                "title": "Status",
+                "value": "open",
+                "label": "Ongoing Audits",
+                "type": "inarray"
+            }, {
+                "key": "state",
+                "title": "Status",
+                "value": "new",
+                "label": "Ongoing Audits",
+                "type": "inarray"
+            }]
+        },
+        "CA": {
+            "id": "done",
+            "type": "Audits",
+            "label": "Completed Audits",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "done",
+                    "label": "Completed Audits",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "NC": {
+            "id": "non_conformity",
+            "type": "Actions",
+            "label": "Inbound Archeived",
+            "tags":[
+                {
+                    "key": "type_action",
+                    "title": "Status",
+                    "value": "non_conformity",
+                    "label": "Non-Compliances",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "OP": {
+            "id": "improvement",
+            "type": "Actions",
+            "label": "Opportunity",
+            "tags":[
+                {
+                    "key": "type_action",
+                    "title": "Status",
+                    "value": "improvement",
+                    "label": "Opportunity",
+                    "type": "inarray"
+                }
+            ]
+       }
+    },
+    "actionNCItems":[
+        {
+         "id": 1,
+         "name": "START",
+         "displayname": "Start"
+       },            
+        {
+         "id": 2,
+         "name": "CLOSE",
+         "displayname": "Close"
+       },            
+        {
+         "id": 3,
+         "name": "CANCEL",
+         "displayname": "Cancel"
+       },            
+        {
+         "id": 4,
+         "name": "CREATE",
+         "displayname": "Create Ticket"
+       }       
+     ],
+     "actionNCTypes": {
+        "Start": {
+            "value": "button_open",
+            "text": "Start",
+            "msg": "Started",
+            "button": "Start"
+        },       
+        "Close": {
+            "value": "button_done",
+            "text": "Close",
+            "msg": "Closed",
+            "button": "Close"
+        },       
+        "Cancel": {
+            "value": "button_cancelled",
+            "text": "Cancel",
+            "msg": "Canceled",
+            "button": "Cancel"
+        },       
+        "Create Ticket": {
+            "value": "create_helpdesk",
+            "text": "Create Ticket",
+            "msg": "Ticket Created",
+            "button": "Create Ticket"
+        }  
+    }
+}

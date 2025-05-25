@@ -1,0 +1,325 @@
+{
+    "stateTypes": [
+        {
+            "value": "Draft",
+            "label": "Draft"
+        },
+        {
+            "value": "Active",
+            "label": "Active"
+        },
+        {
+            "value": "Due For Renewal",
+            "label": "Due For Renewal"
+        },
+        {
+            "value": "Renewal In Progress",
+            "label": "Renewal In Progress"
+        },
+        {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        {
+            "value": "Archived",
+            "label": "Archived"
+        }
+    ],
+    "typeOptions": [
+        {
+            "value": "Internal",
+            "label": "Internal"
+        },
+        {
+            "value": "External",
+            "label": "External"
+        }
+    ],
+    "status": {
+        "Draft": {
+            "id": "Draft",
+            "label": "Draft",
+            "color": "secondary"
+        },
+        "Active": {
+            "id": "Active",
+            "label": "Active",
+            "color": "success"
+        },
+        "Due For Renewal": {
+            "id": "Due For Renewal",
+            "label": "Due For Renewal",
+            "color": "primary"
+        },
+        "Renewal In Progress": {
+            "id": "Renewal In Progress",
+            "label": "Renewal In Progress",
+            "color": "warning"
+        },
+        "Expired": {
+            "id": "Expired",
+            "label": "Expired",
+            "color": "danger"
+        },
+        "Archived": {
+            "id": "Archived",
+            "label": "Archived",
+            "color": "info"
+        }
+    },
+    "appliesTo": [
+        {
+            "value": "Location",
+            "label": "Location"
+        },
+        {
+            "value": "Asset",
+            "label": "Asset"
+        },
+        {
+            "value": "Site",
+            "label": "Site"
+        }
+    ],
+    "appliesToTypes": {
+        "Location": {
+            "value": "Location",
+            "label": "Location"
+        },
+        "Asset": {
+            "value": "Asset",
+            "label": "Asset"
+        },
+        "Site": {
+            "value": "Site",
+            "label": "Site"
+        }
+    },
+    "tableColumnsCompliance": [
+        {
+            "value": "compliance_category_id",
+            "label": "Category"
+        },
+        {
+            "value": "sla_status",
+            "label": "SLA Status"
+        },
+        {
+            "value": "applies_to",
+            "label": "Applies To"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+    ],
+    "ruleTypes": [
+        {
+            "value": "Days",
+            "label": "Days"
+        },
+        {
+            "value": "Weeks",
+            "label": "Weeks"
+        },
+        {
+            "value": "Months",
+            "label": "Months"
+        },
+        {
+            "value": "Year",
+            "label": "Year"
+        }
+    ],
+    "ruleTypesList": {
+        "Days": {
+            "value": "Days",
+            "label": "Days"
+        },
+        "Weeks": {
+            "value": "Weeks",
+            "label": "Weeks"
+        },
+        "Months": {
+            "value": "Months",
+            "label": "Months"
+        },
+        "Year": {
+            "value": "Year",
+            "label": "Year"
+        }
+    },
+    "repeatType": [
+        {
+            "value": "Never Ends",
+            "label": "Never Ends"
+        },
+        {
+            "value": "Ends On",
+            "label": "Ends On"
+        }
+    ],
+    "repeatTypes": {
+        "Never Ends": {
+            "value": "Never Ends",
+            "label": "Never Ends"
+        },
+        "Ends On": {
+            "value": "Ends On",
+            "label": "Ends On"
+        }
+    },
+    "versionStatusTypes": [
+        {
+            "value": "Latest",
+            "label": "Latest"
+        },
+        {
+            "value": "Old",
+            "label": "Old"
+        },
+        {
+            "value": "Working",
+            "label": "Working"
+        }
+    ],
+    "versionStatus": {
+        "Latest": {
+            "value": "Latest",
+            "label": "Latest",
+            "color": "info"
+        },
+        "Old": {
+            "value": "Old",
+            "label": "Old",
+            "color": "warning"
+        },
+        "Working": {
+            "value": "Working",
+            "label": "Working",
+            "color": "success"
+        }
+    },
+    "expiryDateFilters": [
+        {
+            "value": "This Month",
+            "label": "This Month"
+        },
+        {
+            "value": "Next Month",
+            "label": "Next Month"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "dashboardStatus": {
+        "AC": {
+            "id": "Active",
+            "label": "Active",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Active",
+                    "label": "Active",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "EX": {
+            "id": "Expired",
+            "label": "Expired",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Expired",
+                    "label": "Expired",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "DR": {
+            "id": "Due For Renewal",
+            "label": "Due For Renewal",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Due For Renewal",
+                    "label": "Due For Renewal",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "RI": {
+            "id": "Renewal In Progress",
+            "label": "Renewal In Progress",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Renewal In Progress",
+                    "label": "Renewal In Progress",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "listfieldsShows": [
+        "name",
+        "compliance_id",
+        "state",
+        "compliance_act",
+        "next_expiry_date",
+        "submitted_to",
+        "is_renewed",
+        "last_renewed_by",
+        "last_renewed_on"
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "PUBLISH",
+            "displayname": "Publish"
+        },
+        {
+            "id": 2,
+            "name": "UNPUBLISH",
+            "displayname": "Unpublish"
+        },
+        {
+            "id": 3,
+            "name": "STARTRENEWAL",
+            "displayname": "Start Renewal"
+        },
+        {
+            "id": 4,
+            "name": "COMPLETERENEWAL",
+            "displayname": "Complete Renewal"
+        },
+        {
+            "id": 5,
+            "name": "SETASDRAFT",
+            "displayname": "Set as Draft"
+        },
+        {
+            "id": 6,
+            "name": "ARCHIVE",
+            "displayname": "Archive"
+        }
+    ],
+    "listfieldsShowsTemp": [
+        "name",
+        "compliance_act",
+        "submitted_to",
+        "compliance_category_id",
+        "type"
+    ]
+}

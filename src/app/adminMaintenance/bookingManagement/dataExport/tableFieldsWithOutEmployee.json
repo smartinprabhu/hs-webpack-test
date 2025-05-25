@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "heading": "Space Name",
+            "property": "space_name",
+            "childOf": "space"
+        },
+        {
+            "heading": "Space Location",
+            "property": "space_path_name",
+            "childOf": "space"
+        },
+        {
+            "heading": "Space Category",
+            "property": "name",
+            "childOf": "space",
+            "subChildOf": "category_id"
+        },
+        {
+            "heading": "Booking Status",
+            "property": "state"
+        },
+        {
+            "heading": "Planned In",
+            "property": "planned_in"
+        },
+        {
+            "heading": "Planned Out",
+            "property": "planned_out"
+        },
+        {
+            "heading": "Guest Booking",
+            "property": "is_guest"
+        },
+        {
+            "heading": "Guest Name",
+            "property": "name"
+        },{
+            "heading": "Guest Email",
+            "property": "email"
+        },
+        {
+            "heading": "Neighbourhood Name",
+            "property": "neighbourhood_name",
+            "childOf": "neighbourhood_group_id"
+        }
+    ]
+}

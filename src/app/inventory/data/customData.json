@@ -1,0 +1,48 @@
+{
+    "listFieldsCPT": [
+        "create_date",
+        "name",
+        "pantry_sequence",
+        "maintenance_team_id",
+        "resource_calendar_id",
+        "state",
+        "company_id"       
+    ],
+    "listFieldsCPTShows": [
+        "name",
+        "pantry_sequence",
+        "maintenance_team_id",
+        "resource_calendar_id",
+        "state",
+        "company_id"       
+    ],
+    "tableColumnsCPT": [
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "listFieldsCPC": [
+        "create_date",
+        "name",
+        "parent_id",
+        "product_count",
+        "property_valuation" 
+    ],
+    "listFieldsCPCShows": [
+        "name",
+        "parent_id",
+        "product_count",
+        "property_valuation"
+    ],
+    "inventoryText":{
+        "manual_periodic" : {
+             "value": "manual_periodic",
+             "label": "Manual"
+         },
+        "real_time" : {
+             "value": "real_time",
+             "label": "Automated"
+         }
+     }
+}

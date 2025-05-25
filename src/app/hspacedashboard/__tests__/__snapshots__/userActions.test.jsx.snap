@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useractions testing snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-azure rounded m-0 p-3 dashboardTileHeight row"
+  >
+    <div
+      class="col-sm-10 col-md-10 col-lg-10"
+    >
+      <h2>
+        My Actions
+      </h2>
+      <div
+        class="mt-3 card"
+      >
+        <div
+          class="p-3 card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-3 col-sm-2 col-md-2 col-lg-2"
+            >
+              <img
+                alt="actions"
+                height="45"
+                width="45"
+              />
+            </div>
+            <div
+              class="pl-0 col-7 col-sm-8 col-md-8 col-lg-8"
+            >
+              <h3
+                class="mt-2 ml-2 cursor-pointer font-weight-700 pr-0"
+              >
+                My Bookings
+              </h3>
+            </div>
+            <div
+              class="col-2 col-sm-2 col-md-2 col-lg-2"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root float-right mt-2 font-size-30px"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-3 card"
+      >
+        <div
+          class="p-3 card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-3 col-sm-2 col-md-2 col-lg-2"
+            >
+              <img
+                alt="actions"
+                height="45"
+                src="[object Object]"
+                width="45"
+              />
+            </div>
+            <div
+              class="pl-0 col-7 col-sm-8 col-md-8 col-lg-8"
+            >
+              <h3
+                class="mt-2 ml-2 cursor-pointer font-weight-700 pr-0"
+              >
+                My Guests
+              </h3>
+            </div>
+            <div
+              class="col-2 col-sm-2 col-md-2 col-lg-2"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root float-right mt-2 font-size-30px"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-10 ml-11 mb-2 p-0 float-right col-sm-12"
+    >
+      <img
+        alt="Helixsense Portal"
+        class="mt-auto w-inherit"
+        height="140"
+        src="[object Object]"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Add Compliance Obligation",
+        "icon": "faPlusCircle",
+        "url": "#",
+        "inactive": false
+    },
+    {
+        "id": 2,
+        "name": "View Compliance Obligation",
+        "icon": "faEye",
+        "url": "/buildingcompliance",
+        "inactive": false
+    }
+]

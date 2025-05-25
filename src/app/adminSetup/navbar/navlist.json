@@ -1,0 +1,23 @@
+{
+    "data": {
+        "Company Configuration": {
+            "id": 1,
+            "name": "COMPANY_CONFIGURATION",
+            "displayname": "Company Configuration",
+            "pathName": "/site-configuration"
+        },
+        "Asset Configuration": {
+            "id": 2,
+            "name": "ASSET_CONFIGURATION",
+            "displayname": "Asset Configuration",
+            "pathName": "/asset-configuration"
+          },
+          "Maintenance": {
+            "id": 3,
+            "name": "MAINTENANCE",
+            "displayname": "Maintenance",
+            "pathName": "/maintenance-configuration"
+          }
+    },
+    "title": "Admin Setup"
+}

@@ -1,0 +1,16 @@
+{
+    "types": [
+        {
+            "id": "inward",
+            "name": "Inward"
+        },
+        {
+            "id": "outward",
+            "name": "Outward"
+        },
+        {
+            "id": "consumption",
+            "name": "Consumption"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/inventory-overview"
+    },
+    "Operations": {
+      "id": 2,
+      "name": "OPERATIONS",
+      "displayname": "Operations",
+      "pathName": "/inventory-overview/inventory/operations"
+    },
+    "Products": {
+      "id": 3,
+      "name": "PRODUCTS",
+      "displayname": "Products",
+      "pathName": "/inventory-overview/inventory/products"
+    },
+    "Reports": {
+      "id": 4,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/inventory-overview/inventory/reports"
+    },
+    "Configurations": {
+      "id": 5,
+      "name": "CONFIGURATIONS",
+      "displayname": "Configurations",
+      "pathName": "/inventory-overview/inventory/configurations"
+    }
+  },
+  "title": "Inventory"
+}

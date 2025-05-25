@@ -1,0 +1,40 @@
+{
+    "formTabs": [
+        {
+            "id": 1,
+            "name": "Basic"
+        },
+        {
+            "id": 2,
+            "name": "Advanced"
+        }
+    ],
+    "detailstabs": [
+        {
+            "id": 1,
+            "name": "Product Overview"
+        },
+        {
+            "id": 2,
+            "name": "Reordering Rules"
+        },
+        {
+            "id": 3,
+            "name": "Audit Logs"
+        }
+    ],
+    "notesList": [
+        {
+            "id": 1,
+            "name": "Send Message"
+        },
+        {
+            "id": 2,
+            "name": "Log Note"
+        },
+        {
+            "id": 3,
+            "name": "Schedule Activity"
+        }
+    ]
+}

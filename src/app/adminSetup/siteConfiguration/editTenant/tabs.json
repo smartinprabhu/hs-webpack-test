@@ -1,0 +1,18 @@
+
+{
+    "formTabs": [
+        {
+            "id": 1,
+            "name": "Tenant Space Configuration"
+        },
+        {
+            "id": 2,
+            "name": "Covid Resource"
+        },
+        {
+            "id": 3,
+            "name": "Employee Configuration"
+        }
+    ]
+       
+}

@@ -1,0 +1,62 @@
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Category Name",
+            "property": "name"
+        },
+        {
+            "heading": "Parent Space Category",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "scFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Category Name",
+            "property": "name"
+        },
+        {
+            "heading": "Parent Space Category",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ],
+    "acFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Category Name",
+            "property": "name"
+        },
+        {
+            "heading": "Parent",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ],
+    "dateFields": [
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ]
+}

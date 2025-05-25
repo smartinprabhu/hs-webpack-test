@@ -1,0 +1,39 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Parent Site",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Site Category",
+            "property": "res_company_categ_id"
+        },
+        {
+            "heading": "Code",
+            "property": "code"
+        },
+        {
+            "heading": "Total Area",
+            "property": "area_sqft"
+        },
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],
+    "cityFields": [
+        {
+            "heading": "City",
+            "property": "city"
+        }
+    ]       
+}

@@ -1,0 +1,50 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Work Email",
+            "value": "work_email"
+        },
+        {
+            "label": "Work Phone",
+            "value": "work_phone"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last Week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last Month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 Months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This Week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This Month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ]
+       
+}

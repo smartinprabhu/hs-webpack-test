@@ -1,0 +1,33 @@
+{
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "APPROVE",
+         "displayname": "Approve"
+       },
+       {
+        "id": 2,
+        "name": "CANCEL",
+        "displayname": "Cancel"
+      },
+      {
+        "id": 3,
+        "name": "CHANGE PASSWORD",
+        "displayname": "Change Password"
+      }
+     ],
+     "actionTypes": {
+        "Approve": {
+            "value": "Approved",
+            "text": "Approve"
+        },
+        "Cancel": {
+            "value": "Cancelled",
+            "text": "Cancel"
+        },
+        "Password": {
+            "value": "Change Password",
+            "text": "Change Password"
+        }
+    }
+}

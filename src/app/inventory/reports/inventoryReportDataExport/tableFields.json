@@ -1,0 +1,44 @@
+
+{
+    "fields": [
+        {
+            "heading": "Product",
+            "property": "product_id"
+        },
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Reserved",
+            "property": "reserved_quantity"
+        },
+        {
+            "heading": "Quantity",
+            "property": "quantity"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "ownerFields": [
+        {
+            "heading": "Owner",
+            "property": "owner_id"
+        }
+    ],
+    "uomFields": [
+        {
+            "heading": "UOM",
+            "property": "product_uom_id"
+        }
+    ],   
+    "dateFields": [
+        {
+            "heading": "Incoming Date",
+            "property": "in_date"
+        }
+    ]
+       
+}

@@ -1,0 +1,246 @@
+@import '../../styles/variables.scss';
+
+// label.ant-radio-button-wrapper:hover {
+//   color: $color-blue-zodiac;
+// }
+
+// .ant-radio-button-checked:hover{
+//   color: $color-white;
+// }
+
+// #RBS-Scheduler-root ::selection {
+//   background: $color-blue-zodiac;
+//   color: $color-white;
+// }
+
+.ant-radio-button-wrapper {}
+
+label.ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+  // border:1px solid $color-blue-zodiac !important;
+  // background-color: $color-blue-zodiac;
+  // color: $color-white;
+  // box-shadow: -1px 0 0 0 $color-white !important;
+}
+
+.ant-radio-button-wrapper:not(:first-child)::before {
+  width: 0px !important;
+}
+
+.ant-radio-button-wrapper:first-child {
+  // border:1px solid $color-blue-zodiac !important;
+}
+
+// .ant-radio-button-wrapper-checked {
+//   background-color: $color-blue-zodiac;
+//   color: $color-white;
+// }
+
+// .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+//   background-color: $color-blue-zodiac;
+//   color: $color-white;
+// }
+
+// label.ant-radio-button-wrapper.ant-radio-button-wrapper-checked:hover {
+//   color: $color-white;
+// }
+
+.scheduler .ant-row-flex {
+  display: flex;
+}
+
+.scheduler .ant-row-flex .ant-col:first-child {
+  display: none !important;
+}
+
+#RBS-Scheduler-root .anticon svg {
+  display: none !important;
+}
+
+.resource-view {
+  border-top-width: 0px !important;
+}
+
+// .scheduler-view{
+//   background-color: $color-white !important;
+// }
+
+table.scheduler thead:nth-child(1) tr:nth-child(2) td:nth-child(1) {
+  // border: 1px solid $color-grey-thin;
+  // background:$color-white;
+  border-bottom-width: 0px;
+}
+
+table.scheduler thead:nth-child(1) tr:nth-child(2) td:nth-child(2) {
+  // border: 1px solid $color-grey-thin;
+  // background: $color-white;
+  border-bottom-width: 0px;
+}
+
+.header2-text-label {
+  display: none;
+}
+
+table.resource-table td span {
+  font-size: 13px !important;
+  font-weight: 800 !important;
+}
+
+table.resource-table:nth-child(1) td .resourceCount {
+  float: left;
+  margin-left: 10px;
+}
+
+table.resource-table:nth-child(1) td .resourceTeam {
+  float: left;
+  margin-left: 10px;
+}
+
+table.resource-table:nth-child(1) td .resourceSchedule {
+  float: left;
+  margin-left: 10px;
+}
+
+.ppm_datefilter .popover {
+  min-width: 198px !important;
+}
+
+.scheduler-view div:nth-child(2)::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scheduler-view div:nth-child(2)::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 3px $color-gray; 
+  border-radius: 5px;
+}
+
+.scheduler-view div:nth-child(2)::-webkit-scrollbar-thumb {
+  // background: $color-gray-chateau; 
+  border-radius: 5px;
+}
+
+.resource-view div:nth-child(2)::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.resource-view div:nth-child(2)::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 3px $color-gray; 
+  border-radius: 5px;
+}
+
+.resource-view div:nth-child(2)::-webkit-scrollbar-thumb {
+  // background: $color-gray-chateau; 
+  border-radius: 5px;
+}
+
+.scheduler .ant-row-flex .ant-col:nth-child(3) {
+  right: 22%;
+}
+
+.question_button {
+  padding: 0px 7px !important;
+}
+
+.popoverQuestion .popover {
+  min-width: 130px !important;
+}
+
+.popover_line {
+  line-height: 24px;
+}
+
+.cschedule .loader {
+  bottom: 40% !important;
+  left: 40%;
+  position: absolute !important;
+  z-index: 99 !important;
+  display: block;
+  margin-top: 15%;
+}
+
+// .react-select-boxcheck .css-1okebmr-indicatorSeparator{
+//   background-color: $color-white;
+// }
+
+.react-selects__control {
+  cursor: pointer !important;
+  height: 32px !important;
+  min-height: 28px !important;
+}
+
+.react-selects__value-container {
+  margin-bottom: 3px !important;
+  margin-top: -3px !important;
+}
+
+.react-selects__menu {
+  position: absolute;
+  z-index: 4 !important;
+}
+
+.extend-line {
+  margin-left: -14px !important;
+  margin-right: -14px !important;
+}
+
+.tab-segment .ant-tabs-tab {
+  margin-right: 5rem !important;
+  padding: 0 !important;
+}
+
+.width-160 {
+  width: 160px;
+}
+
+.fa-chevron-left {
+  height: 22px;
+  width: 22px !important;
+  margin-top: 1px !important;
+  float: left;
+  border: solid !important;
+  border-width: 1px !important;
+  border-top-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-bottom-right-radius: 35px !important;
+  padding: 4px !important;
+}
+
+.fa-chevron-right {
+  height: 22px;
+  width: 22px !important;
+  margin-top: 1px !important;
+  float: right;
+  border: solid !important;
+  border-width: 1px !important;
+  border-top-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-bottom-right-radius: 35px !important;
+  padding: 4px !important;
+}
+
+// .fa-chevron-left:hover{
+//   background: $color-cloud-burst !important;
+//   color:$color-white !important;
+// }
+
+.fa-chevron-right:hover {
+  background: $color-cloud-burst !important;
+  color: $color-white !important;
+}
+
+.event_sideBar {
+  overflow: auto;
+  max-height: 300px;
+}
+
+.add-more-popover-overlay .anticon {
+  cursor: pointer;
+}
+
+.resourceHeading {
+  float: left;
+  margin-left: 16px !important;
+}

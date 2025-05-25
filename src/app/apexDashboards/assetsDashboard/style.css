@@ -1,0 +1,736 @@
+.insights-box {
+  width: 100%;
+  overflow-x: hidden !important;
+  height: 90vh;
+}
+
+.insights-box::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.insights-box-no-height {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+.insights-box-no-height::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.insights-filter-box {
+  display: flex;
+  align-items: center;
+}
+
+.insights-filters-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+}
+
+.view-filter-box {
+  border-radius: 8px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  list-style-type: none;
+  width: 150px;
+  padding: 8px;
+  position: absolute;
+  margin-top: 6px;
+}
+
+.customer-review-text {
+  font: normal normal normal 14px Suisse Intl;
+  letter-spacing: 0px;
+  color: #1a1818de;
+  text-align: center;
+  font-weight: 500;
+}
+
+.cards-box {
+  margin-top: 20px;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.ticket-card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 2px #76767629 !important;
+  list-style-type: none !important;
+  margin: 0px 10px 0px 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  cursor: pointer !important;
+}
+
+.ticket-card-no-cursor {
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 0px 3px 2px #76767629 !important;
+  list-style-type: none !important;
+  margin: 0px 10px 0px 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.light-mode .ticket-card-no-cursor {
+  background: #2D2E2D 0% 0% no-repeat padding-box !important;
+  border: #000000 !important;
+}
+
+.ticket-card-mixed {
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 2px #76767629 !important;
+  list-style-type: none !important;
+  margin: 0px 10px 0px 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  cursor: pointer !important;
+}
+
+.ticket-info-outer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+}
+.light-mode .ticket-info-outer{
+  background-color:#2D2E2D !important ;
+}
+
+.ticket-info-outer-no-kpi {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.light-mode .ticket-info-outer-no-kpi {
+  background-color:#2D2E2D !important ;
+}
+
+.ticket-img {
+  height: 30px;
+  width: 30px;
+  margin: 0px !important;
+}
+
+.ticket-text {
+  font: normal normal normal 14px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  font-weight: 600;
+  margin: 0;
+}
+.light-mode .ticket-text {
+  color: #ffffff !important;
+}
+
+.ticket-count {
+  font: normal normal medium Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #000000;
+  font-weight: 700;
+  margin: 0 !important;
+}
+.light-mode .ticket-count{
+  color: white !important;
+}
+.ticket-percentage {
+  font-size: 12px;
+}
+
+.card-hr {
+  border: 1px solid #76767629;
+  margin: 3%;
+  border-bottom: none;
+}
+
+.percentage-text-box {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 10px 10px;
+}
+
+.percentage-text {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.44px;
+  color: #1dbc77;
+  margin: 0;
+}
+
+.percentage-text-decrease {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.44px;
+  color: #fc2366;
+}
+
+.graphs-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.graph-box {
+  border: 1px solid #efefef;
+  width: 59%;
+  background-color: #ffffff;
+}
+
+.graph-box-expand {
+  /* border: 1px solid #efefef; */
+  width: 60%;
+  background-color: #ffffff;
+}
+
+.circle-graph-box {
+  border: 1px solid #efefef;
+  background-color: #ffffff;
+}
+.light-mode .circle-graph-box {
+  border: 1px solid #2D2E2D;
+  background-color: #2D2E2D;
+}
+
+
+.circle-graph-heading {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  padding: 10px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avg-response-graph-box {}
+
+.speedo-meter-box {
+  border: 1px solid #efefef;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.speedo-meter-box-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+}
+
+.customer-satis-text {
+  font: normal normal normal 17px Suisse Intl;
+  letter-spacing: 0.44px;
+  color: #000000de;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.speedo-meter {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.speedo-meter>div>svg {
+  height: 200px !important;
+}
+
+.speedo-meter-dots-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.speedo-dot {
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+.speedo-text {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  text-align: left;
+}
+
+.comparison-filters-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.filter-sheet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid #0000000e;
+}
+
+.comparison-graph {
+  padding: 15px;
+  height: 80vh;
+}
+
+.customer-percentage-box {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.percentage-box {
+  width: 50%;
+  padding: 10px;
+}
+
+.card-view-filter-btn {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  outline: none;
+  border: 1px solid #0000001f;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  margin-right: 10px;
+  font: normal normal normal 13px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.filter-btn {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid #0000001f;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  width: 80px;
+  margin-right: 10px;
+  padding: 10px;
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.view-filter-item {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.card-view-text {
+  font: normal normal normal 13px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.card-view-text-active {
+  color: #0b694c;
+}
+
+.filter-drawer-box {
+  width: 30vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  position: relative;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.filter-drawer-box-custom {
+  /* width: 30vw; */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  position: relative;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-bottom: 70px;
+}
+
+.filter-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #0000001f;
+}
+
+.filter-by-text {
+  font: normal normal normal 23px Suisse Intl;
+  letter-spacing: 0px;
+  color: #101827;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  width: 18px;
+  height: 18px;
+  background-color: #f5f7fa;
+  border-radius: 4px;
+  border: 1px solid #707070;
+  cursor: pointer;
+}
+
+.i-check-head {
+  background-color: transparent;
+  border: 0.5px solid #616466 !important;
+  position: absolute;
+  top: 0;
+  left: 4%;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+  background-color: #146939;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0px 1.5px 1.5px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.select-by-companies-option-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  display: flex;
+}
+
+.select-by-companies-box {
+  padding: 5%;
+  background: #fafafa 0% 0% no-repeat padding-box;
+  width: 100%;
+}
+
+.filter-rating-text {
+  text-align: right;
+  font: normal normal normal 16px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+}
+
+.comparison-sheet-box {
+  border: 1px solid #efefef;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.comparison-text {
+  font: normal normal normal 17px Suisse Intl;
+  letter-spacing: 0.44px;
+  color: #000000de;
+  font-weight: 600;
+}
+
+.cancel-btn {
+  width: 124px;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #00000033;
+  border-radius: 4px;
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000de;
+  outline: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.apply-btn {
+  width: 124px;
+  height: 50px;
+  background: #0b694c 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cancel-apply-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  position: sticky;
+  bottom: 0;
+}
+
+.export-filter-btn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 30px;
+}
+
+.export-main-box {
+  position: relative;
+}
+
+.card-view-main-box {
+  position: relative;
+}
+
+.export-filter-box {
+  border-radius: 8px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  list-style-type: none;
+  width: 128px;
+  padding: 8px;
+  position: absolute;
+  margin-top: 6px;
+  z-index: 2;
+}
+
+.url-popup-box {
+  width: 650px;
+  height: 338px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dates-filter-pop-up {
+  width: 650px;
+  height: 430px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 10px 20px 20px 10px;
+}
+
+.individual-dates-filter-pop-up {
+  width: 650px;
+  height: 200px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 10px 20px 20px 10px;
+}
+
+.list-dates-filter-pop-up {
+  width: 650px;
+  height: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 10px 20px 20px 10px;
+}
+
+.url-popup-head-text {
+  font: normal normal normal 25px Suisse Intl;
+  letter-spacing: 0px;
+  color: #101827;
+}
+
+.url-popup-page-url-text {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #101827;
+}
+
+.url-box {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #dbdbdb29;
+  border: 1px solid #0000001f;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.url-link-text {
+  text-decoration: underline;
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #0b694c;
+}
+
+.url-popup-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tickets-expand-icon {
+  position: absolute;
+  right: 2%;
+  top: 30%;
+  color: transparent;
+}
+
+.tickets-filter {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ticket-close-icon {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.MuiPaper-root::-webkit-scrollbar {
+  width: 0;
+}
+
+.expand-icon {
+  color: transparent;
+}
+.light-mode .expand-icon{
+  color: rgb(255, 255, 255);
+}
+
+.graph-box:hover .tickets-expand-icon {
+  color: #000000;
+}
+
+.circle-graph-box:hover .expand-icon {
+  color: #000000;
+}
+
+.comparison-sheet-box:hover .expand-icon {
+  color: #000000;
+}
+
+.speedo-meter-box:hover .expand-icon {
+  color: #000000;
+}
+
+.tickets-step-filter-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.ticket-filter-active {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.17px;
+  color: #000000de;
+  font-weight: 500;
+}
+
+.ticket-filter-disable {
+  opacity: 0.3;
+}
+
+.ticket-reset-btn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #00000033;
+  height: 25px;
+  font: normal normal normal 13px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000de;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.ticket-reset-btn:hover {
+  background-color: #f5f6f7;
+}
+
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: unset;
+  max-height: unset;
+}
+
+.css-1fu2e3p-MuiPaper-root-MuiDialog-paper {
+  max-width: unset;
+  max-height: unset;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  max-width: unset;
+  max-height: unset;
+} */
+
+.donut-graph-popup-box {
+  height: 80vh;
+  width: 90vw;
+}
+
+.comparison-chart-popup {
+  width: 90vw;
+  height: 80vh;
+}
+
+.tickets-chart-popup {
+  width: 90vw;
+  height: 80vh;
+}
+
+.selected-chart-filter {
+  background: #e9edf2 0% 0% no-repeat padding-box;
+  padding: 5px;
+  border-radius: 5px;
+}

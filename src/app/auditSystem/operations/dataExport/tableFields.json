@@ -1,0 +1,109 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Reference",
+            "property": "reference"
+        },
+        {
+            "heading": "Title",
+            "property": "name"
+        },
+        {
+            "heading": "Date",
+            "property": "date"
+        },      
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "System",
+            "property": "audit_system_id"
+        },
+        {
+            "heading": "Audit Manager",
+            "property": "facility_manager_id"
+        }
+    ],
+    "fieldsNC": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Title",
+            "property": "name"
+        },
+        {
+            "heading": "Deadline",
+            "property": "date_deadline"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },      
+        {
+            "heading": "Responsible Type",
+            "property": "type_action"
+        },
+        {
+            "heading": "Responsible",
+            "property": "user_id"
+        },
+        {
+            "heading": "Audit",
+            "property": "audit_id"
+        },
+        {
+            "heading": "Helpdesk",
+            "property": "helpdesk_id"
+        }
+    ],
+    "createField": [
+        {
+            "heading": "Create Date",
+            "property": "create_date"
+        }
+    ],
+        "opportunityfields": [
+            {
+                "heading": "Reference",
+                "property": "reference"
+            },
+            {
+                "heading": "Subject",
+                "property": "name"
+            },
+            {
+                "heading": "Response Type",
+                "property": "type_action"
+            },
+            {
+                "heading": "Responsible",
+                "property": "user_id"
+            },
+            {
+                "heading": "Dead Line",
+                "property": "date_deadline"
+            },
+            {
+                "heading": "Stage",
+                "property": "stage_id"
+            }
+        ],
+        "createOpportunityField": [
+            {
+                "heading": "Create Date",
+                "property": "create_date"
+            },
+            {
+                "heading": "Company",
+                "property": "company_id"
+            }
+        ]
+}

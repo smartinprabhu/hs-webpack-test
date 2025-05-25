@@ -1,0 +1,55 @@
+{
+   
+    "stateTypes": [
+        {
+            "value": "Draft",
+            "label": "Draft"
+        },
+        {
+            "value": "Submitted",
+            "label": "Submitted"
+        },
+        {
+            "value": "Reviewed",
+            "label": "Reviewed"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Second Approved",
+            "label": "Second Approved"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "stateText": {
+        "Draft": {
+            "id": "Draft",
+            "label": "Draft"
+        },
+        "Submitted": {
+            "id": "Submitted",
+            "label": "Submitted"
+        },
+        "Reviewed": {
+            "id": "Reviewed",
+            "label": "Reviewed"
+        },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved"
+        },
+        "Second Approved": {
+            "id": "Second Approved",
+            "label": "Second Approved"
+        },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled"
+        }
+    }
+}

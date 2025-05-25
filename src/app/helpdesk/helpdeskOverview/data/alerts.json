@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "SLA Alert",
+        "messageType": "normal",
+        "message": "A new ticket has been added to Helpdesk. Please review this notification."
+    },
+    {
+        "id": 2,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "SLA Alert",
+        "messageType": "normal",
+        "message": "A new ticket has been added to Helpdesk. Please review this notification."
+    },
+    {
+        "id": 3,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+         "title": "SLA Alert",
+        "messageType": "alert",
+        "message": "There has been reported a new SLA ticket. Please review this notification."
+    },
+    {
+        "id": 4,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "SLA Alert",
+        "messageType": "normal",
+        "message": "A new ticket has been added to Helpdesk. Please review this notification."
+    },
+    {
+        "id": 5,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "SLA Alert",
+         "messageType": "normal",
+        "message": "A new ticket has been added to Helpdesk. Please review this notification."
+    }
+]

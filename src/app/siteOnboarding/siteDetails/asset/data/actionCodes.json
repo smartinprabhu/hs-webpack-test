@@ -1,0 +1,17 @@
+{
+    "Add Pantry": "pantry_management_add_pantry_order",
+    "Edit Pantry": "pantry_management_edit_pantry_order",
+    "Delete Pantry Order": "pantry_management_delete_pantry_order",
+    "Add Product": "pantry_management_add_product",
+    "Edit Product": "pantry_management_edit_product",
+    "Delete Product": "pantry_management_delete_product",
+    "Add Product Category": "pantry_management_addproductcategory",
+    "Edit Product Category": "pantry_management_editproductcategory",
+    "Delete Product Category": "pantry_management_delete_productcategory",
+    "Add Space Category": "config_addspacecategory",
+    "Edit Space Category": "config_editspacecategory",
+    "Delete Space Category": "config_deletespacecategory",
+    "Add Equipment Category": "config_addequipmentcategory",
+    "Edit Equipment Category": "config_editequipmentcategory",
+    "Delete Equipment Category": "config_deleteequipmentcategory"
+}

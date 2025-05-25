@@ -1,0 +1,10 @@
+ [{
+        "client": "sfx",
+        "favicon": "public/favicon.ico",
+        "title": "SarthiFX"
+        },
+{
+        "client": "default",
+        "favicon": "public/helixSenseLogo.png",
+        "title": "HELIX SENSE"
+    }]

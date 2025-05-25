@@ -1,0 +1,567 @@
+/* App.css */
+  
+  .dashboard-water {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  /* .header-1{
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    background: #083890 0% 0% no-repeat padding-box;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    height: 5vh;
+  } */
+  .header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    height: 5vh; /* Reduced to match the compact header in the image */
+    flex-shrink: 0;
+    background-color: #3D5FA7 ; /* Solid blue background */
+    padding: 0 10px; /* Add small padding on the sides for better spacing */
+    box-sizing: border-box; /* Ensure padding doesn't increase the height */
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .header-title-water {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .tabs-water {
+    display: flex;
+    gap: 10px; /* Slightly reduced space between tabs */
+  }
+  
+  .tabs-water button {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Reduced space between the circle and the text */
+    background: none;
+    border: none; /* Remove border from the button itself */
+    cursor: pointer;
+    padding: 0; /* Remove default padding */
+    transition: all 0.3s ease;
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .tabs-water button:focus-visible {
+    /* Custom focus style for accessibility */
+    box-shadow: 0 0 0 2px rgba(0, 183, 235, 0.5); /* Subtle blue glow for focus */
+  }
+  
+  .tab-circle {
+    width: 16px; /* Reduced outer circle size */
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #fff; /* White border for all states */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the inner dot */
+    transition: border-color 0.3s ease;
+  }
+  
+  .tab-circle-inner {
+    width: 8px; /* Reduced inner dot size (half the outer circle) */
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent; /* No fill for inactive state */
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-text {
+    font-size: 12px; /* Reduced font size to fit the smaller header */
+    font-weight: bold;
+    color: #fff; /* White text for all states */
+  }
+  
+  .tabs button:hover .tab-circle {
+    border-color: #fff; /* Keep white border on hover */
+  }
+  
+  .tabs button:hover .tab-circle-inner {
+    background-color: rgba(255, 255, 255, 0.3); /* Subtle white dot on hover for inactive tabs */
+  }
+  
+  .tabs button.active .tab-circle-inner {
+    background-color: #fff; /* White dot for active state */
+  }
+  
+  .panels-container {
+    display: flex;
+    gap: 10px; /* Matches the spacing in the first image */
+    margin-bottom: 10px;
+    height: 80px; /* Increased height to accommodate two lines of text */
+    flex-shrink: 0;
+  }
+  
+  .panel {
+    flex: 1; /* Ensures equal width for all panels */
+    padding: 10px 15px; /* Adjust padding: more on the left/right for better spacing */
+    border-radius: 8px; /* Matches the rounded corners */
+    background-color: #FFFEFE !important;
+    box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; /* Place icon and content side by side */
+    align-items: center; /* Vertically center the icon and content */
+    overflow: hidden;
+    color: #000000;
+  }
+  
+  .panel-icon {
+    margin-right: 8px; /* Adjust spacing between the icon and the text */
+  }
+  
+  .water-drop-icon-panel {
+    width: 30px; /* Match the header's water drop size */
+    height: 30px;
+    object-fit: contain; /* Ensure the image scales properly */
+  }
+  
+  .panel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the title and value vertically within the content */
+    align-items: flex-start; /* Align text to the left for better readability */
+    text-align: left; /* Align text to the left */
+    height: 100%; /* Ensure the content takes up the full height of the panel */
+  }
+  
+  .panel-title {
+    font-size: 12px; /* Matches the title font size in the first image */
+    font-weight: bold;
+    color: #97a9c0; /* Matches the light gray title color */
+    margin-bottom: 4px; /* Adds spacing between title and value */
+  }
+  
+  .panel-value {
+    font-size: 14px; /* Matches the value font size in the first image */
+    font-weight: bold;
+    color: #0b0b0b; /* Matches the white value color */
+    white-space: normal; /* Allow wrapping for multi-line values */
+    word-wrap: break-word; /* Ensure long words break to fit within the panel */
+    line-height: 1.2; /* Adjust line height for better readability */
+  }
+  
+  /* Charts Container */
+  .charts-container {
+    flex: 1; /* Take up remaining height */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    padding: 0; /* No extra padding to maximize space */
+  }
+  
+  /* Dashboard Content */
+  .dashboard-content {
+    height: 100%; /* Ensure it takes up the full height of the charts container */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Dashboard Grid Layout */
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns for Comparison Plot and Bar Chart */
+    grid-template-rows: auto auto; /* Two rows: first for Comparison Plot and Bar Chart, second for Trend and Cost Plot */
+    gap: 10px; /* Space between grid items */
+    height: 100%; /* Take up full height of the dashboard content */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Plot Sections */
+  .plot-section {
+    background-color: #FFFEFE !important;
+    box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+    border-radius: 8px; /* Rounded corners for plot sections */
+    padding: 10px; /* Padding inside the plot sections */
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent overflow issues with plots */
+    height: 100%; /* Ensure plot sections take up full height of their grid cell */
+  }
+  
+  /* Full-width Trend and Cost Plot */
+  .plot-section.trend-and-cost.full-width {
+    grid-column: 1 / -1; /* Span across all columns */
+    height: 100%; /* Ensure it takes up the full height of the grid cell */
+  }
+  
+  /* Comparison Plot and Bar Chart */
+  .plot-section.comparison-plot,
+  .plot-section:not(.trend-and-cost) {
+    height: 100%; /* Ensure they take up the full height of their grid cell */
+  }
+  
+  /* Plotly Plot Styling */
+  .plotly {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  /* Warning Message for Missing Data */
+  .warning-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FF4500; /* Orange-red color for warnings */
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Loading and Error States */
+  .loading,
+  .error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+  .error {
+    color: #FF4500; /* Orange-red for errors */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .dashboard-grid {
+      grid-template-columns: 1fr; /* Stack plots vertically on smaller screens */
+      grid-template-rows: auto auto auto; /* Three rows: one for each plot */
+    }
+  
+    .plot-section.trend-and-cost.full-width {
+      grid-column: 1 / -1; /* Still spans full width */
+    }
+  
+    .panels-container {
+      flex-direction: column; /* Stack panels vertically */
+      height: auto; /* Adjust height to fit content */
+    }
+  
+    .panel {
+      flex-direction: row; /* Keep icon and content side by side */
+      height: 80px; /* Maintain height for consistency */
+    }
+  
+    .header {
+      flex-direction: column; /* Stack header title and tabs */
+      height: auto; /* Allow header to expand */
+      padding: 10px;
+    }
+  
+    .tabs {
+      margin-top: 10px; /* Space between title and tabs */
+    }
+  
+    .header-title h1 {
+      font-size: 14px; /* Slightly smaller font for smaller screens */
+    }
+  
+    .tabs button {
+      gap: 4px; /* Reduce gap between circle and text */
+    }
+  
+    .tab-circle {
+      width: 14px; /* Slightly smaller circle */
+      height: 14px;
+    }
+  
+    .tab-circle-inner {
+      width: 6px; /* Slightly smaller inner dot */
+      height: 6px;
+    }
+  
+    .tab-text {
+      font-size: 10px; /* Smaller text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-title h1 {
+      font-size: 12px; /* Even smaller font for very small screens */
+    }
+  
+    .tabs button {
+      gap: 3px;
+    }
+  
+    .tab-circle {
+      width: 12px;
+      height: 12px;
+    }
+  
+    .tab-circle-inner {
+      width: 5px;
+      height: 5px;
+    }
+  
+    .tab-text {
+      font-size: 9px;
+    }
+  
+    .panel-title {
+      font-size: 10px;
+    }
+  
+    .panel-value {
+      font-size: 12px;
+    }
+  
+    .water-drop-icon-panel {
+      width: 25px; /* Smaller icon */
+      height: 25px;
+    }
+  
+    .plot-section {
+      padding: 5px; /* Reduce padding for smaller screens */
+    }
+  }
+  
+  /* Ensure Plotly titles are visible and styled */
+  .plot-section .plotly .gtitle {
+    display: block !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  /* Adjust Plotly axis labels for better readability */
+  .plot-section .plotly .xtick text,
+  .plot-section .plotly .ytick text {
+    font-size: 10px !important;
+  }
+  
+  /* Ensure annotations are visible */
+  .plot-section .plotly .annotation text {
+    font-size: 10px !important;
+    color: #FFFFFF !important;
+  }
+  
+  /* Hide Plotly modebar by default (already handled by config, but reinforce here) */
+  .plot-section .plotly .modebar {
+    display: none !important;
+  }
+.water{
+  display: flex;
+}
+.css-1mjty8n-MuiGrid-root>.MuiGrid-item{
+  padding-top: 0px !important;
+}
+.insights{
+  margin-top: 10px;
+  margin-left: 6px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.insights-1{
+  margin-left: 6px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.insights-box-energy{
+  display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color: #DEDFE8;
+    padding: 5px !important;
+    text-align: center !important;
+    border-radius: 5px;
+    align-items: center !important;
+}
+.insights-box-energy-1{
+  display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 5px !important;
+    text-align: center !important;
+    border-radius: 5px;
+    align-items: center !important;
+}
+.insights-box-energy-2{
+  display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 5px !important;
+    text-align: center !important;
+    border-radius: 5px;
+    align-items: center !important;
+    gap: 30px;
+}
+
+.insights-key{
+  color: #1f1e1e;
+}
+.insights-value{
+  color: #000000;
+  font-weight: bold;
+}
+.insights-head{
+  font-weight: bold;
+    font-size: 15px;
+    color: #534d4d;
+    font-weight: bold;
+}
+.insights-head-1{
+margin-left: 5px;
+font-size: 15px;
+    color: #534d4d;
+    font-weight: bold;
+}
+.insights-head-plot{
+  font-weight: bold;
+    font-size: 16px;
+    color: #534d4d;
+    font-weight: bold;
+}
+
+.insights-input{
+  width: 45px;
+  border: none;
+  background-color:#E5E5E6;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+}
+.insights-input-1{
+  width: 45px;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+}
+
+.insight-dialog{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.diagnostic-anomila{
+  display: flex;
+      gap: 12px;
+      margin-top: 5px;
+}
+.diagnostic-anomila-red{
+  background-color: red;
+  padding: 7px;
+  border-radius: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.diagnostic-anomila-orange{
+  background-color: orange;
+  padding: 7px;
+  border-radius: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.diagnostic-anomila-yellow{
+  background-color: #e2e20d;
+  padding: 7px;
+  border-radius: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.diagnostic-anomila-green{
+  background-color: green;
+  padding: 7px;
+  border-radius: 9px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+.diagnostic-tit{
+  font-size: 15px;
+    color: #534d4d;
+    font-weight: bold;
+}
+.diagnostic-subtit {
+  letter-spacing: 0.0075em;
+  color: #000000;
+  line-height: 1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 11px;
+}
+.diagnostic-valueimag {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.diagnostic-energybox {
+  width: 24%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #FFFEFE !important;
+  box-shadow: 0 2px 4px rgba(116, 115, 115, 0.1);
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.target{
+  display: flex;
+    justify-content: space-between;
+}
+.diagnostic-left{
+  margin-left: 35px;
+}
+.target_name{
+  font-size: 15px !important;
+}
+.target_value{
+  font-size: 15px !important;
+}
+.diagnostic-anomila-target{
+  margin-top: 5px;
+}
+.ft-15{
+  font-size: 14px;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.yellow{
+  color: #e2e20d;
+}
+.data-image-energy {
+  height: 25px;
+  margin-top: 13px;
+}
+.data-image-waste {
+  height: 45px;
+}
+
+.css-1jmirqd-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: #0b694c !important;
+}
+
+.diagnostic-anomila-target-waste{
+      margin-top: 11px;
+      gap: 6px;
+      display: flex;
+      flex-direction: column;
+}
+    

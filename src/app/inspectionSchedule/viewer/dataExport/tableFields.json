@@ -1,0 +1,58 @@
+{
+    "fields": [
+        {
+            "heading": "S.no",
+            "property": "id"
+        },
+        {
+            "heading": "Inspection Checklist",
+            "property": "check_list_name"
+        },
+        {
+            "heading": "Asset Id",
+            "property": "asset_number"
+        },
+        {
+            "heading": "Type",
+            "property": "category_type"
+        },
+        {
+            "heading": "Asset",
+            "property": "asset_name"
+        },
+        {
+            "heading": "Location",
+            "property": "asset_path"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_name"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Planned Start",
+            "property": "start_datetime",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Planned End",
+            "property": "end_datetime",
+            "isDate": "yes"
+        }
+    ],
+    "actualStartFields": [
+        {
+            "heading": "Actual Start",
+            "property": "date_start_execution"
+        }
+    ],
+    "actualEndFields": [
+        {
+            "heading": "Actual End",
+            "property": "date_execution"
+        }
+    ]
+}

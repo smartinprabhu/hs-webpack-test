@@ -1,0 +1,377 @@
+{
+    "listfieldsSVShows": [
+        "title",
+        "stage_id",
+        "tot_comp_survey"
+    ],
+    "repeatTypes": [
+        {
+            "value": "weekly",
+            "label": "Weekly"
+        },
+        {
+            "value": "monthly",
+            "label": "Monthly"
+        },
+        {
+            "value": "Quarterly",
+            "label": "Quarterly"
+        },
+        {
+            "value": "Half Yearly",
+            "label": "Half Yearly"
+        },
+        {
+            "value": "Annual",
+            "label": "Annual"
+        }
+    ],
+    "repeatTypesText": {
+        "weekly": {
+             "value": "weekly",
+            "label": "Weekly"
+        },     
+        "monthly": {
+           "value": "monthly",
+            "label": "Monthly"
+        },
+        "Quarterly": {
+          "value": "Quarterly",
+            "label": "Quarterly"
+        },
+        "Half Yearly": {
+            "value": "Half Yearly",
+            "label": "Half Yearly"
+        },
+        "Annual": {
+             "value": "Annual",
+            "label": "Annual"
+        }     
+    },
+    "types": [
+        {
+            "value": "e",
+            "label": "Equipment"
+        },
+        {
+            "value": "ah",
+            "label": "Space"
+        }
+    ],
+    "typesText": {
+        "e": {
+            "value": "e",
+            "label": "Equipment"
+        },
+        "ah": {
+            "value": "ah",
+            "label": "Space"
+        }
+    },
+    "levels": [
+        {
+            "value": "1",
+            "label": "1"
+        },
+        {
+            "value": "2",
+            "label": "2"
+        },
+        {
+            "value": "3",
+            "label": "3"
+        },
+        {
+            "value": "4",
+            "label": "4"
+        },
+        {
+            "value": "5",
+            "label": "5"
+        }
+    ],
+    "matrixTypes": [
+        {
+            "value": "simple",
+            "label": "One choice per row"
+        },
+        {
+            "value": "multiple",
+            "label": "Multiple choices per row"
+        }
+    ],
+    "matrixTypesText": {
+        "simple": {
+            "value": "simple",
+            "label": "One choice per row"
+        },
+        "multiple": {
+            "value": "multiple",
+            "label": "Multiple choices per row"
+        }
+    },
+    "displayModes": [
+        {
+            "value": "columns",
+            "label": "Radio Buttons"
+        },
+        {
+            "value": "dropdown",
+            "label": "Selection Box"
+        }
+    ],
+    "displayModesText": {
+        "columns": {
+            "value": "columns",
+            "label": "Radio Buttons"
+        },
+        "dropdown": {
+            "value": "dropdown",
+            "label": "Selection Box"
+        }
+    },
+    "noofColumns": [
+        {
+            "value": "12",
+            "label": "1"
+        },
+        {
+            "value": "6",
+            "label": "2"
+        },
+        {
+            "value": "4",
+            "label": "3"
+        },
+        {
+            "value": "3",
+            "label": "4"
+        },
+        {
+            "value": "2",
+            "label": "6"
+        }
+    ],
+    "noofColumnsText": {
+        "12": {
+            "value": "12",
+            "label": "1"
+        },
+        "6": {
+            "value": "6",
+            "label": "2"
+        },
+        "4": {
+            "value": "4",
+            "label": "3"
+        },
+        "3": {
+            "value": "3",
+            "label": "4"
+        },
+        "2": {
+            "value": "2",
+            "label": "6"
+        }
+    },
+    "questionTypes": [
+        {
+            "value": "free_text",
+            "label": "Multiple Lines Text Box"
+        },
+        {
+            "value": "textbox",
+            "label": "Single Line Text Box"
+        },
+        {
+            "value": "numerical_box",
+            "label": "Numerical Value"
+        },
+        {
+            "value": "date",
+            "label": "Date"
+        },
+        {
+            "value": "simple_choice",
+            "label": "Multiple choice: only one answer"
+        },
+        {
+            "value": "multiple_choice",
+            "label": "Multiple choice: multiple answers allowed"
+        },
+        {
+            "value": "matrix",
+            "label": "Matrix"
+        }
+    ],
+    "riskLevels": [
+        {
+            "value": "High",
+            "label": "High"
+        },
+        {
+            "value": "Medium",
+            "label": "Medium"
+        },
+        {
+            "value": "Low",
+            "label": "Low"
+        }
+    ],
+    "questionTypesText": {
+        "free_text": {
+            "value": "free_text",
+            "label": "Multiple Lines Text Box"
+        },
+        "textbox": {
+            "value": "textbox",
+            "label": "Single Line Text Box"
+        },
+        "text": {
+            "value": "text",
+            "label": "Single Line Text Box"
+        },
+        "numerical_box": {
+            "value": "numerical_box",
+            "label": "Numerical Value"
+        },
+        "number": {
+            "value": "number",
+            "label": "Numerical Value"
+        },
+        "date": {
+            "value": "date",
+            "label": "Date"
+        },
+        "simple_choice": {
+            "value": "simple_choice",
+            "label": "Multiple choice: only one answer"
+        },
+        "multiple_choice": {
+            "value": "multiple_choice",
+            "label": "Multiple choice: multiple answers allowed"
+        },
+        "matrix": {
+            "value": "matrix",
+            "label": "Matrix"
+        },
+        "suggestion": {
+            "value": "suggestion",
+            "label": "Suggestion"
+        },
+        "boolean": {
+            "value": "boolean",
+            "label": "Boolean"
+        }
+    },
+    "tableColumnsSV": [
+        {
+            "label": "Type",
+            "value": "category_type"
+        },
+        {
+            "label": "Invitations Sent",
+            "value": "tot_sent_survey"
+        },
+        {
+            "label": "Started",
+            "value": "tot_start_survey"
+        },
+        {
+            "label": "Completed",
+            "value": "tot_comp_survey"
+        }
+    ],
+    "dashboardStatus": {
+        "IP": {
+            "id": "In progress",
+            "label": "In progress",
+            "tags": [
+                {
+                    "key": "stage_id",
+                    "title": "Status",
+                    "value": "In progress",
+                    "label": "In progress",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "PM": {
+            "id": "Permanent",
+            "label": "Permanent",
+            "tags": [
+                {
+                    "key": "stage_id",
+                    "title": "Status",
+                    "value": "Permanent",
+                    "label": "Permanent",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "DR": {
+            "id": "Published",
+            "label": "Published",
+            "tags": [
+                {
+                    "key": "stage_id",
+                    "title": "Status",
+                    "value": "Published",
+                    "label": "Published",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CD": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "stage_id",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "states": {
+        "Draft": {
+            "color": "info",
+            "colorClass": "text-info",
+            "text": "Draft"
+        },
+        "Closed": {
+            "color": "danger",
+            "colorClass": "text-danger",
+            "text": "Closed"
+        },
+        "Published": {
+            "color": "success",
+            "colorClass": "text-success",
+            "text": "Published"
+        },
+        "Management System": {
+            "color": "info",
+            "colorClass": "text-info",
+            "text": "Management System"
+        }
+    },
+    "pieChartOptions": {
+        "legend": {
+            "display": true,
+            "position": "bottom"
+        },
+        "responsive": true,
+        "maintainAspectRatio": true
+    },
+    "barChartOptions": {
+        "legend": {
+            "display": false,
+            "position": "bottom"
+        },
+        "responsive": true,
+        "maintainAspectRatio": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Add Agreements" :"pur_purchase agreements_addagreements",
+    "Edit Agreements" :"pur_purchase agreements_editagreements",
+    "Confirm Order" :"pur_purchase agreements_confirmorder",
+    "New Quotation" :"pur_purchase agreements_newquotation",
+    "Cancel" :"pur_purchase agreements_cancelagreements",
+    "Validate" :"pur_agreements_validate",
+    "Close" :"pur_agreements_closeagreements",
+    "Reset to Draft" :"pur_agreements_resettodraft",
+    "Request for Quotation/ Orders" :"request_for_quotation_orders"
+}

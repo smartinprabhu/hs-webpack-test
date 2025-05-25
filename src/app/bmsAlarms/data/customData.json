@@ -1,0 +1,270 @@
+{
+    "dashboardStatus": {
+        "OP": {
+            "id": "Open",
+            "label": "Open",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Open",
+                    "label": "Open",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "IP": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "In Progress",
+                    "label": "In Progress",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "OH": {
+            "id": "Onhold",
+            "label": "Onhold",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "On Hold",
+                    "label": "On Hold",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "stateTypes":[
+        {
+            "value": "Open",
+            "label" : "Open"
+        },
+        {
+            "value": "In Progress",
+            "label" : "In Progress"
+        },
+        {
+            "value": "On Hold",
+            "label" : "On Hold"
+        },
+        {
+            "value": "Closed",
+            "label" : "Closed"
+        },
+        {
+            "value": "Cancelled",
+            "label" : "Cancelled"
+        }
+    ],
+    "status": {
+        "Open": {
+            "id": "Open",
+            "label": "Open",
+            "color":"secondary"
+        },
+        "In Progress": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "color": "info"
+       },
+        "On Hold": {
+            "id": "On Hold",
+            "label": "On Hold",
+            "color": "warning"
+       },
+        "Closed": {
+            "id": "Closed",
+            "label": "Closed",
+            "color": "success"
+       },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "danger"
+       }
+    },
+    "complianceListFields": [
+        "id",
+        "company_id",
+        "state",
+        "generated_on",
+        "subject",
+        "severity",
+        "type_category",
+        "equipment_id",
+        "space_id",
+        "category_id",
+        "sub_category_id",
+        "maintenance_team_id",
+        "requested_by",
+        "planned_sla_end_date",
+        "resolution"
+    ],
+    "listfieldsShows": [
+        "id",
+        "company_id",
+        "state",
+        "generated_on",
+        "subject",
+        "severity",
+        "type_category",
+        "equipment_id",
+        "space_id",
+        "category_id",
+        "sub_category_id"
+    ],
+    "criticalTextForm": {
+        "Critical": {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        "Major": {
+            "value": "Major",
+            "label": "Major"
+        },
+        "Minor": {
+            "value": "Minor",
+            "label": "Minor"
+        }
+    },
+    "critical": [
+        {
+            "value": "Major",
+            "label": "Major"
+        },
+        {
+            "value": "Minor",
+            "label": "Minor"
+        },
+        {
+            "value": "Critical",
+            "label": "Critical"
+        }
+    ],
+    "typeTextForm": {
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        },
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    },
+    "reqType": [
+        {
+            "value": "Space",
+            "label": "Space"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "amcTextForm": {
+        "Valid": {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        "Expired": {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        "Not Available": {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    },
+    "amcStatus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    ],
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "INPROGRESS",
+         "displayname": "In Progress"
+       },
+       {
+        "id": 2,
+        "name": "ONHOLD",
+        "displayname": "On-Hold"
+      },     
+       {
+        "id": 3,
+        "name": "CLOSE",
+        "displayname": "Close"
+      } ,
+        {
+         "id": 4,
+         "name": "CANCEL",
+         "displayname": "Cancel"
+       },
+       {
+        "id": 5,
+        "name": "DRAFT",
+        "displayname": "Reopen"
+      }
+     ],
+     "actionTypes": {
+        "In Progress": {
+            "value": "action_in_progress",
+            "text": "In Progress",
+            "msg": "This BMS Alarm has been put into In Progress successfully..",
+            "button": "Put In Progress"
+        },
+        "On-Hold": {
+            "value": "action_on_hold",
+            "text": "On-Hold",
+            "msg": "This BMS Alarm has been put into On Hold successfully..",
+            "button": "Put On-Hold"
+        },
+        "Close": {
+            "value": "action_on_closed",
+            "text": "Close",
+            "msg": "This BMS Alarm has been Closed successfully..",
+            "button": "Close"
+        },
+        "Cancel": {
+            "value": "action_on_cancelled",
+            "text": "Cancel",
+            "msg": "This BMS Alarm has been Cancelled successfully..",
+            "button": "Cancel"
+        },
+        "Reopen": {
+            "value": "action_set_to_draft",
+            "text": "Reopen",
+            "msg": "This BMS Alarm has been reopened successfully..",
+            "button": "Reopen"
+        }
+    }
+}

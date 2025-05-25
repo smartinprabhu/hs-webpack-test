@@ -1,0 +1,136 @@
+{
+    "columns": [
+        {
+            "Header": "Reference",
+            "accessor": "name"
+        },
+        {
+            "Header": "Asset Number",
+            "accessor": "sequence"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Location",
+            "accessor": "equipment_location_id"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority",
+            "func": true
+        },
+        {
+            "Header": "Issue Type",
+            "accessor": "issue_type"
+        },
+        {
+            "Header": "Technician",
+            "accessor": "employee_id"
+        },
+        {
+            "accessor": "equip_asset_common",
+            "Header": "Equipment/Space"
+        },
+        {
+            "accessor": "maintenance_type",
+            "Header": "Maintenance Type",
+            "func": true
+        },
+        {
+            "accessor": "type_category",
+            "Header": "Type",
+            "func": true
+        },
+        {
+            "accessor": "task_id",
+            "Header": "Maintenance Operations"
+        },
+        {
+            "accessor": "description",
+            "Header": "Description"
+        },
+        {
+            "accessor": "date_planned",
+            "Header": "Requested Date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "date_execution",
+            "Header": "Close Date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "pause_reason_id",
+            "Header": "On-Hold Reason"
+        }
+    ],
+    "fields": [
+        {
+            "label": "Number",
+            "value": "sequence"
+        },
+        {
+            "label": "Reference",
+            "value": "name"
+        },
+        {
+            "label": "Issue Type",
+            "value": "issue_type"
+        },
+        {
+            "label": "Technician",
+            "value": "employee_id.name"
+        },
+        {
+            "label": "Maintenance Operations",
+            "value": "task_id.name"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ]
+}

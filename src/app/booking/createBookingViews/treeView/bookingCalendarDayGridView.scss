@@ -1,0 +1,146 @@
+@import "../../../../styles/variables.scss";
+.partialBookingCalendar {
+   .fc-scrollgrid-section-header {
+        // background-color:$color-azure;
+        border-color: none !important;
+    }
+    .fc-col-header-cell-cushion{
+        font-weight: 700;
+        font-size: small;
+        // color: $color-night-rider;
+        // border-color: $color-azure;
+    }
+    .fc .fc-daygrid-day {
+        display: none;
+    }
+    .fc .fc-daygrid-body-unbalanced {
+        display: none;
+    }
+    .fc .fc-event-title {
+        text-align: center;
+        font-size: 15px;
+    }
+    .fc .fc-event-time {
+        display: none;
+    }
+    .fc .fc-timegrid-slot-label-cushion {
+        // color: $color-grey-chateau;
+        font-weight: 500;
+    }
+    .fc .fc-scrollgrid {
+     height: 400px;
+    }
+   .fc-col-header-cell{
+       width: 75px;
+   }
+   .fc-timegrid-col{
+       width: 75px;
+   }
+   .fc-view-harness {
+       height: 270px !important;
+   }
+.fc-timegrid-col{
+    width: auto !important;
+    // background-color: $color-white !important;
+}
+.fc-col-header-cell{
+    width: auto !important;
+    height: 50px;
+}
+.fc .fc-next-button{
+    height: 22px;
+    width: 22px;
+    margin-top: 15px;
+    float: left;
+    border: solid !important;
+    border-width: 1px !important;
+    // background-color: $color-white;
+    // color: $color-ink;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+    border-bottom-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+    margin-top: 5px;
+    padding: 0px 2px !important;
+}
+.fc .fc-prev-button {
+    height: 22px;
+    width: 22px;
+    margin-top: 15px;
+    float: left;
+    border: solid !important;
+    border-width: 1px !important;
+    // background-color: $color-white;
+    // color: $color-ink;
+    border-top-left-radius: 35px !important;
+    border-top-right-radius: 35px !important;
+    border-bottom-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 0px 2px !important;
+}
+// .fc-next-button:enabled:hover{
+//     // background: $color-cloud-burst !important;
+//     // color:$color-white !important;
+// }
+// .fc-prev-button:enabled:hover{
+//     background: $color-cloud-burst !important;
+//     color:$color-white !important;
+// }
+.fc-toolbar-title{
+    display: none
+}
+.fc-today-button{
+    display: none
+}
+.fc-timeGridWeek-button{
+    display: none
+}
+.fc-dayGridMonth-button{
+    display: none;
+}
+.fc-timeGridDay-button{
+    display: none;
+}
+.fc-header-toolbar {
+    // background:$color-azure ;
+    margin-bottom: 0rem;
+    // display: none;
+}
+.fc .fc-toolbar.fc-header-toolbar  {
+    margin-bottom: 0em !important;  
+}
+.fc .fc-toolbar{
+    margin-bottom: 0em !important; 
+}
+.fc-button-primary{
+    height: 55px;
+    width: 25px;
+}
+ .fc-button-group{
+    margin-bottom: 10px;
+}
+.fc-toolbar-chunk {
+    position: absolute;
+    top: 13px;
+    z-index: 1;
+}
+.fc .fc-button .fc-icon {
+    vertical-align: initial !important; 
+    font-size: 15px !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.PrivateSwitchBase-root-3 {
+    padding: 1px !important;
+}
+.MuiSvgIcon-fontSizeSmall{
+    font-size: 1rem 
+}
+.font-size-10px{
+    font-size: 10px;
+}
+}

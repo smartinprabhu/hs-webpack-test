@@ -1,0 +1,9 @@
+{
+    "Add Breakdown Tracker": "cb_createbreakdowntracker",
+    "Edit Breakdown Tracker": "cb_editbreakdowntracker",
+    "Delete Breakdown Tracker": "cb_deletebreakdowntracker",
+    "Add Comment": "hd_breakdowntracker_addcomment",
+    "Other Info": "hx_incident_other_info",
+    "Investigation Report": "investigation_report",
+    "Lessons Learnt Report": "lessons_learnt_report"
+}

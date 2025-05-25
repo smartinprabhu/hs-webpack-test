@@ -1,0 +1,12 @@
+{
+    "groupFilters": [
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "asset_name",
+            "label": "Asset"
+        }
+    ]
+}

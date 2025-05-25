@@ -1,0 +1,7 @@
+{
+    "Add Request" :"pur_purchase request_addrequest",
+    "Edit Request" :"pur_purchase request_editrequest",
+    "Confirm Order" :"pur_purchase request_confirmorder",
+    "Cancel" :"pur_purchase request_cancelrequest",
+    "Set to Draft" :"pur_purchase request_settodraft"
+}

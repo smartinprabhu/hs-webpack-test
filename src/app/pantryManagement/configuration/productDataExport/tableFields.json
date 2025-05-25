@@ -1,0 +1,78 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Product Category",
+            "property": "categ_id"
+        },
+        {
+            "heading": "Pantry",
+            "property": "pantry_ids"
+        },
+        {
+            "heading": "Minimum Order Qty",
+            "property": "minimum_order_qty"
+        },
+        {
+            "heading": "Maximum Order Qty",
+            "property": "maximum_order_qty"
+        }
+    ],
+    "statusFields": [
+        {
+            "heading": "Status",
+            "property": "active"
+        }
+    ],
+    "weightFields": [
+        {
+            "heading": "Weight",
+            "property": "weight"
+        }
+    ],
+    "volumeFields": [
+        {
+            "heading": "Volume",
+            "property": "volume"
+        }
+    ],
+    "newUntilFields": [
+        {
+            "heading": "New Until",
+            "property": "new_until"
+        }
+    ],
+    "Uom": [
+        {
+            "heading": "Uom",
+            "property": "uom_id"
+        }
+    ],
+    "PurchaseUOM": [
+        {
+            "heading": "Purchase UOM",
+            "property": "uom_po_id"
+        }
+    ],
+    "dateFields": [
+        {
+            "heading": "Created on",
+            "property": "create_date"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

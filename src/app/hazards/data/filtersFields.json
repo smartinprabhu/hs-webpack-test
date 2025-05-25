@@ -1,0 +1,156 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Hazard Number",
+            "accessor": "reference"
+        },
+        {
+            "Header": "Title",
+            "accessor": "name"
+        },
+        {
+            "Header": "Category",
+            "accessor": "category_id"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority_id"
+        },
+        {
+            "Header": "Reported On",
+            "accessor": "reported_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Target Closure Date",
+            "accessor": "target_closure_date",
+            "dateFunction": true,
+            "dateDisplayType": "date"
+        },
+        {
+            "Header": "Assigned To",
+            "accessor": "assigned_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Type",
+            "accessor": "type_category",
+            "func": true
+        },
+        {
+            "Header": "Space",
+            "accessor": "asset_id"
+        },
+        {
+            "Header": "Equipment",
+            "accessor": "equipment_id"
+        },
+        {
+            "Header": "Type of Activity / Hazard",
+            "accessor": "incident_type_id"
+        },
+        {
+            "Header": "Report On",
+            "accessor": "incident_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "Header": "Company",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Corrective Action",
+            "accessor": "corrective_action"
+        },
+        {
+            "Header": "Reported By",
+            "accessor": "reported_by_id"
+        },
+        {
+            "Header": "Acknowledged By",
+            "accessor": "acknowledged_by_id"
+        },
+        {
+            "Header": "Acknowledged On",
+            "accessor": "acknowledged_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Resolved By",
+            "accessor": "resolved_by_id"
+        },
+        {
+            "Header": "Resolved On",
+            "accessor": "resolved_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Validated By",
+            "accessor": "validated_by_id"
+        },
+        {
+            "Header": "Validated On",
+            "accessor": "validated_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ]
+}

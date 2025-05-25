@@ -1,0 +1,36 @@
+@import "../../../styles/variables.scss";
+
+.activity-list{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#containerImage {
+  height: 200px;
+  width:100%;
+  overflow:auto;
+  float:left;
+  text-align:center;  
+}
+
+// .bg-lavender-blush {
+//   background-color: $color-lavender-blush;
+// }
+
+// .color-torch-red {
+//   color: $color-torch-red;
+// }
+
+.asset-warranty{
+  max-height: 200px;
+  overflow-x: auto;
+}
+
+.asset-warranty-header-sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    // background: $color-white;
+}
+
+

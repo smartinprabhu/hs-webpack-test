@@ -1,0 +1,2306 @@
+{
+  "data": {
+      "Name": "PPM Calendar",
+      "ppm_orders": [
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-01 12:46:01",
+              "id": 45,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist fo ffffffffffr  ffffffffffffffff ffffffffffffff Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-01 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-02 12:46:01",
+              "id": 46,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-02 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-03 12:46:01",
+              "id": 47,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-03 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-04 12:46:01",
+              "id": 48,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-04 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-05 12:46:01",
+              "id": 49,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-05 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-06 12:46:01",
+              "id": 50,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-06 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-07 12:46:01",
+              "id": 51,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-07 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-08 12:46:01",
+              "id": 52,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-08 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-09 12:46:01",
+              "id": 53,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-09 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-10 12:46:01",
+              "id": 54,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-10 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-11 12:46:01",
+              "id": 55,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-11 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-12 12:46:01",
+              "id": 56,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-12 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-13 12:46:01",
+              "id": 57,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-13 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-14 12:46:01",
+              "id": 58,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-14 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-15 12:46:01",
+              "id": 59,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-15 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-16 12:46:01",
+              "id": 60,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-16 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-17 12:46:01",
+              "id": 61,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-17 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-18 12:46:01",
+              "id": 62,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-18 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-19 12:46:01",
+              "id": 63,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-19 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-20 12:46:01",
+              "id": 64,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-20 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-21 12:46:01",
+              "id": 65,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-21 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-22 12:46:01",
+              "id": 66,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-22 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-23 12:46:01",
+              "id": 67,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-23 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-24 12:46:01",
+              "id": 68,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-24 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-25 12:46:01",
+              "id": 69,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-25 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-26 12:46:01",
+              "id": 70,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-26 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-27 12:46:01",
+              "id": 71,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-27 11:46:01",
+              "total": 0
+          },
+          {
+              "asset_list": [
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 53,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#10",
+                      "space_category_type": "floor",
+                      "space_name": "F#10",
+                      "space_number": "WMB-A-00002",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 1715,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F11",
+                      "space_category_type": "floor",
+                      "space_name": "F11",
+                      "space_number": "WMB-A-00231",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 2470,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#13",
+                      "space_category_type": "floor",
+                      "space_name": "F#13",
+                      "space_number": "WMB-A-00265",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  },
+                  {
+                      "category_type": "Space",
+                      "equipment_name": "",
+                      "equipment_number": "",
+                      "equipment_state": "",
+                      "id": 3905,
+                      "orders": [],
+                      "path_name": "WMB/WBL/F#12",
+                      "space_category_type": "floor",
+                      "space_name": "F#12",
+                      "space_number": "WMB-A-00464",
+                      "team_id": {
+                          "id": 9,
+                          "name": "Soft Services"
+                      },
+                      "time_period": "Daily"
+                  }
+              ],
+              "by_priority": "Normal",
+              "by_schedule": "Daily",
+              "completed": 0,
+              "end_date": "2021-02-28 12:46:01",
+              "id": 72,
+              "inprogress": 0,
+              "name": "Daily Walkthrough Checklist for Frontdesk Coordinator",
+              "performed_by": "Internal",
+              "start_date": "2021-02-28 11:46:01",
+              "total": 0
+          }
+      ]
+  },
+  "error": {},
+  "length": 1,
+  "status": true
+}

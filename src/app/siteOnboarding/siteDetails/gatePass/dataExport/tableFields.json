@@ -1,0 +1,45 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Level",
+            "property": "level"
+        },
+        {
+            "heading": "Type",
+            "property": "type_category"
+        },              
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }              
+          
+    ],
+    "dateFields": [
+        {
+            "heading": "Space",
+            "property": "location_ids"
+        },
+        {
+            "heading": "Recipients",
+            "property": "recipients_ids"
+        },
+        {
+            "heading": "Equipment Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Space Category",
+            "property": "space_category_id"
+        }
+    ]
+       
+}

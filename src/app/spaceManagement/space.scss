@@ -1,0 +1,203 @@
+@import '../../styles/variables.scss';
+/*** Scroll Space **/
+.scroll-column-space{
+    overflow-y: auto;
+    max-height: 360px;
+    width: 100%;
+ }
+
+  #containerImageSpace {
+    height: 55em;
+    width: 50em;
+    overflow:auto;
+    float:left;
+    text-align:center;
+  }
+
+  .svg-image-draggable{
+     outline: none;
+     cursor: pointer;
+  }
+
+  .svgPopover {
+   width: 100px;
+}
+
+ .floor-layout .card {
+   border-radius: 0;
+   border: none;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+ }
+
+ .react-select__control {
+   border-radius: 50px !important;
+  //  background-color: aliceblue !important;
+   cursor: pointer !important;
+   height: 28px !important;
+   min-height: 28px !important;
+ }
+
+ .react-select__option {
+   cursor:  pointer !important;
+ }
+
+ .react-select__indicator-separator {
+  background-color: transparent !important;
+  display: none !important;
+ }
+
+ .react-select__value-container {
+  margin-bottom: 5px !important;
+  margin-top: -5px !important;
+ }
+
+ .react-select__indicator {
+   padding-top: 4px !important;
+ }
+
+ .mt-n18 {
+  margin-top: -1.8rem !important;
+ }
+
+  .popover {
+    max-width: 400px !important;
+  }
+
+  .popover-button{
+    min-width: 125px !important;
+  }
+
+  .outline-none{
+    outline: none;
+    box-shadow: none;
+    height: 20px;
+    width: 20px;
+  }
+
+.floor-layout {
+  .offset-lg-1 {
+    margin-left: 3.33333%;
+  }
+  .col-lg-5 {
+    flex: 0 0 46.66667%;
+    max-width: 46.6667%;
+  }
+}
+
+#space-management {
+  .space-deatails {
+    min-height: 530px !important;
+  }
+}
+// .floor-text{
+//   color: $color-heather;
+// }
+.floormap-zoom{
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  background: #fff;
+  padding: 10px;
+}
+
+span.MuiButtonBase-root {
+  padding: 9px !important;
+}
+/*** Scroll Space **/
+.scroll-column-space{
+    overflow-y: auto;
+    max-height: 360px;
+    width: 100%;
+ }
+
+  #containerImageSpace {
+    height: 55em;
+    width: 50em;
+    overflow:auto;
+    float:left;
+    text-align:center;
+  }
+
+  .svg-image-draggable{
+     outline: none;
+     cursor: pointer;
+  }
+
+  .svgPopover {
+   width: 100px;
+}
+
+ .floor-layout .card {
+   border-radius: 0;
+   border: none;
+  //  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+ }
+
+ .react-select__control {
+   border-radius: 50px !important;
+  //  background-color: aliceblue !important;
+   cursor: pointer !important;
+   height: 28px !important;
+   min-height: 28px !important;
+ }
+
+ .react-select__option {
+   cursor:  pointer !important;
+ }
+
+ .react-select__indicator-separator {
+  // background-color: transparent !important;
+  display: none !important;
+ }
+
+ .react-select__value-container {
+  margin-bottom: 5px !important;
+  margin-top: -5px !important;
+ }
+
+ .react-select__indicator {
+   padding-top: 4px !important;
+ }
+
+ .mt-n18 {
+  margin-top: -1.8rem !important;
+ }
+
+  .popover {
+    max-width: 400px !important;
+  }
+
+  .popover-button{
+    min-width: 125px !important;
+  }
+
+  .outline-none{
+    outline: none;
+    box-shadow: none;
+    height: 20px;
+    width: 20px;
+  }
+
+.floor-layout {
+  .offset-lg-1 {
+    margin-left: 3.33333%;
+  }
+  .col-lg-5 {
+    flex: 0 0 46.66667%;
+    max-width: 46.6667%;
+  }
+}
+
+#space-management {
+  .space-deatails {
+    min-height: 530px !important;
+  }
+}
+
+.floormap-zoom{
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  background: #fff;
+  padding: 10px;
+}

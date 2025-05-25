@@ -1,0 +1,151 @@
+@import "../../styles/variables.scss";
+
+/** Building Arrow CSS **/
+
+.arrow_box {
+	position: relative;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 97%;
+	left: 5%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	// border-color: $color-transparent;
+	// border-bottom-color: $color-white;
+	border-width: 4px;
+	margin-left: -4px;
+}
+.arrow_box:before {
+	// border-color: $color-transparent;
+	// border-bottom-color: $color-white;
+	border-width: 5px;
+	margin-left: -5px;
+}
+
+/*** Scroll Dashboard **/
+.scroll-column{
+   overflow-y: auto;
+   max-height: 171px;
+   width: 100%;
+}
+
+.map {
+  height: 45.6vh;
+  width: 100%;
+}
+
+.mapicon {
+  width: 40px;
+}
+
+input[type="radio"]{
+  cursor: pointer;
+}
+
+// .site-list{
+//   border-bottom: 1px solid $color-border-thin;
+// }
+
+// .site-list:nth-child(1){
+//   border-top: 1px solid $color-border-thin;
+// }
+
+.search-icon{
+  float: right;
+  margin-right: 7px;
+  margin-top: -21px;
+  position: relative;
+  z-index: 2;
+  padding-right:2px;
+}
+
+.app-list .card{
+  height:90px;
+  border-width: 2px;
+}
+
+.app-list .card-header{
+    padding:0px; 
+    border-bottom: none;
+}
+
+.app-list .card-body{
+    padding:0px; 
+}
+
+.notification-list{
+    max-height: 750px;
+    overflow-y: auto;
+}
+
+
+.notification {
+  position: relative;
+  top: -19px;
+  right: 18px;
+  border-radius: 50%;
+  // background: $color-torch-red;
+  // color: $color-white;
+}
+
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.circle-icon {
+  border:2px solid $color-blue-zodiac;
+  width: 45px !important;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  vertical-align: middle;
+  padding: 9px;
+}
+
+.custom-radio-btn {
+  width: 18px;
+  height: 18px;
+  border: 2px solid $color-blue-zodiac;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.custom-radio-btn input {
+  display: none;
+}
+
+.custom-radio-btn .checkmark {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  border-radius: 50%;
+  background: $color-white;
+  opacity: 0;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.custom-radio-btn input:checked + span.checkmark {
+  opacity: 1;
+  background-color: $color-blue-zodiac;
+}
+
+.companyListView #sitesList span{
+  background-color:#FF9;
+  color:#555;
+}

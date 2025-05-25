@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "EMPLOYEES",
+            "displayname": "Employees",
+            "pathName": "/hr/employees"
+        }
+    ],
+    "title": "HR Settings"
+}

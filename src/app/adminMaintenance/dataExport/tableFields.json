@@ -1,0 +1,27 @@
+{
+    "fields": [
+        {
+            "heading": "Space Name",
+            "property": "name",
+            "childOf": "asset"
+        },
+        {
+            "heading": "Space Location",
+            "property": "path_name",
+            "childOf": "asset"
+        },
+        {
+            "heading": "Space Category",
+            "property": "name",
+            "childOf": "space_category"
+        },
+        {
+            "heading": "Workorder Status",
+            "property": "state"
+        },
+        {
+            "heading": "Planned Date",
+            "property": "date_start_scheduled"
+        }
+    ]
+}

@@ -1,0 +1,1334 @@
+{
+    "criticalities": [
+        {
+            "value": "0",
+            "label": "General"
+        },
+        {
+            "value": "3",
+            "label": "Critical"
+        }
+    ],
+    "states": [
+        {
+            "value": "mn",
+            "label": "Maintenance"
+        },
+        {
+            "value": "op",
+            "label": "Operative"
+        },
+        {
+            "value": "br",
+            "label": "Breakdown"
+        },
+        {
+            "value": "wh",
+            "label": "Warehouse"
+        },
+        {
+            "value": "sc",
+            "label": "Scrapped"
+        }
+    ],
+    "maintenanceTypes": [
+        {
+            "value": "bm",
+            "label": "Corrective"
+        },
+        {
+            "value": "pm",
+            "label": "Preventive"
+        },
+        {
+            "value": "oc",
+            "label": "Proactive"
+        },
+        {
+            "value": "pd",
+            "label": "Predictive"
+        }
+    ],
+    "customStateTypes": {
+        "open": {
+            "value": "open",
+            "label": "Open",
+            "states": [
+                "released",
+                "ready"
+            ]
+        },
+        "progress": {
+            "value": "progress",
+            "label": "Progress",
+            "states": [
+                "assigned",
+                "in_progress",
+                "pause"
+            ]
+        },
+        "done": {
+            "value": "done",
+            "label": "Closed",
+            "states": [
+                "done"
+            ]
+        }
+    },
+    "customTicketStateTypes": {
+        "open": {
+            "value": "Open",
+            "label": "Open",
+            "states": []
+        },
+        "progress": {
+            "value": "In Progress",
+            "label": "Progress",
+            "states": []
+        },
+        "done": {
+            "value": "Staff Closed",
+            "label": "Closed",
+            "states": [
+                "Customer Closed"
+            ]
+        }
+    },
+    "customMaintenanceTypes": {
+        "bm": {
+            "value": "bm",
+            "label": "Corrective",
+            "childMaintenanceTypes": []
+        },
+        "pm": {
+            "value": "pm",
+            "label": "Preventive",
+            "childMaintenanceTypes": []
+        },
+        "oc": {
+            "value": "oc",
+            "label": "Proactive",
+            "childMaintenanceTypes": [
+                "pr"
+            ]
+        },
+        "pd": {
+            "value": "pd",
+            "label": "Predictive",
+            "childMaintenanceTypes": []
+        }
+    },
+    "stateTypes": [
+        {
+            "value": "open",
+            "label": "New"
+        },
+        {
+            "value": "progress",
+            "label": "Progress"
+        },
+        {
+            "value": "done",
+            "label": "Closed"
+        }
+    ],
+    "assignmentStateTypes": [
+        {
+            "value": "Assigned",
+            "label": "Assigned"
+        },
+        {
+            "value": "Not Assigned",
+            "label": "Not Assigned"
+        }
+    ],
+    "categoryTypes": [
+        {
+            "value": "Component",
+            "label": "Component"
+        },
+        {
+            "value": "Accessory",
+            "label": "Accessory"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "statusTypes": [
+        {
+            "value": "POSTED",
+            "label": "Posted"
+        },
+        {
+            "value": "ACCEPTED",
+            "label": "Accepted"
+        }
+    ],
+    "validationTypes": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Invalid",
+            "label": "Not Available"
+        },
+        {
+            "value": "None",
+            "label": "None"
+        }
+    ],
+    "validationTypesText": {
+        "Valid": {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        "Invalid": {
+            "value": "Invalid",
+            "label": "Not Available"
+        },
+        "None": {
+            "value": "None",
+            "label": "None"
+        }
+    },
+    "amcTypes": [
+        {
+            "value": "comprehensive",
+            "label": "Comprehensive"
+        },
+        {
+            "value": "non_comprehensive",
+            "label": "Non-Comprehensive"
+        }
+    ],
+    "entityTypes": [
+        {
+            "value": "Employee",
+            "label": "Employee"
+        },
+        {
+            "value": "Location",
+            "label": "Location"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "tagStatsus": [
+        {
+            "value": "tagged",
+            "label": "Physically Tagged"
+        },
+        {
+            "value": "not_tagged",
+            "label": "Virtually Tagged"
+        }
+    ],
+    "tagStatsusIT": [
+        {
+            "label": "QR Tagged",
+            "value": "is_qr_tagged"
+        },
+        {
+            "label": "NFC Tagged",
+            "value": "is_nfc_tagged"
+        },
+        {
+            "label": "RFID Tagged",
+            "value": "is_rfid_tagged"
+        },
+        {
+            "label": "Virtually Tagged",
+            "value": "is_virtually_tagged"
+        }
+    ],
+    "tagText": {
+        "None": {
+            "color": "primary",
+            "text": "Virtually Tagged"
+        },
+        "not_tagged": {
+            "color": "primary",
+            "text": "Virtually Tagged"
+        },
+        "tagged": {
+            "color": "primary",
+            "text": "Physically Tagged"
+        }
+    },
+    "assignText": {
+        "Assigned": {
+            "color": "info",
+            "text": "Assigned"
+        },
+        "Not Assigned": {
+            "color": "primary",
+            "text": "Not Assigned"
+        }
+    },
+    "amcTypeText": {
+        "comprehensive": {
+            "color": "info",
+            "text": "Comprehensive"
+        },
+        "non_comprehensive": {
+            "color": "primary",
+            "text": "Non-Comprehensive"
+        }
+    },
+    "measureTypes": {
+        "up": {
+            "value": "up",
+            "text": "Progressive"
+        },
+        "delta": {
+            "value": "delta",
+            "text": "Delta"
+        }
+    },
+    "stateslabels": {
+        "mn": {
+            "color": "info",
+            "text": "Maintenance"
+        },
+        "op": {
+            "color": "primary",
+            "text": "Operative"
+        },
+        "wh": {
+            "color": "success",
+            "text": "Warehouse"
+        },
+        "br": {
+            "color": "danger",
+            "text": "Breakdown"
+        },
+        "sc": {
+            "color": "warning",
+            "text": "Scrapped"
+        }
+    },
+    "priorities": {
+        "0": {
+            "text": "General"
+        },
+        "1": {
+            "text": "Important"
+        },
+        "2": {
+            "text": "Very Important"
+        },
+        "3": {
+            "text": "Critical"
+        }
+    },
+    "operations": [
+        {
+            "value": "1",
+            "name": "Date_Filters",
+            "label": "Date Filters"
+        },
+        {
+            "value": "2",
+            "name": "Export",
+            "label": "Export"
+        },
+        {
+            "value": "3",
+            "name": "Add_a_Equipment",
+            "label": "Add a Equipment"
+        },
+        {
+            "value": "4",
+            "name": "Columns",
+            "label": "Columns"
+        },
+        {
+            "value": "5",
+            "name": "Bulk_Upload",
+            "label": "Bulk Upload"
+        },
+        {
+            "value": "6",
+            "name": "Filters",
+            "label": "Filters"
+        }
+    ],
+    "tableColumns": [
+        {
+            "value": "id",
+            "label": "ID"
+        },
+        {
+            "value": "equipment_seq",
+            "label": "Reference Number"
+        },
+        {
+            "value": "equipment_number",
+            "label": "Description"
+        },
+        {
+            "value": "model",
+            "label": "Model Code"
+        },
+        {
+            "value": "purchase_date",
+            "label": "Purchase Date"
+        },
+        {
+            "value": "serial",
+            "label": "Serial Number"
+        },
+        {
+            "value": "vendor_id",
+            "label": "Vendor"
+        },
+        {
+            "value": "monitored_by_id",
+            "label": "Monitored By"
+        },
+        {
+            "value": "managed_by_id",
+            "label": "Managed By"
+        },
+        {
+            "value": "maintained_by_id",
+            "label": "Maintained By"
+        },
+        {
+            "value": "manufacturer_id",
+            "label": "Manufacturer"
+        },
+        {
+            "value": "warranty_start_date",
+            "label": "Warranty Start Date"
+        },
+        {
+            "value": "warranty_end_date",
+            "label": "Warranty End Date"
+        },
+        {
+            "value": "tag_status",
+            "label": "Tag Status"
+        },
+        {
+            "value": "validation_status",
+            "label": "Validation Status"
+        },
+        {
+            "value": "validated_by",
+            "label": "Validated By"
+        },
+        {
+            "value": "validated_on",
+            "label": "Validated On"
+        },
+        {
+            "value": "amc_start_date",
+            "label": "AMC Start Date"
+        },
+        {
+            "value": "amc_end_date",
+            "label": "AMC End Date"
+        },
+        {
+            "value": "amc_type",
+            "label": "AMC Type"
+        }
+    ],
+    "tableITColumns": [
+        {
+            "value": "id",
+            "label": "ID"
+        },
+        {
+            "value": "equipment_seq",
+            "label": "Reference Number"
+        },
+        {
+            "value": "equipment_number",
+            "label": "Description"
+        },
+        {
+            "value": "model",
+            "label": "Model Code"
+        },
+        {
+            "value": "purchase_date",
+            "label": "Purchase Date"
+        },
+        {
+            "value": "serial",
+            "label": "Serial Number"
+        },
+        {
+            "value": "vendor_id",
+            "label": "Vendor"
+        },
+        {
+            "value": "monitored_by_id",
+            "label": "Monitored By"
+        },
+        {
+            "value": "managed_by_id",
+            "label": "Managed By"
+        },
+        {
+            "value": "maintained_by_id",
+            "label": "Maintained By"
+        },
+        {
+            "value": "manufacturer_id",
+            "label": "Manufacturer"
+        },
+        {
+            "value": "warranty_start_date",
+            "label": "Warranty Start Date"
+        },
+        {
+            "value": "warranty_end_date",
+            "label": "Warranty End Date"
+        },
+        {
+            "value": "is_qr_tagged",
+            "label": "QR Tagged"
+        },
+        {
+            "value": "is_nfc_tagged",
+            "label": "NFC Tagged"
+        },
+        {
+            "value": "is_rfid_tagged",
+            "label": "RFID Tagged"
+        },
+        {
+            "value": "is_virtually_tagged",
+            "label": "Virtually Tagged"
+        },
+        {
+            "value": "validation_status",
+            "label": "Validation Status"
+        },
+        {
+            "value": "validated_by",
+            "label": "Validated By"
+        },
+        {
+            "value": "validated_on",
+            "label": "Validated On"
+        },
+        {
+            "value": "amc_start_date",
+            "label": "AMC Start Date"
+        },
+        {
+            "value": "amc_end_date",
+            "label": "AMC End Date"
+        },
+        {
+            "value": "amc_type",
+            "label": "AMC Type"
+        }
+    ],
+    "tableLogColumns": [
+        {
+            "value": "planning_run_result",
+            "label": "Planning Run Result"
+        },
+        {
+            "value": "order_id",
+            "label": "Maintenance Order"
+        }
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "MOVEASSET",
+            "displayname": "Move an Asset"
+        },
+        {
+            "id": 2,
+            "name": "STOREWAREHOUSE",
+            "displayname": "Store in Warehouse"
+        },
+        {
+            "id": 3,
+            "name": "REPLACEASSET",
+            "displayname": "Replace Asset"
+        },
+        {
+            "id": 4,
+            "name": "VALIDATEASSET",
+            "displayname": "Validate Asset"
+        },
+        {
+            "id": 5,
+            "name": "SCRAPASSET",
+            "displayname": "Scrap an Asset"
+        },
+        {
+            "id": 6,
+            "name": "BREAKDOWN",
+            "displayname": "Breakdown Asset"
+        },
+        {
+            "id": 7,
+            "name": "OPERATIVEASSET",
+            "displayname": "Operative Asset"
+        },
+        {
+            "id": 8,
+            "name": "CHECKLISTREPORT",
+            "displayname": "Inspection Checklist Report"
+        }
+    ],
+    "itAssetActionItems": [
+        {
+            "id": 1,
+            "name": "MOVEASSET",
+            "displayname": "Move IT Asset"
+        },
+        {
+            "id": 2,
+            "name": "STOREWAREHOUSE",
+            "displayname": "Store in Warehouse IT Asset"
+        },
+        {
+            "id": 3,
+            "name": "REPLACEASSET",
+            "displayname": "Replace Asset"
+        },
+        {
+            "id": 4,
+            "name": "VALIDATEASSET",
+            "displayname": "Validate Asset"
+        },
+        {
+            "id": 5,
+            "name": "SCRAPASSET",
+            "displayname": "Scrap an Asset"
+        },
+        {
+            "id": 6,
+            "name": "BREAKDOWN",
+            "displayname": "Breakdown Asset"
+        },
+        {
+            "id": 7,
+            "name": "OPERATIVEASSET",
+            "displayname": "Operative Asset"
+        },
+        {
+            "id": 8,
+            "name": "CHECKLISTREPORT",
+            "displayname": "Inspection Checklist Report"
+        },
+        {
+            "id": 9,
+            "name": "ASSIGN",
+            "displayname": "Assign Asset"
+        },
+        {
+            "id": 10,
+            "name": "RETURN",
+            "displayname": "Return Asset"
+        }
+    ],
+    "locationActionItems": [
+        {
+            "id": 1,
+            "name": "ADDLOCATION",
+            "displayname": "Add Location",
+            "accessName": "Add an Asset"
+        },
+        {
+            "id": 2,
+            "name": "ASSETBULKUPLOAD",
+            "displayname": "Asset Bulk Upload",
+            "accessName": "Import Assets"
+        },
+        {
+            "id": 3,
+            "name": "COPYHELPDESKURL",
+            "displayname": "Copy Helpdesk URL",
+            "accessName": "Copy Helpdesk URL"
+        },
+        {
+            "id": 4,
+            "name": "DOWNLOADQR",
+            "displayname": "Download QR",
+            "accessName": "Space QR Export"
+        }
+    ],
+    "types": [
+        {
+            "value": "gauge",
+            "label": "Gauge"
+        },
+        {
+            "value": "meter",
+            "label": "Meter"
+        }
+    ],
+    "todoList": [
+        {
+            "value": "None",
+            "label": "None"
+        },
+        {
+            "value": "Maintenance Order",
+            "label": "Create Maintenance Order"
+        },
+        {
+            "value": "Alarm",
+            "label": "Create Alarm"
+        },
+        {
+            "value": "Reading Logs",
+            "label": "Create Reading Logs"
+        }
+    ],
+    "todoListLabel": {
+        "None": {
+            "value": "None",
+            "label": "None"
+        },
+        "Maintenance Order": {
+            "value": "Maintenance Order",
+            "label": "Create Maintenance Order"
+        },
+        "Alarm": {
+            "value": "Alarm",
+            "label": "Create Alarm"
+        },
+        "Reading Logs": {
+            "value": "Reading Logs",
+            "label": "Create Reading Logs"
+        }
+    },
+    "dataTypes": [
+        {
+            "value": "Float",
+            "label": "Number"
+        },
+        {
+            "value": "String",
+            "label": "Text"
+        }
+    ],
+    "dataTypesLabel": {
+        "Float": {
+            "value": "Float",
+            "label": "Number"
+        },
+        "String": {
+            "value": "String",
+            "label": "Text"
+        }
+    },
+    "conditionListLabel": {
+        "None": {
+            "value": "None",
+            "label": "None"
+        },
+        "Delta": {
+            "value": "Delta",
+            "label": "Delta"
+        },
+        "Run Hour": {
+            "value": "Run Hour",
+            "label": "Run Hour"
+        },
+        "Threshold": {
+            "value": "Threshold",
+            "label": "Threshold"
+        },
+        "Custom": {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    },
+    "conditionList": [
+        {
+            "value": "None",
+            "label": "None"
+        },
+        {
+            "value": "Delta",
+            "label": "Delta"
+        },
+        {
+            "value": "Run Hour",
+            "label": "Run Hour"
+        },
+        {
+            "value": "Threshold",
+            "label": "Threshold"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "aggregateTimePeriodList": [
+        {
+            "value": "Last Reading",
+            "label": "Last Reading"
+        },
+        {
+            "value": "Hourly",
+            "label": "Hourly"
+        },
+        {
+            "value": "Weekly",
+            "label": "Weekly"
+        },
+        {
+            "value": "Daily",
+            "label": "Daily"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "aggregateTimePeriodLabel": {
+        "Last Reading": {
+            "value": "Last Reading",
+            "label": "Last Reading"
+        },
+        "Hourly": {
+            "value": "Hourly",
+            "label": "Hourly"
+        },
+        "Weekly": {
+            "value": "Weekly",
+            "label": "Weekly"
+        },
+        "Daily": {
+            "value": "Daily",
+            "label": "Daily"
+        },
+        "Custom": {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    },
+    "recurrentList": [
+        {
+            "value": "None",
+            "label": "None"
+        },
+        {
+            "value": "Multiples",
+            "label": "Multiples"
+        },
+        {
+            "value": "No of Times",
+            "label": "No. of Times"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "recurrentListLabel": {
+        "None": {
+            "value": "None",
+            "label": "None"
+        },
+        "Multiples": {
+            "value": "Multiples",
+            "label": "Multiples"
+        },
+        "No of Times": {
+            "value": "No of Times",
+            "label": "No. of Times"
+        },
+        "Custom": {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    },
+    "mTypes": [
+        {
+            "value": "bm",
+            "label": "Corrective"
+        },
+        {
+            "value": "pm",
+            "label": "Preventive"
+        },
+        {
+            "value": "oc",
+            "label": "On Condition"
+        },
+        {
+            "value": "pr",
+            "label": "Periodic"
+        },
+        {
+            "value": "pd",
+            "label": "Predictive"
+        }
+    ],
+    "mTypesLabel": {
+        "bm": {
+            "value": "bm",
+            "label": "Corrective"
+        },
+        "pm": {
+            "value": "pm",
+            "label": "Preventive"
+        },
+        "oc": {
+            "value": "oc",
+            "label": "On Condition"
+        },
+        "pr": {
+            "value": "pr",
+            "label": "Periodic"
+        },
+        "pd": {
+            "value": "pd",
+            "label": "Predictive"
+        }
+    },
+    "priorityTypes": [
+        {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        {
+            "value": "High",
+            "label": "High"
+        },
+        {
+            "value": "Medium",
+            "label": "Medium"
+        },
+        {
+            "value": "Low",
+            "label": "Low"
+        }
+    ],
+    "priorityTypesLabel": {
+        "Critical": {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        "High": {
+            "value": "High",
+            "label": "High"
+        },
+        "Medium": {
+            "value": "Medium",
+            "label": "Medium"
+        },
+        "Low": {
+            "value": "Low",
+            "label": "Low"
+        }
+    },
+    "maintenanceTypesHistoryCard": {
+        "bm": {
+            "id": "bm",
+            "label": "Corrective",
+            "color": "success"
+        },
+        "pm": {
+            "id": "pm",
+            "label": "Preventive",
+            "color": "warning"
+        },
+        "oc": {
+            "id": "oc",
+            "label": "On Condition",
+            "color": "danger"
+        },
+        "pr": {
+            "id": "pr",
+            "label": "Periodic",
+            "color": "info"
+        },
+        "pd": {
+            "id": "pd",
+            "label": "Predictive",
+            "color": "primary"
+        },
+        "Assign": {
+            "id": "Assign",
+            "label": "Assign",
+            "color": "success"
+        },
+        "Return": {
+            "id": "Return",
+            "label": "Return",
+            "color": "danger"
+        }
+    },
+    "ticketCodes": {
+        "id": 9,
+        "name": "ADDTICKET",
+        "displayname": "Raise a Ticket"
+    },
+    "viewFields": [
+        "id",
+        "name",
+        "state",
+        "equipment_seq",
+        "model",
+        "serial",
+        "parent_id",
+        "category_id",
+        "criticality",
+        "commodity_id",
+        "equipment_number",
+        "company_id",
+        "location_id",
+        "latitude",
+        "mroord_count",
+        "operating_hours",
+        "capacity",
+        "ypos",
+        "refilling_due_date",
+        "longitude",
+        "xpos",
+        "make",
+        "last_service_done",
+        "employee_id",
+        "gauge_lines_ids",
+        "meter_lines_ids",
+        "message_ids",
+        "monitored_by_id",
+        "managed_by_id",
+        "maintained_by_id",
+        "maintenance_team_id",
+        "purchase_value",
+        "amc_start_date",
+        "amc_end_date",
+        "amc_type",
+        "last_breakdown_on",
+        "total_breakdown_duration",
+        "resource_calendar_id",
+        "mtbf_hours",
+        "start_date",
+        "breakdown_reason",
+        "risk_cost",
+        "expected_mtbf",
+        "mttf_hours",
+        "rav",
+        "total_parts_cost",
+        "total_tools_cost",
+        "total_labor_cost",
+        "no_of_breakdowns",
+        "manufacturer_id",
+        "amc_type",
+        "amc_cost",
+        "end_of_life",
+        "warranty_end_date",
+        "warranty_start_date",
+        "purchase_date",
+        "scheduled_down_time",
+        "predictive_maintenance_time",
+        "order_done_count",
+        "parent_id",
+        "qr_code",
+        "vendor_id",
+        "customer_id",
+        "asset_id",
+        "validation_status",
+        "comment",
+        "validated_on",
+        "validated_by",
+        "tag_status",
+        "space_label_ids",
+        "class_id",
+        "family_id",
+        "segment_id",
+        "image_small",
+        "image_medium",
+        "equipment_map_view",
+        "reading_lines_ids",
+        "history_card_ids",
+        "equipment_cost_ids",
+        "warranty_description",
+        "is_qr_tagged",
+        "is_nfc_tagged",
+        "is_rfid_tagged",
+        "is_virtually_tagged",
+        "assignment_status",
+        "category_type",
+        "brand"
+    ],
+    "viewReadingFields": [
+        "type",
+        "uom_id",
+        "is_active",
+        "is_allow_manual_reading",
+        "threshold",
+        "recurrent",
+        "order_generated_on_quotient",
+        "is_propagate",
+        "aggregate_timeperiod",
+        "threshold_min",
+        "threshold_max",
+        "to_do",
+        "check_list_id",
+        "team_category_id",
+        "maintenance_type",
+        "is_mro_propagate",
+        "alarm_name",
+        "priority",
+        "category_id",
+        "alarm_recipients",
+        "is_propagate_alarms",
+        "message",
+        "description",
+        "alarm_actions",
+        "font_awesome_icon",
+        "ttl",
+        "date",
+        "value",
+        "measure_id",
+        "log_equipment_id",
+        "validation_required",
+        "validation_min_float_value",
+        "validation_max_float_value",
+        "validation_error_msg",
+        "data_type",
+        "dataline_lines_ids",
+        "reading_id",
+        "company_id",
+        "condition",
+        "display_name"
+    ],
+    "viewDataLineFields": [
+        "number",
+        "name",
+        "rank"
+    ],
+    "viewReadingsLogFields": [
+        "equipment_id",
+        "space_id",
+        "reading_id",
+        "type",
+        "sequence",
+        "date",
+        "value",
+        "planning_run_result",
+        "order_id",
+        "company_id"
+    ],
+    "assetListFields": [
+        "id", "name", "equipment_seq", "category_id", "state", "block_id", "floor_id", "location_id", "maintenance_team_id", "equipment_number", "model", "purchase_date", "serial",
+        "vendor_id", "manufacturer_id", "warranty_start_date", "warranty_end_date", "monitored_by_id", "managed_by_id", "maintained_by_id", "tag_status", "validation_status", "company_id",
+        "validated_by", "validated_on", "is_qr_tagged", "is_nfc_tagged", "is_rfid_tagged", "is_virtually_tagged", "amc_start_date", "amc_end_date", "amc_type", "brand","criticality"
+      ],
+    "groupByList": [
+        {
+            "value": "category_id",
+            "label": "By Category"
+        },
+        {
+            "value": "vendor_id",
+            "label": "By Vendor"
+        },
+        {
+            "value": "maintenance_team_id",
+            "label": "By Maintenance Team"
+        }
+    ],
+    "groupByListText": {
+        "category_id": {
+            "value": "category_id",
+            "count_value": "category_id_count",
+            "label": "Category"
+        },
+        "vendor_id": {
+            "value": "vendor_id",
+            "count_value": "vendor_id_count",
+            "label": "Vendor"
+        },
+        "maintenance_team_id": {
+            "value": "maintenance_team_id",
+            "count_value": "maintenance_team_id_count",
+            "label": "Maintenance Team"
+        }
+    },
+    "definitionList": {
+        "name": {
+            "definition": "Name of the equipment installed at the facility",
+            "label": "Equipment Name"
+        },
+        "image_small": {
+            "definition": "Picture of the asset"
+        },
+        "location_id": {
+            "definition": "The exact location that the equipment is located at the facility",
+            "label": "Space/Full Path Name"
+        },
+        "equipment_seq": {
+            "definition": "A Unique number generated by the Helix Platform to identify the asset",
+            "label": "Equipment Number"
+        },
+        "category_id": {
+            "definition": "Category of the Asset"
+        },
+        "parent_id": {
+            "definition": "Parent of the Asset"
+        },
+        "criticality": {
+            "definition": "Criticality of the Asset"
+        },
+        "amc_type": {
+            "definition": "AMC Type of the Asset"
+        },
+        "amc_cost": {
+            "definition": "AMC Cost of the Asset"
+        },
+        "amc_start_date": {
+            "definition": "AMC Start date of the Asset"
+        },
+        "amc_end_date": {
+            "definition": "AMC End date of the Asset"
+        },
+        "last_breakdown_on": {
+            "definition": "Last breakdown date of the Asset"
+        },
+        "breakdown_reason": {
+            "definition": "Breakdown reason of the Asset"
+        },
+        "expected_mtbf": {
+            "definition": "Expected Mean time between failures of the Asset"
+        },
+        "mtbf_hours": {
+            "definition": "Actual Mean time between failures of the Asset"
+        },
+        "rav": {
+            "definition": "Replacement Asset Value"
+        },
+        "mttf_hours": {
+            "definition": "Mean time between failures of the Asset"
+        },
+        "total_parts_cost": {
+            "definition": "Total Parts Cost of the Asset"
+        },
+        "total_tools_cost": {
+            "definition": "Total Tools Cost of the Asset"
+        },
+        "total_labor_cost": {
+            "definition": "Total Labor Cost of the Asset"
+        },
+        "model": {
+            "definition": "The Model number of the asset by the manufacturer"
+        },
+        "serial": {
+            "definition": "The Serial number of the asset by the manufacturer"
+        },
+        "asset_id": {
+            "definition": "Purchase Order reference number"
+        },
+        "customer_id": {
+            "definition": "Customer Accounting string reference number (Fixed Assets)"
+        },
+        "purchase_value": {
+            "definition": "Value of the asset"
+        },
+        "purchase_date": {
+            "definition": "Date of the Purchase of Asset (As per the Purchase Order)"
+        },
+        "cost_info": {
+            "definition": "Fixed Cost"
+        },
+        "start_date": {
+            "definition": "Date of the asset was installed at the facility"
+        },
+        "state": {
+            "definition": "Status of the asset",
+            "label": "Status"
+        },
+        "warranty_start_date": {
+            "definition": "Start date of the warranty"
+        },
+        "end_of_life": {
+            "definition": "End date of the asset"
+        },
+        "warranty_end_date": {
+            "definition": "End Date of the warranty"
+        },
+        "warranty_description": {
+            "definition": "Description of the warranty coverage"
+        },
+        "tag_status": {
+            "definition": "Physical / Virtual Tagging Status"
+        },
+        "assignment_status": {
+            "definition": "Assigned / Not Assigned Status"
+        },
+        "manufacturer_id": {
+            "definition": "Name of the Manufacturer"
+        },
+        "vendor_id": {
+            "definition": "Name of the vendor who supplied the asset"
+        },
+        "monitored_by_id": {
+            "definition": "Name of the vendor / team who monitors the asset (Command Center / FM Team etc.)"
+        },
+        "managed_by_id": {
+            "definition": "Name of the vendor / team who manages  the asset (External vendor / FM Team etc.)"
+        },
+        "maintained_by_id": {
+            "definition": "Name of the vendor / team who maintains  the asset (External vendor / FM Team etc.)"
+        },
+        "commodity_id": {
+            "definition": "The unique UNSPSC code for the asset"
+        },
+        "equipment_number": {
+            "definition": "Description of the asset"
+        },
+        "comment": {
+            "definition": "Additional Comments"
+        },
+        "validation_status": {
+            "definition": "Validation status of the Asset"
+        },
+        "validated_by": {
+            "definition": "The user who validated the Asset"
+        },
+        "validated_on": {
+            "definition": "The last validated date of the Asset"
+        },
+        "geolocations": {
+            "definition": "The Geo locations of the Asset"
+        },
+        "positions": {
+            "definition": "The positions of the Asset"
+        },
+        "make": {
+            "definition": "The make code of the Asset"
+        },
+        "capacity": {
+            "definition": "The Capacity of the Asset"
+        },
+        "operating_hours": {
+            "definition": "The Working hours of the Asset"
+        },
+        "last_service_done": {
+            "definition": "The last service done date of the Asset"
+        },
+        "refilling_due_date": {
+            "definition": "The Refilling due date of the Asset"
+        },
+        "employee_id": {
+            "definition": "The employee who assigned for the Asset"
+        },
+        "brand": {
+            "definition": "The brand for the Asset"
+        }
+    }
+}

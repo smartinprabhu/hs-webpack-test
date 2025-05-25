@@ -1,0 +1,50 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "City",
+            "property": "city"
+        },
+        {
+            "heading": "ZIP Code",
+            "property": "zip"
+        },
+        {
+            "heading": "State",
+            "property": "state_id"
+        }
+    ],
+    "phoneFields": [
+        {
+            "heading": "Phone",
+            "property": "phone"
+        }
+    ],
+    "mobFields": [
+        {
+            "heading": "Mobile",
+            "property": "mobile"
+        }
+    ],
+    "mailFields": [
+        {
+            "heading": "Email",
+            "property": "email"
+        }
+    ],   
+    "webFields": [
+        {
+            "heading": "Website",
+            "property": "website"
+        }
+    ]
+       
+}

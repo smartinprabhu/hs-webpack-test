@@ -1,0 +1,5 @@
+{
+    "Add Bulk Entry": "cxo_bulk_entry_add",
+    "Update Bulk Entry": "cxo_bulk_entry_update",
+    "Delete Bulk Entry": "cxo_bulk_entry_delete"
+}

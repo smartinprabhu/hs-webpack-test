@@ -1,0 +1,133 @@
+{    
+    "fields": [      
+        {
+            "label": "Reference",
+            "value": "reference"
+        },
+        {
+            "label": "Title",
+            "value": "name"
+        }         
+    ],
+    "ncFields": [      
+        {
+            "label": "Title",
+            "value": "name"
+        }
+    ],   
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Reference",
+            "accessor": "reference"
+        },
+        {
+            "Header": "Title",
+            "accessor": "name"
+        },
+        {
+            "Header": "Date",
+            "accessor": "date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "System",
+            "accessor": "audit_system_id"
+        },
+        {
+            "Header": "Audit Manager",
+            "accessor": "facility_manager_id"
+        },
+        {
+            "Header": "Create Date",
+            "accessor": "create_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "columnsNcFields": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Title",
+            "accessor": "name"
+        },
+        {
+            "Header": "Deadline",
+            "accessor": "date_deadline",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Responsible Type",
+            "accessor": "type_action"
+        },
+        {
+            "Header": "Responsible",
+            "accessor": "user_id"
+        },
+        {
+            "Header": "Audit",
+            "accessor": "audit_id"
+        },
+        {
+            "Header": "Helpdesk",
+            "accessor": "helpdesk_id"
+        },
+        {
+            "Header": "Create Date",
+            "accessor": "create_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ]
+       
+}

@@ -1,0 +1,379 @@
+{
+    "listNatureFields": [
+        "name",
+        "task_id",
+        "preparedness_checklist_id",
+        "approval_authority_id",
+        "ehs_authority_id",
+        "security_office_id",
+        "type_of_request",
+        "is_can_be_extended",
+        "ehs_instructions",
+        "company_id",
+        "ehs_instructions",
+        "terms_conditions"
+    ],
+    "listNatureFieldsColumns": [
+        "name",
+        "task_id",
+        "preparedness_checklist_id",
+        "approval_authority_id",
+        "ehs_authority_id",
+        "security_office_id",
+        "type_of_request",
+        "is_can_be_extended"
+    ],
+    "listfieldsShows": [
+        "gatepass_number",
+        "description",
+        "type",
+        "gatepass_type",
+        "requestor_id",
+        "requested_on",
+        "state",
+        "reference",
+        "space_id",
+        "name",
+        "email",
+        "bearer_return_on",
+        "approved_on",
+        "approved_by"
+    ],
+    "tableColumns": [
+        {
+            "value": "requestor_id",
+            "label": "Requestor"
+        },
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "type",
+            "label": "Type"
+        },
+        {
+            "value": "duration",
+            "label": "Duration"
+        }
+    ],
+    "tableColumnsNature": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "ehs_instructions",
+            "label": "EHS Instructions"
+        }
+    ],
+    "inspectionType": [
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "Space",
+            "label": "Space"
+        }
+    ],
+    "inspectionTypeText": {
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        }
+    },
+    "requestType": [
+        {
+            "value": "Special",
+            "label": "Special"
+        },
+        {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        {
+            "value": "Normal",
+            "label": "Normal"
+        }
+    ],
+    "requestTypeText": {
+        "Special": {
+            "value": "Special",
+            "label": "Special"
+        },
+        "Night Work": {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        "Normal": {
+            "value": "Normal",
+            "label": "Normal"
+        }
+    },
+    "states": [
+        {
+            "value": "Created",
+            "label": "Created"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Exited",
+            "label": "Exited"
+        },
+        {
+            "value": "Returned",
+            "label": "Returned"
+        },
+        {
+            "value": "Rejected",
+            "label": "Rejected"
+        }
+    ],
+    "passTypes": [
+        {
+            "value": "Returnable",
+            "label": "Returnable"
+        },
+        {
+            "value": "Non-Returnable",
+            "label": "Non-Returnable"
+        }
+    ],
+    "validStatsus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Not Valid",
+            "label": "Not Valid"
+        }
+    ],
+    "statesLabel": {
+        "Created": {
+            "id": "Created",
+            "label": "Created",
+            "color": "info"
+        },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved",
+            "color": "success"
+        },
+        "Exited": {
+            "id": "Exited",
+            "label": "Exited",
+            "color": "warning"
+        },
+        "Returned": {
+            "id": "Returned",
+            "label": "Returned",
+            "color": "secondary"
+        },
+        "Rejected": {
+            "id": "Rejected",
+            "label": "Rejected",
+            "color": "danger"
+        }
+    },
+    "dashboardStatus": {
+        "AP": {
+            "id": "Approved",
+            "label": "Approved",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Approved",
+                    "label": "Approved",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "NP": {
+            "id": "New Pass",
+            "label": "New Pass",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Created",
+                    "label": "Created",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "RA": {
+            "id": "Return Awaited",
+            "label": "Return Awaited",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Exited",
+                    "label": "Exited",
+                    "type": "inarray"
+                },
+                {
+                    "key": "type",
+                    "title": "Type",
+                    "value": "Returnable",
+                    "label": "Returnable",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "TE": {
+            "id": "Time Elapsed",
+            "label": "Time Elapsed",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Exited",
+                    "label": "Exited",
+                    "type": "inarray"
+                },
+                {
+                    "key": "type",
+                    "title": "Type",
+                    "value": "Returnable",
+                    "label": "Returnable",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "APPROVE",
+            "displayname": "Approve",
+            "method": "action_approved",
+            "buttonName": "Approve",
+            "statusName": "Approved",
+            "message": "This Gatepass has been approved successfully.."
+        },
+        {
+            "id": 2,
+            "name": "EXITED",
+            "displayname": "Exit",
+            "method": "action_exited",
+            "buttonName": "Exit",
+            "statusName": "Exited",
+            "message": "This Gatepass has been exited successfully.."
+        },
+        {
+            "id": 3,
+            "name": "RETURN",
+            "displayname": "Return",
+            "method": "action_returned",
+            "buttonName": "Return",
+            "statusName": "Returned",
+            "message": "This Gatepass has been returned successfully.."
+        },
+        {
+            "id": 4,
+            "name": "RETURNAPPROVE",
+            "displayname": "Return Approval",
+            "method": "action_return_approved",
+            "buttonName": "Approve Return",
+            "statusName": "Return Approved",
+            "message": "This Gatepass has been return approved successfully.."
+        },
+        {
+            "id": 5,
+            "name": "REJECT",
+            "displayname": "Reject",
+            "method": "action_rejected",
+            "buttonName": "Reject",
+            "statusName": "Rejected",
+            "message": "This Gatepass has been rejected successfully.."
+        },
+        {
+            "id":  6,
+            "name": "PRINT",
+            "displayname": "Print Report",
+            "method": "action_rejected",
+            "buttonName": "Reject",
+            "statusName": "Rejected",
+            "message": "This Gatepass has been rejected successfully.."
+        }
+    ],
+    "actionTypes": {
+        "Approve": {
+            "value": "action_authorized",
+            "text": "Approve",
+            "msg": "approved",
+            "button": "Approve"
+        },
+        "Prepare": {
+            "value": "action_prepared",
+            "text": "Prepare",
+            "msg": "prepared",
+            "button": "Prepare"
+        },
+        "Issue Permit": {
+            "value": "action_permit",
+            "text": "Issue Permit",
+            "msg": "issued",
+            "button": "Issue Permit"
+        },
+        "Validate": {
+            "value": "action_validated",
+            "text": "Validate",
+            "msg": "validated",
+            "button": "Validate"
+        },
+        "Review": {
+            "value": "Review",
+            "text": "Review",
+            "msg": "reviewed",
+            "button": "Review"
+        }
+    },
+    "typeRequest": [
+        {
+            "value": "Special",
+            "label": "Special"
+        },
+        {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        {
+            "value": "Normal",
+            "label": "Normal"
+        }
+    ],
+    "customButtonMap": {
+        "Approve": "approved_button_text",
+        "Approve Return": "ret_approved_button_text",
+        "Return Approval": "ret_approved_button_text",
+        "Reject": "rejected_button_text",
+        "Return Reject": "ret_reject_button_text",
+        "Approved": "approved_button_text",
+        "Return Approved": "ret_approved_button_text", 
+        "Rejected": "rejected_button_text",
+        "Return Rejected": "ret_reject_button_text",
+        "Exit": "exited_button_text",
+        "Return": "returned_button_text",
+        "Create": "created_button_text"
+    },
+    "customStatusMap": {
+        "Created": "created_status_text",
+        "Approved": "approved_status_text",
+        "Exited": "exited_status_text",
+        "Returned": "returned_status_text",
+        "Return Approved": "ret_approved_status_text",
+        "Rejected": "rejected_status_text"
+    }
+}

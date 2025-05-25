@@ -1,0 +1,24 @@
+{
+    "data": {
+      "Insights": {
+        "id": 1,
+        "name": "Insights",
+        "displayname": "Insights",
+        "pathName": "/attendance-overview"
+      },
+      "Attendance": {
+        "id": 2,
+        "name": "Attendace",
+        "displayname": "Attendance",
+        "pathName": "/attendance"
+      },
+      "Reports": {
+        "id": 3,
+        "name": "Reports",
+        "displayname": "Reports",
+        "pathName": "/attendance/reports"
+      },
+      "title": "Attendance"
+    }
+  }
+  

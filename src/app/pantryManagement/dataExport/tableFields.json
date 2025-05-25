@@ -1,0 +1,53 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Order ID",
+            "property": "name"
+        },
+        {
+            "heading": "Employee",
+            "property": "employee_id"
+        },
+        {
+            "heading": "Pantry",
+            "property": "pantry_id"
+        },
+        {
+            "heading": "Space",
+            "property": "space_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }
+    ],
+    "orderFields": [
+        {
+            "heading": "Ordered On",
+            "property": "ordered_on"
+        }
+    ], 
+    "confirmFields": [
+        {
+            "heading": "Confirmed On",
+            "property": "confirmed_on"
+        }
+    ],   
+    "cancelFields": [
+        {
+            "heading": "Cancelled On",
+            "property": "cancelled_on"
+        }
+    ],
+    "deliverFields": [
+        {
+            "heading": "Delivered On",
+            "property": "delivered_on"
+        }
+    ]
+}

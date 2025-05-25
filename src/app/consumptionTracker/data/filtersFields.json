@@ -1,0 +1,117 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Reference",
+            "accessor": "audit_for"
+        },
+        {
+            "Header": "Title",
+            "accessor": "name"
+        },
+        {
+            "Header": "Type",
+            "accessor": "temp_type_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Company",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Billing Start Date",
+            "accessor": "start_date",
+            "dateFunction": true,
+            "dateDisplayType": "date"
+        },
+        {
+            "Header": "Billing End Date",
+            "accessor": "end_date",
+            "dateFunction": true,
+            "dateDisplayType": "date"
+        },
+        {
+            "Header": "Tracker Template",
+            "accessor": "tracker_template_id"
+        },
+        {
+            "Header": "Created By",
+            "accessor": "created_by_id"
+        },
+        {
+            "Header": "Created On",
+            "accessor": "created_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Reviewed By",
+            "accessor": "reviewed_by_id"
+        },
+        {
+            "Header": "Reviewed On",
+            "accessor": "reviewed_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Approved By",
+            "accessor": "approved_by_id"
+        },
+        {
+            "Header": "Approved On",
+            "accessor": "approved_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ]
+}

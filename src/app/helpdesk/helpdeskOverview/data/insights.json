@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Open",
+        "description": "Open",
+        "total": 121,
+        "data": {
+            "datasets": [
+                {
+                    "data": [
+                        "53",
+                        "47"
+                    ],                   
+                    "backgroundColor": [
+                        "#3a4354"
+                    ],
+                    "hoverBackgroundColor": [
+                        "#3a4354"
+                    ]
+                }
+            ],
+            "text": "53%"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Progress",
+        "description": "Tickets Currently under progress",
+        "total": 242,
+        "data": {
+            "datasets": [
+                {
+                    "data": [
+                        "44",
+                        "56"
+                    ],
+                    "backgroundColor": [
+                        "#3a4354"
+                    ],
+                    "hoverBackgroundColor": [
+                        "#3a4354"
+                    ]
+                }
+            ],
+            "text": "44%"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Close",
+        "description": "Close",
+        "total": 100,
+        "data": {
+            "datasets": [
+                {
+                    "data": [
+                        "17",
+                        "83"
+                    ],
+                    "backgroundColor": [
+                        "#3a4354"
+                    ]
+                }
+            ],
+            "tooltips": {
+                "enabled": false,
+                "animation": false
+            },
+            "text": "17%"
+        }
+    }
+]

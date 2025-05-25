@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Summary": {
+      "id": 1,
+      "name": "SUMMARY",
+      "displayname": "Summary",
+      "pathName": "/cxo-summary"
+    },
+    "CXO Data": {
+      "id": 2,
+      "name": "CXO DATA",
+      "displayname": "CXO Data",
+      "pathName": "/cxo-entry"
+    },
+    "title": "CXO Analytics"
+  }
+}

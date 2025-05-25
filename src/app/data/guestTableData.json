@@ -1,0 +1,32 @@
+{
+    "fields": [
+        {
+            "css": "p-2 min-width-100",
+            "fieldName": "Guest Id"
+        },
+        {
+            "css": "p-2 min-width-160",
+            "fieldName": "Guest Name"
+        },
+        {
+            "css": "p-2 min-width-160",
+            "fieldName": "Guest Email"
+        },
+        {
+            "css": "p-2 min-width-100",
+            "fieldName": "Phone Number"
+        },
+        {
+            "css": "p-2",
+            "fieldName": "Host Name"
+        },
+        {
+            "css": "p-2",
+            "fieldName": "Edit"
+        },
+        {
+            "css": "p-2",
+            "fieldName": "Delete"
+        }
+    ]
+}

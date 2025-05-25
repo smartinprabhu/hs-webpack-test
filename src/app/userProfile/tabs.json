@@ -1,0 +1,30 @@
+
+{
+    "tabsListWithGuest": [
+        {
+            "id": 1,
+            "name": "Contact Details"
+        },        
+        {
+            "id": 2,
+            "name": "Company"
+        },
+        {
+            "id": 3,
+            "name": "Guest List"
+        }
+    ],
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Contact Details",
+            "image": "../../images/information.png"
+        },        
+        {
+            "id": 2,
+            "name": "Company",
+            "image": "../../images/buidlingIcon.ico"
+        }
+    ]
+       
+}

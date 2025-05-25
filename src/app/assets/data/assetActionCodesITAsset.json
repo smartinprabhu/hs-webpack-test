@@ -1,0 +1,14 @@
+{
+    "Move an Asset": "it_assets_moveAssets",
+    "Scrap an Asset": "it_assets_scrapAssets",
+    "Breakdown Asset": "it_assets_breakdown",
+    "Validate Asset": "it_assets_validateAssets",
+    "Store in Warehouse": "it_assets_storeinwarehouse",
+    "Replace Asset": "it_assets_replaceAssets",
+    "Add comment": "it_assets_addcomment",
+    "Operative Asset": "it_assets_operative",
+    "Assign Asset": "it_assets_assignAssets",
+    "Return Asset": "it_assets_returnAssets",
+    "Add IT Asset": "it_assets_addAssets",
+    "Edit IT Asset": "it_assets_editAssets"
+}

@@ -1,0 +1,378 @@
+{
+    "listFieldsPC": [
+        "create_date",
+        "name",
+        "team_category_id",
+        "company_id"
+    ],
+    "listFieldsPCShows": [
+        "name",
+        "team_category_id",
+        "company_id",
+        "create_date"
+    ],
+    "listFieldsPCG": [
+        "name",
+        "type_category",
+        "is_all_category",
+        "company_id",
+        "create_date"
+    ],
+    "listFieldsPCGShows": [
+        "name",
+        "type_category",
+        "is_all_category",
+        "company_id",
+        "create_date"
+    ],
+    "listFieldsPSC": [
+        "create_date",
+        "name",
+        "parent_category_id",
+        "company_id",
+        "priority"
+    ],
+    "listFieldsPSCShows": [
+        "create_date",
+        "name",
+        "parent_category_id",
+        "company_id",
+        "priority"
+    ],
+    "listFieldsESL": [
+        "name",
+        "type_category",
+        "location_ids",
+        "recipients_ids",
+        "space_category_id",
+        "level",
+        "category_id",
+        "company_id",
+        "create_date"
+    ],
+    "listFieldsESLShows": [
+        "name",
+        "type_category",
+        "location_ids",
+        "recipients_ids",
+        "space_category_id",
+        "level",
+        "category_id",
+        "company_id",
+        "create_date"
+    ],
+    "listFieldsPantry": [
+        "name",
+        "categ_id",
+        "pantry_ids",
+        "minimum_order_qty",
+        "maximum_order_qty",
+        "active",
+        "weight",
+        "volume",
+        "new_until",
+        "company_id",
+        "create_date"
+    ],
+    "tableColumnsCPT": [
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "listFieldsCPC": [
+        "create_date",
+        "name",
+        "parent_id",
+        "product_count",
+        "property_valuation"
+    ],
+    "listFieldsCPCShows": [
+        "name",
+        "parent_id",
+        "product_count",
+        "property_valuation"
+    ],
+    "inventoryText": {
+        "manual_periodic": {
+            "value": "manual_periodic",
+            "label": "Manual"
+        },
+        "real_time": {
+            "value": "real_time",
+            "label": "Automated"
+        }
+    },
+    "statesLabels": {
+        "true": {
+            "text": "Active",
+            "color": "success"
+        },
+        "false": {
+            "text": "InActive",
+            "color": "danger"
+        }
+    },
+    "priorityTypes": [
+        {
+            "value": "3",
+            "label": "Breakdown"
+        },
+        {
+            "value": "5",
+            "label": "Critical"
+        },
+        {
+            "value": "2",
+            "label": "High"
+        },
+        {
+            "value": "0",
+            "label": "Low"
+        },
+        {
+            "value": "1",
+            "label": "Normal"
+        },
+        {
+            "value": "4",
+            "label": "Standard"
+        }
+    ],
+    "priorityText": {
+        "0": {
+            "value": "0",
+            "label": "Low"
+        },
+        "1": {
+            "value": "1",
+            "label": "Normal"
+        },
+        "2": {
+            "value": "2",
+            "label": "High"
+        },
+        "3": {
+            "value": "3",
+            "label": "Breakdown"
+        },
+        "4": {
+            "value": "4",
+            "label": "Standard"
+        },
+        "5": {
+            "value": "5",
+            "label": "Critical"
+        }
+    },
+    "statesPantryLabel": {
+        "Active": {
+            "id": "Active",
+            "label": "Active",
+            "color": "success"
+        }
+    },
+    "type": [
+        {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "space",
+            "label": "Space"
+        },
+        {
+            "value": "equipment_space",
+            "label": "Equipment & Space"
+        }
+    ],
+    "levels": [
+        {
+            "value": "level1",
+            "label": "Level-1"
+        },
+        {
+            "value": "level2",
+            "label": "Level-2"
+        },
+        {
+            "value": "level3",
+            "label": "Level-3"
+        },
+        {
+            "value": "level4",
+            "label": "Level-4"
+        },
+        {
+            "value": "level5",
+            "label": "Level-5"
+        }
+    ],
+    "stateTypes": [
+        {
+            "value": "ope",
+            "label": "Open"
+        },
+        {
+            "value": "inp",
+            "label": "In Progress"
+        },
+        {
+            "value": "hld",
+            "label": "On Hold"
+        },
+        {
+            "value": "cld",
+            "label": "Staff Closed"
+        }
+    ],
+    "stateText": {
+        "ope": {
+            "value": "ope",
+            "label": "Open"
+        },
+        "inp": {
+            "value": "inp",
+            "label": "In Progress"
+        },
+        "hld": {
+            "value": "hld",
+            "label": "On Hold"
+        },
+        "cld": {
+            "value": "cld",
+            "label": "Staff Closed"
+        }
+    },
+    "mobileTypes": [
+        {
+            "value": "Confidential",
+            "label": "Confidential"
+        },
+        {
+            "value": "Visible",
+            "label": "Visible"
+        }
+    ],
+    "escalationText": {
+        "level1": {
+            "value": "level1",
+            "label": "Level-1"
+        },
+        "level2": {
+            "value": "level2",
+            "label": "Level-2"
+        },
+        "level3": {
+            "value": "level3",
+            "label": "Level-3"
+        },
+        "level4": {
+            "value": "level4",
+            "label": "Level-4"
+        },
+        "level5": {
+            "value": "level5",
+            "label": "Level-5"
+        }
+    },
+    "typePCG": [
+        {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "space",
+            "label": "Space"
+        }
+    ],
+    "typePCGs": {
+        "equipment": {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        "space": {
+            "value": "space",
+            "label": "Space"
+        }
+    },
+    "states": {
+        "true": {
+            "color": "success",
+            "colorClass": "text-success",
+            "text": "Yes"
+        }
+    },
+    "levelLableText": {
+        "level1": {
+            "id": "level1",
+            "label": "Level 1"
+        },
+        "level2": {
+            "id": "level2",
+            "label": "Level 2"
+        },
+        "level3": {
+            "id": "level3",
+            "label": "Level 3"
+        },
+        "level4": {
+            "id": "level4",
+            "label": "Level 4"
+        },
+        "level5": {
+            "id": "level5",
+            "label": "Level 5"
+        }
+    },
+    "categoryTypeTextForm": {
+        "equipment": {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        "space": {
+            "value": "space",
+            "label": "Space"
+        },
+        "equipment_space": {
+            "value": "equipment_space",
+            "label": "Equipment & Space"
+        }
+    },
+    "categoryTypeText": {
+        "equipment": {
+            "id": "equipment",
+            "label": "Equipment"
+        },
+        "space": {
+            "id": "space",
+            "label": "Space"
+        },
+        "equipment_space": {
+            "id": "equipment_space",
+            "label": "Equipment & Space"
+        }
+    },
+    "state": [
+        {
+            "value": "Created",
+            "label": "Created"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Exited",
+            "label": "Exited"
+        },
+        {
+            "value": "Returned",
+            "label": "Returned"
+        },
+        {
+            "value": "Rejected",
+            "label": "Rejected"
+        }
+    ]
+}

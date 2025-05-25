@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+// .covid-resource:hover {
+//     color: $color-dark-cerulean;
+// }
+@media only screen and (max-width: 1170px){ 
+.myActions{
+    padding-left: 20px;
+}
+}
+
+.mybookings {
+    padding : 12rem !important;
+    margin-top: -10rem !important;
+}

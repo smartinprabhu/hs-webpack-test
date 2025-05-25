@@ -1,0 +1,137 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Pantry Sequence",
+            "value": "pantry_sequence"
+        }
+    ],
+    "fieldsWH": [
+        {
+            "label": "Warehouse",
+            "value": "name"
+        }
+    ],
+    "fieldsLOC": [
+        {
+            "label": "Location",
+            "value": "name"
+        }
+    ],
+    "fieldsOPT": [
+        {
+            "label": "Operation Type",
+            "value": "name"
+        }
+    ],
+    "types": [
+        {
+            "label": "Incoming",
+            "value": "incoming"
+        },
+        {
+            "label": "Internal",
+            "value": "internal"
+        },
+        {
+            "label": "Outgoing",
+            "value": "outgoing"
+        }
+    ],
+    "activityTypes": [
+        {
+            "label": "Receptions",
+            "value": "incoming"
+        },
+        {
+            "label": "Deliveries",
+            "value": "outgoing"
+        },
+        {
+            "label": "Internal",
+            "value": "internal"
+        },
+        {
+            "label": "Manufacturing",
+            "value": "mrp_operation"
+        }
+    ],
+    "locationTypeList":[
+        { "name": "Vendor Location", "value": "supplier" },
+        { "name": "View", "value": "view" },
+        { "name": "Internal Location", "value": "internal" },
+        { "name": "Customer Location", "value": "customer" },
+        { "name": "Inventory Loss", "value": "inventory" },
+        { "name": "Procurement", "value": "procurement" },
+        { "name": "Production", "value": "production" },
+        { "name": "Transit Location", "value": "transit" },
+        { "name": "Spare Parts Consumption", "value": "equi" }
+    ],
+    "locationTypes": [
+        {
+            "label": "Internal Locations",
+            "value": "internal"
+        },
+        {
+            "label": "Transit Locations",
+            "value": "transit"
+        }
+    ],
+    "stockTypes": [
+        {
+            "label": "Negative Stock",
+            "value": "Negative_Stock"
+        },
+        {
+            "label": "Positive Stock",
+            "value": "Positive_Stock"
+        },
+        {
+            "label": "Reservations",
+            "value": "Reservations"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "productCategoryFields": [
+        {
+            "label": "Category Name",
+            "value": "name"
+        }
+    ]
+       
+}

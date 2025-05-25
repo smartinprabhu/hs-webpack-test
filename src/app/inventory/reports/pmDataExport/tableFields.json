@@ -1,0 +1,76 @@
+
+{
+    "fields": [
+        {
+            "heading": "Date",
+            "property": "date"
+        },
+        {
+            "heading": "Product",
+            "property": "product_id"
+        },
+        {
+            "heading": "Quantity Done",
+            "property": "qty_done"
+        },
+        {
+            "heading": "Status",
+            "property": "state",
+            "labels": {
+                "draft": {
+                    "id": "draft",
+                    "text": "Draft",
+                    "color":"warning"
+                },
+                "waiting": {
+                    "id": "waiting",
+                    "text": "Waiting Another Operation",
+                    "color": "info"
+               },
+                "confirmed": {
+                    "id": "confirmed",
+                    "text": "Waiting",
+                    "color": "secondary"
+               },
+                "assigned": {
+                    "id": "assigned",
+                    "text": "Ready",
+                    "color": "primary"
+               },
+                "done": {
+                    "id": "done",
+                    "text": "Done",
+                    "color": "success"
+               },
+                "cancel": {
+                    "id": "cancel",
+                    "text": "Cancelled",
+                    "color": "danger"
+               }
+            }
+        },
+        {
+            "heading": "To",
+            "property": "location_dest_id"
+        }
+    ],
+    "fromFields": [
+        {
+            "heading": "From",
+            "property": "location_id"
+        }
+    ],
+    "uomFields": [
+        {
+            "heading": "UOM",
+            "property": "product_uom_id"
+        }
+    ],   
+    "reservedFields": [
+        {
+            "heading": "Real Reserved Quantity",
+            "property": "product_qty"
+        }
+    ]
+       
+}

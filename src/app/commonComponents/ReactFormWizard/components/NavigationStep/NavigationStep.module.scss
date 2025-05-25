@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+

@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [ 
+        {
+            "id": 1,
+            "name": "Transaction Overview"
+        },
+        {
+            "id": 2,
+            "name": "Audit Logs"
+        }
+    ]
+       
+}

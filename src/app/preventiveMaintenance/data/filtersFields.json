@@ -1,0 +1,118 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Schedule",
+            "value": "time_period"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Schedule",
+            "accessor": "time_period"
+        },
+        {
+            "accessor": "priority",
+            "Header": "Priority",
+            "func"  : true
+        },
+        {
+            "accessor": "scheduler_type",
+            "Header": "Type"
+        },
+        {
+            "accessor": "category_type",
+            "Header": "Category",
+            "func": true
+        },
+        {
+            "accessor": "duration",
+            "Header": "Duration"
+        },
+        {
+            "accessor": "equipment_count",
+            "Header": "Equipments"
+        },
+        {
+            "accessor": "space_count",
+            "Header": "Spaces"
+        },
+        {
+            "accessor": "ppm_by",
+            "Header": "Performed by",
+            "func" : true
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On"
+        },
+        {
+            "accessor": "maintenance_team_id",
+            "Header": "Maintenance Team"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        }
+    ],
+    "inspectionColumns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Schedule",
+            "accessor": "time_period"
+        },
+        {
+            "accessor": "priority",
+            "Header": "Priority"
+        },
+        {
+            "accessor": "scheduler_type",
+            "Header": "Type"
+        },
+        {
+            "accessor": "category_type",
+            "Header": "Category"
+        },
+        {
+            "accessor": "duration",
+            "Header": "Duration"
+        },
+        {
+            "accessor": "equipment_count",
+            "Header": "Equipments"
+        },
+        {
+            "accessor": "space_count",
+            "Header": "Spaces"
+        },
+        {
+            "accessor": "ppm_by",
+            "Header": "Performed by"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "maintenance_team_id",
+            "Header": "Maintenance Team"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        }
+    ]
+}

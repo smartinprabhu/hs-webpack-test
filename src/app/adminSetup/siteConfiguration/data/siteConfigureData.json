@@ -1,0 +1,284 @@
+{
+    "teamTableColumns": [
+        {
+            "value": "employee_id",
+            "label": "Team Leader"
+        },
+        {
+            "value": "maintenance_cost_analytic_account_id",
+            "label": "Av.Maiantenance.Cost"
+        },
+        {
+            "value": "team_type",
+            "label": "Type"
+        },
+        {
+            "value": "labour_cost_unit",
+            "label": "Hourly Labour Cost"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "userLogFiels": [
+        "user_id",
+        "type",
+        "login_date",
+        "ip",
+        "company_id"
+    ],
+    "teamTableColumnsShow": [
+        "name",
+        "team_category_id"
+    ],
+    "teamMemberTableColumnsShow": [
+        "name",
+        "email",
+        "state",
+        "associates_to",
+        "employee_id_seq",
+        "vendor_id",
+        "maintenance_team_ids",
+        "active",
+        "company_id",
+        "hr_department",
+        "resource_calendar_id"
+    ],
+    "teamMemberTableColumns": [
+        {
+            "value": "vendor_id",
+            "label": "Associated Entity"
+        },
+        {
+            "value": "employee_id_seq",
+            "label": "Employee ID"
+        },
+        {
+            "value": "hr_department",
+            "label": "Department"
+        },
+        {
+            "value": "resource_calendar_id",
+            "label": "Shift"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "shiftsTableColumns": [
+        {
+            "value": "lc_grace",
+            "label": "LC Grace"
+        },
+        {
+            "value": "eg_grace",
+            "label": "EG Grace"
+        },
+        {
+            "value": "lt_period",
+            "label": "LT"
+        },
+        {
+            "value": "half_day_from",
+            "label": "HD From"
+        },
+        {
+            "value": "half_day_to",
+            "label": "HD To"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "shiftTableColumnsShow": [
+        "name",
+        "start_time",
+        "duration",
+        "vendor_id",
+        "is_use_company"
+    ],
+    "tenantTableColumnsShow": [
+        "name",
+        "company_id",
+        "city",
+        "zip",
+        "state_id"
+    ],
+    "tenantTableColumns": [
+        {
+            "value": "phone",
+            "label": "Phone"
+        },
+        {
+            "value": "mobile",
+            "label": "Mobile"
+        },
+        {
+            "value": "email",
+            "label": "Email"
+        },
+        {
+            "value": "website",
+            "label": "Website"
+        }
+        
+    ],
+    "formTabs": [
+        {
+            "id": 1,
+            "name": "Basic"
+        },
+        {
+            "id": 2,
+            "name": "Advanced"
+        }
+    ],
+    "viewFields": [
+        "id",
+        "name",
+        "mobile",
+        "email",
+        "street",
+        "allow_onspot_space_booking",
+        "create_work_schedule",
+        "generate_mor_after_release",
+        "require_checklist",
+        "work_schedule_grace_period",
+        "enable_prescreen",
+        "prescreen_period",
+        "prescreen_is_mandatory",
+        "book_from_outlook",
+        "enable_access",
+        "skip_occupy",
+        "detect_mask",
+        "face_detection_mandatory",
+        "prerelease_required",
+        "prerelease_period",
+        "auto_release",
+        "auto_release_grace_period",
+        "enable_group_booking",
+        "enable_booking_for_others",
+        "prescreen_required_every_schedule",
+        "covid_title",
+        "allowed_occupancy_per",
+        "enable_screening",
+        "allow_after_non_compliance", 
+        "enable_covid_config",
+        "enable_report_covid_incident",
+        "require_attendance",
+        "attendance_with_face_detection",
+        "attendance_source",
+        "otp_validity_period",
+        "valid_domains",
+        "allow_user_registration_with_valid_domain",
+        "tenant_code",
+        "conference_room_space_id",
+        "office_room_space_id",
+        "workstation_space_id",
+        "building_space_id",
+        "conference_room_space_sub_type_id",
+        "office_room_space_sub_type_id",
+        "workstation_space_sub_type_id",
+        "enable_landing_page_id",
+        "enable_other_resources_id",
+        "safety_resources_id",
+        "enable_workspace_instruction_id",
+        "help_line_id",
+        "ticket_category_id",
+        "sub_category_id",
+        "maintenance_team_id",
+        "future_limit",
+        "future_limit_uom",
+        "minimum_duration",
+        "minimum_duration_uom",
+        "buffer_period",
+        "buffer_period_uom",
+        "space_neighbour_ids",
+        "remove_neighbour_id",
+        "check_list_ids"
+     ],
+     "dates": [
+        {
+            "value": "Days",
+            "label": "Days"
+        },
+        {
+            "value": "Weeks",
+            "label": "Weeks"
+        },
+        {
+            "value": "Months",
+            "label": "Months"
+        }
+    ],
+    "times": [
+        {
+            "value": "Mins",
+            "label": "Mins"
+        },
+        {
+            "value": "Hours",
+            "label": "Hours"
+        }
+    ],
+    "attendanceSources": [
+        {
+            "value": "mobile",
+            "label": "Mobile"
+        },
+        {
+            "value": "biometric",
+            "label": "Biometric"
+        }
+    ],
+    "customAttendanceSources": {
+        "mobile": {
+            "value": "mobile",
+            "label": "Mobile"
+        },
+        "biometric": {
+            "value": "biometric",
+            "label": "Biometric"
+        }
+    },
+    "columns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Team Members",
+            "accessor": "member_ids.length"
+        },
+        {
+            "Header": "Category",
+            "accessor": "team_category_id[1]"
+        },
+        {
+            "Header": "Team Leader",
+            "accessor": "employee_id[1]"
+        },
+        {
+            "Header": "Av.Maiantenance.Cost",
+            "accessor": "maintenance_cost_analytic_account_id[1]"
+        },
+        {
+            "Header": "Type",
+            "accessor": "team_type"
+        },
+        {
+            "accessor": "labour_cost_unit",
+            "Header": "Hourly Labour Cost"
+        },
+        {
+            "accessor": "company_id[1]",
+            "Header": "Company"
+        }
+    ]
+}

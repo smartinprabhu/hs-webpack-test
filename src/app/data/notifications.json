@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "Work Orders",
+        "message": "Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.",
+        "messageheading": false,
+        "messageType": "normal",
+        "isActionRequired": false
+    },
+    {
+        "id": 2,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "Warning Alert",
+        "message": "Warehouse Building -  there has been reported a complaint with cleaning procedures.",
+        "messageheading": false,
+        "messageType": "alert",
+        "isActionRequired": true
+    },
+    {
+        "id": 3,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "Work Orders",
+        "message": "Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.",
+        "messageheading": "Warehouse New Work Order 2020",
+        "messageType": "normal",
+        "isActionRequired": true
+    },
+    {
+        "id": 4,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "Online Meeting - Office Staff",
+        "message": "New online meeting with office staff has been created on 1 st October 2020 at 04:00 PM.Please Confirm your attendance",
+        "messageheading": false,
+        "messageType": "normal",
+        "isActionRequired": false
+    },
+    {
+        "id": 5,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "COVID Incident Alert!",
+        "message": "Warehouse Building -  there has been COVID Incident.",
+        "messageType": "alert",
+        "messageheading": false,
+        "isActionRequired": true
+    },
+    {
+        "id": 6,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "Preventive Maintenance",
+        "message": "Creating new order #5732323230 has been successful.This work order template is specifically designed for maintenance orders.",
+        "messageType": "normal",
+        "messageheading": false,
+        "isActionRequired": false
+    },
+    {
+        "id": 7,
+        "date": "16/08/2020",
+        "time": "12:00PM",
+        "title": "IoT",
+        "message": "Configuring the helixsense IoT notification system has been successful.",
+        "messageType": "normal",
+        "messageheading": false,
+        "isActionRequired": false
+    }
+]

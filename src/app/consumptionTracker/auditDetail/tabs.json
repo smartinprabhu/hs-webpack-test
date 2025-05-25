@@ -1,0 +1,32 @@
+
+{
+    "tabsList": [ 
+         {
+            "id": 1,
+            "name": "Tracker Items"
+        },
+        {
+            "id": 2,
+            "name": "Audit Log"
+        },
+        {
+            "id": 3,
+            "name": "Additional Info"
+        }
+    ],
+    "tabsSubList": [ 
+         {
+            "id": 2,
+            "name": "Tracker Items"
+        },
+        {
+            "id": 3,
+            "name": "Audit Log"
+        },
+        {
+            "id": 4,
+            "name": "Additional Info"
+        }
+    ]
+       
+}

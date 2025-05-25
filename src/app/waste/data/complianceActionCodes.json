@@ -1,0 +1,12 @@
+{
+    "Publish": "bc_co_publish",
+    "Unpublish": "bc_co_unpublish",
+    "Start Renewal": "bc_co_startrenewal",
+    "Complete Renewal": "bc_co_completerenewal",
+    "Archive": "bc_co_archive",
+    "Set as Draft": "bc_co_settodraft",
+    "Add Compliance Obligation": "wt_addwaste_tracker",
+    "Edit Compliance Obligation": "wt_editwaste_tracker",
+    "View Compliance Obligation": "bc_co_viewcomplianceobligation",
+    "Delete Compliance Obligation": "bc_co_deletecomplianceobligation"
+}

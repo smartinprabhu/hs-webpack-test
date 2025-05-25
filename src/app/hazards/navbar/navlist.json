@@ -1,0 +1,19 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "viewName": "Insights",
+      "pathName": "/hazard-overview"
+    },
+    "Hazards": {
+      "id": 2,
+      "name": "HAZARDS",
+      "displayname": "Hazards",
+      "viewName": "Hazards",
+      "pathName": "/ehs-hazards"
+    },
+    "title": "Hazards"
+  }
+}

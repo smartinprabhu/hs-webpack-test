@@ -1,0 +1,43 @@
+import checkoutFormModel from './checkoutFormModel';
+
+const {
+  formField: {
+    questionType,
+    matrixType,
+    displayMode,
+    noofColumns,
+    validationErrorMsg,
+    commentsMessage,
+    errorMessage,
+    expectedMax,
+    expectedMin,
+    validateMinFloat,
+    validateMaxFloat,
+    validationEmail,
+    mandatoryAnswer,
+    validateEntry,
+    commentsField,
+    commentsAnswerChoice,
+    enableCondition,
+  },
+} = checkoutFormModel;
+
+export default {
+  [validationErrorMsg.name]: 'The answer you entered has an invalid format.',
+  [commentsMessage.name]: 'If other, please specify:',
+  [errorMessage.name]: 'This question requires an answer.',
+  [questionType.name]: { value: 'free_text', label: 'Multiple Lines Text Box' },
+  [matrixType.name]: 'simple',
+  [displayMode.name]: 'columns',
+  [noofColumns.name]: '12',
+  [expectedMax.name]: '',
+  [expectedMin.name]: '',
+  [validateMinFloat.name]: '0.00',
+  [validateMaxFloat.name]: '0.00',
+  [validationEmail.name]: false,
+  [mandatoryAnswer.name]: false,
+  [validateEntry.name]: false,
+  [commentsField.name]: false,
+  [commentsAnswerChoice.name]: false,
+  [enableCondition.name]: false,
+};

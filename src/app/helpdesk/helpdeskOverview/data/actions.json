@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Raise a ticket",
+        "icon": "faPlusCircle",
+        "url": "/helpdesk/add-ticket"
+    },
+    {
+        "id": 2,
+        "name": "Lookup by Ticket Number",
+        "icon": "faSearch",
+        "url": "#"
+    },
+    {
+        "id": 3,
+        "name": "View All Tickets",
+        "icon": "faEye",
+        "url": "/helpdesk/tickets"
+    }
+]

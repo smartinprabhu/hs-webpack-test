@@ -1,0 +1,149 @@
+
+{
+    "fields": [
+        {
+            "property": "id",
+            "heading": "ID"
+        },
+        {
+            "heading": "Reference",
+            "property": "name"
+        },
+        {
+            "heading": "Asset Number",
+            "property": "sequence"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Location",
+            "property": "equipment_location_id"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority"
+        },
+        {
+            "heading": "Issue Type",
+            "property": "issue_type"
+        },
+        {
+            "heading": "Technician",
+            "property": "employee_id"
+        },
+        {
+            "property": "equip_asset_common",
+            "heading": "Equipment/Space"
+        },
+        {
+            "property": "maintenance_type",
+            "heading": "Maintenance Type"
+        },
+        {
+            "property": "type_category",
+            "heading": "Type"
+        },
+        {
+            "property": "task_id",
+            "heading": "Maintenance Operations"
+        },
+        {
+            "property": "description",
+            "heading": "Description"
+        },
+        {
+            "property": "date_planned",
+            "heading": "Requested Date"
+        },
+        {
+            "property": "date_execution",
+            "heading": "Close Date"
+        },
+        {
+            "property": "create_date",
+            "heading": "Created On"
+        },
+        {
+            "property": "pause_reason_id",
+            "heading": "On-Hold Reason"
+        }
+    ],
+    "issueTypeFields": [
+        {
+            "heading": "Issue Type",
+            "property": "issue_type"
+        }
+    ],
+    "maintenanceFields": [
+        {
+            "heading": "Maintenance Type",
+            "property": "maintenance_type"
+        }
+    ],
+    "technicianFields": [
+        {
+            "heading": "Technician",
+            "property": "employee_id"
+        }
+    ],
+    "createdOnFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],
+    "equipmentSpaceFields": [
+        {
+            "heading": "Equipment / Space",
+            "property": "equip_asset_common"
+        }
+    ],
+    "maintenanceOperationsFields": [
+        {
+            "heading": "Maintenance Operations",
+            "property": "task_id"
+        }
+    ],
+    "descriptionFields": [
+        {
+            "heading": "Description",
+            "property": "description"
+        }
+    ],
+    "requestedDateFields": [
+        {
+            "heading": "Requested Date",
+            "property": "date_planned"
+        }
+    ],
+    "closeDateFields": [
+        {
+            "heading": "Close Date",
+            "property": "date_execution"
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Type",
+            "property": "type_category"
+        }
+    ],
+     "pauseFields": [
+        {
+            "heading": "On-Hold Reason",
+            "property": "pause_reason_id"
+        }
+    ] 
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  all: unset;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: local("Suisse Intl"),
+    url(../../../images/default/fonts/Suisse_Intl/SuisseIntl-Regular.ttf)
+      format("truetype");
+}
+
+/* .btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+// .content-box {
+//   // width: 84%;
+// }
+
+// .content-box-expand {
+//   width: 95%;
+// }
+
+// .content-inner-box {
+//   height: 90vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.dialog-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle-graph-box-expand {
+  width: 50%;
+  background-color: #ffffff;
+  height: 100%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-chart-inner-box {
+  height: 90%;
+  width: 100%;
+}
+
+.layout {
+  // width: 90vw;
+}
+
+.MuiDialog-paperFullWidth {
+  max-width: 80% !important;
+  // max-height: unset !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400 !important;
+}
+
+.MuiDialog-scrollPaper {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400 !important;
+}

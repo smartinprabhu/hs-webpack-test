@@ -1,0 +1,53 @@
+{
+    "tableColumns": [
+        {
+            "label": "Reorder Level",
+            "value": "product_min_qty"
+        },
+        {
+            "label": "Reorder Quantity",
+            "value": "product_max_qty"
+        },
+        {
+            "label": "Alert Level",
+            "value": "product_alert_level_qty"
+        },
+        {
+            "label": "Unit Of Measure",
+            "value": "product_uom"
+        }
+    ],
+    "searchFields": [
+        {
+            "value": "name",
+            "label": "Name"
+        }
+    ],
+    "leadTypes": [
+        {
+            "value": "supplier",
+            "label": "Day(s) to purchase"
+        },
+        {
+            "value": "net",
+            "label": "Days(s) to get the products"
+        }
+    ],
+    "listfieldsShows": [
+        "name",
+        "product_id",
+        "location_id",
+        "warehouse_id",
+        "qty_multiple"
+    ],
+    "reorderingListFields": [
+        "name",
+        "product_id",
+        "location_id",
+        "warehouse_id",
+        "qty_multiple",
+        "product_max_qty",
+        "product_min_qty",
+        "product_uom"
+    ]
+}

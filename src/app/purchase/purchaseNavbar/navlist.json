@@ -1,0 +1,11 @@
+{
+    "data": {
+      "Purchase Info": {
+        "id": 1,
+        "name": "PURCHASE_INFO",
+        "displayname": "Purchase Info",
+        "pathName": "/purchase/requestforquotation"
+      }
+    },
+    "title": "Purchase"
+  }

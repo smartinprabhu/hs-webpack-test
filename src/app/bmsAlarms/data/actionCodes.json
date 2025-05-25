@@ -1,0 +1,11 @@
+{
+    "Add Alarm": "ba_bmsalarm_add_alarm",
+    "Edit Alarm": "ba_bmsalarm_edit_alarm",
+    "Delete Alarm": "ba_bmsalarm_delete_alarm",
+    "Add Comment": "ba_bmsalarm_addcomment",
+    "In Progress": "ba_bmsalarm_inprogress_alarm",
+    "On-Hold": "ba_bmsalarm_onhold_alarm",
+    "Close": "ba_bmsalarm_close_alarm",
+    "Cancel": "ba_bmsalarm_cancel_alarm",
+    "Reopen": "ba_bmsalarm_draft_alarm"
+}

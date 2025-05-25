@@ -1,0 +1,375 @@
+{
+    "dashboardStatus": {
+        "OP": {
+            "id": "Open",
+            "label": "Open",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Open",
+                    "label": "Open",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "IP": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "In Progress",
+                    "label": "In Progress",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "OH": {
+            "id": "Onhold",
+            "label": "Onhold",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "On Hold",
+                    "label": "On Hold",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "incidentsListFields": [
+        "reference",
+        "name",
+        "state",
+        "category_id",
+        "severity_id",
+        "priority_id",
+        "probability_id",
+        "incident_type_id",
+        "incident_on",
+        "target_closure_date",
+        "maintenance_team_id",
+        "company_id",
+        "sub_category_id",
+        "corrective_action",
+        "assigned_id",
+        "reported_by_id",
+        "reported_on",
+        "acknowledged_by_id",
+        "acknowledged_on",
+        "resolved_by_id",
+        "resolved_on",
+        "validated_by_id",
+        "validated_on"
+    ],
+    "listfieldsShows": [
+        "reference",
+        "name",
+        "state",
+        "category_id",
+        "severity_id",
+        "priority_id",
+        "probability_id",
+        "incident_type_id",
+        "incident_on",
+        "target_closure_date",
+        "maintenance_team_id",
+        "company_id"
+    ],
+    "criticalTextForm": {
+        "Critical": {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        "Non-Critical": {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    },
+    "critical": [
+        {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    ],
+    "typeTextForm": {
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        },
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    },
+    "reqType": [
+        {
+            "value": "Space",
+            "label": "Space"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "amcTextForm": {
+        "Valid": {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        "Expired": {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        "Not Available": {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    },
+    "amcStatus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    ],
+    "stateTypes": [
+        {
+            "value": "Reported",
+            "label": "Reported"
+        },
+        {
+            "value": "Acknowledged",
+            "label": "Acknowledged"
+        },
+        {
+            "value": "Analyzed",
+            "label": "Assessed"
+        },
+        {
+            "value": "Remediated",
+            "label": "Recommended"
+        },
+        {
+            "value": "Resolved",
+            "label": "Resolved"
+        },
+        {
+            "value": "Validated",
+            "label": "Validated"
+        },
+        {
+            "value": "Signed off",
+            "label": "Signed off"
+        },
+        {
+            "value": "Paused",
+            "label": "Paused"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "status": {
+        "Reported": {
+            "id": "Reported",
+            "label": "Reported",
+            "color": "secondary",
+            "msg": "Acknowledgement is required."
+        },
+        "Acknowledged": {
+            "id": "Acknowledged",
+            "label": "Acknowledged",
+            "color": "incident-acknowledge",
+            "msg": "Perform RCFA"
+        },
+        "Analyzed": {
+            "id": "Analyzed",
+            "label": "Assessed",
+            "color": "info",
+            "msg": "Suggest Recommendations/Remediations"
+        },
+        "Remediated": {
+            "id": "Recommended",
+            "label": "Recommended",
+            "color": "primary",
+            "msg": "Perform Recommendation Actions"
+        },
+        "Resolved": {
+            "id": "Resolved",
+            "label": "Resolved",
+            "color": "incident-resolve",
+            "msg": "Post Incident Review/Validation is required"
+        },
+        "Paused": {
+            "id": "Paused",
+            "label": "Paused",
+            "color": "warning",
+            "msg": ""
+        },
+        "Validated": {
+            "id": "Validated",
+            "label": "Validated",
+            "color": "success",
+            "msg": ""
+        },
+        "Signed off": {
+            "id": "Signed off",
+            "label": "Signed off",
+            "color": "success",
+            "msg": ""
+        },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "danger",
+            "msg": ""
+        }
+    },
+    "taskStatus": {
+        "Open": {
+            "id": "Open",
+            "label": "Open",
+            "color": "secondary"
+        },
+        "Inprogress": {
+            "id": "Inprogress",
+            "label": "Inprogress",
+            "color": "warning"
+        },
+        "Completed": {
+            "id": "Completed",
+            "label": "Completed",
+            "color": "success"
+        }
+    },
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "ACKNOWLEDGE",
+            "displayname": "Acknowledge",
+            "method": "action_to_acknowledged",
+            "buttonName": "Acknowledge",
+            "statusName": "Acknowledged",
+            "message": "This Incident has been set to Acknowledged successfully.."
+        },
+        {
+            "id": 8,
+            "name": "ANALYSIS",
+            "displayname": "Complete RCFA",
+            "method": "action_to_analysed",
+            "buttonName": "Complete RCFA",
+            "statusName": "Analyzed",
+            "message": "This Incident has been Assessed successfully.."
+        },
+        {
+            "id": 9,
+            "name": "RECOMMEND",
+            "displayname": "Complete Recommendation",
+            "method": "action_to_remediated",
+            "buttonName": "Complete Recommendation",
+            "statusName": "Remediated",
+            "message": "This Incident has been Recommended successfully.."
+        },
+        {
+            "id": 3,
+            "name": "RESOLVED",
+            "displayname": "Resolve",
+            "method": "action_to_resolved",
+            "buttonName": "Resolve",
+            "statusName": "Resolved",
+            "message": "This Incident has been Resolved successfully.."
+        },
+        {
+            "id": 4,
+            "name": "VALIDATED",
+            "displayname": "Validate",
+            "method": "action_to_validated",
+            "buttonName": "Validate",
+            "statusName": "Validated",
+            "message": "This Incident has been Validated successfully.."
+        },
+        {
+            "id": 19,
+            "name": "SIGNOFF",
+            "displayname": "Sign off",
+            "method": "action_to_sign_off",
+            "buttonName": "Sign off",
+            "statusName": "Signed off",
+            "message": "This Incident has been Signed off successfully.."
+        },
+        {
+            "id": 5,
+            "name": "CANCEL",
+            "displayname": "Cancel Incident",
+            "method": "action_to_cancelled",
+            "buttonName": "Cancel",
+            "statusName": "Cancelled",
+            "message": "This Incident has been Cancelled successfully.."
+        },
+        {
+            "id": 6,
+            "name": "PAUSE",
+            "displayname": "Pause Incident",
+            "method": "action_to_paused",
+            "buttonName": "Pause",
+            "statusName": "Paused",
+            "message": "This Incident has been Paused successfully.."
+        },
+        {
+            "id": 7,
+            "name": "RESUME",
+            "displayname": "Resume Incident",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Incident has been Resumed successfully.."
+        },
+        {
+            "id": 20,
+            "name": "INVREPORT",
+            "displayname": "Print Investigation Report",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Incident has been Resumed successfully.."
+        },
+        {
+            "id": 21,
+            "name": "INVREPORTLEARN",
+            "displayname": "Print Lessons Learn Report",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Incident has been Resumed successfully.."
+        }
+    ]
+}

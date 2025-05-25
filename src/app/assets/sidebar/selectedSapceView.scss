@@ -1,0 +1,68 @@
+@import "../../../styles/variables.scss";
+
+.MuiAccordionSummary-content .Mui-expanded {
+    margin: 0;
+}
+.MuiAccordionDetails-root {
+    padding: 0 !important;
+}
+
+.MuiAccordionSummary-root {
+    padding: 0 16px 0 0 !important;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+    margin: 0 !important;
+}
+
+.font-size-10px {
+    font-size: 10px !important;
+}
+
+.font-size-5px {
+    font-size: 5px !important;
+}
+
+.mt-n2-4rem {
+    margin-top: -2.8rem;
+}
+.MuiAccordionSummary-root.Mui-expanded {
+    min-height: 47px !important;
+}
+
+// .bufferBackground {
+//     background-color: $color-buffer;
+// }
+
+// .MuiIconButton-colorPrimary {
+//     color: $color-cloud-burst !important;
+// }
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+    // background: $color-light-blue !important;
+    height: 35px;
+}
+
+.btn-danger {
+    font-weight: 800 !important;
+}
+
+// .company-heading {
+//     text-transform: uppercase;
+//     font-size: 14px;
+//     background-color: $color-white;
+//     width: 100%;
+//     position: relative;
+//     padding: 15px;
+//     letter-spacing: 0.00938em;
+//     border-top-right-radius: 16px;
+//     border-bottom-right-radius: 16px;
+// }
+
+.company-heading{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.00938em;
+    margin-top: 0.65rem;
+    padding-bottom: 0.3rem;
+}

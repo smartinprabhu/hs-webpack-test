@@ -1,0 +1,26 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "activename": "INSIGHTSACTIVE",
+      "displayname": "Insights",
+      "pathName": "/fitTracker-overview"
+    },
+    "Tickets": {
+      "id": 2,
+      "name": "TICKETS",
+      "activename": "TICKETSACTIVE",
+      "displayname": "Tickets",
+      "pathName": "/fitTracker/tickets"
+    },
+    "Report": {
+      "id": 3,
+      "name": "REPORT",
+      "activename": "REPORTS",
+      "displayname": "Report",
+      "pathName": "/fitTracker/reports"
+    },
+    "title": "FIT Tracker"
+  }
+}

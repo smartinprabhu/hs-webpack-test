@@ -1,0 +1,43 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "Sales & Purchases"
+        },   
+        {
+            "id": 2,
+            "name": "Misc"
+        },
+        {
+            "id": 3,
+            "name": "Invoicing"
+        },
+        {
+            "id": 4,
+            "name": "Support Ticket"
+        },
+        {
+            "id": 5,
+            "name": "Contact & Addresses"
+        },
+        {
+            "id": 6,
+            "name": "Note"
+        }
+    ],
+    "notesList": [  
+        {
+            "id": 1,
+            "name": "Audit Logs"
+        },    
+        {
+            "id": 2,
+            "name": "Log Note"
+        },             
+        {
+            "id": 3,
+            "name": "Schedule Activity"
+        }            
+    ] 
+}

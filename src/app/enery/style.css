@@ -1,0 +1,208 @@
+.react-flow-text {
+  font: normal normal normal 12px Suisse Intl;
+  letter-spacing: 0.36px;
+  color: #000000de;
+  font-weight: 600;
+}
+
+.react-flow-description {
+  font: normal normal normal 8px Suisse Intl;
+  letter-spacing: 0.36px;
+  color: #000000de;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.flow-img {
+  height: 30px;
+  width: 30px;
+}
+
+.flow-in-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.in-flow-box {
+  border: 1px solid #707070;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.flow-in-img {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+/* .node {
+    background-color: transparent;
+    opacity: 0;
+  }
+   */
+.flow-node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7px;
+}
+
+.active-floor {
+  background-color: #0b694c;
+  border: 1px solid #707070;
+}
+
+.active-floor-text {
+  color: #ffffff;
+}
+
+.react-flow-text {
+  font: normal normal normal 12px Suisse Intl;
+  letter-spacing: 0.36px;
+  color: #000000de;
+  font-weight: 600;
+  text-align: center;
+}
+
+.react-flow-description {
+  font: normal normal normal 8px Suisse Intl;
+  letter-spacing: 0.36px;
+  color: #000000de;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.flow-img {
+  height: 30px;
+  width: 30px;
+}
+
+.flow-in-box {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.flow-in-box1 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction:column ;
+}
+
+.flow-in-box2 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction:column;
+  margin: auto;
+}
+
+.flow-in-box-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.in-flow-box {
+  border: 1px solid #707070;
+  border-radius: 6px;
+  padding: 6px;
+  margin: 5px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.flow-in-img {
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+/* .node {
+    background-color: transparent;
+    opacity: 0;
+  } */
+
+.mflow-node {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.active-floor {
+  background-color: #0b694c;
+  border: 1px solid #707070;
+}
+
+.active-floor-text {
+  color: #ffffff;
+}
+.react-flow__node{
+  height: auto !important;
+}
+
+.blinking-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: blink-animation 3s infinite;
+}
+
+.blinking-dot.green {
+  background-color: green;
+}
+
+.blinking-dot.red {
+  background-color: red;
+}
+.blinking-dot.gray {
+  background-color: lightgrey;
+}
+
+.blinking-dot-single {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: auto;
+  animation: blink-animation 3s infinite;
+}
+
+.blinking-dot-single.green {
+  background-color: green;
+}
+
+.blinking-dot-single.red {
+  background-color: red;
+}
+.blinking-dot-single.gray {
+  background-color: lightgrey;
+}
+
+
+@keyframes blink-animation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

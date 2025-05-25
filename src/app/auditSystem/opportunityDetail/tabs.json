@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [ 
+        {
+            "id": 2,
+            "name": "Description"
+        },
+        {
+            "id": 3,
+            "name": "Extra Information"
+        }
+    ]
+       
+}

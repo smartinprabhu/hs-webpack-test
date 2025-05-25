@@ -1,0 +1,118 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Logged On",
+            "property": "logged_on"
+        },
+        {
+            "heading": "Operation",
+            "property": "operation"
+        },
+        {
+            "heading": "Type",
+            "property": "type"
+        },
+        {
+            "heading": "Tenant",
+            "property": "tenant"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor"
+        },
+        {
+            "heading": "Weight(Kg)",
+            "property": "weight"
+        }
+    ],
+    "fieldsStatic": [
+        {
+            "heading": "Logged On",
+            "property": "logged_on",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Operation",
+            "property": "operation"
+        },
+        {
+            "heading": "Type",
+            "property": "type"
+        },
+        {
+            "heading": "Tenant",
+            "property": "tenant"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor"
+        },
+        {
+            "heading": "Weight(Kg)",
+            "property": "weight"
+        },
+        {
+            "heading": "Carried by",
+            "property": "carried_by"
+        },
+        {
+            "heading": "Security by",
+            "property": "security_by"
+        },
+        {
+            "heading": "Accompanied by",
+            "property": "accompanied_by"
+        },
+        {
+            "heading": "Created On",
+            "property": "create_date",
+            "isDate": "yes"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],   
+    "carryFields": [
+        {
+            "heading": "Carried by",
+            "property": "carried_by"
+        }
+    ],  
+    "secFields": [
+        {
+            "heading": "Security by",
+            "property": "security_by"
+        }
+    ], 
+    "accompanyFields": [
+        {
+            "heading": "Accompanied by",
+            "property": "accompanied_by"
+        }
+    ],   
+    "createdFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],   
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

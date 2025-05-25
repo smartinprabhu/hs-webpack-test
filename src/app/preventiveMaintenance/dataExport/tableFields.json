@@ -1,0 +1,104 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Schedule",
+            "property": "time_period"
+        },
+        {
+            "heading": "Type",
+            "property": "scheduler_type"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority"            
+        },
+        {
+
+            "heading": "Category",
+            "property": "category_type"
+        },
+        {
+
+            "heading": "Duration",
+            "property": "duration"
+        },  
+        {
+            "heading": "Equipments",
+            "property": "equipment_count"
+        }, 
+        {
+
+            "heading": "Spaces",
+            "property": "space_count"
+        }
+    ],
+    "inspFields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Schedule",
+            "property": "time_period"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority"            
+        },
+        {
+
+            "heading": "Category",
+            "property": "category_type"
+        },
+        {
+
+            "heading": "Duration",
+            "property": "duration"
+        },
+        {
+            "heading": "Equipments",
+            "property": "equipment_count"
+        }, 
+        {
+
+            "heading": "Spaces",
+            "property": "space_count"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "teamFields": [
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        }
+    ],
+    "categoryFields": [
+        {
+            "heading": "Equipment Category",
+            "property": "category_id"
+        }
+    ],    
+    "performedFields": [
+        {
+            "heading": "Performed By",
+            "property": "ppm_by"
+        }
+    ],    
+    "createFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ]    
+       
+}

@@ -1,0 +1,11 @@
+{
+    "Edit Inspection Schedule" :"inspection_schedule_editinspection",
+    "Create Inspection Schedule" :"inspection_schedule_createinspection",
+    "Review Inspection Schedule" :"inspection_schedule_reviewinspection",
+    "Create Cancel Request" :"inspection_schedule_create_cancel_request",
+    "Create Cancel Holiday Request" :"inspection_schedule_create_cancel_holiday_request",
+    "Approve Cancel Request" :"inspection_schedule_approve_cancel_request",
+    "Allow Cancel Upcoming Request" :"inspection_schedule_allow_cancel_upcoming_request",
+    "Allow Exclude All Assets Request" :"inspection_schedule_allow_exclude_all_assets_cancel_request",
+    "Resume Inspection Schedule" :"inspection_schedule_resume"
+}

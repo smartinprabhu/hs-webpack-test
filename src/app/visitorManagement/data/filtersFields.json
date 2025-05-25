@@ -1,0 +1,135 @@
+{
+    "fieldsVR": [
+        {
+            "label": "Visitor Name",
+            "value": "visitor_name"
+        },
+        {
+            "label": "Visitor Company",
+            "value": "organization"
+        },
+        {
+            "label": "Host Name",
+            "value": "host_name"
+        },
+        {
+            "label": "Host Company",
+            "value": "allowed_sites_id"
+        },
+        {
+            "label": "Visitor Phone",
+            "value": "phone"
+        },
+        {
+            "label": "Visitor Email",
+            "value": "email"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "name",
+            "Header": "Reference"
+        },
+        {
+            "accessor": "visitor_name",
+            "Header": "Visitor Name"
+        },
+        {
+            "accessor": "organization",
+            "Header": "Visitor Company"
+        },
+        {
+            "accessor": "host_name",
+            "Header": "Host Name"
+        },
+        {
+            "accessor": "tenant_id",
+            "Header": "Visiting Company"
+        },
+        {
+            "accessor": "entry_status",
+            "Header": "Entry Status",
+            "func": true
+        },
+        {
+            "accessor": "state",
+            "Header": "Approval Status"
+        },
+        {
+            "accessor": "visitor_badge",
+            "Header": "Visitor Badge"
+        },
+        {
+            "accessor": "actual_in",
+            "Header": "Actual In",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "actual_out",
+            "Header": "Actual Out",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "phone",
+            "Header": "Visitor Phone"
+        },
+        {
+            "accessor": "planned_in",
+            "Header": "Planned In",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "planned_out",
+            "Header": "Planned Out",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "email",
+            "Header": "Visitor Email"
+        },
+        {
+            "accessor": "type_of_visitor",
+            "Header": "Visitor Type"
+        },
+        {
+            "accessor": "purpose",
+            "Header": "Purpose"
+        }
+    ]
+}

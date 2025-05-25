@@ -1,0 +1,13 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Code",
+            "value": "code"
+        }
+    ]
+}

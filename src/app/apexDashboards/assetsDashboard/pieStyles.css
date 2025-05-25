@@ -1,0 +1,57 @@
+.pie-chart-box {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.light-mode .pie-chart-box{
+  background-color: #2D2E2D;
+  width: 100%;
+  height: 100%;
+}
+.pie-chart-box-expand {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.light-mode .pie-chart-box-expand {
+  background-color: #2D2E2D;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-chart-text {
+  font: normal normal 600 18px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  /* text-transform: capitalize; */
+  cursor: pointer;
+}
+.light-mode .pie-chart-text{
+  font: normal normal 600 18px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #fffbfbde !important;
+  /* text-transform: capitalize; */
+  cursor: pointer;
+}
+
+
+.pie-chart-box:hover .expand-icon {
+  color: #000000;
+}
+
+.light-text {
+  color: #808080 !important;
+}
+
+.pie-chart-box .css-1e6ma0l {
+  width: 100%;
+  height: 80%;
+}

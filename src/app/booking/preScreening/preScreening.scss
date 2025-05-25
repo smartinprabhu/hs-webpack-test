@@ -1,0 +1,68 @@
+@import "../../../styles/variables.scss";
+
+.gray-circle {
+    width: 45px;
+    height: 45px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.centerH {
+    display:table;
+    margin: auto 20px;
+    font-size: 16px;
+}
+
+.q-title {
+    font-size: 16px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.row-center-align{
+    align-items: center;
+}
+
+.screening-right-container {
+    background-color: $color-ghost-white;
+    width: 90% !important;
+    height: 300px;
+    border-radius: 5px;
+    overflow-y: auto;
+    padding-top: 20px !important;
+    padding-left: 25px !important;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    height: 50px;
+    margin-left: 56px;
+  }
+
+.h-line {
+    height: 1px;
+    margin-top: 15px;
+    background-color: black;
+    width: 90%;
+    opacity: 0.1;
+}
+
+.width92{
+    width: 92%
+}
+
+.inputField{
+    height: 20px;
+    width: 20px;
+}
+
+.MuiAlert-icon {
+    display: none !important;
+}
+
+.MuiAlert-filledError {
+    justify-content: center;
+    font-weight: 900 !important;
+}

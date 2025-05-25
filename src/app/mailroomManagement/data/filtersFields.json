@@ -1,0 +1,193 @@
+{    
+    "fields": [
+        {
+            "label": "Tracking Number",
+            "value": "tracking_no"
+        }, 
+        {
+            "label": "Sender Name",
+            "value": "sender"
+        },
+        {
+            "label": "Type",
+            "value": "recipient"
+        },
+        {
+            "label": "Courier",
+            "value": "courier_id.name"
+        }
+    ], 
+    "fieldsOutbound": [
+        {
+            "label": "Tracking Number",
+            "value": "tracking_no"
+        }, 
+        {
+            "label": "Receiver Name",
+            "value": "sent_to"
+        },
+        {
+            "label": "Type",
+            "value": "recipient"
+        },
+        {
+            "label": "Courier",
+            "value": "courier_id.name"
+        }
+    ], 
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "sender",
+            "Header": "Sender Name"
+        },
+        {
+            "Header": "Receiver Name",
+            "accessor": "employee_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "accessor": "received_on",
+            "Header": "Registered On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+
+        },
+        {
+            "accessor": "received_by",
+            "Header": "Registered By"
+        },
+        {
+            "accessor": "parcel_dimensions",
+            "Header": "Parcel Dimensions"
+        },
+        {
+            "accessor": "tracking_no",
+            "Header": "Tracking Number"
+        },
+        {
+            "accessor": "courier_id",
+            "Header": "Courier"
+        },
+        {
+            "Header": "Type",
+            "accessor": "recipient"
+        },
+        {
+            "Header": "Department",
+            "accessor": "department_id"
+        },
+        {
+            "Header": "Delivered On",
+            "accessor": "collected_on",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "Header": "Delivered By",
+            "accessor": "collected_by"
+        }
+      
+    ],
+
+    "columnsOutBound": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "employee_id",
+            "Header": "Sender Name"
+        },
+        {
+            "accessor": "sent_to",
+            "Header": "Receiver Name"
+        },
+        {
+            "accessor": "state",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "accessor": "sent_on",
+            "Header": "Registered On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "received_by",
+            "Header": "Registered By"
+        },
+        {
+            "accessor": "parcel_dimensions",
+            "Header": "Parcel Dimensions"
+        },
+        {
+            "accessor": "tracking_no",
+            "Header": "Tracking Number"
+        },
+        {
+            "accessor": "courier_id",
+            "Header": "Courier"
+        },
+        {
+            "accessor": "recipient",
+            "Header": "Type"
+        },
+        {
+            "accessor": "department_id",
+            "Header": "Department"
+        },
+        {
+            "accessor": "delivered_on",
+            "Header": "Delivered On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "delivered_by",
+            "Header": "Delivered By"
+        }
+    ]
+       
+}

@@ -1,0 +1,44 @@
+
+{
+    "fields": [
+        {
+            "heading": "Compliance Act",
+            "property": "complianceAct"
+        },      
+        {
+            "heading": "Status",
+            "property": "stateNew"
+        },
+        {
+            "heading": "Next Expiry Date",
+            "property": "nextExpiryDate"
+        },
+        {
+            "heading": "Applies to",
+            "property": "applies_to"
+        },
+        {
+            "heading": "Asset/Location/Site",
+            "property": "locate"
+        }
+    ],   
+    "logfields": [
+        {
+            "heading": "Date",
+            "property": "logDate"
+        },      
+        {
+            "heading": "Description",
+            "property": "description"
+        },
+        {
+            "heading": "Status",
+            "property": "stage"
+        },
+        {
+            "heading": "User",
+            "property": "userId"
+        }
+    ]   
+       
+}

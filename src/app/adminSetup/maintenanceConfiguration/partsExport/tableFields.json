@@ -1,0 +1,48 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Sales Price",
+            "property": "list_price"
+        },
+        {
+            "heading": "Cost",
+            "property": "standard_price"
+        },
+        {
+            "heading": "Volume",
+            "property": "volume"
+        },
+        {
+            "heading": "Weight",
+            "property": "weight"
+        },
+        {
+            "heading": "Create Date",
+            "property": "create_date"
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Type",
+            "property": "type"
+        }
+    ],
+    "categoryFields": [
+        {
+            "heading": "Category",
+            "property": "categ_id"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

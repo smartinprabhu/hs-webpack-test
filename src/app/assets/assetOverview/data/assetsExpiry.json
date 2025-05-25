@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "date": "15.10.2020",
+        "dateconvert": "10/15/2020",
+        "title": "RMU-1"
+    },
+    {
+        "id": 2,
+        "date": "16.10.2020",
+        "dateconvert": "10/16/2020",
+        "title": "HT Meter Cubicle(A-Wing)"
+    },
+    {
+        "id": 3,
+        "date": "17.10.2020",
+        "dateconvert": "10/17/2020",
+        "title": "FIRE PANEL"
+    },
+    {
+        "id": 4,
+        "date": "19.10.2020",
+        "dateconvert": "10/19/2020",
+        "title": "AHU PANEL#1"
+    },
+    {
+        "id": 5,
+        "date": "25.10.2020",
+        "dateconvert": "10/25/2020",
+        "title": "AHU PANEL#2"
+    },
+    {
+        "id": 6,
+        "date": "26.10.2020",
+        "dateconvert": "10/26/2020",
+        "title": "Dev transformer equipment"
+    },
+    {
+        "id": 7,
+        "date": "26.10.2020",
+        "dateconvert": "10/26/2020",
+        "title": "3 Module I/C Panel"
+    }
+]

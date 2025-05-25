@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [       
+        {
+            "id": 1,
+            "name": "Alarms"
+        }, 
+        {
+            "id": 2,
+            "name": "Announcements"
+        } 
+    ]
+       
+}

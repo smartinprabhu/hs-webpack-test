@@ -1,0 +1,16 @@
+{
+    "tabsList": {
+        "Schedule Inspection": {
+            "id": 1,
+            "name": "Schedule Inspection"
+        },
+        "Scheduled Inspection": {
+            "id": 2,
+            "name": "Scheduled Inspection"
+        },
+        "Schedule PPM": {
+            "id": 3,
+            "name": "Schedule PPM"
+        }
+    }
+}

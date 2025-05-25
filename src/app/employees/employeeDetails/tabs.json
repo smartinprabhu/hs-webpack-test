@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Contact Information"
+        },
+        {
+            "id": 2,
+            "name": "Neighbourhoods"
+        }
+    ]
+       
+}

@@ -1,0 +1,162 @@
+{
+    "listfieldsShows": [
+        "commodity",
+        "capacity",
+        "vendor_id",
+        "initial_reading",
+        "final_reading",
+        "difference",
+        "tanker_id",
+        "name"
+    ],
+    "detailFields": [
+        "name",
+        "commodity",
+        "capacity",
+        "vendor_id",
+        "initial_reading",
+        "final_reading",
+        "difference",
+        "tanker_id",
+        "sequence",
+        "location_id",
+        "in_datetime",
+        "out_datetime",
+        "purchase_order",
+        "remark",
+        "delivery_challan",
+        "driver",
+        "driver_contact"
+    ],   
+    "tableColumns": [
+        {
+            "value": "sequence",
+            "label": "Sequence"
+        },
+        {
+            "value": "location_id",
+            "label": "Block"
+        },
+        {
+            "value": "in_datetime",
+            "label": "In Date"
+        },
+        {
+            "value": "out_datetime",
+            "label": "Out Date"
+        }
+    ],  
+    "dashboardStatus": {
+        "AT": {
+            "id": "All Transactions",
+            "label": "All Transactions",
+            "tags":[{
+                "value": "All Transactions",
+                "title" : "All Transactions",
+                "label": "All Transactions"
+            }]
+        },
+        "WR": {
+            "id": "Water",
+            "label": "Water",
+            "tags":[
+                {
+                    "key": "commodity",
+                    "title": "Commodity",
+                    "value": "Water",
+                    "label": "Water",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "DL": {
+            "id": "Diesel",
+            "label": "Diesel",
+            "tags":[
+                {
+                    "key": "commodity",
+                    "title": "Commodity",
+                    "value": "Diesel",
+                    "label": "Diesel",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "SW": {
+            "id": "Sewage",
+            "label": "Sewage",
+            "tags":[
+                {
+                    "key": "commodity",
+                    "title": "Commodity",
+                    "value": "Sewage",
+                    "label": "Sewage",
+                    "type": "inarray"
+                }
+            ]
+        }              
+    },
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "TANKEROUT",
+         "displayname": "Tanker Out"
+       }            
+     ],
+     "actionItemsVerify":[
+        {
+            "id": 1,
+            "name": "TANKERIN",
+            "displayname": "Tanker In"
+        },
+        {
+         "id": 2,
+         "name": "TANKEROUT",
+         "displayname": "Tanker Out"
+       },
+        {
+            "id": 3,
+            "name": "VERIFY",
+            "displayname": "Verify"
+        },
+        {
+            "id": 4,
+            "name": "CANCEL",
+            "displayname": "Cancel"
+        }            
+     ],
+     "actionTypes": {
+        "Tanker Out": {
+            "value": "",
+            "text": "Tanker Out",
+            "msg": "",
+            "button": "Tanker Out"
+        }       
+    },
+    "actionTypes1": {
+        "Tanker In": {
+            "value": "action_tanker_in",
+            "text": "Tanker In",
+            "msg": "This transaction has been put into In Progress successfully..",
+            "button": "Tanker In"
+        },
+        "Tanker Out": {
+            "value": "action_tanker_out",
+            "text": "Tanker Out",
+            "msg": "This transaction has been submitted successfully..",
+            "button": "Tanker Out"
+        },
+        "Verify": {
+            "value": "action_verify",
+            "text": "Verify",
+            "msg": "This transaction has been verified successfully..",
+            "button": "Verify"
+        },
+        "Cancel": {
+            "value": "action_cancel",
+            "text": "Cancel",
+            "msg": "This transaction has been Cancelled successfully..",
+            "button": "Cancel"
+        }
+    }
+}

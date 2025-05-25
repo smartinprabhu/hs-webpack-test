@@ -1,0 +1,44 @@
+
+{
+    "fields": [
+        {
+            "heading": "Audit Description",
+            "property": "name"
+        },
+        {
+            "heading": "Audit Date",
+            "property": "date"
+        },
+        {
+            "heading": "Audited By",
+            "property": "create_uid"
+        },
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }
+    ],
+    "qtyFields": [
+        {
+            "heading": "Total Quantity",
+            "property": "total_qty"
+        }
+    ],
+    "reasonFields": [
+        {
+            "heading": "Reason",
+            "property": "reason_id"
+        }
+    ],
+    "cmtFields": [
+        {
+            "heading": "Comments",
+            "property": "comments"
+        }
+    ]
+       
+}

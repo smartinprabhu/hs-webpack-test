@@ -1,0 +1,16 @@
+{
+    "tabsList": {
+        "Components": {
+            "id": 1,
+            "name": "Components"
+        },
+        "Accessories": {
+            "id": 2,
+            "name": "Accessories"
+        },
+        "Equipments": {
+            "id": 3,
+            "name": "Equipments"
+        }
+    }
+}

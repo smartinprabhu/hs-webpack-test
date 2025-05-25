@@ -1,0 +1,189 @@
+{
+    "viewerFilters": [
+        {
+            "value": "Completed",
+            "label": "Completed"
+        },
+        {
+            "value": "Upcoming",
+            "label": "Upcoming"
+        },
+        {
+            "value": "Missed",
+            "label": "Missed"
+        },
+        {
+            "value": "Pause",
+            "label": "On-Hold"
+        },
+        {
+            "value": "In Progress",
+            "label": "In Progress"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "groupFilters": [
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "asset_name",
+            "label": "Asset"
+        },      
+        {
+            "value": "vendor_name",
+            "label": "Vendor"
+        },
+        {
+            "value": "schedule_period_name",
+            "label": "Schedule"
+        }
+       
+    ],
+    "actionItems":[
+        {
+            "id": 1,
+            "name": "REVIEW",
+            "displayname": "Review Work order"
+        },
+        {
+            "id": 2,
+            "name": "SIGNOFF",
+            "displayname": "Sign off"
+        },
+        {
+            "id": 3,
+            "name": "WORKORDER",
+            "displayname": "Go to Work order"
+        },
+        {
+            "id": 6,
+            "name": "PREPOSTPONECANCEL",
+            "displayname": "Withdraw Prepone/Postpone Request"
+        },
+        {
+            "id": 9,
+            "name": "CANCELREQCANCEL",
+            "displayname": "Withdraw Cancellation Request"
+        }
+     ],
+     "actionButtonItems":[
+        {
+            "id": 1,
+            "name": "PREPOSTPONE",
+            "displayname": "Prepone/Postpone PPM"
+        },
+        {
+            "id": 2,
+            "name": "PREPOSTPONEAPP",
+            "displayname": "Approve/Reject Prepone/Postpone Request"
+        },
+        {
+            "id": 3,
+            "name": "CANCELREQ",
+            "displayname": "Cancel PPM"
+        },
+        {
+            "id": 4,
+            "name": "CANCELREQAPP",
+            "displayname": "Approve/Reject Cancellation Request"
+        }
+     ],    
+        "ruleTypes": [
+            {
+                "value": "monthly",
+                "label": "Month(s)"
+            },
+            {
+                "value": "yearly",
+                "label": "Year(s)"
+            }
+        ],
+        "dayRule": [
+            {
+                "value": "First",
+                "label": "First"
+            },
+            {
+                "value": "Second",
+                "label": "Second"
+            },
+            {
+                "value": "Third",
+                "label": "Third"
+            },
+            {
+                "value": "Fourth",
+                "label": "Fourth"
+            }
+        ],
+        "intervals": [
+            {
+                "value": 1,
+                "label": "1"
+            },
+            {
+                "value": 2,
+                "label": "2"
+            },
+            {
+                "value": 3,
+                "label": "3"
+            },
+            {
+                "value": 4,
+                "label": "4"
+            }
+        ],
+     "states": {
+        "Scheduled": {
+            "textClassName": "text-grey",
+            "text": "Scheduled",
+            "borderClassName": "scheduled-inspection-border",
+            "badgeClassName": "bg-scheduled-inspection",
+            "strokeObj": {
+                "pathColor": "#3a4354"
+            }
+        },
+        "Completed": {
+            "textClassName": "text-completed-inspection",
+            "text": "Completed",
+            "borderClassName": "completed-inspection-border",
+            "badgeClassName": "bg-completed-inspection",
+            "strokeObj": {
+                "pathColor": "#009937"
+            }
+        },
+        "Upcoming": {
+            "textClassName": "text-lightblue",
+            "text": "Upcoming",
+            "borderClassName": "upcoming-inspection-border",
+            "badgeClassName": "bg-upcoming-inspection",
+            "strokeObj": {
+                "pathColor": "#1582c8"
+            }
+        },
+        "Missed": {
+            "textClassName": "text-missed-inspection",
+            "text": "Missed",
+            "borderClassName": "missed-inspection-border",
+            "badgeClassName": "bg-missed-inspection",
+            "strokeObj": {
+                "pathColor": "#ec5824"
+            }
+        },
+        "In Progress": {
+            "textClassName": "text-yellow",
+            "text": "In Progress",
+            "borderClassName": "inprogress-inspection-border",
+            "badgeClassName": "bg-inprogress-inspection",
+            "strokeObj": {
+                "pathColor": "#ffa000"
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+
+{
+    "fields": [
+        {
+            "label": "Reference",
+            "value": "name"
+        },
+        {
+            "label": "Product",
+            "value": "product_id.name"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Description",
+            "accessor": "name"
+        },
+        {
+            "Header": "Product",
+            "accessor": "product_id"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Create Date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Quantity",
+            "accessor": "scrap_qty"
+        },
+        {
+            "Header": "Location",
+            "accessor": "location_id"
+        },
+        {
+            "Header": "Scrap Location",
+            "accessor": "scrap_location_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        }
+    ]
+       
+}

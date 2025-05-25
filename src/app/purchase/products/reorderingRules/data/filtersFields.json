@@ -1,0 +1,35 @@
+
+{
+    
+    "columns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Product",
+            "accessor": "product_id"
+        },
+        {
+            "Header": "Location",
+            "accessor": "location_id"
+        },
+        {
+            "Header": "Warehouse",
+            "accessor": "warehouse_id"
+        },
+        {
+            "Header": "Maximum Quantity",
+            "accessor": "product_max_qty"
+        },
+        {
+            "Header": "Minimum Quantity",
+            "accessor": "product_min_qty"
+        },
+        {
+            "Header": "Unit of Measure",
+            "accessor": "product_uom"
+        }
+    ]
+       
+}

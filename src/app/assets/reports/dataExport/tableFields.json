@@ -1,0 +1,64 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },      
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Validated On",
+            "property": "validatedOn"
+        },
+        {
+            "heading": "Validated By",
+            "property": "validated_by"
+        },
+        {
+            "heading": "Validation Status",
+            "property": "validationStatus"
+        },
+        {
+            "heading": "Next Audit On",
+            "property": "next_auditOn"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        }
+    ],
+    "fieldsWarrentyAge": [
+        {
+            "heading": "Equipment Name",
+            "property": "name"
+        },      
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Team",
+            "property": "maintenance_team_id"
+        },
+        {
+            "heading": "Expiry Date",
+            "property": "warrantyEndDate"
+        },
+        {
+            "heading": "Age",
+            "property": "expiryAge"
+        },
+        {
+            "heading": "Expiration",
+            "property": "expiredSince"
+        }
+    ]     
+       
+}

@@ -1,0 +1,85 @@
+{
+    "fields": [
+        {
+            "property": "id",
+            "heading": "ID"
+        },
+        {
+            "heading": "Equipment",
+            "property": "equipment_id"
+        },
+        {
+            "heading": "Asset Number",
+            "property": "asset_number"
+        },
+        {
+            "heading": "Type",
+            "property": "category_type"
+        },
+        {
+            "heading": "Commences On",
+            "property": "commences_on"
+        },
+        {
+            "heading": "Starts At",
+            "property": "starts_at"
+        },
+        {
+            "heading": "Duration",
+            "property": "duration"
+        },
+        {
+            "heading": "Group",
+            "property": "group_name"
+        },
+        {
+            "heading": " Maintenance Team",
+            "property": "maintenance_team_name"
+        },
+        {
+            "heading": "Checklist",
+            "property": "check_list_id"
+        },
+        {
+            "heading": "Maintenance Operation",
+            "property": "task_name"
+        },
+        {
+            "heading": "Priority",
+            "property": "priority",
+            "func": true
+        },
+        {
+            "heading": "Identifier",
+            "property": "uuid"
+        },
+        {
+            "heading": "Parent Schedule",
+            "property": "parent_name"
+        }
+    ],
+    "equipFields": [
+        {
+            "heading": "Maintenance Operation",
+            "property": "task_name"
+        }
+    ],
+    "spaceFields": [
+        {
+            "heading": "Priority",
+            "property": "priority"
+        }
+    ],
+    "uuidFields": [
+        {
+            "heading": "Identifier",
+            "property": "uuid"
+        }
+    ],
+    "parentFields": [
+        {
+            "heading": "Parent Schedule",
+            "property": "parent_name"
+        }
+    ]
+}

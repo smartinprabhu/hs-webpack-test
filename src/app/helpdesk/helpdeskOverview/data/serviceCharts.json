@@ -1,0 +1,12 @@
+{
+    "options": {
+        "legend": false,
+        "tooltips": {
+          "displayColors": false,
+          "bodyFontSize": 10
+        },
+        "cutoutPercentage": 75,
+        "maintainAspectRatio": false,
+        "responsive": true
+      }
+}

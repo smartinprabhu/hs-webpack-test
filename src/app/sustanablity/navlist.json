@@ -1,0 +1,38 @@
+{
+    "data": {
+      "Overview": {
+        "id": 1,
+        "name": "OVERVIEW",
+        "displayname": "Overview",
+        "pathName": "/esg-monitoring/overview"
+      },
+      "Environment": {
+        "id": 2,
+        "name": "ENVIRONMENT",
+        "displayname": "Environment",
+        "pathName": "/environment"
+      },
+      "Social": {
+        "id": 3,
+        "name": "SOCIAL",
+        "displayname": "Social",
+        "pathName": "/social"
+      },
+      "Governance": {
+        "id": 4,
+        "name": "GOVERNANCE",
+        "displayname": "Governance",
+        "pathName": "/governance"
+      },
+      "ESG Tracker": {
+        "id": 5,
+        "name": "ESG TRACKER",
+        "displayname": "ESG Tracker",
+        "pathName": "/esg-tracker"
+      },
+
+
+      "title": "ESG TRACKER"
+    }
+  }
+  

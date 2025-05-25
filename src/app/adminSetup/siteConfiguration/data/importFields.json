@@ -1,0 +1,84 @@
+{
+    "fields" : [
+        [
+            "name",
+            "associates_to",
+            "email",
+            "vendor_id",
+            "employee_id_seq",
+            "is_mobile_user",
+            "user_role_id",
+            "neighbour_groups_ids"
+          ],
+          [
+            "name",
+            "associates to",
+            "email",
+            "associated entity",
+            "employee id",
+            "mobile user only",
+            "user role",
+            "allowed groups"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "vendor_id": false,
+              "user_role_id": false,
+              "neighbour_groups_ids": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          },
+        "False"
+    ],
+    "ulpoadFields" : [
+        [
+            "name",
+            "associates_to",
+            "email",
+            "vendor_id",
+            "employee_id_seq",
+            "is_mobile_user",
+            "user_role_id",
+            "neighbour_groups_ids"
+          ],
+          [
+            "name",
+            "associates to",
+            "email",
+            "associated entity",
+            "employee id",
+            "mobile user only",
+            "user role",
+            "allowed groups"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "vendor_id": false,
+              "user_role_id": false,
+              "neighbour_groups_ids": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          }
+    ],
+    "fieldLabels": ["Name", "Associates To", "Email", "Associated Entity", "Employee Id", "Mobile User Only", "User Role", "Allowed Groups"]
+}

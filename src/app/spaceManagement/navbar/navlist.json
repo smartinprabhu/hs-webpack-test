@@ -1,0 +1,50 @@
+{
+  "notParent": {
+    "Insights": {
+      "id": 1,
+      "name": "Insights",
+      "displayname": "Insights",
+      "pathName": "/spaceManagement-overview"
+    },
+    "Hspace Home": {
+      "id": 2,
+      "name": "Hspace Home",
+      "displayname": "Hspace Home",
+      "pathName": "/hspace-home"
+    },
+    "My Bookings": {
+      "id": 2,
+      "name": "My Bookings",
+      "displayname": "My Bookings",
+      "pathName": "/spaceManagement-overview/mybookings"
+    },
+    "Space Management Operations": {
+      "id": 2,
+      "name": "Space Management Operations",
+      "displayname": "Space Management",
+      "pathName": "/space-management"
+    },
+    "Booking Maintenance": {
+      "id": 2,
+      "name": "booking maintenance",
+      "displayname": "Booking Maintenance",
+      "pathName": "/booking-maintenance"
+    },
+    "Hr Settings": {
+      "id": 2,
+      "name": "hr settings",
+      "displayname": "Hr Settings",
+      "pathName": "/hr/employees"
+    },
+    "title": "Space Management"
+  },
+  "isParent": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/spaceManagement-overview"
+    },
+    "title": "Space Management"
+  }
+}

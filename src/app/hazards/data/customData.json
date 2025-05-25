@@ -1,0 +1,379 @@
+{
+    "dashboardStatus": {
+        "OP": {
+            "id": "Open",
+            "label": "Open",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Open",
+                    "label": "Open",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "IP": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "In Progress",
+                    "label": "In Progress",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "OH": {
+            "id": "Onhold",
+            "label": "Onhold",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "On Hold",
+                    "label": "On Hold",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "incidentsListFields": [
+        "reference",
+        "name",
+        "state",
+        "type_category",
+        "asset_id",
+        "equipment_id",
+        "category_id",
+        "priority_id",
+        "description",
+        "incident_type_id",
+        "incident_on",
+        "target_closure_date",
+        "maintenance_team_id",
+        "company_id",
+        "corrective_action",
+        "assigned_id",
+        "reported_by_id",
+        "reported_on",
+        "acknowledged_by_id",
+        "acknowledged_on",
+        "resolved_by_id",
+        "resolved_on",
+        "validated_by_id",
+        "validated_on"
+    ],
+    "listfieldsShows": [
+        "reference",
+        "name",
+        "category_id",
+        "priority_id",
+        "reported_on",
+        "assigned_id",
+        "target_closure_date",
+        "state",
+        "type_category",
+        "asset_id",
+        "equipment_id",
+        "incident_type_id",
+        "incident_on",
+        "maintenance_team_id",
+        "company_id"
+    ],
+    "criticalTextForm": {
+        "Critical": {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        "Non-Critical": {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    },
+    "critical": [
+        {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    ],
+    "typeTextForm": {
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        },
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    },
+    "reqType": [
+        {
+            "value": "Space",
+            "label": "Space"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "amcTextForm": {
+        "Valid": {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        "Expired": {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        "Not Available": {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    },
+    "amcStatus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    ],
+    "stateTypes": [
+        {
+            "value": "Reported",
+            "label": "Reported"
+        },
+        {
+            "value": "Acknowledged",
+            "label": "Acknowledged"
+        },
+        {
+            "value": "Analyzed",
+            "label": "In Progress"
+        },
+        {
+            "value": "Remediated",
+            "label": "Recommended"
+        },
+        {
+            "value": "Resolved",
+            "label": "Resolved"
+        },
+        {
+            "value": "Validated",
+            "label": "Validated"
+        },
+        {
+            "value": "Signed off",
+            "label": "Signed off"
+        },
+        {
+            "value": "Paused",
+            "label": "Paused"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "status": {
+        "Reported": {
+            "id": "Reported",
+            "label": "Reported",
+            "color":"info",
+            "msg":"Acknowledgement is required."
+        },
+        "Acknowledged": {
+            "id": "Acknowledged",
+            "label": "Acknowledged",
+            "color": "light",
+            "msg":"Perform Analysis"
+       },
+        "Analyzed": {
+                "id": "Analyzed",
+                "label": "In Progress",
+                "color": "light",
+                "msg": "Suggest Recommendations/Remediations"
+        },
+        "Remediated": {
+            "id": "Recommended",
+            "label": "Recommended",
+            "color": "incident-acknowledge",
+            "msg":""
+        },
+        "Resolved": {
+                "id": "Resolved",
+                "label": "Resolved",
+                "color": "success",
+                "msg":"Post Hazard Review/Validation is required"
+        },
+        "Paused": {
+                "id": "Paused",
+                "label": "Paused",
+                "color": "light",
+                "msg":""
+        },
+        "Validated": {
+            "id": "Validated",
+            "label": "Validated",
+            "color": "light",
+            "msg":""
+        },
+        "Signed off": {
+            "id": "Signed off",
+            "label": "Signed off",
+            "color": "light",
+            "msg":""
+        },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "light",
+            "msg":""
+       }
+    },
+    "taskStatus": {
+        "Open": {
+            "id": "Open",
+            "label": "Open",
+            "color":"secondary"
+        },
+        "Inprogress": {
+            "id": "Inprogress",
+            "label": "Inprogress",
+            "color": "warning"
+       },
+        "Completed": {
+            "id": "Completed",
+            "label": "Completed",
+            "color": "success"
+        }
+    },
+    "actionItems":[
+        {
+            "id": 1,
+            "name": "ACKNOWLEDGE",
+            "displayname": "Acknowledge",
+            "method": "action_to_acknowledged",
+            "buttonName": "Acknowledge",
+            "statusName": "Acknowledged",
+            "message": "This Hazard has been set to acknowledged successfully.."
+        },
+        {
+            "id": 8,
+            "name": "ANALYSIS",
+            "displayname": "Complete Analysis",
+            "method": "action_to_analysed",
+            "buttonName": "Complete Analysis",
+            "statusName": "Analyzed",
+            "message": "This Hazard has been progressed successfully.."
+        },
+        {
+            "id": 9,
+            "name": "RECOMMEND",
+            "displayname": "Complete Recommendation",
+            "method": "action_to_remediated",
+            "buttonName": "Complete Recommendation",
+            "statusName": "Remediated",
+            "message": "This Hazard has been recommended successfully.."
+        },   
+        {
+            "id": 3,
+            "name": "RESOLVED",
+            "displayname": "Resolve",
+            "method": "action_to_resolved",
+            "buttonName": "Resolve",
+            "statusName": "Resolved",
+            "message": "This Hazard has been resolved successfully.."
+        },
+        {
+            "id": 4,
+            "name": "VALIDATED",
+            "displayname": "Validate",
+            "method": "action_to_validated",
+            "buttonName": "Validate",
+            "statusName": "Validated",
+            "message": "This Hazard has been Validated successfully.."
+        },
+        {
+            "id": 19,
+            "name": "SIGNOFF",
+            "displayname": "Sign off",
+            "method": "action_to_sign_off",
+            "buttonName": "Sign off",
+            "statusName": "Signed off",
+            "message": "This Hazard has been Signed off successfully.."
+        },
+        {
+            "id": 5,
+            "name": "CANCEL",
+            "displayname": "Cancel Hazard",
+            "method": "action_to_cancelled",
+            "buttonName": "Cancel",
+            "statusName": "Cancelled",
+            "message": "This Hazard has been cancelled successfully.."
+        },
+        {
+            "id": 6,
+            "name": "PAUSE",
+            "displayname": "Pause Hazard",
+            "method": "action_to_paused",
+            "buttonName": "Pause",
+            "statusName": "Paused",
+            "message": "This Hazard has been paused successfully.."
+        },
+        {
+            "id": 7,
+            "name": "RESUME",
+            "displayname": "Resume Hazard",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Hazard has been resumed successfully.."
+        },
+        {
+            "id": 20,
+            "name": "INVREPORT",
+            "displayname": "Print Investigation Report",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Hazard has been resumed successfully.."
+        },
+        {
+            "id": 21,
+            "name": "INVREPORTLEARN",
+            "displayname": "Print Lessons Learn Report",
+            "method": "action_to_analysed",
+            "buttonName": "Resume",
+            "statusName": "Analyzed",
+            "message": "This Hazard has been resumed successfully.."
+        }
+     ]
+}

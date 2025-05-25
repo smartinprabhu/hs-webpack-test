@@ -1,0 +1,421 @@
+{
+    "states": {
+        "draft": {
+            "color": "info",
+            "text": "Draft"
+        },
+        "released": {
+            "color": "warning",
+            "text": "Waiting Parts"
+        },
+        "ready": {
+            "color": "warning",
+            "text": "Ready to maintenance"
+        },
+        "READY TO MAINTENANCE": {
+            "color": "warning",
+            "text": "Ready to maintenance"
+        },
+        "assigned": {
+            "color": "blue",
+            "text": "Assigned"
+        },
+        "in_progress": {
+            "color": "yellow",
+            "text": "In Progress"
+        },
+        "IN PROGRESS": {
+            "color": "yellow",
+            "text": "In Progress"
+        },
+        "pause": {
+            "color": "yellow",
+            "text": "On-Hold"
+        },
+        "done": {
+            "color": "lightGreen",
+            "text": "Done"
+        },
+        "cancel": {
+            "color": "danger",
+            "text": "Cancelled"
+        },
+        "missed": {
+            "color": "missed",
+            "text": "Missed"
+        }
+    },
+    "statesReview": {
+        "Done": {
+            "color": "lightGreen",
+            "text": "Done"
+        },
+        "Not Done": {
+            "color": "danger",
+            "text": "Not Done"
+        }
+    },
+    "priorities": {
+        "0": {
+            "color": "primary",
+            "text": "Low"
+        },
+        "1": {
+            "color": "success",
+            "text": "Normal"
+        },
+        "2": {
+            "color": "warning",
+            "text": "High"
+        },
+        "3": {
+            "color": "danger",
+            "text": "Breakdown"
+        },
+        "4": {
+            "color": "info",
+            "text": "Standard"
+        },
+        "5": {
+            "color": "danger",
+            "text": "Critical"
+        }
+    },
+    "maintenanceTypes": {
+        "bm": {
+            "id": "bm",
+            "label": "Corrective"
+        },
+        "pm": {
+            "id": "pm",
+            "label": "Preventive"
+        },
+        "oc": {
+            "id": "oc",
+            "label": "On Condition"
+        },
+        "pr": {
+            "id": "pr",
+            "label": "Periodic"
+        },
+        "pd": {
+            "id": "pd",
+            "label": "Predictive"
+        }
+    },
+    "productTypes": {
+        "consu": {
+            "id": "consu",
+            "label": "Consumable"
+        },
+        "service": {
+            "id": "service",
+            "label": "Service"
+        },
+        "product": {
+            "id": "product",
+            "label": "Storable Product"
+        }
+    },
+    "woTypes": {
+        "equipment": {
+            "id": "equipment",
+            "label": "Equipment"
+        },
+        "asset": {
+            "id": "asset",
+            "label": "Space"
+        }
+    },
+    "issueTypes": {
+        "request": {
+            "id": "request",
+            "label": "Request"
+        },
+        "complaint": {
+            "id": "complaint",
+            "label": "Complaint"
+        },
+        "incident": {
+            "id": "incident",
+            "label": "Incident"
+        },
+        "ehs": {
+            "id": "ehs",
+            "label": "EHS"
+        },
+        "asset_installation": {
+            "id": "asset_installation",
+            "label": "Asset Installation"
+        }
+    },
+    "otherTags": [
+        {
+            "id": 1,
+            "name": "Dates"
+        },
+        {
+            "id": 2,
+            "name": "Costing"
+        },
+        {
+            "id": 3,
+            "name": "Additional Information"
+        }
+    ],
+    "dashboardStatus": {
+        "IPO": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "datefield": "date_start_scheduled",
+            "tags": [
+                {
+                    "id": "assigned",
+                    "label": "Assigned",
+                    "title": "Status"
+                },
+                {
+                    "id": "in_progress",
+                    "label": "In Progress",
+                    "title": "Status"
+                }
+            ]
+        },
+        "CO": {
+            "id": "Closed",
+            "label": "Closed",
+            "datefield": "date_start_scheduled",
+            "tags": [
+                {
+                    "id": "done",
+                    "label": "Done",
+                    "title": "Status"
+                }
+            ]
+        },
+        "OO": {
+            "id": "Open",
+            "label": "Open",
+            "datefield": "date_start_scheduled",
+            "tags": [
+                {
+                    "id": "ready",
+                    "label": "Ready To Maintenance",
+                    "title": "Status"
+                }
+            ]
+        },
+        "PO": {
+            "id": "Pause",
+            "label": "Pause",
+            "datefield": "date_start_scheduled",
+            "tags": [
+                {
+                    "id": "pause",
+                    "label": "On-Hold",
+                    "title": "Status"
+                }
+            ]
+        }
+    },
+    "tableColumns": [
+        {
+            "value": "id",
+            "label": "ID"
+        },
+        {
+            "value": "equip_asset_common",
+            "label": "Equipment/Space"
+        },
+        {
+            "value": "issue_type",
+            "label": "Issue Type"
+        },
+        {
+            "value": "maintenance_type",
+            "label": "Maintenance Type"
+        },
+        {
+            "value": "employee_id",
+            "label": "Technician"
+        },
+        {
+            "value": "type_category",
+            "label": "Type"
+        },
+        {
+            "value": "task_id",
+            "label": "Maintenance Operations"
+        },
+        {
+            "value": "description",
+            "label": "Description"
+        },
+        {
+            "value": "date_planned",
+            "label": "Requested Date"
+        },
+        {
+            "value": "date_execution",
+            "label": "Close Date"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        },
+        {
+            "value": "pause_reason_id",
+            "label": "On-Hold Reason"
+        }
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "REASSIGNTEAM",
+            "displayname": "Reassign to a Team"
+        },
+        {
+            "id": 2,
+            "name": "PERFORMCHECKLIST",
+            "displayname": "Perform Check List"
+        },
+        {
+            "id": 2,
+            "name": "ASSIGN",
+            "displayname": "Assign"
+        },
+        {
+            "id": 3,
+            "name": "START",
+            "displayname": "Start"
+        },
+        {
+            "id": 4,
+            "name": "PAUSE",
+            "displayname": "Pause"
+        },
+        {
+            "id": 5,
+            "name": "REOPEN",
+            "displayname": "Reopen"
+        },
+        {
+            "id": 6,
+            "name": "CLOSE",
+            "displayname": "Finish"
+        },
+        {
+            "id": 7,
+            "name": "RESTART",
+            "displayname": "Restart"
+        },
+        {
+            "id": 8,
+            "name": "UNASSIGN",
+            "displayname": "Unassign"
+        },
+        {
+            "id": 9,
+            "name": "REVIEW",
+            "displayname": "Review"
+        },
+        {
+            "id": 10,
+            "name": "CANCEL",
+            "displayname": "Cancel On-Hold Request"
+        },
+        {
+            "id": 11,
+            "name": "MISSEDREASON",
+            "displayname": "Provide Missed Reason"
+        },
+        {
+            "id": 12,
+            "name": "SERVICEREPORT",
+            "displayname": "Upload Service Report"
+        }
+    ],
+    "viewFields": [
+        "id",
+        "create_date",
+        "name",
+        "sequence",
+        "state",
+        "priority",
+        "date_execution",
+        "date_scheduled",
+        "equipment_id",
+        "equipment_location_id",
+        "asset_id",
+        "maintenance_team_id",
+        "type_category",
+        "maintenance_type",
+        "task_id",
+        "message_ids",
+        "origin",
+        "employee_id",
+        "ppm_scheduler_week_id",
+        "partner_id",
+        "work_permit_id",
+        "sla_score_type",
+        "is_reopened",
+        "company_id",
+        "n_resourse",
+        "team_category_id",
+        "cause",
+        "description",
+        "issue_type",
+        "check_list_ids",
+        "checklist_json_data",
+        "parts_lines",
+        "date_start_execution",
+        "date_start_scheduled",
+        "date_planned",
+        "order_duration",
+        "actual_duration",
+        "worked_hours",
+        "stock_picking_ids",
+        "std_mat_cost",
+        "std_tool_cost",
+        "std_labour_cost",
+        "act_mat_cost",
+        "act_tool_cost",
+        "act_labour_cost",
+        "create_uid",
+        "create_date",
+        "mro_timesheet_ids",
+        "at_start_mro",
+        "at_review_mro",
+        "at_done_mro",
+        "enforce_time",
+        "is_qr_scan_at_start",
+        "is_qr_scan_at_done",
+        "is_nfc_scan_at_start",
+        "is_nfc_scan_at_done",
+        "warehouse_id",
+        "location_parts_id",
+        "picking_type_id",
+        "tool_ids",
+        "help_desk_id",
+        "picking_id",
+        "pause_reason_id",
+        "reject_reason",
+        "reason",
+        "reviewed_by",
+        "review_status",
+        "reviewed_on",
+        "reviewed_remark",
+        "work_permit_reference",
+        "ppm_scheduler_week_id"
+    ],
+    "shedulerTypes": [
+        {
+            "value": "PPM",
+            "label": "PPM"
+        },
+        {
+            "value": "Smart Logger",
+            "label": "Smart Logger"
+        }
+    ]
+}

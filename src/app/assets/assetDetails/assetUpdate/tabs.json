@@ -1,0 +1,18 @@
+
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Warranty"
+        },
+        {
+            "id": 2,
+            "name": "Maintenance"
+        },
+        {
+            "id": 3,
+            "name": "Additional Info"
+        }
+    ]
+       
+}

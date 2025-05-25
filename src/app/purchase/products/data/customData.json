@@ -1,0 +1,65 @@
+{
+    "productType": [
+        {
+            "id": 1,
+            "label": "Consumable",
+            "value": "consu"
+        },
+        {
+            "id": 2,
+            "label": "Storable",
+            "value": "product"
+        },
+        {
+            "id": 3,
+            "label": "Service",
+            "value": "service"
+        }
+    ],
+    "tableColumns": [
+        {
+            "value": "type",
+            "label": "Type"
+        },
+        {
+            "value": "categ_id",
+            "label": "Category"
+        },
+        {
+            "value": "responsible_id",
+            "label": "Responsible"
+        },
+        {
+            "value": "hs_code_id",
+            "label": "H.S. Code"
+        }
+    ],
+    "searchFields": [
+        {
+            "value": "name",
+            "label": "Name"
+        }
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "SENDMESSAGE",
+            "displayname": "Send Message"
+        },
+        {
+            "id": 2,
+            "name": "LOGNOTE",
+            "displayname": "Log Note"
+        },
+        {
+            "id": 3,
+            "name": "SCHEDULEACTIVITY",
+            "displayname": "Schedule Activity"
+        },
+        {
+            "id": 4,
+            "name": "PRODUCTMOVES",
+            "displayname": "Product Moves"
+        }
+    ]
+}

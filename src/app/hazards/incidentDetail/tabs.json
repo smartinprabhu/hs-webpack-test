@@ -1,0 +1,30 @@
+
+{
+    "tabsList": [ 
+        {
+            "id": 1,
+            "name": "Summary"
+        },
+        {
+            "id": 2,
+            "name": "Analysis"
+        },
+        {
+            "id": 3,
+            "name": "Recommendations"
+        },
+        {
+            "id": 7,
+            "name": "Validation"
+        },
+        {
+            "id": 4,
+            "name": "Attachments"
+        },
+        {
+            "id": 6,
+            "name": "Other Info"
+        }
+    ]
+       
+}

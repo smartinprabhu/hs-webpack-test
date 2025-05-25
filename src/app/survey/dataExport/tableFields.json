@@ -1,0 +1,41 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Title",
+            "property": "title"
+        },
+        {
+            "heading": "Status",
+            "property": "stage_id"
+        },
+        {
+            "heading": "Completed",
+            "property": "tot_comp_survey"
+        },
+        {
+            "heading": "Survey Link",
+            "property": "uuid"
+        },
+        {
+            "heading": "Viewed",
+            "property": "user_input_ids"
+        },
+        {
+            "heading": "Type",
+            "property": "category_type"
+        },
+        {
+            "heading": "Invitations Sent",
+            "property": "tot_sent_survey"
+        },
+        {
+            "heading": "Started",
+            "property": "tot_start_survey"
+        }
+    ] 
+}

@@ -1,0 +1,16 @@
+{
+    "tabsList": {
+        "Audits": {
+            "id": 1,
+            "name": "Audits"
+        },
+        "Opportunities": {
+            "id": 2,
+            "name": "Opportunities"
+        },
+        "Actions": {
+            "id": 3,
+            "name": "Actions"
+        }
+    }
+}

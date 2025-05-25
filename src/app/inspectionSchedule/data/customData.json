@@ -1,0 +1,194 @@
+{
+    "listfieldsShows": [
+        "category_type",
+        "commences_on",
+        "asset_number",
+        "equipment_id",
+        "space_id",
+        "group_id",
+        "maintenance_team_id",
+        "check_list_id",
+        "starts_at",
+        "duration"
+    ],
+    "detailFields": [
+        "name",
+        "employee_id",
+        "pantry_id",
+        "space_id",
+        "ordered_on",
+        "company_id",
+        "reason_for_cancellation",
+        "state",
+        "confirmed_on",
+        "cancelled_on",
+        "delivered_on"
+    ],
+    "tableColumns": [
+        {
+            "value": "uuid",
+            "label": "Identifier"
+        },
+        {
+            "value": "priority",
+            "label": "Priority"
+        },
+        {
+            "value": "task_id",
+            "label": "Maintenance Operations"
+        },
+        {
+            "value": "parent_id",
+            "label": "Parant Schedule"
+        }
+    ],
+    "inspectionTypes": [
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "Space",
+            "label": "Space"
+        }
+    ],
+    "viewerFilters": [
+        {
+            "value": "All",
+            "label": "All"
+        },
+        {
+            "value": "Missed",
+            "label": "Missed"
+        },
+        {
+            "value": "Completed",
+            "label": "Completed"
+        },
+        {
+            "value": "Upcoming",
+            "label": "Upcoming"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        },
+        {
+            "value": "Abnormal",
+            "label": "Abnormal"
+        }
+    ],
+    "groupFilters": [
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "asset_name",
+            "label": "Asset"
+        }
+    ],
+    "inspectionPriorities": [
+        {
+            "value": "0",
+            "label": "Low"
+        },
+        {
+            "value": "1",
+            "label": "Normal"
+        },
+        {
+            "value": "2",
+            "label": "High"
+        },
+        {
+            "value": "3",
+            "label": "Breakdown"
+        },
+        {
+            "value": "4",
+            "label": "Standard"
+        },
+        {
+            "value": "5",
+            "label": "Critical"
+        }
+    ],
+    "viewerFields": [
+        "order_id",
+        "order_state",
+        "state",
+        "start_datetime",
+        "end_datetime",
+        "maintenance_team_id",
+        "category_type",
+        "equipment_id",
+        "space_id"
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "REVIEW",
+            "displayname": "Review Work order"
+        },
+        {
+            "id": 2,
+            "name": "WORKORDER",
+            "displayname": "Go to Work order"
+        }
+    ],
+    "actionCancelItems": [
+        {
+            "id": 1,
+            "name": "APPROVE",
+            "displayname": "Approve/Reject Cancellation Request"
+        },
+        {
+            "id": 2,
+            "name": "WITHDRAW",
+            "displayname": "Withdraw Cancellation Request"
+        },
+        {
+            "id": 3,
+            "name": "RESUME",
+            "displayname": "Resume Inspection Schedules"
+        }
+    ],
+    "actionCancelItemsPPM": [
+        {
+            "id": 1,
+            "name": "APPROVE",
+            "displayname": "Approve/Reject Cancellation Request"
+        },
+        {
+            "id": 2,
+            "name": "WITHDRAW",
+            "displayname": "Withdraw Cancellation Request"
+        },
+        {
+            "id": 3,
+            "name": "RESUME",
+            "displayname": "Resume PPM Schedules"
+        }
+    ],
+    "EnforceFilters": [
+        {
+            "value": "enforce_time",
+            "label": "With Enforce Time"
+        },
+        {
+            "value": "no_enforce_time",
+            "label": "Without Enforce Time"
+        }
+    ],
+    "InspectionFilters": [
+        {
+            "value": "group_inspection",
+            "label": "Group Inspection"
+        },
+        {
+            "value": "individual_inspection",
+            "label": "Individual Inspection"
+        }
+    ]
+}

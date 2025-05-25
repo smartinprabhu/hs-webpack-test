@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreScreensModalWindow testing snapshot testing while having data 1`] = `<DocumentFragment />`;
+
+exports[`PreScreensModalWindow testing snapshot testing while having preScreeningProcess error 1`] = `<DocumentFragment />`;
+
+exports[`PreScreensModalWindow testing snapshot testing while having questionarieData error 1`] = `<DocumentFragment />`;

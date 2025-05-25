@@ -1,0 +1,155 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Reference",
+            "accessor": "reference"
+        },
+        {
+            "Header": "Subject",
+            "accessor": "name"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Category",
+            "accessor": "category_id"
+        },
+        {
+            "Header": "Severity",
+            "accessor": "severity_id"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority_id"
+        },
+        {
+            "Header": "Probability",
+            "accessor": "probability_id"
+        },
+        {
+            "Header": "Incident Type",
+            "accessor": "incident_type_id"
+        },
+        {
+            "Header": "Incident On",
+            "accessor": "incident_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Target Closure Date",
+            "accessor": "target_closure_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "Header": "Company",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Corrective Action",
+            "accessor": "corrective_action"
+        },
+        {
+            "Header": "Assigned To",
+            "accessor": "assigned_id"
+        },
+        {
+            "Header": "Sub Category",
+            "accessor": "sub_category_id"
+        },
+        {
+            "Header": "Reported By",
+            "accessor": "reported_by_id"
+        },
+        {
+            "Header": "Reported On",
+            "accessor": "reported_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Acknowledged By",
+            "accessor": "acknowledged_by_id"
+        },
+        {
+            "Header": "Acknowledged On",
+            "accessor": "acknowledged_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Resolved By",
+            "accessor": "resolved_by_id"
+        },
+        {
+            "Header": "Resolved On",
+            "accessor": "resolved_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Validated By",
+            "accessor": "validated_by_id"
+        },
+        {
+            "Header": "Validated On",
+            "accessor": "validated_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ]
+}

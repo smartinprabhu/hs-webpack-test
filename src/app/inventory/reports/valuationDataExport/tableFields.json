@@ -1,0 +1,54 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "display_name"
+        },
+        {
+            "heading": "Quantity",
+            "property": "qty_at_date"
+        },
+        {
+            "heading": "UOM",
+            "property": "uom_id"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "priceFields": [
+        {
+            "heading": "Price",
+            "property": "price"
+        }
+    ],   
+    "volumeFields": [
+        {
+            "heading": "Volume",
+            "property": "volume"
+        }
+    ],
+    "valueFields": [
+        {
+            "heading": "Value",
+            "property": "stock_value"
+        }
+    ],
+    "weightFields": [
+        {
+            "heading": "Weight",
+            "property": "weight"
+        }
+    ],
+    "statusFields": [
+        {
+            "heading": "Status",
+            "property": "active"
+        }
+    ]
+       
+}

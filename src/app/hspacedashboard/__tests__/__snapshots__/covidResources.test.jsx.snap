@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CovidResources testing snapshot testing for GET_COVID_RESOURSES action 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-azure h-100 rounded ml-3 m-0 p-0 dashboardTileHeight row"
+  >
+    <div
+      class="px-0 col-sm-12"
+    >
+      <img
+        alt="nttImage"
+        height="100%"
+        src="[object Object]"
+        width="100%"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CovidResources testing snapshot testing for GET_COVID_RESOURSES_SUCCESS action 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-azure h-100 rounded ml-3 m-0 p-0 dashboardTileHeight row"
+  >
+    <div
+      class="px-0 col-sm-12"
+    >
+      <img
+        alt="nttImage"
+        height="100%"
+        src="[object Object]"
+        width="100%"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

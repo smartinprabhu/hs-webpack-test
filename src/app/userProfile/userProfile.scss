@@ -1,0 +1,128 @@
+@import "../../styles/variables.scss";
+
+.userProfileImage {
+    height: 126px;
+    width: 126px;
+    position: relative;
+    top: -77px;
+    left: 9%;
+}
+
+.profileBackGround {
+    // background-image: url(@images/businessPeople.jpg);
+    background-image: linear-gradient(to right, #f6f6f6, #f5eef3, #d8d3da);
+    top: 245px;
+    left: 414px;
+    width: 1236px;
+    height: 120px;
+    background-size: cover;
+    min-height: 100px !important;
+    opacity: 1;
+    border-radius: 13px;
+}
+
+.detailInfo {
+    margin-top: 24px;
+}
+
+.your-profile {
+    height: 70px;
+    width: 70px;
+    left: 9%;
+}
+
+.password {
+    top: 1001px;
+    left: 1184px;
+    width: 75px;
+    height: 26px;
+    text-align: left;
+    margin-top: 27px;
+    font-weight: 600;
+}
+
+.personal-info {
+    font-weight: 600;
+}
+
+.activeInfo {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.nonActiveInfo {
+    cursor: pointer;
+    // color: $color-mischka2;
+}
+
+.txtAlign-right {
+    text-align: right;
+}
+
+.userProfileModalImage {
+    height: 80px;
+    width: 80px;
+}
+
+.userImageUpdateLoader {
+    top: -20px;
+    position: absolute;
+    left: 45%;
+}
+
+@media only screen and (max-width: 1170px) {
+    .userProfile {
+        height: 100px;
+        width: 100px;
+    }
+
+    .uploadImage {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .cardStyle {
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .userImage {
+        height: 100px;
+        width: 100px;
+        top: -70px;
+    }
+
+    .cameraIcon {
+        padding-top: 27px;
+        width: 28px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .userImageWidth {
+        height: 60px;
+        width: 60px;
+        top: -65px;
+    }
+
+    .cameraIconWidth {
+        padding-top: 38px;
+        padding-left: 5px;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .userImageHeight {
+        height: 50px;
+        width: 50px;
+        top: -63px;
+    }
+
+    .cameraIconHeight {
+        padding-top: 47px;
+        padding-left: 15px;
+        width: 30px;
+    }
+}

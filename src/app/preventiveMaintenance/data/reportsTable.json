@@ -1,0 +1,95 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "2",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "3",
+        "name": "RN092750",
+        "time_period": "Weekly",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "4",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "5",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "6",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "7",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "1",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "8",
+        "name": "RN092750",
+        "time_period": "Weekly",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "9",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "10",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "0",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      },
+      {
+        "id": "11",
+        "name": "RN092750",
+        "time_period": "Daily",
+        "priority": "1",
+        "ppm_by": "internal",
+        "create_date": "2021-02-16 14:50:32"
+      }
+    ],
+    "error": {},
+    "length": 1,
+    "status": true
+  }

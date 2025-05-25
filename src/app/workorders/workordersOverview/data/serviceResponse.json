@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1", 
+        "status": "VERY GOOD",
+        "message": "Average Good Response Time 1h 17m",
+        "count": "3405"
+    },
+    {
+        "id": "2", 
+        "status": "NORMAL",
+        "message": "Average Normal Response Time 2h 32m",
+        "count": "1000"
+    },
+    {
+        "id": "3", 
+        "status": "LATE",
+        "message": "Average Late Response Time 4h 59m",
+        "count": "2804"
+    },
+    {
+        "id": "4", 
+        "status": "VERY LATE",
+        "message": "Average Very Late Response Time 6h 55m",
+        "count": "647"
+    }
+] 

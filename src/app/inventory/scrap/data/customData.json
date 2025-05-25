@@ -1,0 +1,127 @@
+{
+    "stateTypes":[
+        {
+            "value": "draft",
+            "label" : "Draft"
+        },
+        {
+            "value": "done",
+            "label" : "Done"
+        }
+    ],
+    "inventoryTypes":[
+        {
+            "value": "none",
+            "label" : "All Products"
+        },
+        {
+            "value": "category",
+            "label" : "One Product Category"
+        },
+        {
+            "value": "product",
+            "label" : "One Product Only"
+        },
+        {
+            "value": "partial",
+            "label" : "Select Products Manually"
+        }
+    ],
+    "inventoryTypesText": {
+        "none": {
+            "value": "none",
+            "text": "All Products"
+        },
+        "category": {
+            "value": "category",
+            "text": "One Product Category"
+        },
+        "product": {
+            "value": "product",
+            "text": "One Product Only"
+        },
+        "partial": {
+            "value": "partial",
+            "text": "Select Products Manually"
+        }
+    },
+    "actionTypes": {
+        "Start": {
+            "value": "action_start",
+            "text": "Start",
+            "msg": "started",
+            "targetStatus": "draft"
+        },
+        "Validate": {
+            "value": "action_validate",
+            "text": "Validate",
+            "msg": "validated",
+            "targetStatus": "done"
+        },
+        "Cancel": {
+            "value": "action_cancel_draft",
+            "text": "Cancel",
+            "msg": "cancelled",
+            "targetStatus": "cancel"
+        }
+    },
+    "states": {
+        "draft": {
+            "color": "info",
+            "text": "Draft"
+        },
+        "done": {
+            "color": "lightGreen",
+            "text": "Done"
+        }
+    },
+    "tableColumnsList": [
+        {
+            "value": "picking_id",
+            "label": "Picking"
+        },
+        {
+            "value": "date_expected",
+            "label": "Expected Date"
+        },
+        {
+            "value": "origin",
+            "label": "Source Document"
+        }
+        
+    ],
+    "actionItems":[
+       {
+        "id": 1,
+        "name": "VALIDATE",
+        "displayname": "Validate"
+      }
+     ],
+     "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        }
+    ],
+     "listFieldsShows": [
+        "name",
+        "create_date",
+        "product_id",
+        "scrap_qty",
+        "location_id",
+        "scrap_location_id",
+        "state"
+    ]
+}

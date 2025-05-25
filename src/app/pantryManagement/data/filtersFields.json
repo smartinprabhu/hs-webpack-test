@@ -1,0 +1,104 @@
+{    
+    "fields": [
+        {
+            "label": "Order ID",
+            "value": "name"
+        }, 
+        {
+            "label": "Employee",
+            "value": "employee_id.name"
+        },
+        {
+            "label": "Pantry",
+            "value": "pantry_id.name"
+        },
+        {
+            "label": "Space",
+            "value": "space_id.name"
+        }
+    ],   
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Order ID"
+        },
+        {
+            "accessor": "employee_id",
+            "Header": "Employee"
+        },
+        {
+            "accessor": "pantry_id",
+            "Header": "Pantry"
+        },
+        {
+            "accessor": "space_id",
+            "Header": "Space"
+        },
+        {
+            "accessor": "state",
+            "Header": "Status",
+            "func":true
+        },
+        {
+            "accessor": "ordered_on",
+            "Header": "Ordered On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "confirmed_on",
+            "Header": "Confirmed On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "cancelled_on",
+            "Header": "Cancelled On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "delivered_on",
+            "Header": "Delivered On",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        } 
+    ]
+       
+}

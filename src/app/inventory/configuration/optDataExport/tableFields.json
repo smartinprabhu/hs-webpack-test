@@ -1,0 +1,64 @@
+
+{
+    "fields": [
+        {
+            "heading": "Operation Type",
+            "property": "name"
+        },
+        {
+            "heading": "Reference Sequence",
+            "property": "sequence_id"
+        },
+        {
+            "heading": "Warehouse",
+            "property": "warehouse_id"
+        },
+        {
+            "heading": "Status",
+            "property": "active",
+            "labels": {
+                "Active": {
+                    "id": "active",
+                    "text": "Active",
+                    "color":"success"
+                },
+                "Inactive": {
+                    "id": "inactive",
+                    "text": "Inactive",
+                    "color": "danger"
+               }
+            }
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Type of Opertion",
+            "property": "code"
+        }
+    ],
+    "opTypeFields": [
+        {
+            "heading": "Operation Type for Returns",
+            "property": "return_picking_type_id"
+        }
+    ],
+    "sourceFields": [
+        {
+            "heading": "Default Source Location",
+            "property": "default_location_src_id"
+        }
+    ],
+    "destinationFields": [
+        {
+            "heading": "Default Destination Location",
+            "property": "default_location_dest_id"
+        }
+    ],
+    "dateFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ]
+       
+}

@@ -1,0 +1,6 @@
+{
+    "Create EHS": "hx_create_incident",
+    "Edit EHS": "hx_edit_incident",
+    "Investigation Report": "investigation_report",
+    "Lessons Learnt Report": "lessons_learnt_report"
+}

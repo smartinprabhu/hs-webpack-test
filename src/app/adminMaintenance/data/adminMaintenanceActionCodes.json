@@ -1,0 +1,12 @@
+{
+    "Accept WO" :"wo_workorders_acceptwo",
+    "Release WO" :"wo_workorders_releasewo",
+    "Start WO" :"wo_workorders_startwo",
+    "Perform WO" :"wo_workorders_performwo",
+    "Attach Documents": "wo_workorders_attachdocuments",
+    "Resume WO" :"wo_workorders_resumewo",
+    "Close WO" :"wo_workorders_closewo",
+    "Escalate": "wo_workorders_escalatewo",
+    "Add Comments": "wo_workorders_addcomments",
+    "Edit WO": "wo_workorders_editwo"
+}

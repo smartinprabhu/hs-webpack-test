@@ -1,0 +1,64 @@
+{
+    "GenerateAdvancePpm": [
+        {
+            "value": "1",
+            "label": "1"
+        },
+        {
+            "value": "2",
+            "label": "2"
+        }
+    ],
+    "sendEmailBefore": [
+        {
+            "value": "1",
+            "label": "1"
+        },
+        {
+            "value": "2",
+            "label": "2"
+        },
+        {
+            "value": "3",
+            "label": "3"
+        },
+        {
+            "value": "4",
+            "label": "4"
+        }
+    ],
+    "randomTypes": [
+        {
+            "value": "Instance",
+            "label": "Instance Level"
+        },
+        {
+            "value": "Company",
+            "label": "Company Level"
+        },
+        {
+            "value": "Site",
+            "label": "Site Level"
+        }
+    ],
+    "vendorEmail": [
+        {
+            "value": "Consolidated Emails",
+            "label": "Consolidated Emails"
+        }
+    ],
+    "randomText": {
+        "Instance": {
+            "value": "Instance",
+            "label": "Instance Level"
+        },
+        "Company": {
+            "value": "Company",
+            "label": "Company Level"
+        },
+        "Site": {
+            "value": "Site",
+            "label": "Site Level"
+        }
+    }
+}

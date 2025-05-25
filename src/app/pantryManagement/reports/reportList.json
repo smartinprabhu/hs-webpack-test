@@ -1,0 +1,11 @@
+{
+    "tabsList": [
+        {   "id": 1,
+            "name": "Inventory Report"
+        },
+        {
+            "id": 2,
+            "name": "Employee Pantry Orders"
+        }
+    ]
+}

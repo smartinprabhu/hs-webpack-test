@@ -1,0 +1,148 @@
+
+{
+    "fields": [
+        {
+            "heading": "Commodity",
+            "property": "commodity"
+        },
+        {
+            "heading": "Capacity",
+            "property": "capacity"
+        },
+        {
+            "heading": "State",
+            "property": "state"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },      
+        {
+            "heading": "Initial Reading",
+            "property": "initial_reading"
+        },
+        {
+            "heading": "Final Reading",
+            "property": "final_reading"
+        },
+        {
+            "heading": "Difference",
+            "property": "difference"
+        },
+        {
+            "heading": "Tanker",
+            "property": "tanker_id"
+        },
+        {
+            "heading": "Sequence",
+            "property": "sequence"
+        },
+        {
+            "heading": "Space",
+            "property": "location_id"
+        },
+        {
+            "heading": "In Date",
+            "property": "in_datetime",
+            "type": "datetime"
+        },
+        {
+            "heading": "Out Date",
+            "property": "out_datetime",
+            "type": "datetime"
+        },
+        {
+            "heading": "Amount",
+            "property": "amount"
+        },
+        {
+            "heading": "DC",
+            "property": "delivery_challan"
+        },
+        {
+            "heading": "Driver",
+            "property": "driver"
+        },
+        {
+            "heading": "Driver Contact",
+            "property": "driver_contact"
+        },
+        {
+            "heading": "Remark",
+            "property": "remark"
+        }
+    ],
+    "fieldsTankers": [
+        {
+            "heading": "Registration No",
+            "property": "name"
+        },
+        {
+            "heading": "Commodity",
+            "property": "commodity"
+        },
+        {
+            "heading": "Capacity",
+            "property": "capacity"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        }  
+    ],
+    "sequenceField": [
+        {
+            "heading": "Sequence",
+            "property": "sequence"
+        }
+    ],
+    "blockField": [
+        {
+            "heading": "Block",
+            "property": "location_id"
+        }
+    ],
+    "inDateField": [
+        {
+            "heading": "In Date",
+            "property": "in_datetime"
+        }
+    ],
+    "outDateField": [
+        {
+            "heading": "Out Date",
+            "property": "out_datetime"
+        }
+    ],
+    "amountField": [
+        {
+            "heading": "Amount",
+            "property": "amount"
+        }
+    ],
+    "deliveryChallan": [
+        {
+            "heading": "DC",
+            "property": "delivery_challan"
+        }
+    ],
+    "driverField": [
+        {
+            "heading": "Driver",
+            "property": "driver"
+        }
+    ],
+    "driverContactField": [
+        {
+            "heading": "Driver Contact",
+            "property": "driver_contact"
+        }
+    ],
+    "remarksField": [
+        {
+            "heading": "Remark",
+            "property": "remark"
+        }
+    ]     
+       
+}

@@ -1,0 +1,128 @@
+{
+    "listfieldsShows": [
+        "name",
+        "parent_id",
+        "res_company_categ_id",
+        "code",
+        "area_sqft",
+        "create_date"
+    ],
+    "definitionList": {
+        "anomaly": {
+            "definition": "These Settings are required when any anomalies are reported while performing site inspections",
+            "label": ""
+        }
+    },
+    "actionItems2":[
+        {
+            "id": 1,
+            "name": "DONE",
+            "displayname": "Complete the task"
+        },
+        {
+            "id": 2,
+            "name": "REOPEN",
+            "displayname": "Reopen the task"
+        }
+     ],
+     "taskNavigationsList": {
+        "manage_asset_space_category": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Assets",
+            "parent_only": "Yes",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_asset_equipment_category": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Assets",
+            "parent_only": "Yes",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_asset_maintenance_team": {
+            "is_drawer": "No",
+            "is_link": "Yes",
+            "module": "Assets",
+            "parent_only": "No",
+            "tab_name": "TEAMS",
+            "navigation_path": "/setup-team-management"
+        },
+        "manage_asset_spaces": {
+            "is_drawer": "No",
+            "is_link": "Yes",
+            "module": "Assets",
+            "parent_only": "No",
+            "tab_name": "BUILDINGS",
+            "navigation_path": "/setup-facility"
+        },
+        "manage_asset_equipments": {
+            "is_drawer": "No",
+            "is_link": "Yes",
+            "module": "Assets",
+            "parent_only": "No",
+            "tab_name": "EQUIPMENT",
+            "navigation_path": "/setup-facility"
+        },
+        "manage_helpdesk_main_settings": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Helpdesk",
+            "parent_only": "No",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_helpdesk_problem_category": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Helpdesk",
+            "parent_only": "Yes",
+            "category_type": "Site",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_helpdesk_problem_category_group": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Helpdesk",
+            "site_specfic": "Yes",
+            "parent_only": "Yes",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_helpdesk_escalation_level": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Helpdesk",
+            "parent_only": "No",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_inspection_common_settings": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "Inspection",
+            "parent_only": "No",
+            "tab_name": "",
+            "navigation_path": ""
+        },
+        "manage_inspection_schedule_settings": {
+            "is_drawer": "No",
+            "is_link": "Yes",
+            "module": "Inspection",
+            "parent_only": "No",
+            "tab_name": "SCHEDULE INSPECTION",
+            "navigation_path": "/setup-maintenance-configuration"
+        },
+        "manage_ppm_main_settings": {
+            "is_drawer": "Yes",
+            "is_link": "No",
+            "module": "PPM",
+            "parent_only": "No",
+            "tab_name": "",
+            "navigation_path": ""
+        }
+    }
+}

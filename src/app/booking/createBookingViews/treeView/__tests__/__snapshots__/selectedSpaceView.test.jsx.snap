@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectedSpaceView test cases selectedSpaceView should render for empty tree data without error 1`] = `
+<DocumentFragment>
+  <div>
+    <div />
+    <div
+      class="text-center my-5"
+    >
+      No selected space found
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`selectedSpaceView test cases selectedSpaceView should render for tree data without error 1`] = `
+<DocumentFragment>
+  <div>
+    <div />
+    <div
+      class="text-center my-5"
+    >
+      No selected space found
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/gatepass-overview"
+    },
+    "Gate Passes": {
+      "id": 2,
+      "name": "GATEPASSES",
+      "displayname": "Gate Passes",
+      "pathName": "/gatepasses"
+    },
+    "title": "Gate Pass"
+  }
+}

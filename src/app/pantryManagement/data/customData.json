@@ -1,0 +1,186 @@
+{
+    "listfieldsShows": [
+        "name",
+        "employee_id",
+        "pantry_id",
+        "space_id",
+        "state"
+    ],
+    "detailFields": [
+        "name",
+        "employee_id",
+        "pantry_id",
+        "space_id",
+        "ordered_on",
+        "company_id",
+        "reason_for_cancellation",
+        "state",
+        "confirmed_on",
+        "cancelled_on",
+        "delivered_on"
+    ],   
+    "tableColumns": [
+        {
+            "value": "ordered_on",
+            "label": "Ordered On"
+        },
+        {
+            "value": "confirmed_on",
+            "label": "Confirmed On"
+        },
+        {
+            "value": "cancelled_on",
+            "label": "Cancelled On"
+        },
+        {
+            "value": "delivered_on",
+            "label": "Delivered On"
+        }  
+    ],  
+    "pantryStates": [
+        {
+            "value": "Draft",
+            "label": "Draft",
+            "heading": "Draft",
+            "methodName": "action_start"
+        },
+        {
+            "value": "Ordered",
+            "label": "Ordered",
+            "heading": "Order",
+            "methodName": "action_ordered"
+        },
+        {
+            "value": "Confirmed",
+            "label": "Confirmed",
+            "heading": "Confirm",
+            "methodName": "action_confirmed"
+        },
+        {
+            "value": "Delivered",
+            "label": "Delivered",
+            "heading": "Deliver",
+            "methodName": "action_delivered"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled",
+            "heading": "Cancel",
+            "methodName": "action_cancelled"
+        }  
+    ],
+    "dashboardStatus": {
+        "NO": {
+            "id": "Ordered",
+            "label": "New Orders",
+            "tags":[{
+                "key": "state",
+                "title": "Status",
+                "value": "Ordered",
+                "label": "New Orders",
+                "type": "inarray"
+            }]
+        },
+        "CF": {
+            "id": "Confirmed",
+            "label": "Confirmed",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Confirmed",
+                    "label": "Confirmed",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "DV": {
+            "id": "Delivered",
+            "label": "Delivered",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Delivered",
+                    "label": "Delivered",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CN": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Cancelled",
+                    "label": "Cancelled",
+                    "type": "inarray"
+                }
+            ]
+       }    
+    },
+    "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "reportTypes": [
+        {
+            "id": "1",
+            "value": "Summary",
+            "label": "Summary"
+        },
+        {
+            "id": "2",
+            "value": "Detailed",
+            "label": "Detailed"
+        }
+    ],
+    "statesLabel": {
+        "Draft": {
+            "id": "Draft",
+            "label": "Draft",
+            "color":"info"
+        },     
+        "Ordered": {
+            "id": "Ordered",
+            "label": "Ordered",
+            "color": "warning"
+       },
+       "Confirmed": {
+        "id": "Confirmed",
+        "label": "Confirmed",
+        "color": "primary"
+        },        
+        "Delivered": {
+            "id": "Delivered",
+            "label": "Delivered",
+            "color": "secondary"
+       },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "success"
+       }
+    },
+    "disableEditButton": [ "Cancelled" ,"Delivered"]
+}

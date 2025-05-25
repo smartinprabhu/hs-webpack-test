@@ -1,0 +1,32 @@
+
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Assets"
+        },
+        {
+            "id": 2,
+            "name": "Readings"
+        },
+        {
+            "id": 3,
+            "name": "Space Booking"
+        },
+        {
+            "id": 4,
+            "name": "Notes"
+        }
+    ],
+    "formTabs": [
+        {
+            "id": 1,
+            "name": "Basic"
+        },
+        {
+            "id": 2,
+            "name": "Advanced"
+        }
+    ]
+       
+}

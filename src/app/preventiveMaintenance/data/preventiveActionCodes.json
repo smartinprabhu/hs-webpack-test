@@ -1,0 +1,11 @@
+{
+    "Edit Schedule" :"ppm_schedule_editschedule",
+    "Create Schedule" :"ppm_schedule_createschedule",
+    "PrePostPone PPM" :"ppm_schedule_preponepostpone",
+    "Cancel PPM" :"ppm_schedule_iscancel",
+    "PrePostPone PPM Approval" :"ppm_schedule_preponepostpone_approve",
+    "Cancel PPM Approval" :"ppm_schedule_iscancel_approve",
+    "Create Admin Schedule" :"as_maintenance_ppmschedule_addppm",
+    "Edit Admin Schedule" :"as_maintenance_ppmschedule_editppm", 
+    "Resume PPM Schedule" :"ppm_schedule_resume"
+}

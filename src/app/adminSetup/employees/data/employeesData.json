@@ -1,0 +1,102 @@
+{
+    "criticalities": [
+        {
+            "value": "0",
+            "label": "General"
+        },
+        {
+            "value": "1",
+            "label": "Important"
+        },
+        {
+            "value": "2",
+            "label": "Very Important"
+        },
+        {
+            "value": "3",
+            "label": "Critical"
+        }
+    ],
+    "states": [
+        {
+            "value": "draft",
+            "label": "Draft"
+        },
+        {
+            "value": "invited",
+            "label": "Invited"
+        },
+        {
+            "value": "registered",
+            "label": "Registered"
+        },
+        {
+            "value": "approved",
+            "label": "Approved"
+        },
+        {
+            "value": "rejected",
+            "label": "Rejected"
+        }
+    ],
+    "stateslabels": {
+        "draft": {
+            "color": "primary",
+            "text": "Draft"
+        },
+        "invited": {
+            "color": "warning",
+            "text": "Invited"
+        },
+        "registered": {
+            "color": "info",
+            "text": "Registered"
+        },
+        "approved": {
+            "color": "success",
+            "text": "Approved"
+        },
+        "rejected": {
+            "color": "danger",
+            "text": "Rejected"
+        }
+    },
+      "operations": [
+        {
+            "value": "1",
+            "name" : "Date_Filters",
+            "label": "Date Filters"
+        },
+        {
+            "value": "2",
+            "name" : "Export",
+            "label": "Export"
+        },
+        {
+            "value": "3",
+            "name" : "Add_a_Equipment",
+            "label": "Add a Equipment"
+        },
+        {
+            "value": "4",
+            "name" : "Columns",
+            "label": "Columns"
+        },
+        {
+            "value": "5",
+            "name" : "Bulk_Upload",
+            "label": "Bulk Upload"
+        },
+        {
+            "value": "6",
+            "name" : "Filters",
+            "label": "Filters"
+        }
+    ],
+    "activeText": {
+        "true": {
+            "color": "success",
+            "text": "Yes"
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "fields": [
+    {
+        "heading": "Hazard Number",
+        "property": "reference"
+    },
+    {
+        "heading": "Title",
+        "property": "name"
+    },
+    {
+        "heading": "Category",
+        "property": "category_id"
+    },
+    {
+        "heading": "Priority",
+        "property": "priority_id"
+    },
+    {
+        "heading": "Reported On",
+        "property": "reported_on"
+    },
+    {
+        "heading": "Target Closure Date",
+        "property": "target_closure_date"
+    },
+    {
+        "heading": "Assigned To",
+        "property": "assigned_id"
+    },
+    {
+        "heading": "Status",
+        "property": "state"
+    },
+    {
+        "heading": "Type",
+        "property": "type_category"
+    },
+    {
+        "heading": "Space",
+        "property": "asset_id"
+    },
+    {
+        "heading": "Equipment",
+        "property": "equipment_id"
+    },
+    {
+        "heading": "Type of Activity / Hazard",
+        "property": "incident_type_id"
+    },
+    {
+        "heading": "Report On",
+        "property": "incident_on",
+        "dateFunction": true,
+        "dateDisplayType": "datetime"
+    },
+    {
+        "heading": "Maintenance Team",
+        "property": "maintenance_team_id"
+    },
+    {
+        "heading": "Company",
+        "property": "company_id"
+    }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],
+    "reportedByFields": [
+        {
+            "heading": "Reported By",
+            "property": "reported_by_id"
+        }
+    ],
+    "acknowledgedByFields": [
+        {
+            "heading": "Acknowledged By",
+            "property": "acknowledged_by_id"
+        }
+    ],
+    "acknowledgedOnFields": [
+        {
+            "heading": "Acknowledged On",
+            "property": "acknowledged_on"
+        }
+    ],
+    "resolvedByFields": [
+        {
+            "heading": "Resolved By",
+            "property": "resolved_by_id"
+        }
+    ],
+    "resolvedOnFields": [
+        {
+            "heading": "Resolved On",
+            "property": "resolved_on"
+        }
+    ],
+    "validatedByFields": [
+        {
+            "heading": "Validated By",
+            "property": "validated_by_id"
+        }
+    ],
+    "validatedOnFields": [
+        {
+            "heading": "Validated On",
+            "property": "validated_on"
+        }
+    ]
+}

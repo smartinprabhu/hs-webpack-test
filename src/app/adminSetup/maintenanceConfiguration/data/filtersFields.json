@@ -1,0 +1,43 @@
+
+{
+    
+    "columns": [ 
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },     
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Maintenance Type",
+            "accessor": "maintenance_type",
+            "func": true
+        },
+        {
+            "Header": "Duration",
+            "accessor": "order_duration"
+        },
+        {
+            "Header": "Active",
+            "accessor": "active",
+            "func": true
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Type",
+            "accessor": "type_category"
+        },
+        {
+            "Header": "Company",
+            "accessor": "company_id"
+        }
+    ]
+       
+}

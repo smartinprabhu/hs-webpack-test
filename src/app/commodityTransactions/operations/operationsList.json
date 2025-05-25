@@ -1,0 +1,12 @@
+{
+    "tabsList": {
+        "Transactions": {
+            "id": 1,
+            "name": "Transactions"
+        },
+        "Tankers": {
+            "id": 2,
+            "name": "Tankers"
+        }
+    }
+}

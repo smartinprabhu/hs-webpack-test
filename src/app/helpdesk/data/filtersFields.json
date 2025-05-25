@@ -1,0 +1,372 @@
+{
+    "fields": [
+        {
+            "label": "Requested by",
+            "value": "person_name"
+        },
+        {
+            "label": "Ticket Number",
+            "value": "ticket_number"
+        },
+        {
+            "label": "Subject",
+            "value": "subject"
+        },
+        {
+            "label": "Channel",
+            "value": "channel"
+        },
+        {
+            "label": "Category",
+            "value": "category_id.name"
+        },
+        {
+            "label": "Sub Category",
+            "value": "sub_category_id.name"
+        },
+        {
+            "label": "Escalation Level",
+            "value": "current_escalation_level"
+        },
+        {
+            "label": "Problem Type",
+            "value": "issue_type"
+        },
+        {
+            "label": "Requestor",
+            "value": "requestee_id"
+        },
+        {
+            "label": "Created by",
+            "value": "create_uid.name"
+        },
+        {
+            "label": "company_id",
+            "value": "Company"
+        }
+    ],
+    "incidentFields": [
+        {
+            "label": "Name",
+            "value": "requestee_id.name"
+        },
+        {
+            "label": "Incident No",
+            "value": "ticket_number"
+        },
+        {
+            "label": "Subject",
+            "value": "subject"
+        },
+        {
+            "label": "Channel",
+            "value": "channel"
+        },
+        {
+            "label": "Sub Category",
+            "value": "sub_category_id.name"
+        },
+        {
+            "label": "Escalation Level",
+            "value": "current_escalation_level"
+        },
+        {
+            "label": "Problem Type",
+            "value": "issue_type"
+        },
+        {
+            "label": "Created By",
+            "value": "create_uid.name"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Ticket No",
+            "accessor": "ticket_number"
+        },
+        {
+            "Header": "Subject",
+            "accessor": "subject"
+        },
+        {
+            "Header": "Last Comment",
+            "accessor": "log_note"
+        },
+        {
+            "accessor": "last_commented_by",
+            "Header": "Last Commented By"
+        },
+        {
+            "accessor": "log_note_date",
+            "Header": "Last Commented on",
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state_id",
+            "func": true
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id",
+            "func": true
+        },
+        {
+            "Header": "Type",
+            "accessor": "type_category"
+        },
+        {
+            "Header": "Location",
+            "accessor": "asset_id",
+            "alternate": "equipment_location_id"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority_id",
+            "func": true
+        },
+        {
+            "Header": "Category",
+            "accessor": "category_id"
+        },
+        {
+            "accessor": "description",
+            "Header": "Description"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Created by",
+            "accessor": "create_uid"
+        },
+        {
+            "accessor": "person_name",
+            "Header": "Requestor"
+        },
+        {
+            "accessor": "closed_by_id",
+            "Header": "Closed By"
+        },
+        {
+            "accessor": "close_time",
+            "Header": "Closed on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "close_comment",
+            "Header": "Closed Remarks"
+        },
+        {
+            "Header": "Resolution Time",
+            "accessor": "closed_by_name"
+        },
+        {
+            "Header": "On-Hold Reason / Remarks",
+            "accessor": "pause_reason_id"
+        },
+        {
+            "accessor": "channel",
+            "Header": "Channel",
+            "func": true
+        },
+        {
+            "accessor": "sla_status",
+            "Header": "SLA Status",
+            "func": true
+        },
+        {
+            "accessor": "current_escalation_level",
+            "Header": "Escalation Level"
+        },
+        {
+            "accessor": "sub_category_id",
+            "Header": "Sub Category"
+        },
+        {
+            "accessor": "issue_type",
+            "Header": "Problem Type"
+        },
+        {
+            "accessor": "sla_end_date",
+            "Header": "Due Date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "parent_id",
+            "Header": "Parent Ticket"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "email",
+            "Header": "Email"
+        },
+        {
+            "accessor": "vendor_id",
+            "Header": "Vendor"
+        },
+        {
+            "accessor": "tenant_name",
+            "Header": "Tenant"
+        },
+        {
+            "accessor": "region_id",
+            "Header": "Region"
+        },
+        {
+            "accessor": "city_name",
+            "Header": "City Name"
+        },
+        {
+            "accessor": "state_name",
+            "Header": "State Name"
+        },
+        {
+            "accessor": "site_sub_categ_id",
+            "Header": "Site Subcategory"
+        },
+        {
+            "accessor": "constraints",
+            "Header": "Constraints"
+        },
+        {
+            "accessor": "cost",
+            "Header": "Cost"
+        },
+        {
+            "accessor": "ticket_type",
+            "Header": "Ticket Type"
+        },
+        {
+            "Header": "Employee",
+            "accessor": "requestee_id"
+        },
+        {
+            "Header": "Checklists",
+            "accessor": "support_comment"
+        }
+    ],
+    "incidentColumns": [
+        {
+            "Header": "Incident No",
+            "accessor": "ticket_number"
+        },
+        {
+            "Header": "Subject",
+            "accessor": "subject"
+        },
+        {
+            "Header": "Location",
+            "accessor": "asset_id"
+        },
+        {
+            "Header": "Incident Status",
+            "accessor": "incident_state",
+            "func": true
+        },
+        {
+            "Header": "Last Comment",
+            "accessor": "log_note"
+        },
+        {
+            "accessor": "last_commented_by",
+            "Header": "Last Commented By"
+        },
+        {
+            "accessor": "log_note_date",
+            "Header": "Last Commented on",
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority_id",
+            "func": true
+        },
+        {
+            "Header": " Category",
+            "accessor": "category_id"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Created by",
+            "accessor": "create_uid"
+        },
+        {
+            "accessor": "person_name",
+            "Header": "Requestor"
+        },
+        {
+            "accessor": "closed_by_id",
+            "Header": "Closed By"
+        },
+        {
+            "accessor": "close_time",
+            "Header": "Closed on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "sub_category_id",
+            "Header": "Sub Category"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state_id",
+            "func": true
+        },
+        {
+            "accessor": "sla_status",
+            "Header": "SLA Status",
+            "func": true
+        }
+    ]
+}

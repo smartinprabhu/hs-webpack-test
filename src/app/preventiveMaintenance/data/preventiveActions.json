@@ -1,0 +1,823 @@
+{
+    "ppmFor": [
+        {
+            "value": "e",
+            "label": "Equipment"
+        },
+        {
+            "value": "ah",
+            "label": "Space"
+        }
+    ],
+    "ppmReportType": [
+        {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "space",
+            "label": "Space"
+        }
+    ],
+    "inspectionType": [
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "Space",
+            "label": "Space"
+        }
+    ],
+    "inspectionTypeText": {
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        }
+    },
+    "typeCategory": [
+        {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "asset",
+            "label": "Space"
+        }
+    ],
+    "downloadTypes": [
+        {
+            "value": "Answers",
+            "label": "Answers"
+        },
+        {
+            "value": "C/NC",
+            "label": "C/NC"
+        }
+    ],
+    "types": [
+        {
+            "value": "Inspection Checklist",
+            "label": "Inspection Checklist"
+        },
+        {
+            "value": "Smart Logger",
+            "label": "Smart Logger"
+        }
+    ],
+    "typeCategoryText": {
+        "equipment": {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        "asset": {
+            "value": "asset",
+            "label": "Space"
+        }
+    },
+    "priority": [
+        {
+            "value": "0",
+            "label": "Low",
+            "text": "Low Priority",
+            "classPriority": "badge-text bg-white text-primary pr-2 pl-2 border border-primary"
+        },
+        {
+            "value": "1",
+            "label": "Normal",
+            "text": "Normal Priority",
+            "classPriority": "badge-text bg-white text-warning pr-2 pl-2 border border-warning"
+        },
+        {
+            "value": "2",
+            "label": "High",
+            "text": "High Priority",
+            "classPriority": "badge-text bg-white text-danger pr-2 pl-2 border border-danger"
+        },
+        {
+            "value": "3",
+            "label": "Breakdown",
+            "text": "Breakdown",
+            "classPriority": "badge-text bg-white text-danger pr-2 pl-2 border border-danger"
+        },
+        {
+            "value": "4",
+            "label": "Standard",
+            "text": "Standard Priority",
+            "classPriority": "badge-text bg-white text-info pr-2 pl-2 border border-info"
+        },
+        {
+            "value": "5",
+            "label": "Critical",
+            "text": "Critical",
+            "classPriority": "badge-text bg-white text-danger pr-2 pl-2 border border-danger"
+        }
+    ],
+    "ppmBy": [
+        {
+            "value": "internal",
+            "label": "Internal"
+        },
+        {
+            "value": "by_vendor",
+            "label": "Vendor"
+        }
+    ],
+    "performedBy": [
+        {
+            "value": "internal",
+            "label": "Internal"
+        },
+        {
+            "value": "External",
+            "label": "External"
+        }
+    ],
+    "ruleTypes": [
+        {
+            "value": "daily",
+            "label": "Day(s)"
+        },
+        {
+            "value": "weekly",
+            "label": "Week(s)"
+        },
+        {
+            "value": "monthly",
+            "label": "Month(s)"
+        },
+        {
+            "value": "yearly",
+            "label": "Year(s)"
+        }
+    ],
+    "weekLists": [
+        {
+            "value": "MO",
+            "label": "Monday"
+        },
+        {
+            "value": "TU",
+            "label": "Tuesday"
+        },
+        {
+            "value": "WE",
+            "label": "Wednesday"
+        },
+        {
+            "value": "TH",
+            "label": "Thursday"
+        },
+        {
+            "value": "FR",
+            "label": "Friday"
+        },
+        {
+            "value": "SA",
+            "label": "Saturday"
+        },
+        {
+            "value": "SU",
+            "label": "Sunday"
+        }
+    ],
+    "monthRule": [
+        {
+            "value": "date",
+            "label": "Date of Month"
+        },
+        {
+            "value": "day",
+            "label": "Day of the Month"
+        }
+    ],
+    "dayRule": [
+        {
+            "value": "1",
+            "label": "First"
+        },
+        {
+            "value": "2",
+            "label": "Second"
+        },
+        {
+            "value": "3",
+            "label": "Third"
+        },
+        {
+            "value": "4",
+            "label": "Fourth"
+        },
+        {
+            "value": "5",
+            "label": "Fifth"
+        },
+        {
+            "value": "-1",
+            "label": "Last"
+        }
+    ],
+    "productType": {
+        "consu": {
+            "value": "consu",
+            "label": "Consumable"
+        },
+        "service": {
+            "value": "service",
+            "label": "Service"
+        },
+        "product": {
+            "value": "product",
+            "label": "Storable Product"
+        }
+    },
+    "ppmByText": {
+        "internal": {
+            "value": "internal",
+            "label": "Internal"
+        },
+        "by_vendor": {
+            "value": "by_vendor",
+            "label": "Vendor"
+        }
+    },
+    "ppmByCategoryLabels": {
+        "e": {
+            "value": "e",
+            "label": "Equipment"
+        },
+        "ah": {
+            "value": "ah",
+            "label": "Space"
+        }
+    },
+    "ruleTypesText": {
+        "daily": {
+            "value": "daily",
+            "label": "Day(s)"
+        },
+        "weekly": {
+            "value": "weekly",
+            "label": "Week(s)"
+        },
+        "monthly": {
+            "value": "monthly",
+            "label": "Month(s)"
+        },
+        "yearly": {
+            "value": "yearly",
+            "label": "Year(s)"
+        }
+    },
+    "ppmForText": {
+        "e": {
+            "value": "e",
+            "label": "Equipment"
+        },
+        "ah": {
+            "value": "ah",
+            "label": "Space"
+        }
+    },
+    "ppmDetails": {
+        "space_01": {
+            "name": "Space 01",
+            "pathname": "DTP/BC1/FB2/Space/01",
+            "maintenanceteam": "Soft Services"
+        },
+        "space_02": {
+            "name": "Space 02",
+            "pathname": "DTP/BC1/FB2/Space/02",
+            "maintenanceteam": "Electrical Team"
+        },
+        "space_03": {
+            "name": "Space 03",
+            "pathname": "DTP/BC1/FB2/Space/03",
+            "maintenanceteam": "Cleaning Team"
+        },
+        "space_04": {
+            "name": "Space 04",
+            "pathname": "DTP/BC1/FB2/Space/04",
+            "maintenanceteam": "Covid 19"
+        },
+        "space_05": {
+            "name": "Space 05",
+            "pathname": "DTP/BC1/FB2/Space/05",
+            "maintenanceteam": "Fire Team"
+        }
+    },
+    "timeperiod": [
+        {
+            "value": "Daily",
+            "label": "Daily"
+        },
+        {
+            "value": "Weekly",
+            "label": "Weekly"
+        },
+        {
+            "value": "Bi-Weekly",
+            "label": "Bi-Weekly"
+        },
+        {
+            "value": "Monthly",
+            "label": "Monthly"
+        },
+        {
+            "value": "Bi-Monthly",
+            "label": "Bi-Monthly"
+        },
+        {
+            "value": "Quarterly",
+            "label": "Quarterly"
+        },
+        {
+            "value": "Half Yearly",
+            "label": "Half Yearly"
+        },
+        {
+            "value": "Annual",
+            "label": "Annual"
+        }
+    ],
+    "status": [
+        {
+            "value": "Completed",
+            "label": "Completed"
+        },
+        {
+            "value": "Upcoming",
+            "label": "Upcoming"
+        },
+        {
+            "value": "Missed",
+            "label": "Missed"
+        },
+        {
+            "value": "Pause",
+            "label": "On-Hold"
+        },
+        {
+            "value": "In Progress",
+            "label": "In Progress"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "schedulerOperation": [
+        {
+            "value": "SLA Score Card",
+            "label": "SLA Score Card"
+        },
+        {
+            "value": "PPM",
+            "label": "PPM"
+        }
+    ],
+    "scoreType": [
+        {
+            "value": "General Management",
+            "label": "General Management"
+        },
+        {
+            "value": "QHSSE",
+            "label": "QHSSE"
+        },
+        {
+            "value": "Soft Services",
+            "label": "Soft Services"
+        },
+        {
+            "value": "M E",
+            "label": "M&E"
+        }
+    ],
+    "scoreTypeText": {
+        "General Management": {
+            "value": "General Management",
+            "label": "General Management"
+        },
+        "QHSSE": {
+            "value": "QHSSE",
+            "label": "QHSSE"
+        },
+        "Soft Services": {
+            "value": "Soft Services",
+            "label": "Soft Services"
+        },
+        "M E": {
+            "value": "M E",
+            "label": "M&E"
+        }
+    },
+    "days": {
+        "mo": {
+            "name": "Monday",
+            "Value": "Monday"
+        },
+        "tu": {
+            "name": "Tuesday",
+            "Value": "Tuesday"
+        },
+        "we": {
+            "name": "Wednesday",
+            "Value": "Wednesday"
+        },
+        "th": {
+            "name": "Thursday",
+            "Value": "Thursday"
+        },
+        "fr": {
+            "name": "Friday",
+            "Value": "Friday"
+        },
+        "sa": {
+            "name": "Saturday",
+            "Value": "Saturday"
+        },
+        "su": {
+            "name": "Sunday",
+            "Value": "Sunday"
+        }
+    },
+    "slastatuses": {
+        "Within SLA": {
+            "color": "success",
+            "text": "Within SLA"
+        },
+        "SLA Elapsed": {
+            "color": "danger",
+            "text": "SLA Elapsed"
+        }
+    },
+    "priorities": {
+        "Low": {
+            "color": "primary",
+            "text": "Low"
+        },
+        "Standard": {
+            "color": "info",
+            "text": "Standard"
+        },
+        "Normal": {
+            "color": "warning",
+            "text": "Normal"
+        },
+        "High": {
+            "color": "danger",
+            "text": "High"
+        },
+        "Breakdown": {
+            "color": "success",
+            "text": "Breakdown"
+        }
+    },
+    "dashboardStatus": {
+        "Open Tickets": {
+            "id": "Open",
+            "label": "Open Tickets"
+        },
+        "In Progress": {
+            "id": "In Progress",
+            "label": "In Progress"
+        },
+        "Closed": {
+            "id": "Staff Closed",
+            "label": "Staff Closed"
+        },
+        "Overdue": {
+            "id": "Overdue",
+            "label": "Overdue"
+        }
+    },
+    "tableColumns": [
+        {
+            "value": "ppm_by",
+            "label": "Performed By"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        },
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+    ],
+    "maintenanceType": [
+        {
+            "value": "bm",
+            "label": "Corrective"
+        },
+        {
+            "value": "pm",
+            "label": "Preventive"
+        },
+        {
+            "value": "oc",
+            "label": "On Condition"
+        },
+        {
+            "value": "pr",
+            "label": "Periodic"
+        },
+        {
+            "value": "pd",
+            "label": "Predictive"
+        }
+    ],
+    "maintenanceTypeText": {
+        "bm": {
+            "value": "bm",
+            "label": "Corrective"
+        },
+        "pm": {
+            "value": "pm",
+            "label": "Preventive"
+        },
+        "oc": {
+            "value": "oc",
+            "label": "On Condition"
+        },
+        "pr": {
+            "value": "pr",
+            "label": "Periodic"
+        },
+        "pd": {
+            "value": "pd",
+            "label": "Predictive"
+        }
+    },
+    "questionTypes": [
+        {
+            "value": "textbox",
+            "label": "Single Line Text Box"
+        },
+        {
+            "value": "numerical_box",
+            "label": "Numerical Value"
+        },
+        {
+            "value": "boolean",
+            "label": "Boolean"
+        },
+        {
+            "value": "date",
+            "label": "Date"
+        },
+        {
+            "value": "smart_logger",
+            "label": "Smart Logger"
+        },
+        {
+            "value": "simple_choice",
+            "label": "Multiple choice: only one answer"
+        },
+        {
+            "value": "multiple_choice",
+            "label": "Multiple choice: Multiple answers allowed"
+        }
+    ],
+    "questionTypesText": {
+        "textbox": {
+            "value": "textbox",
+            "label": "Single Line Text Box"
+        },
+        "numerical_box": {
+            "value": "numerical_box",
+            "label": "Numerical Value"
+        },
+        "boolean": {
+            "value": "boolean",
+            "label": "Boolean"
+        },
+        "date": {
+            "value": "date",
+            "label": "Date"
+        },
+        "smart_logger": {
+            "value": "smart_logger",
+            "label": "Smart Logger"
+        },
+        "simple_choice": {
+            "value": "simple_choice",
+            "label": "Multiple choice: only one answer"
+        },
+        "multiple_choice": {
+            "value": "simple_choice",
+            "label": "Multiple choice: Multiple answers allowed"
+        }
+    },
+    "reportFilters": [
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "Yesterday",
+            "label": "Yesterday"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],
+    "reportFilterSmart": [
+        {
+            "value": "%(today)s",
+            "label": "Today"
+        },
+        {
+            "value": "%(yesterday)s",
+            "label": "Yesterday"
+        },
+        {
+            "value": "%(custom)s",
+            "label": "Custom"
+        }
+    ],
+    "reportTimeFilter": [
+        {
+            "value": "%(current_week)s",
+            "label": "This Week"
+        },
+        {
+            "value": "%(last_week)s",
+            "label": "Last Week"
+        },
+        {
+            "value": "%(next_week)s",
+            "label": "Next Week"
+        },
+        {
+            "value": "%(this_month)s",
+            "label": "This Month"
+        },
+        {
+            "value": "%(previous_month)s",
+            "label": "Last Month"
+        },
+        {
+            "value": "%(next_month)s",
+            "label": "Next Month"
+        },
+        {
+            "value": "%(custom)s",
+            "label": "Custom"
+        }
+    ],
+    "reportChecklistTimeFilter": [
+        {
+            "value": "%(today)s",
+            "label": "Today"
+        },
+        {
+            "value": "%(yesterday)s",
+            "label": "Yesterday"
+        },
+        {
+            "value": "%(current_week)s",
+            "label": "This Week"
+        },
+        {
+            "value": "%(last_week)s",
+            "label": "Last Week"
+        },
+        {
+            "value": "%(this_month)s",
+            "label": "This Month"
+        },
+        {
+            "value": "%(previous_month)s",
+            "label": "Last Month"
+        },
+        {
+            "value": "%(custom)s",
+            "label": "Custom"
+        }
+    ],
+    "slots": [
+        {
+            "value": "5",
+            "label": "5"
+        },
+        {
+            "value": "10",
+            "label": "10"
+        }
+    ],
+    "dayRuleText": {
+        "1": {
+            "value": "1",
+            "label": "First"
+        },
+        "2": {
+            "value": "2",
+            "label": "Second"
+        },
+        "3": {
+            "value": "3",
+            "label": "Third"
+        },
+        "4": {
+            "value": "4",
+            "label": "Fourth"
+        },
+        "5": {
+            "value": "5",
+            "label": "Fifth"
+        },
+        "-1": {
+            "value": "-1",
+            "label": "Last"
+        }
+    },
+    "monthRuleText": {
+        "date": {
+            "value": "date",
+            "label": "Date of Month"
+        },
+        "day": {
+            "value": "day",
+            "label": "Day of Month"
+        }
+    },
+    "weekListsText": {
+        "MO": {
+            "value": "MO",
+            "label": "Monday"
+        },
+        "TU": {
+            "value": "TU",
+            "label": "Tuesday"
+        },
+        "WE": {
+            "value": "WE",
+            "label": "Wednesday"
+        },
+        "TH": {
+            "value": "TH",
+            "label": "Thursday"
+        },
+        "FR": {
+            "value": "FR",
+            "label": "Friday"
+        },
+        "SA": {
+            "value": "SA",
+            "label": "Saturday"
+        },
+        "SU": {
+            "value": "SU",
+            "label": "Sunday"
+        }
+    },
+    "inspectionMethod": [
+        {
+            "value": "Visual",
+            "label": "Visual"
+        },
+        {
+            "value": "Manual",
+            "label": "Manual"
+        }
+    ],
+    "requiresAction": [
+        {
+            "value": "ticket",
+            "label": "Raise a Ticket"
+        },
+        {
+            "value": "workorder",
+            "label": "Generate Work Order"
+        },
+        {
+            "value": "alarm",
+            "label": "Raise Alarm"
+        }
+    ],
+    "requiresActionText": {
+        "ticket": {
+            "value": "ticket",
+            "label": "Raise a Ticket"
+        },
+        "workorder": {
+            "value": "workorder",
+            "label": "Generate Work Order"
+        },
+        "alarm": {
+            "value": "alarm",
+            "label": "Raise Alarm"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accessModal testing snapshot testing for SAVE_ACCESS action 1`] = `<DocumentFragment />`;
+
+exports[`accessModal testing snapshot testing for SAVE_ACCESS_FALURE action 1`] = `<DocumentFragment />`;
+
+exports[`accessModal testing snapshot testing for SAVE_ACCESS_SUCCESS action 1`] = `<DocumentFragment />`;

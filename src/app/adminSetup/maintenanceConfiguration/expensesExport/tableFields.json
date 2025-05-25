@@ -1,0 +1,62 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Type",
+            "property": "type_id"
+        },
+        {
+            "heading": "Consumption",
+            "property": "consumption"
+        },
+        {
+            "heading": "Unit Cost",
+            "property": "unit_cost"
+        },
+        {
+            "heading": "Total Cost",
+            "property": "total_cost"
+        }
+    ],
+    "fromDateFields": [
+        {
+            "heading": "From Date",
+            "property": "from_date"
+        }
+    ],
+    "toDateFields":[
+        {
+            "heading": "To Date",
+            "property": "to_date"
+        }
+    ],
+    "subFields" : [
+        {
+            "heading": "Sub Type",
+            "property": "item_id"
+        }
+    ],
+    "equipmentFields": [
+        {
+            "heading": "Equipment Id",
+            "property": "equipment_id"
+        }
+    ],
+    "descriptionFields": [
+        {
+            "heading": "Description",
+            "property": "description"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/itasset-overview"
+    },
+    "IT Assets": {
+      "id": 3,
+      "name": "ASSETS",
+      "displayname": "IT Assets",
+      "pathName": "/itasset/equipments"
+    },    
+    "title": "IT Asset Management"
+  }
+}

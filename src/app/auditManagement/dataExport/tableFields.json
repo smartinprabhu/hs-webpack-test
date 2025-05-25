@@ -1,0 +1,61 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Sequence",
+            "property": "sequence"
+        },
+        {
+            "heading": "Audit System",
+            "property": "audit_system_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Starts On",
+            "property": "planned_start_date"
+        },
+        {
+            "heading": "Ends On",
+            "property": "planned_end_date"
+        },
+        {
+            "heading": "Quarter",
+            "property": "quarter"
+        },
+        {
+            "heading": "Audit Category",
+            "property": "audit_category_id"
+        },
+        {
+            "heading": "Audit SPOC",
+            "property": "audit_spoc_id"
+        },
+        {
+            "heading": "Audit Type",
+            "property": "audit_type"
+        },
+        {
+            "heading": "Department",
+            "property": "department_id"
+        },
+        {
+            "heading": "Scope",
+            "property": "scope"
+        },
+        {
+            "heading": "Objective",
+            "property": "objective"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+}

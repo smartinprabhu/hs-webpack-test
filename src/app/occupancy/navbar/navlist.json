@@ -1,0 +1,11 @@
+{
+    "data": {
+      "CAFE Occupancy": {
+        "id": 1,
+        "name": "",
+        "displayname": "CAFE Occupancy",
+        "compareName": "CAFE Occupancy",
+        "pathName": "/occupancy"
+      }
+    }
+}

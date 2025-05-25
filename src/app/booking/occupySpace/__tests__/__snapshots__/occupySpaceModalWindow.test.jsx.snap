@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OccupySpaceModalWindow testing snapshot testing for OCCUPY_SPACE 1`] = `<DocumentFragment />`;
+
+exports[`OccupySpaceModalWindow testing snapshot testing for OCCUPY_SPACE_SUCCESS 1`] = `<DocumentFragment />`;
+
+exports[`OccupySpaceModalWindow testing snapshot testing for OCCUPY_SPACE_SUCCESS 2`] = `<DocumentFragment />`;

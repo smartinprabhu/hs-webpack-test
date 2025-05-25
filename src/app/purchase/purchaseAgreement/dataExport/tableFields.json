@@ -1,0 +1,42 @@
+
+{
+    "fields": [
+        {
+            "heading": "Agreement Reference",
+            "property": "name"
+        },
+        {
+            "heading": "Order Date",
+            "property": "ordering_date"
+        },
+        {
+            "heading": "Agreement Deadline",
+            "property": "date_end"
+        },
+        {
+            "heading": "Purchase Representative",
+            "property": "user_id"
+        },
+        {
+            "heading": "Agreement Type",
+            "property": "type_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],   
+    "createFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ]
+       
+}

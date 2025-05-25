@@ -1,0 +1,32 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "",
+      "displayname": "Insights",
+      "compareName": "Insights",
+      "pathName": "/energy-insights-overview"
+    },
+    "SLD": {
+      "id": 1,
+      "name": "",
+      "displayname": "SLD",
+      "compareName": "SLD",
+      "pathName": "/energy-sld-overview"
+    },
+    "Insights - 7th Floor": {
+      "id": 1,
+      "name": "",
+      "displayname": "Insights - 7th Floor",
+      "compareName": "Insights - 7th Floor",
+      "pathName": "/energy-seventh-floor-insights"
+    },
+    "Insights - 6th Floor": {
+      "id": 1,
+      "name": "",
+      "displayname": "Insights - 6th Floor",
+      "compareName": "Insights - 6th Floor",
+      "pathName": "/energy-sixth-floor-insights"
+    }
+  }
+}

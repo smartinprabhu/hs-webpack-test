@@ -1,0 +1,768 @@
+{
+    "modes": [
+        {
+            "value": "email",
+            "label": "Email"
+        },
+        {
+            "value": "mobile_app",
+            "label": "Mobile App"
+        },
+        {
+            "value": "phone",
+            "label": "Phone"
+        },
+        {
+            "value": "web",
+            "label": "Web"
+        },
+        {
+            "value": "one_campus",
+            "label": "Client"
+        }
+    ],
+    "issueTypes": [
+        {
+            "value": "request",
+            "label": "Request"
+        },
+        {
+            "value": "complaint",
+            "label": "Complaint"
+        },
+        {
+            "value": "ehs",
+            "label": "EHS"
+        },
+        {
+            "value": "asset_installation",
+            "label": "Asset Installation"
+        },
+        {
+            "value": "snag",
+            "label": "Snag"
+        }
+    ],
+    "incidentStates": [
+        {
+            "value": "Report",
+            "label": "Report"
+        },
+        {
+            "value": "Assess In Progress",
+            "label": "Assessment In Progress"
+        },
+        {
+            "value": "Assess",
+            "label": "Assessment Done"
+        },
+        {
+            "value": "Remediate In Progress",
+            "label": "Remediation In Progress"
+        },
+        {
+            "value": "Remediate",
+            "label": "Remediation Done"
+        },
+        {
+            "value": "Resolved",
+            "label": "Resolved"
+        }
+    ],
+    "incidentStatesLabel": {
+        "Report": {
+            "color": "info",
+            "text": "Report"
+        },
+        "Assess In Progress": {
+            "color": "warning",
+            "text": "Assessment In Progress"
+        },
+        "Assess": {
+            "color": "success",
+            "text": "Assessment Done"
+        },
+        "Remediate In Progress": {
+            "color": "warning",
+            "text": "Remediation In Progress"
+        },
+        "Remediate": {
+            "color": "primary",
+            "text": "Remediation Done"
+        },
+        "Resolved": {
+            "color": "success",
+            "text": "Resolved"
+        }
+    },
+    "mroStates": [
+        {
+            "value": "draft",
+            "label": "Draft"
+        },
+        {
+            "value": "released",
+            "label": "Waiting Parts"
+        },
+        {
+            "value": "ready",
+            "label": "Ready to Maintenance"
+        },
+        {
+            "value": "assigned",
+            "label": "Assigned"
+        },
+        {
+            "value": "in_progress",
+            "label": "In Progress"
+        },
+        {
+            "value": "pause",
+            "label": "Pause"
+        },
+        {
+            "value": "done",
+            "label": "Done"
+        },
+        {
+            "value": "cancel",
+            "label": "Canceled"
+        }
+    ],
+    "mroStatesLabel": {
+        "draft": {
+            "value": "draft",
+            "text": "Draft"
+        },
+        "released": {
+            "value": "released",
+            "text": "Waiting Parts"
+        },
+        "ready": {
+            "value": "ready",
+            "text": "Ready to Maintenance"
+        },
+        "assigned": {
+            "value": "assigned",
+            "text": "Assigned"
+        },
+        "in_progress": {
+            "value": "in_progress",
+            "text": "In Progress"
+        },
+        "pause": {
+            "value": "pause",
+            "text": "Pause"
+        },
+        "done": {
+            "value": "done",
+            "text": "Done"
+        },
+        "cancel": {
+            "value": "cancel",
+            "text": "Canceled"
+        }
+    },
+    "states": {
+        "Open": {
+            "color": "info",
+            "text": "Open"
+        },
+        "In Progress": {
+            "color": "warning",
+            "text": "In Progress"
+        },
+        "Staff Closed": {
+            "color": "success",
+            "text": "Staff Closed"
+        },
+        "Closed": {
+            "color": "success",
+            "text": "Closed"
+        },
+        "Staff Replied": {
+            "color": "primary",
+            "text": "Staff Replied"
+        },
+        "Customer Replied": {
+            "color": "primary",
+            "text": "Customer Replied"
+        },
+        "Awaiting Approval": {
+            "color": "warning",
+            "text": "Awaiting Approval"
+        },
+        "Approval Accepted": {
+            "color": "primary",
+            "text": "Approval Accepted"
+        },
+        "Approval Rejected": {
+            "color": "danger",
+            "text": "Approval Rejected"
+        },
+        "Customer Closed": {
+            "color": "success",
+            "text": "Customer Closed"
+        },
+        "On Hold": {
+            "color": "secondary",
+            "text": "On Hold"
+        },
+        "Cancelled": {
+            "color": "danger",
+            "text": "Cancelled"
+        }
+    },
+    "slastatuses": {
+        "Within SLA": {
+            "color": "success",
+            "text": "Within SLA"
+        },
+        "SLA Elapsed": {
+            "color": "danger",
+            "text": "SLA Elapsed"
+        }
+    },
+    "type": {
+        "asset": {
+            "value": "asset",
+            "label": "Space"
+        },
+        "equipment": {
+            "value": "equipment",
+            "label": "Equipment"
+        },
+        "IT": {
+            "value": "IT",
+            "label": "IT"
+        }
+    },
+    "issueTypesLabels": {
+        "request": {
+            "value": "request",
+            "label": "Request"
+        },
+        "complaint": {
+            "value": "complaint",
+            "label": "Complaint"
+        },
+        "incident": {
+            "value": "incident",
+            "label": "Incident"
+        },
+        "ehs": {
+            "value": "ehs",
+            "label": "EHS"
+        },
+        "asset_installation": {
+            "value": "asset_installation",
+            "label": "Asset Installation"
+        },
+        "snag": {
+            "value": "snag",
+            "label": "Snag"
+        }
+    },
+    "channelLabels": {
+        "web": {
+            "value": "web",
+            "label": "Web"
+        },
+        "email": {
+            "value": "email",
+            "label": "Email"
+        },
+        "phone": {
+            "value": "phone",
+            "label": "Phone"
+        },
+        "mobile_app": {
+            "value": "mobile_app",
+            "label": "Mobile App"
+        },
+        "one_campus": {
+            "value": "one_campus",
+            "label": "Client"
+        }
+    },
+    "escalationLabels": {
+        "level1": {
+            "value": "level1",
+            "label": "Level-1"
+        },
+        "level2": {
+            "value": "level2",
+            "label": "Level-2"
+        },
+        "level3": {
+            "value": "level3",
+            "label": "Level-3"
+        }
+    },
+    "priorities": {
+        "Low": {
+            "color": "primary",
+            "text": "Low Priority",
+            "classPriority": "badge-text bg-white text-primary pr-2 pl-2 border border-primary"
+        },
+        "Standard": {
+            "color": "info",
+            "text": "Standard Priority",
+            "classPriority": "badge-text bg-white text-info pr-2 pl-2 border border-info"
+        },
+        "Normal": {
+            "color": "success",
+            "text": "Normal Priority",
+            "classPriority": "badge-text bg-white text-success pr-2 pl-2 border border-succes"
+        },
+        "High": {
+            "color": "orange",
+            "text": "High Priority",
+            "classPriority": "badge-text bg-white text-orange pr-2 pl-2 border border-danger"
+        },
+        "Critical": {
+            "color": "danger",
+            "text": "Critical",
+            "classPriority": "badge-text bg-white text-danger pr-2 pl-2 border border-danger"
+        },
+        "Breakdown": {
+            "color": "danger",
+            "text": "Breakdown",
+            "classPriority": "badge-text bg-white text-danger pr-2 pl-2 border border-danger"
+        },
+        "Moderately": {
+            "color": "warning",
+            "text": "Moderately",
+            "classPriority": "badge-text bg-white text-warning pr-2 pl-2 border border-warning"
+        }
+    },
+    "dashboardStatus": {
+        "OT": {
+            "id": "Open",
+            "label": "Open",
+            "title": "Status"
+        },
+        "IPT": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "title": "Status"
+        },
+        "CT": {
+            "id": "Staff Closed",
+            "label": "Staff Closed",
+            "title": "Status"
+        },
+        "OHT": {
+            "id": "On Hold",
+            "label": "On Hold",
+            "title": "Status"
+        },
+        "CO": {
+            "id": "Staff Closed",
+            "label": "Closed",
+            "title": "Status"
+        },
+        "INP": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "title": "Status"
+        }
+    },
+    "channel": {
+        "web": {
+            "id": "web",
+            "label": "Web"
+        },
+        "email": {
+            "id": "email",
+            "label": "Email"
+        },
+        "phone": {
+            "id": "phone",
+            "label": "Phone"
+        },
+        "mobile_app": {
+            "id": "mobile_app",
+            "label": "Mobile App"
+        },
+        "one_campus": {
+            "id": "one_campus",
+            "label": "Client"
+        }
+    },
+    "channelOptions": [
+        {
+            "value": "web",
+            "label": "Web"
+        },
+        {
+            "value": "email",
+            "label": "Email"
+        },
+        {
+            "value": "phone",
+            "label": "Phone"
+        },
+        {
+            "value": "mobile_app",
+            "label": "Mobile App"
+        },
+        {
+            "value": "one_campus",
+            "label": "Client"
+        }
+    ],
+    "slaStatusOptions": [
+        {
+            "value": "SLA Elapsed",
+            "label": "SLA Elapsed"
+        },
+        {
+            "value": "Within SLA",
+            "label": "Within SLA"
+        }
+    ],
+    "maintenanceType": {
+        "bm": {
+            "id": "bm",
+            "label": "Corrective"
+        },
+        "pm": {
+            "id": "pm",
+            "label": "Preventive"
+        },
+        "oc": {
+            "id": "oc",
+            "label": "On Condition"
+        },
+        "pr": {
+            "id": "pr",
+            "label": "Periodic"
+        }
+    },
+    "priority": [
+        {
+            "value": "3",
+            "label": "Breakdown"
+        },
+        {
+            "value": "5",
+            "label": "Critical"
+        },
+        {
+            "value": "2",
+            "label": "High"
+        },
+        {
+            "value": "0",
+            "label": "Low"
+        },
+        {
+            "value": "1",
+            "label": "Normal"
+        },
+        {
+            "value": "4",
+            "label": "Standard"
+        }
+    ],
+    "priorityTypes": {
+        "0": {
+            "value": "0",
+            "label": "Low"
+        },
+        "1": {
+            "value": "1",
+            "label": "Normal"
+        },
+        "2": {
+            "value": "2",
+            "label": "High"
+        },
+        "3": {
+            "value": "3",
+            "label": "Breakdown"
+        },
+        "4": {
+            "value": "4",
+            "label": "Standard"
+        },
+        "5": {
+            "value": "5",
+            "label": "Critical"
+        }
+    },
+    "tableColumns": [
+        {
+            "value": "id",
+            "label": "ID"
+        },
+        {
+            "value": "channel",
+            "label": "Channel"
+        },
+        {
+            "value": "parent_id",
+            "label": "Parent Ticket"
+        },
+        {
+            "value": "sub_category_id",
+            "label": "Sub Category"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "issue_type",
+            "label": "Problem Type"
+        },
+        {
+            "value": "sla_status",
+            "label": "SLA Status"
+        },
+        {
+            "value": "sla_end_date",
+            "label": "Due Date"
+        },
+        {
+            "value": "current_escalation_level",
+            "label": "Escalation Level"
+        },
+        {
+            "value": "description",
+            "label": "Description"
+        }
+    ],
+    "tableColumnsIncident": [
+        {
+            "value": "incident_type_id",
+            "label": "Incident Type"
+        },
+        {
+            "value": "sub_category_id",
+            "label": "Sub Category"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "sla_time",
+            "label": "SLA Time Remaining"
+        }
+    ],
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "ESCALATETICKET",
+            "displayname": "Escalate Ticket"
+        },
+        {
+            "id": 2,
+            "name": "REASSIGNTICKET",
+            "displayname": "Reassign Ticket"
+        },
+        {
+            "id": 3,
+            "name": "SENDMESSAGE",
+            "displayname": "Send Message"
+        },
+        {
+            "id": 7,
+            "name": "PROGRESSTICKET",
+            "displayname": "Move to In Progress"
+        },
+        {
+            "id": 6,
+            "name": "ONHOLDTICKET",
+            "displayname": "Put On-Hold"
+        },
+        {
+            "id": 4,
+            "name": "CLOSETICKET",
+            "displayname": "Close Ticket"
+        },
+        {
+            "id": 9,
+            "name": "CANCELTICKET",
+            "displayname": "Cancel Ticket"
+        },
+        {
+            "id": 8,
+            "name": "SHARETICKET",
+            "displayname": "Share Ticket"
+        },
+        {
+            "id": 5,
+            "name": "OPENWORKORDER",
+            "displayname": "Go to Work Orders"
+        }
+    ],
+    "actionIncidentItems": [
+        {
+            "id": 1,
+            "name": "ESCALATETICKET",
+            "displayname": "Escalate Ticket"
+        },
+        {
+            "id": 2,
+            "name": "REASSIGNTICKET",
+            "displayname": "Reassign Ticket"
+        },
+        {
+            "id": 6,
+            "name": "SENDMESSAGE",
+            "displayname": "Send Message"
+        },
+        {
+            "id": 4,
+            "name": "STARTASSESSMENT",
+            "displayname": "Start Assessment"
+        },
+        {
+            "id": 5,
+            "name": "FINISHASSESSMENT",
+            "displayname": "Finish Assessment"
+        },
+        {
+            "id": 8,
+            "name": "STARTREMEDIATION",
+            "displayname": "Start Remediation"
+        },
+        {
+            "id": 9,
+            "name": "FINISHREMEDIATION",
+            "displayname": "Finish Remediation"
+        },
+        {
+            "id": 10,
+            "name": "PRINTPDFA",
+            "displayname": "Report Part A"
+        },
+        {
+            "id": 11,
+            "name": "PRINTPDFB",
+            "displayname": "Report Part B"
+        }
+    ],
+    "viewFields": [
+        "id",
+        "subject",
+        "ticket_number",
+        "state_id",
+        "priority_id",
+        "sla_status",
+        "sla_end_date",
+        "asset_id",
+        "equipment_id",
+        "channel",
+        "category_id",
+        "sub_category_id",
+        "current_escalation_level",
+        "maintenance_team_id",
+        "message_ids",
+        "company_id",
+        "email",
+        "create_date",
+        "requestee_id",
+        "mobile",
+        "time_to_close",
+        "equipment_location_id",
+        "maintenance_type",
+        "vendor_id",
+        "type_category",
+        "mro_state",
+        "issue_type",
+        "parent_id",
+        "description",
+        "sla_time",
+        "sla_status",
+        "employee_id",
+        "mro_order_id",
+        "pause_reason_id",
+        "order_ids",
+        "sla_id",
+        "incident_type_id",
+        "incident_severity_id",
+        "injuries_sustained_ids",
+        "incident_state",
+        "damage_property_ids",
+        "custom_type",
+        "person_name",
+        "close_time",
+        "close_comment",
+        "close_date",
+        "closed_by_id",
+        "work_location",
+        "log_note",
+        "log_note_date",
+        "last_commented_by",
+        "__last_update",
+        "constraints",
+        "cost",
+        "ticket_type",
+        "tenant_name",
+        "is_cancelled",
+        "is_on_hold_approval_required",
+        "is_on_hold_requested",
+        "on_hold_requested_by",
+        "on_hold_requested_on",
+        "on_hold_requested_command",
+        "on_hold_reject_reason",
+        "status_logs",
+        "tenant_id"
+    ],
+    "incidentStatus": [
+        {
+            "value": "recovered",
+            "label": "Recovered"
+        },
+        {
+            "value": "Under Treatment",
+            "label": "Under Treatment"
+        }
+    ],
+    "incidentStatusLabel": {
+        "recovered": {
+            "value": "recovered",
+            "label": "Recovered"
+        },
+        "Under Treatment": {
+            "value": "Under Treatment",
+            "label": "Under Treatment"
+        }
+    },
+    "damageStatus": [
+        {
+            "value": "Wholly",
+            "label": "Wholly"
+        },
+        {
+            "value": "Partly",
+            "label": "Partly"
+        },
+        {
+            "value": "Not Recoverable",
+            "label": "Not Recoverable"
+        }
+    ],
+    "damageStatusLabel": {
+        "Wholly": {
+            "value": "Wholly",
+            "label": "Wholly"
+        },
+        "Partly": {
+            "value": "Partly",
+            "label": "Partly"
+        },
+        "Not Recoverable": {
+            "value": "Not Recoverable",
+            "label": "Not Recoverable"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+
+{
+    "buttonList": [
+        {
+            "id": 1,
+            "name": "Today"
+        },
+        {
+            "id": 2,
+            "name": "This week"
+        },
+        {
+            "id": 3,
+            "name": "This month"
+        },
+        {
+            "id": 4,
+            "name": "This year"
+        },
+        {
+            "id": 5,
+            "name": "Custom"
+        },
+        {
+            "id": 6,
+            "name": "All"
+        }
+    ]
+       
+}

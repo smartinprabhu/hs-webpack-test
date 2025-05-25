@@ -1,0 +1,53 @@
+
+{
+    "fields": [
+        {
+            "heading": "Reference",
+            "property": "name"
+        },
+        {
+            "heading": "Order Date",
+            "property": "date_order"
+        },
+        {
+            "heading": "Vendor",
+            "property": "partner_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Scheduled Date",
+            "property": "date_planned"
+        },
+        {
+            "heading": "Purchase Representative",
+            "property": "user_id"
+        },
+        {
+            "heading": "Untaxed",
+            "property": "amount_untaxed"
+        },
+        {
+            "heading": "Total",
+            "property": "amount_total"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }        
+    ],  
+    "PartnerReferenceFields": [
+        {
+            "heading": "Partner Reference",
+            "property": "partner_ref"
+        }
+    ],
+    "displayNameFields": [
+        {
+            "heading": "Display Name",
+            "property": "display_name"
+        }
+    ]       
+}

@@ -1,0 +1,18 @@
+{
+  "data": {
+     "Insights": {
+      "id": 1,
+      "name": "Insights",
+      "displayname": "Insights",
+      "compareName": "Insights",
+      "pathName": "/esg/overview"
+    },
+    "ESG Tracker": {
+      "id": 2,
+      "name": "",
+      "displayname": "ESG Tracker",
+      "compareName": "ESG Tracker",
+      "pathName": "/esg-tracker"
+    }
+  }
+}

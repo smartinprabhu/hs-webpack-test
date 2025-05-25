@@ -1,0 +1,357 @@
+
+{
+    "fields": [
+        {
+            "id": 1,
+            "label": "Model Code",
+            "name": "model",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 12,
+            "label": "Brand",
+            "name": "brand",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 2,
+            "label": "Serial Number",
+            "name": "serial",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "Criticality",
+            "name": "criticality",
+            "value": "",
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 4,
+            "label": "Installed On",
+            "name": "start_date",
+            "value": "",
+            "type": "date",
+            "readonly": false
+        },
+        {
+            "id": 7,
+            "label": "Working Capacity",
+            "name": "resource_calendar_id",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 8,
+            "label": "Monitored By (L1)",
+            "name": "monitored_by_id",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 9,
+            "label": "Managed By (L2)",
+            "name": "managed_by_id",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 10,
+            "label": "Maintained By (L3)",
+            "name": "maintained_by_id",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 11,
+            "label": "RAV (Replacement Asset Value)",
+            "name": "rav",
+            "value": "0.00",
+            "type": "text",
+            "readonly": false
+        }
+    ],
+    "warrantyFields": [
+        {
+            "id": 1,
+            "label": "Manufacturer",
+            "name": "manufacturer_id",
+            "value": "",
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 2,
+            "label": "Vendor",
+            "name": "vendor_id",
+            "value": "",
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 4,
+            "label": "Purchase Date",
+            "name": "purchase_date",
+            "value": "",
+            "type": "date",
+            "readonly": false
+        },
+        {
+            "id": 5,
+            "label": "Purchase Value",
+            "name": "purchase_value",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 6,
+            "label": "Warranty Start Date",
+            "name": "warranty_start_date",
+            "value": "",
+            "type": "date",
+            "readonly": false
+        },
+        {
+            "id": 7,
+            "label": "Warranty End Date",
+            "name": "warranty_end_date",
+            "value": "",
+            "type": "date",
+            "readonly": false
+        },
+        {
+            "id": 8,
+            "label": "Customer",
+            "name": "customer_id",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "AMC Type",
+            "name": "amc_type",
+            "value": "",
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 13,
+            "label": "AMC Start Date",
+            "name": "amc_start_date",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 14,
+            "label": "AMC End Date",
+            "name": "amc_end_date",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 9,
+            "label": "AMC Cost",
+            "name": "amc_cost",
+            "value": "0.00",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 15,
+            "label": "Reference Number",
+            "name": "asset_id",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        }
+    ],
+    "validationFields": [
+        {
+            "id": 10,
+            "label": "Validation Status",
+            "name": "validation_status",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 15,
+            "label": "Tag Status",
+            "name": "tag_status",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 11,
+            "label": "Validated By",
+            "name": "validated_by",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 12,
+            "label": "Validated On",
+            "name": "validated_on",
+            "value": "",
+            "type": "date",
+            "readonly": false
+        },
+        {
+            "id": 13,
+            "label": "Assignment Status",
+            "name": "assignment_status",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 14,
+            "label": "QR Tagged",
+            "name": "is_qr_tagged",
+            "value": false,
+            "type": "checkbox",
+            "readonly": false
+        },
+        {
+            "id": 15,
+            "label": "NFC Tagged",
+            "name": "is_nfc_tagged",
+            "value": false,
+            "type": "checkbox",
+            "readonly": false
+        },
+        {
+            "id": 16,
+            "label": "RFID Tagged",
+            "name": "is_rfid_tagged",
+            "value": false,
+            "type": "checkbox",
+            "readonly": false
+        },
+        {
+            "id": 17,
+            "label": "Virtually Tagged",
+            "name": "is_virtually_tagged",
+            "value": false,
+            "type": "checkbox",
+            "readonly": false
+        }
+       
+    ],
+    "additionalFields": [
+        {
+            "id": 1,
+            "label": "Latitude",
+            "name": "latitude",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 2,
+            "label": "Longitude",
+            "name": "longitude",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 6,
+            "label": "XPos",
+            "name": "xpos",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 7,
+            "label": "YPos",
+            "name": "ypos",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "Working Hours",
+            "name": "operating_hours",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 12,
+            "label": "Parent",
+            "name": "parent_id",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 8,
+            "label": "Last Service Done",
+            "name": "last_service_done",
+            "value": "",
+            "type": "datetime-local",
+            "readonly": false
+        },
+        {
+            "id": 4,
+            "label": "Make",
+            "name": "make",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 9,
+            "label": "Refilling Due Date",
+            "name": "refilling_due_date",
+            "value": "",
+            "type": "datetime-local",
+            "readonly": false
+        },
+        {
+            "id": 5,
+            "label": "Capacity",
+            "name": "capacity",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 10,
+            "label": "Assign To",
+            "name": "employee_id",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 11,
+            "label": "External QR Code",
+            "name": "qr_code",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        }
+    ]
+       
+}

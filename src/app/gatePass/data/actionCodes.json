@@ -1,0 +1,20 @@
+{
+    "Create Gate Pass" :"gp_gatepass_addPass",    
+    "Edit Gate Pass" :"gp_gatepass_editPass",
+    "Create Asset Attribute": "gp_gatepass_create_assetattribute",
+    "Add Vendors" :"gp_gatepass_create_vendor",
+    "Delete Work Permit" :"wp_workpermit_deleteworkpermit",
+    "Approve" :"wp_workpermit_authorize",    
+    "Prepare" :"wp_workpermit_prepare",
+    "Issue Permit" :"wp_workpermit_issuepermit",
+    "Validate" :"wp_workpermit_validate",
+    "Review" :"wp_workpermit_review",
+    "Print PDF" :"wp_workpermit_print_pdf",
+    "Add Checklist" :"wp_workpermit_add_checklist",
+    "Edit Checklist" :"wp_workpermit_edit_checklist",
+    "Delete Checklist" :"wp_workpermit_delete_checklist",
+    "Create Nature of Work" :"wp_workpermit_add_natureofwork",
+    "Edit Nature of Work" :"wp_workpermit_edit_natureofwork",
+    "Delete Nature of Work" :"wp_workpermit_delete_natureofwork",
+    "Extend" :"wp_workpermit_extend"
+}

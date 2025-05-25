@@ -1,0 +1,1240 @@
+{
+	"countries": [
+		{
+			"timezone": "Afghanistan",
+			"countrycode": "AF",
+			"callingCode": "+93"
+		},
+		{
+			"timezone": "Aland Islands",
+			"countrycode": "AX",
+			"callingCode": "+35818"
+		},
+        {
+			"timezone": "Albania",
+			"countrycode": "AL",
+			"callingCode": "+355"
+		},
+        {
+			"timezone": "Algeria",
+			"countrycode": "DZ",
+			"callingCode": "+213"
+		},
+        {
+			"timezone": "American Samoa",
+			"countrycode": "AS",
+			"callingCode": "+1684"
+		},
+        {
+			"timezone": "Andorra",
+			"countrycode": "AD",
+			"callingCode": "+376"
+		},
+        {
+			"timezone": "Angola",
+			"countrycode": "AO",
+			"callingCode": "+244"
+		},
+		{
+			"timezone": "Anguilla",
+			"countrycode": "AI",
+			"callingCode": "+1264"
+		},
+        {
+			"timezone": "Antarctica",
+			"countrycode": "AQ",
+			"callingCode": "+672"
+		},
+        {
+			"timezone": "Antigua and Barbuda",
+			"countrycode": "AG",
+			"callingCode": "+1268"
+		},
+        {
+			"timezone": "Argentina",
+			"countrycode": "AR",
+			"callingCode": "+54"
+		},
+        {
+			"timezone": "Armenia",
+			"countrycode": "AM",
+			"callingCode": "+374"
+		},
+        {
+			"timezone": "Aruba",
+			"countrycode": "AW",
+			"callingCode": "+297"
+		},
+		{
+			"timezone": "Ascension Island",
+			"countrycode": "AC",
+			"callingCode": "+247"
+		},
+        {
+			"timezone": "Australia",
+			"countrycode": "AU",
+			"callingCode": "+61"
+		},
+        {
+			"timezone": "Austria",
+			"countrycode": "AT",
+			"callingCode": "+43"
+		},
+        {
+			"timezone": "Azerbaijan",
+			"countrycode": "AZ",
+			"callingCode": "+994"
+		},
+        {
+			"timezone": "Bahamas",
+			"countrycode": "BS",
+			"callingCode": "+1242"
+		},
+        {
+			"timezone": "Bahrain",
+			"countrycode": "BH",
+			"callingCode": "+973"
+		},
+        {
+			"timezone": "Bangladesh",
+			"countrycode": "BD",
+			"callingCode": "+880"
+		},
+        {
+			"timezone": "Barbados",
+			"countrycode": "BB",
+			"callingCode": "+1246"
+		},
+        {
+			"timezone": "Belarus",
+			"countrycode": "BY",
+			"callingCode": "+375"
+		},
+        {
+			"timezone": "Belgium",
+			"countrycode": "BE",
+			"callingCode": "+32"
+		},
+        {
+			"timezone": "Belize",
+			"countrycode": "BZ",
+			"callingCode": "+501"
+		},
+        {
+			"timezone": "Benin",
+			"countrycode": "BJ",
+			"callingCode": "+229"
+		},
+        {
+			"timezone": "Bermuda",
+			"countrycode": "BM",
+			"callingCode": "+1441"
+		},
+        {
+			"timezone": "Bhutan",
+			"countrycode": "BT",
+			"callingCode": "+975"
+		},
+        {
+			"timezone": "Bolivia",
+			"countrycode": "BO",
+			"callingCode": "+591"
+		},
+        {
+			"timezone": "Bosnia and Herzegovina",
+			"countrycode": "BA",
+			"callingCode": "+387"
+		},
+        {
+			"timezone": "Botswana",
+			"countrycode": "BW",
+			"callingCode": "+267"
+		},
+        {
+			"timezone": "Brazil",
+			"countrycode": "BR",
+			"callingCode": "+55"
+		},
+        {
+			"timezone": "British Indian Ocean Territory",
+			"countrycode": "IO",
+			"callingCode": "+246"
+		},
+        {
+			"timezone": "British Virgin Islands",
+			"countrycode": "VG",
+			"callingCode": "+1284"
+		},
+        {
+			"timezone": "Brunei",
+			"countrycode": "BN",
+			"callingCode": "+673"
+		},
+        {
+			"timezone": "Bulgaria",
+			"countrycode": "BG",
+			"callingCode": "+359"
+		},
+        {
+			"timezone": "Burkina Faso",
+			"countrycode": "BF",
+			"callingCode": "+226"
+		},
+        {
+			"timezone": "Burundi",
+			"countrycode": "BI",
+			"callingCode": "+257"
+		},
+        {
+			"timezone": "Cambodia",
+			"countrycode": "KH",
+			"callingCode": "+855"
+		},
+        {
+			"timezone": "Cameroon",
+			"countrycode": "CM",
+			"callingCode": "+237"
+		},
+        {
+			"timezone": "Canada",
+			"countrycode": "CA",
+			"callingCode": "+1"
+		},
+        {
+			"timezone": "Cape Verde",
+			"countrycode": "CV",
+			"callingCode": "+238"
+		},
+        {
+			"timezone": "Cayman Islands",
+			"countrycode": "KY",
+			"callingCode": "+1345"
+		},
+        {
+			"timezone": "Central African Republic",
+			"countrycode": "CF",
+			"callingCode": "+236"
+		},
+        {
+			"timezone": "Chad",
+			"countrycode": "TD",
+			"callingCode": "+235"
+		},
+        {
+			"timezone": "Chile",
+			"countrycode": "CL",
+			"callingCode": "+56"
+		},
+        {
+			"timezone": "China",
+			"countrycode": "CN",
+			"callingCode": "+86"
+		},
+        {
+			"timezone": "Christmas Island",
+			"countrycode": "CX",
+			"callingCode": "+61"
+		},
+        {
+			"timezone": "Cocos Islands",
+			"countrycode": "CC",
+			"callingCode": "+61"
+		},
+        {
+			"timezone": "Colombia",
+			"countrycode": "CO",
+			"callingCode": "+57"
+		},
+        {
+			"timezone": "Comoros",
+			"countrycode": "KM",
+			"callingCode": "+269"
+		},
+        {
+			"timezone": "Cook Islands",
+			"countrycode": "CK",
+			"callingCode": "+682"
+		},
+        {
+			"timezone": "Costa Rica",
+			"countrycode": "CR",
+			"callingCode": "+506"
+		},
+        {
+			"timezone": "Croatia",
+			"countrycode": "HR",
+			"callingCode": "+385"
+		},
+        {
+			"timezone": "Cuba",
+			"countrycode": "CU",
+			"callingCode": "+53"
+		},
+        {
+			"timezone": "Curacao",
+			"countrycode": "CW",
+			"callingCode": "+599"
+		},
+        {
+			"timezone": "Cyprus",
+			"countrycode": "CY",
+			"callingCode": "+357"
+		},
+        {
+			"timezone": "Czech Republic",
+			"countrycode": "CZ",
+			"callingCode": "+420"
+		},
+        {
+			"timezone": "Democratic Republic of the Congo",
+			"countrycode": "CD",
+			"callingCode": "+243"
+		},
+        {
+			"timezone": "Denmark",
+			"countrycode": "DK",
+			"callingCode": "+45"
+		},
+        {
+			"timezone": "Djibouti",
+			"countrycode": "DJ",
+			"callingCode": "+253"
+		},
+        {
+			"timezone": "Dominica",
+			"countrycode": "DM",
+			"callingCode": "+1767"
+		},
+        {
+			"timezone": "Dominican Republic",
+			"countrycode": "DO",
+			"callingCode": "+1809, 1829, 1849"
+		},
+        {
+			"timezone": "East Timor",
+			"countrycode": "TL",
+			"callingCode": "+670"
+		},
+        {
+			"timezone": "Ecuador",
+			"countrycode": "EC",
+			"callingCode": "+593"
+		},
+        {
+			"timezone": "Egypt",
+			"countrycode": "EG",
+			"callingCode": "+20"
+		},
+        {
+			"timezone": "El Salvador",
+			"countrycode": "SV",
+			"callingCode": "+503"
+		},
+        {
+			"timezone": "Equatorial Guinea",
+			"countrycode": "GQ",
+			"callingCode": "+240"
+		},
+        {
+			"timezone": "Eritrea",
+			"countrycode": "ER",
+			"callingCode": "+291"
+		},
+        {
+			"timezone": "Estonia",
+			"countrycode": "EE",
+			"callingCode": "+372"
+		},
+        {
+			"timezone": "Ethiopia",
+			"countrycode": "ET",
+			"callingCode": "+251"
+		},
+        {
+			"timezone": "Falkland Islands",
+			"countrycode": "FK",
+			"callingCode": "+500"
+		},
+        {
+			"timezone": "Faroe Islands",
+			"countrycode": "FO",
+			"callingCode": "+298"
+		},
+        {
+			"timezone": "Fiji",
+			"countrycode": "FJ",
+			"callingCode": "+679"
+		},
+        {
+			"timezone": "Finland",
+			"countrycode": "FI",
+			"callingCode": "+358"
+		},
+        {
+			"timezone": "France",
+			"countrycode": "FR",
+			"callingCode": "+33"
+		},
+		{
+			"timezone": "French Guiana",
+			"countrycode": "GF",
+			"callingCode": "+594"
+		},
+        {
+			"timezone": "French Polynesia",
+			"countrycode": "PF",
+			"callingCode": "+689"
+		},
+        {
+			"timezone": "Gabon",
+			"countrycode": "GA",
+			"callingCode": "+241"
+		},
+        {
+			"timezone": "Gambia",
+			"countrycode": "GM",
+			"callingCode": "+220"
+		},
+        {
+			"timezone": "Georgia",
+			"countrycode": "GE",
+			"callingCode": "+995"
+		},
+        {
+			"timezone": "Germany",
+			"countrycode": "DE",
+			"callingCode": "+49"
+		},
+        {
+			"timezone": "Ghana",
+			"countrycode": "GH",
+			"callingCode": "+233"
+		},
+        {
+			"timezone": "Gibraltar",
+			"countrycode": "GI",
+			"callingCode": "+350"
+		},
+        {
+			"timezone": "Greece",
+			"countrycode": "GR",
+			"callingCode": "+30"
+		},
+        {
+			"timezone": "Greenland",
+			"countrycode": "GL",
+			"callingCode": "+299"
+		},
+        {
+			"timezone": "Grenada",
+			"countrycode": "GD",
+			"callingCode": "+1473"
+		},
+        {
+			"timezone": "Guam",
+			"countrycode": "GU",
+			"callingCode": "+1671"
+		},
+        {
+			"timezone": "Guatemala",
+			"countrycode": "GT",
+			"callingCode": "+502"
+		},
+        {
+			"timezone": "Guernsey",
+			"countrycode": "GG",
+			"callingCode": "+441481"
+		},
+        {
+			"timezone": "Guinea",
+			"countrycode": "GN",
+			"callingCode": "+224"
+		},
+        {
+			"timezone": "Guinea-Bissau",
+			"countrycode": "GW",
+			"callingCode": "+245"
+		},
+        {
+			"timezone": "Guyana",
+			"countrycode": "GY",
+			"callingCode": "+592"
+		},
+        {
+			"timezone": "Haiti",
+			"countrycode": "HT",
+			"callingCode": "+509"
+		},
+		{
+			"timezone": "Holy See(Vatican City State)",
+			"countrycode": "VA",
+			"callingCode": "+3906698"
+		},
+        {
+			"timezone": "Honduras",
+			"countrycode": "HN",
+			"callingCode": "+504"
+		},
+        {
+			"timezone": "Hong Kong",
+			"countrycode": "HK",
+			"callingCode": "+852"
+		},
+        {
+			"timezone": "Hungary",
+			"countrycode": "HU",
+			"callingCode": "+36"
+		},
+        {
+			"timezone": "Iceland",
+			"countrycode": "IS",
+			"callingCode": "+354"
+		},
+        {
+			"timezone": "Asia/Kolkata",
+			"countrycode": "IN",
+			"callingCode": "+91"
+		},
+        {
+			"timezone": "Indonesia",
+			"countrycode": "ID",
+			"callingCode": "+62"
+		},
+        {
+			"timezone": "Iran",
+			"countrycode": "IR",
+			"callingCode": "+98"
+		},
+        {
+			"timezone": "Iraq",
+			"countrycode": "IQ",
+			"callingCode": "+964"
+		},
+        {
+			"timezone": "Ireland",
+			"countrycode": "IE",
+			"callingCode": "+353"
+		},
+        {
+			"timezone": "Isle of Man",
+			"countrycode": "IM",
+			"callingCode": "+441624"
+		},
+        {
+			"timezone": "Israel",
+			"countrycode": "IL",
+			"callingCode": "+972"
+		},
+        {
+			"timezone": "Italy",
+			"countrycode": "IT",
+			"callingCode": "+39"
+		},
+        {
+			"timezone": "Ivory Coast",
+			"countrycode": "CI",
+			"callingCode": "+225"
+		},
+        {
+			"timezone": "Jamaica",
+			"countrycode": "JM",
+			"callingCode": "+1876"
+		},
+        {
+			"timezone": "Japan",
+			"countrycode": "JP",
+			"callingCode": "+81"
+		},
+        {
+			"timezone": "Jersey",
+			"countrycode": "JE",
+			"callingCode": "+441534"
+		},
+        {
+			"timezone": "Jordan",
+			"countrycode": "JO",
+			"callingCode": "+962"
+		},
+        {
+			"timezone": "Kazakhstan",
+			"countrycode": "KZ",
+			"callingCode": "+7"
+		},
+        {
+			"timezone": "Kenya",
+			"countrycode": "KE",
+			"callingCode": "+254"
+		},
+
+        {
+			"timezone": "Kiribati",
+			"countrycode": "KI",
+			"callingCode": "+686"
+		},
+        {
+			"timezone": "Kosovo",
+			"countrycode": "XK",
+			"callingCode": "+383"
+		},
+        {
+			"timezone": "Kuwait",
+			"countrycode": "KW",
+			"callingCode": "+965"
+		},
+        {
+			"timezone": "Kyrgyzstan",
+			"countrycode": "KG",
+			"callingCode": "+996"
+		},
+        {
+			"timezone": "Laos",
+			"countrycode": "LA",
+			"callingCode": "+856"
+		},
+        {
+			"timezone": "Latvia",
+			"countrycode": "LV",
+			"callingCode": "+371"
+		},
+        {
+			"timezone": "Lebanon",
+			"countrycode": "LB",
+			"callingCode": "+961"
+		},
+        {
+			"timezone": "Lesotho",
+			"countrycode": "LS",
+			"callingCode": "+266"
+		},
+        {
+			"timezone": "Liberia",
+			"countrycode": "LR",
+			"callingCode": "+231"
+		},
+        {
+			"timezone": "Libya",
+			"countrycode": "LY",
+			"callingCode": "+218"
+		},
+        {
+			"timezone": "Liechtenstein",
+			"countrycode": "LI",
+			"callingCode": "+423"
+		},
+        {
+			"timezone": "Lithuania",
+			"countrycode": "LT",
+			"callingCode": "+370"
+		},
+        {
+			"timezone": "Luxembourg",
+			"countrycode": "LU",
+			"callingCode": "+352"
+		},
+        {
+			"timezone": "Macau",
+			"countrycode": "MO",
+			"callingCode": "+853"
+		},
+        {
+			"timezone": "Macau",
+			"countrycode": "MO",
+			"callingCode": "+853"
+		},
+        {
+			"timezone": "Madagascar",
+			"countrycode": "MG",
+			"callingCode": "+261"
+		},
+        {
+			"timezone": "Malawi",
+			"countrycode": "MW",
+			"callingCode": "+265"
+		},
+        {
+			"timezone": "Malaysia",
+			"countrycode": "MY",
+			"callingCode": "+60"
+		},
+        {
+			"timezone": "Maldives",
+			"countrycode": "MV",
+			"callingCode": "+960"
+		},
+        {
+			"timezone": "Mali",
+			"countrycode": "ML",
+			"callingCode": "+223"
+		},
+        {
+			"timezone": "Malta",
+			"countrycode": "MT",
+			"callingCode": "+356"
+		},
+        {
+			"timezone": "Marshall Islands",
+			"countrycode": "MH",
+			"callingCode": "+692"
+		},
+		{
+			"timezone": "Martinique",
+			"countrycode": "MQ",
+			"callingCode": "+596"
+		},
+        {
+			"timezone": "Mauritania",
+			"countrycode": "MR",
+			"callingCode": "+222"
+		},
+        {
+			"timezone": "Mauritius",
+			"countrycode": "MU",
+			"callingCode": "+230"
+		},
+        {
+			"timezone": "Mayotte",
+			"countrycode": "YT",
+			"callingCode": "+262"
+		},
+		{
+			"timezone": "Mexico",
+			"countrycode": "MX",
+			"callingCode": "+52"
+		},
+		{
+			"timezone": "Micronesia",
+			"countrycode": "FM",
+			"callingCode": "+691"
+		},
+		{
+			"timezone": "Moldova",
+			"countrycode": "MD",
+			"callingCode": "+373"
+		},
+		{
+			"timezone": "Monaco",
+			"countrycode": "MC",
+			"callingCode": "+377"
+		},
+		{
+			"timezone": "Mongolia",
+			"countrycode": "MN",
+			"callingCode": "+976"
+		},
+		{
+			"timezone": "Montenegro",
+			"countrycode": "ME",
+			"callingCode": "+382"
+		},
+		{
+			"timezone": "Montserrat",
+			"countrycode": "MS",
+			"callingCode": "+1664"
+		},
+		{
+			"timezone": "Morocco",
+			"countrycode": "MA",
+			"callingCode": "+212"
+		},
+		{
+			"timezone": "Mozambique",
+			"countrycode": "MZ",
+			"callingCode": "+258"
+		},
+		{
+			"timezone": "Myanmar",
+			"countrycode": "MM",
+			"callingCode": "+95"
+		},
+		{
+			"timezone": "Namibia",
+			"countrycode": "NA",
+			"callingCode": "+264"
+		},
+		{
+			"timezone": "Nauru",
+			"countrycode": "NR",
+			"callingCode": "+674"
+		},
+		{
+			"timezone": "Nepal",
+			"countrycode": "NP",
+			"callingCode": "+977"
+		},
+		{
+			"timezone": "Netherlands",
+			"countrycode": "NL",
+			"callingCode": "+31"
+		},
+		{
+			"timezone": "Netherlands Antilles",
+			"countrycode": "AN",
+			"callingCode": "+599"
+		},
+		{
+			"timezone": "New Caledonia",
+			"countrycode": "NC",
+			"callingCode": "+687"
+		},
+		{
+			"timezone": "New Zealand",
+			"countrycode": "NZ",
+			"callingCode": "+64"
+		},
+		{
+			"timezone": "Nicaragua",
+			"countrycode": "NI",
+			"callingCode": "+505"
+		},
+		{
+			"timezone": "Niger",
+			"countrycode": "NE",
+			"callingCode": "+227"
+		},
+		{
+			"timezone": "Nigeria",
+			"countrycode": "NG",
+			"callingCode": "+234"
+		},
+		{
+			"timezone": "Niue",
+			"countrycode": "NU",
+			"callingCode": "+683"
+		},
+		{
+			"timezone": "North Korea",
+			"countrycode": "KP",
+			"callingCode": "+850"
+		},
+		{
+			"timezone": "North Macedonia",
+			"countrycode": "MK",
+			"callingCode": "+389"
+		},
+		{
+			"timezone": "Northern Mariana Islands",
+			"countrycode": "MP",
+			"callingCode": "+1670"
+		},
+		{
+			"timezone": "Norway",
+			"countrycode": "NO",
+			"callingCode": "+47"
+		},
+		{
+			"timezone": "Oman",
+			"countrycode": "OM",
+			"callingCode": "+968"
+		},
+		{
+			"timezone": "Pakistan",
+			"countrycode": "PK",
+			"callingCode": "+92"
+		},
+		{
+			"timezone": "Palau",
+			"countrycode": "PW",
+			"callingCode": "+680"
+		},
+		{
+			"timezone": "Palestine",
+			"countrycode": "PS",
+			"callingCode": "+970"
+		},
+		{
+			"timezone": "Panama",
+			"countrycode": "PA",
+			"callingCode": "+507"
+		},
+		{
+			"timezone": "Papua New Guinea",
+			"countrycode": "PG",
+			"callingCode": "+675"
+		},
+		{
+			"timezone": "Paraguay",
+			"countrycode": "PY",
+			"callingCode": "+595"
+		},
+		{
+			"timezone": "Peru",
+			"countrycode": "PE",
+			"callingCode": "+51"
+		},
+		{
+			"timezone": "Philippines",
+			"countrycode": "PH",
+			"callingCode": "+63"
+		},
+		{
+			"timezone": "Pitcairn",
+			"countrycode": "PN",
+			"callingCode": "+64"
+		},
+		{
+			"timezone": "Poland",
+			"countrycode": "PL",
+			"callingCode": "+48"
+		},
+		{
+			"timezone": "Portugal",
+			"countrycode": "PT",
+			"callingCode": "+351"
+		},
+		{
+			"timezone": "Puerto Rico",
+			"countrycode": "PR",
+			"callingCode": "+1787, 1939"
+		},
+		{
+			"timezone": "Qatar",
+			"countrycode": "QA",
+			"callingCode": "+974"
+		},
+		{
+			"timezone": "Republic of the Congo",
+			"countrycode": "CG",
+			"callingCode": "+242"
+		},
+		{
+			"timezone": "Reunion",
+			"countrycode": "RE",
+			"callingCode": "+262"
+		},
+		{
+			"timezone": "Romania",
+			"countrycode": "RO",
+			"callingCode": "+40"
+		},
+		{
+			"timezone": "Russia",
+			"countrycode": "RU",
+			"callingCode": "+7"
+		},
+		{
+			"timezone": "Rwanda",
+			"countrycode": "RW",
+			"callingCode": "+250"
+		},
+		{
+			"timezone": "Saint Barthelemy",
+			"countrycode": "BL",
+			"callingCode": "+590"
+		},
+		{
+			"timezone": "Saint Helena",
+			"countrycode": "SH",
+			"callingCode": "+290"
+		},
+		{
+			"timezone": "Saint Kitts and Nevis",
+			"countrycode": "KN",
+			"callingCode": "+1869"
+		},
+		{
+			"timezone": "Saint Lucia",
+			"countrycode": "LC",
+			"callingCode": "+1758"
+		},
+		{
+			"timezone": "Saint Martin",
+			"countrycode": "MF",
+			"callingCode": "+590"
+		},
+		{
+			"timezone": "Saint Pierre and Miquelon",
+			"countrycode": "PM",
+			"callingCode": "+508"
+		},
+		{
+			"timezone": "Saint Vincent and the Grenadines",
+			"countrycode": "VC",
+			"callingCode": "+1784"
+		},
+		{
+			"timezone": "Samoa",
+			"countrycode": "WS",
+			"callingCode": "+685"
+		},
+		{
+			"timezone": "San Marino",
+			"countrycode": "SM",
+			"callingCode": "+378"
+		},
+		{
+			"timezone": "Sao Tome and Principe",
+			"countrycode": "ST",
+			"callingCode": "+239"
+		},
+		{
+			"timezone": "Saudi Arabia",
+			"countrycode": "SA",
+			"callingCode": "+966"
+		},
+		{
+			"timezone": "Senegal",
+			"countrycode": "SN",
+			"callingCode": "+221"
+		},
+		{
+			"timezone": "Serbia",
+			"countrycode": "RS",
+			"callingCode": "+381"
+		},
+		{
+			"timezone": "Seychelles",
+			"countrycode": "SC",
+			"callingCode": "+248"
+		},
+		{
+			"timezone": "Sierra Leone",
+			"countrycode": "SL",
+			"callingCode": "+232"
+		},
+		{
+			"timezone": "Singapore",
+			"countrycode": "SG",
+			"callingCode": "+65"
+		},
+		{
+			"timezone": "Sint Maarten",
+			"countrycode": "SX",
+			"callingCode": "+1721"
+		},
+		{
+			"timezone": "Slovakia",
+			"countrycode": "SK",
+			"callingCode": "+421"
+		},
+		{
+			"timezone": "Slovenia",
+			"countrycode": "SI",
+			"callingCode": "+386"
+		},
+		{
+			"timezone": "Solomon Islands",
+			"countrycode": "SB",
+            "callingCode": "+677"
+		},
+		{
+			"timezone": "Somalia",
+			"countrycode": "SO",
+			"callingCode": "+252"
+		},
+		{
+			"timezone": "South Africa",
+			"countrycode": "ZA",
+			"callingCode": "+27"
+		},
+		{
+			"timezone": "South Korea",
+			"countrycode": "KR",
+			"callingCode": "+82"
+		},
+		{
+			"timezone": "South Sudan",
+			"countrycode": "SS",
+			"callingCode": "+211"
+		},
+		{
+			"timezone": "Spain",
+			"countrycode": "ES",
+			"callingCode": "+34"
+		},
+		{
+			"timezone": "Sri Lanka",
+			"countrycode": "LK",
+			"callingCode": "+94"
+		},
+		{
+			"timezone": "Sudan",
+			"countrycode": "SD",
+			"callingCode": "+249"
+		},
+		{
+			"timezone": "Suriname",
+			"countrycode": "SR",
+			"callingCode": "+597"
+		},
+		{
+			"timezone": "Svalbard and Jan Mayen",
+			"countrycode": "SJ",
+			"callingCode": "+4779"
+		},
+		{
+			"timezone": "Swaziland",
+			"countrycode": "SZ",
+			"callingCode": "+268"
+		},
+		{
+			"timezone": "Sweden",
+			"countrycode": "SE",
+			"callingCode": "+46"
+		},
+		{
+			"timezone": "Switzerland",
+			"countrycode": "CH",
+			"callingCode": "+41"
+		},
+		{
+			"timezone": "Syria",
+			"countrycode": "SY",
+			"callingCode": "+963"
+		},
+		{
+			"timezone": "Taiwan",
+			"countrycode": "TW",
+			"callingCode": "+886"
+		},
+		{
+			"timezone": "Tajikistan",
+			"countrycode": "TJ",
+			"callingCode": "+992"
+		},
+		{
+			"timezone": "Tanzania",
+			"countrycode": "TZ",
+			"callingCode": "+255"
+		},
+		{
+			"timezone": "Thailand",
+			"countrycode": "TH",
+			"callingCode": "+66"
+		},
+		{
+			"timezone": "Togo",
+			"countrycode": "TG",
+			"callingCode": "+228"
+		},
+		{
+			"timezone": "Tokelau",
+			"countrycode": "TK",
+			"callingCode": "+690"
+		},
+		{
+			"timezone": "Tonga",
+			"countrycode": "TO",
+			"callingCode": "+676"
+		},
+		{
+			"timezone": "Trinidad and Tobago",
+			"countrycode": "TT",
+			"callingCode": "+1868"
+		},
+		{
+			"timezone": "Tristan da Cunha",
+			"countrycode": "TA",
+			"callingCode": "+2908"
+		},
+		{
+			"timezone": "Tunisia",
+			"countrycode": "TN",
+			"callingCode": "+216"
+		},
+		{
+			"timezone": "Turkey",
+			"countrycode": "TR",
+			"callingCode": "+90"
+		},
+		{
+			"timezone": "Turkmenistan",
+			"countrycode": "TM",
+			"callingCode": "+993"
+		},
+		{
+			"timezone": "Turks and Caicos Islands",
+			"countrycode": "TC",
+			"callingCode": "+1649"
+		},
+		{
+			"timezone": "Tuvalu",
+			"countrycode": "TV",
+			"callingCode": "+688"
+		},
+		{
+			"timezone": "U.S. Virgin Islands",
+			"countrycode": "VI",
+			"callingCode": "+1340"
+		},
+		{
+			"timezone": "Uganda",
+			"countrycode": "UG",
+			"callingCode": "+256"
+		},
+		{
+			"timezone": "Ukraine",
+			"countrycode": "UA",
+			"callingCode": "+380"
+		},
+		{
+			"timezone": "United Arab Emirates",
+			"countrycode": "AE",
+			"callingCode": "+971"
+		},
+		{
+			"timezone": "United Kingdom",
+			"countrycode": "GB",
+            "callingCode": "+44"
+		},
+		{
+			"timezone": "United States",
+			"countrycode": "US",
+			"callingCode": "+1"
+		},
+		{
+			"timezone": "Uruguay",
+			"countrycode": "UY",
+			"callingCode": "+598"
+		},
+		{
+			"timezone": "Uzbekistan",
+			"countrycode": "UZ",
+			"callingCode": "+998"
+		},
+		{
+			"timezone": "Vanuatu",
+			"countrycode": "VU",
+			"callingCode": "+678"
+		},
+		{
+			"timezone": "Vatican",
+			"countrycode": "VA",
+			"callingCode": "+379"
+		},
+		{
+			"timezone": "Venezuela",
+			"countrycode": "VE",
+			"callingCode": "+58"
+		},
+		{
+			"timezone": "Vietnam",
+			"countrycode": "VN",
+			"callingCode": "+84"
+		},
+		{
+			"timezone": "Wallis and Futuna",
+			"countrycode": "WF",
+			"callingCode": "+681"
+		},
+		{
+			"timezone": "Western Sahara",
+			"countrycode": "EH",
+			"callingCode": "+212"
+		},
+		{
+			"timezone": "Yemen",
+			"countrycode": "YE",
+			"callingCode": "+967"
+		},
+		{
+			"timezone": "Zambia",
+			"countrycode": "ZM",
+			"callingCode": "+260"
+		},
+		{
+			"timezone": "Zimbabwe",
+			"countrycode": "ZW",
+			"callingCode": "+263"
+		}
+    ]
+}

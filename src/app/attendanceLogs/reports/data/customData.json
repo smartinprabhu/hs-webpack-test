@@ -1,0 +1,73 @@
+{
+    "types": [
+        {
+            "value": 2,
+            "label": "Status Summary - Worked Duration"
+        },
+        {
+            "value": 1,
+            "label": "Status Summary - Minimum Checkin"
+        },
+        {
+            "value": 9,
+            "label": "Status Summary - Minimum Checkin - Shift Schedule"
+        },
+        {
+            "value": 7,
+            "label": "Status Summary - Minimum Checkin - Biometric"
+        },
+        {
+            "value": 10,
+            "label": "Status Summary - Worked Duration - Shift Schedule"
+        },
+        {
+            "value": 5,
+            "label": "Time Period - Worked Duration"
+        },
+        {
+            "value": 6,
+            "label": "Time Period - Full Duration"
+        },
+        {
+            "value": 8,
+            "label": "Time Period -  First & Last Punch - Biometric"
+        },
+        {
+            "value": 4,
+            "label": "Detailed - Worked Duration"
+        },
+        {
+            "value": 3,
+            "label": "Detailed - Full Duration"
+        }
+    ],
+    "formtypes": [
+        {
+            "value": "duration",
+            "label": "Time Duration"
+        },
+        {
+            "value": "time_period_bio",
+            "label": "Time Period -  First & Last Punch - Biometric"
+        },
+        {
+            "value": "status",
+            "label": "Status-wise Summary"
+        },
+        {
+            "value": "biometric_status",
+            "label": "Status - Minimum Checkin - Biometric"
+        }
+    ],
+    "atttypes": [
+        {
+            "value": "biometric",
+            "label": "Biometric"
+        },
+        {
+            "value": "attendance",
+            "label": "Attendance"
+        }
+    ]
+
+}

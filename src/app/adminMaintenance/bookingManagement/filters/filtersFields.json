@@ -1,0 +1,48 @@
+{
+    "fields": [
+        {
+            "label": "Space Name",
+            "value": "space_name"
+        },
+        {
+            "label": "Booking Status",
+            "value": "state"
+        },
+        {
+            "label": "Employee Name",
+            "value": "employee_id.name"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ]
+}

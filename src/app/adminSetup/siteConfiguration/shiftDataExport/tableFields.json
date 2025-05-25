@@ -1,0 +1,62 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Start Time",
+            "property": "start_time"
+        },
+        {
+            "heading": "Duration",
+            "property": "duration"
+        },
+        {
+            "heading": "Tenant",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Use Company Rules for Grace Period",
+            "property": "is_use_company"
+        }
+    ],
+    "lcFields": [
+        {
+            "heading": "LC Grace",
+            "property": "lc_grace"
+        }
+    ],
+    "egFields": [
+        {
+            "heading": "EG Grace",
+            "property": "eg_grace"
+        }
+    ],   
+    "ltFields": [
+        {
+            "heading": "LT",
+            "property": "lt_period"
+        }
+    ],
+    "hdFromFields": [
+        {
+            "heading": "HD From",
+            "property": "half_day_from"
+        }
+    ],
+    "hdToFields": [
+        {
+            "heading": "HD To",
+            "property": "half_day_to"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

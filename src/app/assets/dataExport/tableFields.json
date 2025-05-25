@@ -1,0 +1,274 @@
+{
+    "fields": [
+        {
+            "property": "id",
+            "heading": "ID"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Reference Number",
+            "property": "equipment_seq"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Space",
+            "property": "location_id"
+        },
+        {
+            "heading": " Maintenance Team",
+            "property": "maintenance_team_id"
+        },
+        {
+            "property": "equipment_number",
+            "heading": "Description"
+        },
+        {
+            "property": "model",
+            "heading": "Model Code"
+        },
+        {
+            "property": "purchase_date",
+            "heading": "Purchase Date"
+        },
+        {
+            "property": "serial",
+            "heading": "Serial Number"
+        },
+        {
+            "property": "vendor_id",
+            "heading": "Vendor"
+        },
+        {
+            "property": "monitored_by_id",
+            "heading": "Monitored By"
+        },
+        {
+            "property": "managed_by_id",
+            "heading": "Managed By"
+        },
+        {
+            "property": "maintained_by_id",
+            "heading": "Maintained By"
+        },
+        {
+            "property": "manufacturer_id",
+            "heading": "Manufacturer"
+        },
+        {
+            "property": "warranty_start_date",
+            "heading": "Warranty Start Date"
+        },
+        {
+            "property": "warranty_end_date",
+            "heading": "Warranty End Date"
+        },
+        {
+            "property": "tag_status",
+            "heading": "Tag Status"
+        },
+        {
+            "property": "validation_status",
+            "heading": "Validation Status"
+        },
+        {
+            "property": "validated_by",
+            "heading": "Validated By"
+        },
+        {
+            "property": "validated_on",
+            "heading": "Validated On"
+        },
+        {
+            "property": "amc_start_date",
+            "heading": "AMC Start Date"
+        },
+        {
+            "property": "amc_end_date",
+            "heading": "AMC End Date"
+        },
+        {
+            "property": "amc_type",
+            "heading": "AMC Type"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "locationsFields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Reference Number",
+            "property": "equipment_seq"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Tag Status",
+            "property": "tag_status"
+        }
+    ],
+    "readingsLogFields": [
+        {
+            "heading": "Reading",
+            "property": "reading_id"
+        },
+        {
+            "heading": "Measure Date",
+            "property": "date"
+        },
+        {
+            "heading": "Measure Value",
+            "property": "value"
+        },
+        {
+            "heading": "Type",
+            "property": "type"
+        },
+        {
+            "heading": "Equipment",
+            "property": "equipment_id"
+        }
+    ],
+    "readingsLogFieldsSpace": [
+        {
+            "heading": "Reading",
+            "property": "reading_id"
+        },
+        {
+            "heading": "Measure Date",
+            "property": "date"
+        },
+        {
+            "heading": "Measure Value",
+            "property": "value"
+        },
+        {
+            "heading": "Type",
+            "property": "type"
+        },
+        {
+            "heading": "Space",
+            "property": "space_id"
+        }
+    ],
+    "runFields": [
+        {
+            "heading": "Planning Run Result",
+            "property": "planning_run_result"
+        }
+    ],
+    "orderFields": [
+        {
+            "heading": "Maintenance Order",
+            "property": "order_id"
+        }
+    ],
+    "tagStatusFields": [
+        {
+            "heading": "Tag Status",
+            "property": "tag_status"
+        }
+    ],
+    "historyCardFields": [
+        {
+            "heading": "S.No",
+            "property": "serialno"
+        },
+        {
+            "heading": "Date",
+            "property": "date_new"
+        },
+        {
+            "heading": " Nature of Work | Breakdown",
+            "property": "nature_of_work"
+        },
+        {
+            "heading": "Type",
+            "property": "maintenance_type_new"
+        },
+        {
+            "heading": "Performed By",
+            "property": "employee_id"
+        }
+    ],
+    "historyCardITFields": [
+        {
+            "heading": "S.No",
+            "property": "serialno"
+        },
+        {
+            "heading": "Date",
+            "property": "date_new"
+        },
+        {
+            "heading": "Operation",
+            "property": "maintenance_type"
+        },
+        {
+            "heading": "Entity Type",
+            "property": "checkout_to"
+        },
+        {
+            "heading": "Entity",
+            "property": "entity_new"
+        },
+        {
+            "heading": " Notes",
+            "property": "nature_of_work"
+        }
+    ],
+    "equipmentCost": [
+        {
+            "heading": "S.No",
+            "property": "serialno"
+        },
+        {
+            "heading": "Title",
+            "property": "name"
+        },
+        {
+            "heading": "Category",
+            "property": "category_id"
+        },
+        {
+            "heading": "Amount",
+            "property": "amount"
+        },
+        {
+            "heading": "Date",
+            "property": "date_new"
+        },
+        {
+            "heading": "Description",
+            "property": "description"
+        }
+    ]
+}

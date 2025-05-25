@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`registration actions, reducers, middleware should handle actions 1`] = `
+Array [
+  Object {
+    "type": "CHECK_EMAIL",
+  },
+]
+`;
+
+exports[`registration actions, reducers, middleware should handle actions 2`] = `
+Array [
+  Object {
+    "type": "CHECK_EMAIL",
+  },
+  Object {
+    "action": Object {
+      "data": Object {
+        "data": "",
+      },
+      "error": Object {},
+    },
+    "type": "CHECK_EMAIL_SUCCESS",
+  },
+]
+`;
+
+exports[`registration actions, reducers, middleware should handle actions 3`] = `
+Array [
+  Object {
+    "type": "CHECK_EMAIL",
+  },
+  Object {
+    "action": Object {
+      "data": Object {
+        "data": "",
+      },
+      "error": Object {},
+    },
+    "type": "CHECK_EMAIL_SUCCESS",
+  },
+  Object {
+    "action": Object {
+      "data": Object {},
+      "error": Object {
+        "data": "",
+      },
+    },
+    "type": "CHECK_EMAIL_FAILURE",
+  },
+]
+`;
+
+exports[`registration snapshots mail registration renders without crashing 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="login"
+    >
+      <div
+        class="m-0 row"
+      >
+        <div
+          class="bg-white p-4 mt-5 opacity-9 col-sm-4 order-sm-1 offset-sm-7 col-md-4 order-md-1 offset-md-7 col-lg-4 order-lg-1 offset-lg-7"
+        >
+          <div
+            class="m-0 row"
+          >
+            <div
+              class="pl-0 col-sm-8 col-md-8 col-lg-8"
+            >
+              <h3>
+                Register Email
+              </h3>
+              <span
+                class="light-text"
+              >
+                Please register your email with us.
+              </span>
+            </div>
+            <div
+              class="col-sm-4 col-md-4 col-lg-4"
+            >
+              <img
+                alt="Helixsense Portal"
+                class="float-right"
+                src="test-file-stub"
+                width="80"
+              />
+            </div>
+          </div>
+          <form
+            class="mt-3"
+            novalidate=""
+          >
+            <div
+              class="form-group"
+            >
+              <label
+                class="mb-1"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="border-radius-50px form-control"
+                id="email"
+                name="email"
+                placeholder="yourmail@example.com"
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-1"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col-sm-12"
+                >
+                  <button
+                    class="roundCorners p-login float-right ml-2 btn btn-secondary"
+                    type="submit"
+                  >
+                     REGISTER
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`registration snapshots mail registration renders without crashing 2`] = `
+<DocumentFragment>
+  <div
+    class="login"
+  >
+    <div
+      class="m-0 row"
+    >
+      <div
+        class="bg-white p-4 mt-5 opacity-9 col-sm-4 order-sm-1 offset-sm-7 col-md-4 order-md-1 offset-md-7 col-lg-4 order-lg-1 offset-lg-7"
+      >
+        <div
+          class="m-0 row"
+        >
+          <div
+            class="pl-0 col-sm-8 col-md-8 col-lg-8"
+          >
+            <h3>
+              Registration
+            </h3>
+            <span
+              class="light-text"
+            >
+              Please register yourself with us.
+            </span>
+          </div>
+          <div
+            class="col-sm-4 col-md-4 col-lg-4"
+          >
+            <img
+              alt="Helixsense Portal"
+              class="float-right"
+              src="test-file-stub"
+              width="80"
+            />
+          </div>
+        </div>
+        <form
+          class="mt-3"
+        >
+          <div
+            class="form-group"
+          >
+            <label
+              class="mb-1"
+              for="firstName"
+            >
+              First Name
+            </label>
+            <input
+              class="border-radius-50px form-control"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="mb-1"
+              for="lastName"
+            >
+              Last Name
+            </label>
+            <input
+              class="border-radius-50px form-control"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="mb-1"
+              for="workNumber"
+            >
+              Work Number
+            </label>
+            <input
+              class="border-radius-50px form-control"
+              id="workNumber"
+              name="workNumber"
+              placeholder="Work Number"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="mb-1"
+              for="password"
+            >
+              Password
+            </label>
+            <input
+              class="border-radius-50px form-control"
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label
+              class="mb-1"
+              for="repeatPassword"
+            >
+              Re-type Password
+            </label>
+            <input
+              class="border-radius-50px form-control"
+              id="repeatPassword"
+              name="repeatPassword"
+              placeholder="Re-type Password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-1 row"
+          >
+            <div
+              class="col-sm-11 order-sm-11 offset-sm-1"
+            >
+              <button
+                class="roundCorners p-login float-right ml-2 btn btn-secondary"
+                type="submit"
+              >
+                 REGISTER
+              </button>
+              <button
+                class="roundCorners p-login float-right btn btn-secondary"
+                type="button"
+              >
+                BACK
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

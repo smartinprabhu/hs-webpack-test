@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookingActionButton test cases renders booking action button 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="btn-group"
+      role="group"
+    >
+      <button
+        class="pr-0 font-size-xsmall buttonBismark2 btn btn-secondary btn-sm"
+        type="button"
+      >
+        PRE-SCREEN
+      </button>
+      <div
+        class="btn-group btn-group-sm"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="bismark2Dropdown border-r-3 btn btn-secondary"
+          type="button"
+        >
+           | 
+          <span
+            class="circle-dropdown ml-1"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-caret-down fa-w-10 fa-xs mb-1px"
+              data-icon="caret-down"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 320 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+        </button>
+        <div
+          aria-hidden="true"
+          class="dropdown-menu"
+          role="menu"
+          tabindex="-1"
+        >
+          <button
+            class="dropdown-item"
+            role="menuitem"
+            tabindex="0"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

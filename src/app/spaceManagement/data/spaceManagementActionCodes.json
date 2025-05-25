@@ -1,0 +1,8 @@
+{
+    "Edit Space" :"sm_locations_editspaces",
+    "Upload Map" :"sm_locations_uploadmap",
+    "Add Space" :"sm_locations_addspace",
+    "Add Location" :"sm_locations_addlocation",
+    "Remove Location": "sm_locations_removelocation",
+    "Update Location" :"sm_locations_updatelocation"
+}

@@ -1,0 +1,91 @@
+{
+    "companyTypes":[
+        {
+            "value": "person",
+            "label" : "Individual"
+        },
+        {
+            "value": "company",
+            "label" : "Company"
+        }
+    ],
+    "langugages": [
+        {
+            "value": "en_US",
+            "label": "English"
+        },
+        {
+            "value": "es_ES",
+            "label": "Spanish / Espanol"
+        }
+        
+    ],
+    "genders": [
+        {
+            "value": "male",
+            "label": "Male"
+        },
+        {
+            "value": "female",
+            "label": "Female"
+        },
+        {
+            "value": "other",
+            "label": "Other"
+        }
+        
+    ],
+    "visitorTypes": [
+        {
+            "value": "Vendor",
+            "label": "Vendor"
+        },
+        {
+            "value": "Guest",
+            "label": "Guest"
+        }
+        
+    ],
+    "tableColumns": [
+        {
+            "value": "type_category",
+            "label": "Type"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "tableColumnsVendor": [
+        {
+            "value": "email",
+            "label": "Email"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "langugageTypes": {
+        "en_US": {
+            "id": "en_US",
+            "label": "English"
+        },
+        "es_ES": {
+            "id": "es_ES",
+            "label": "Spanish / Espanol"
+       }
+    },
+     "companyTypeNames": {
+        "person": {
+            "id": "person",
+            "label": "Individual"
+        },
+        "company": {
+            "id": "company",
+            "label": "Company"
+       }
+    }
+}

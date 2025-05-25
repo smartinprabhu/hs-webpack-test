@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`myBookings testing MyBookings snapshot testing  1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-12 col-md-12 col-lg-12 col-xl-12"
+      >
+        <div
+          class="h-108 row"
+        >
+          <div
+            class="col-2 col-sm-1 col-md-2 col-lg-1"
+          >
+            <img
+              alt="clock"
+              height="70"
+              src="[object Object]"
+              width="70"
+            />
+          </div>
+          <div
+            class="col-8 col-sm-9 col-md-8 col-lg-9"
+          >
+            <h1
+              class="bookings-header"
+            >
+              My Bookings
+            </h1>
+            <div
+              class="ml-2 light-text"
+            >
+              Here is your overview of your bookings.
+            </div>
+          </div>
+          <div
+            class="mt-4 col-2 col-sm-2 col-md-2 col-lg-2"
+          />
+        </div>
+        <div
+          events="[object Object],[object Object]"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

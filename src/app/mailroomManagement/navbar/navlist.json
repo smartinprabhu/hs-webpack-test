@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/mailroom-overview"
+    },
+    "Operations": {
+      "id": 2,
+      "name": "OPERATIONS",
+      "displayname": "Operations",
+      "pathName": "/mailroom/operations"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/mailroom/reports"
+    },
+    "title": "Mail Room Management"
+  }
+}

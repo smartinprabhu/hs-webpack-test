@@ -1,0 +1,26 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "Visit Request Overview"
+        },
+        {
+            "id": 2,
+            "name": "Feedback Check List"
+        },
+        {
+            "id": 5,
+            "name": "Attachments"
+        },
+        {
+            "id": 7,
+            "name": "Status Logs"
+        },
+        {
+            "id": 6,
+            "name": "Audit Logs"
+        }
+    ]
+       
+}

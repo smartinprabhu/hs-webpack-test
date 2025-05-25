@@ -1,0 +1,38 @@
+{
+    "/": {
+        "title": "Home"
+    },
+    "/bookings": {
+        "title": "Bookings"
+    },
+    "/analytics": {
+        "title": "Analytics"
+    },
+    "/space-management": {
+        "title": "Space Management"
+    },
+    "/maintenance": {
+        "title": "Cleaning Management"
+    },
+    "/booking-management": {
+        "title": "Booking Management"
+    },
+    "/hr/employees": {
+        "title": "HR Settings"
+    },
+    "/forgot-password": {
+        "title": "Forgot Password"
+    },
+    "/reset-password": {
+        "title": "Reset Password"
+    },
+    "/access-qr-scan": {
+        "title": "Access QR Scan"
+    },
+    "/create-new-password": {
+        "title": "Create New Password"
+    },
+    "/registration": {
+        "title": "Registration"
+    }
+}

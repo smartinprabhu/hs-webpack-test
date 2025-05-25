@@ -1,0 +1,40 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Pantry Sequence",
+            "property": "pantry_sequence"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        },        
+        {
+            "heading": "Working Time",
+            "property": "resource_calendar_id"
+        },        
+        {
+            "heading": "Status",
+            "property": "state"
+        },        
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }        
+    ],
+    "dateFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ]
+       
+}

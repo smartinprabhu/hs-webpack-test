@@ -1,0 +1,148 @@
+{
+    "MaterialIssuedStartHeadings": [
+        {
+            "heading": "Sl No",
+            "property": "Sl No"
+        },
+        {
+            "heading": "Material Name",
+            "property": "Material Name"
+        },
+        {
+            "heading": "UOM",
+            "property": "UOM"
+        },
+        {
+            "heading": "Vendor Name",
+            "property": "Vendor Name"
+        },
+        {
+            "heading": "Opening Stock",
+            "property": "Opening Stock"
+        },
+        {
+            "heading": "Stock Ordered",
+            "property": "Stock Ordered"
+        },
+        {
+            "heading": "Total Stock",
+            "property": "Total Stock"
+        }
+    ],
+    "MaterialIssuedEndHeadings": [
+        {
+            "heading": "Total Consumption",
+            "property": "Total Consumption"
+        },
+        {
+            "heading": "Closing Stock",
+            "property": "Closing Stock"
+        },
+        {
+            "heading": "Units/Qty",
+            "property": "Units/Qty"
+        },
+        {
+            "heading": "Unit Rate",
+            "property": "Unit Rate"
+        },
+        {
+            "heading": "Total Cost",
+            "property": "Total Cost"
+        }
+    ],
+    "MaterialReceivedStartHeadings": [
+        {
+            "heading": "Sl No",
+            "property": "Sl No"
+        },
+        {
+            "heading": "Material Name",
+            "property": "Material Name"
+        },
+        {
+            "heading": "UOM",
+            "property": "UOM"
+        },
+        {
+            "heading": "Vendor Name",
+            "property": "Vendor Name"
+        }
+    ],
+    "MaterialReceivedEndHeadings": [
+        {
+            "heading": "Total Stock Received",
+            "property": "Total Stock Received"
+        },
+        {
+            "heading": "Units/Qty",
+            "property": "Units/Qty"
+        },
+        {
+            "heading": "Unit Rate",
+            "property": "Unit Rate"
+        },
+        {
+            "heading": "Total Cost",
+            "property": "Total Cost"
+        }
+    ],
+    "ConsumptionReportdHeadings": [
+        {
+            "heading": "Sl No",
+            "property": "sl_no"
+        },
+        {
+            "heading": "Product Name",
+            "property": "product_name"
+        },
+        {
+            "heading": "Specification",
+            "property": "specification"
+        },
+        {
+            "heading": "Brand",
+            "property": "brand"
+        },
+        {
+            "heading": "Department",
+            "property": "department"
+        },
+        {
+            "heading": "Category",
+            "property": "category"
+        },
+        {
+            "heading": "UOM",
+            "property": "uom"
+        },
+        {
+            "heading": "Vendor Name",
+            "property": "vendor_name"
+        },
+        {
+            "heading": "Opening Stock",
+            "property": "opening_stock"
+        },
+        {
+            "heading": "Inward Stock",
+            "property": "inward_stock"
+        },
+        {
+            "heading": "Consumption",
+            "property": "consumption"
+        },
+        {
+            "heading": "Closing Stock",
+            "property": "closing_stock"
+        },
+        {
+            "heading": "Unit Rate",
+            "property": "unit_rate"
+        },
+        {
+            "heading": "Total Consumption Cost",
+            "property": "total_consumption_cost"
+        }
+    ]
+}

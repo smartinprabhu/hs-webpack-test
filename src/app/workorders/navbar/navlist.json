@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/workorders-overview"
+    },
+    "Work Orders": {
+      "id": 2,
+      "name": "WORKORDER",
+      "displayname": "Work Orders",
+      "pathName": "/maintenance/workorders"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/workorders/reports"
+    },
+    "title": "Work Orders"
+  }
+}

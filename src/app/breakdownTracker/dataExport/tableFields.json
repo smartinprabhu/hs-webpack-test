@@ -1,0 +1,138 @@
+{
+    "fields": [
+    {
+    "heading": "ID",
+    "property": "id"
+    },
+    {
+        "heading": "Site",
+        "property": "company_id"
+    },
+    {
+        "heading": "Status",
+        "property": "state_id"
+    },
+    {
+        "heading": "Incident Date",
+        "property": "incident_date"
+    },
+    {
+        "heading": "Title",
+        "property": "title"
+    },
+    {
+        "heading": "Criticality",
+        "property": "ciriticality"
+    },
+    {
+        "heading": "Priority",
+        "property": "priority"
+    },
+    {
+        "heading": "Service Category",
+        "property": "service_category_id"
+    },
+    {
+        "heading": "Asset",
+        "property": "equipment_id"
+    },
+    {
+        "heading": "Incident Age",
+        "property": "incident_age"
+    },
+    {
+        "heading": "Is Service Impacted?",
+        "property": "is_service_impacted"
+    },
+    {
+        "heading": "Complaint No",
+        "property": "complaint_no"
+    },
+    {
+    "heading": "Reference",
+    "property": "name"
+    },
+    {
+    "heading": "Action Taken",
+    "property": "action_taken"
+    },
+    {
+    "heading": "Raised By",
+    "property": "raised_by_id"
+    },
+    {
+    "heading": "Space",
+    "property": "space_id"
+    },
+    {
+    "heading": "Attended On",
+    "property": "attended_on"
+    },
+    {
+    "heading": "Closed On",
+    "property": "closed_on"
+    },
+    {
+        "heading": "Expected Closure Date",
+        "property": "expexted_closure_date"
+    },
+    {
+        "heading": "Description",
+        "property": "description_of_breakdown"
+    },
+    {
+        "heading": "Last Comment",
+        "property": "last_comments"
+    }
+    ],
+
+
+    "idFields": [
+    {
+    "heading": "ID",
+    "property": "id"
+    }
+    ],
+    "createdFields": [
+    {
+    "heading": "Created On",
+    "property": "create_date"
+    }
+    ],
+    "resultField": [
+    {
+    "heading": "Results in Statutory Non-Compliance?",
+    "property": "is_results_in_statutory_non_compliance"
+    }
+    ],
+    "typeField": [
+    {
+    "heading": "Type",
+    "property": "type"
+    }
+    ],
+    "amcField": [
+    {
+    "heading": "AMC Status",
+    "property": "amc_status"
+    }
+    ],
+    "vendorNameField": [
+    {
+    "heading": "Vendor Name",
+    "property": "vendor_name"
+    }
+    ],
+    "vendorField": [
+    {
+    "heading": "Vendor FSR Number (Field Service Number)",
+    "property": "vendor_sr_number"
+    }
+    ],
+    "remarkField": [
+        {
+        "heading": "Remarks",
+        "property": "remarks"
+        }
+    ]
+    }

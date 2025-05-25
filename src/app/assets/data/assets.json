@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "category_id": [
+                6231,
+                "Electrical"
+            ],
+            "id": 100571,
+            "name": "Bulb",
+            "state": "mn",
+            "vendor_id": false
+        },
+        {
+            "category_id": [
+                6231,
+                "Electrical"
+            ],
+            "id": 100570,
+            "name": "Bulb",
+            "state": "mn",
+            "vendor_id": false
+        },
+        {
+            "category_id": [
+                6231,
+                "Electrical"
+            ],
+            "id": 100569,
+            "name": "Bulb",
+            "state": "mn",
+            "vendor_id": false
+        },
+        {
+            "category_id": [
+                6231,
+                "Electrical"
+            ],
+            "id": 100566,
+            "name": "Fan#1",
+            "state": "mn",
+            "vendor_id": false
+        }
+    ],
+    "error": {},
+    "length": 4,
+    "status": true
+}

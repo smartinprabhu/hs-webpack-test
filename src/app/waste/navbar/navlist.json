@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/waste-overview"
+    },
+    "Trackers": {
+      "id": 2,
+      "name": "WASTE TRACKER",
+      "displayname": "Waste Trackers",
+      "pathName": "/waste-trackers"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/waste-reports"
+    },
+    "title": "Waste Tracker"
+  }
+}

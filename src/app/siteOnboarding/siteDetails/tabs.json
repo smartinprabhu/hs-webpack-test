@@ -1,0 +1,12 @@
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Configuration"
+        },
+        {
+            "id": 2,
+            "name": "Maintenance Checklist"
+        }
+    ]
+}

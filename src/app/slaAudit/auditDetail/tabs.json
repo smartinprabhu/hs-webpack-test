@@ -1,0 +1,36 @@
+
+{
+    "tabsList": [ 
+         {
+            "id": 1,
+            "name": "SLA/KPI"
+        },
+        {
+            "id": 2,
+            "name": "Audit Log"
+        },
+        {
+            "id": 3,
+            "name": "Additional Info"
+        }
+    ],
+    "tabsSubList": [ 
+        {
+            "id": 1,
+            "name": "Summary"
+        },
+         {
+            "id": 2,
+            "name": "SLA/KPI"
+        },
+        {
+            "id": 3,
+            "name": "Audit Log"
+        },
+        {
+            "id": 4,
+            "name": "Additional Info"
+        }
+    ]
+       
+}

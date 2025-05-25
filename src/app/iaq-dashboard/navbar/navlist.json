@@ -1,0 +1,25 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "",
+      "displayname": "Insights",
+      "compareName": "Insights",
+      "pathName": "/iaq-dashboard"
+    },
+    "Analytics": {
+      "id": 1,
+      "name": "",
+      "displayname": "Analytics",
+      "compareName": "Analytics",
+      "pathName": "/iaq-dashboard/iaq-analytics-overview"
+    },
+    "SLD": {
+      "id": 1,
+      "name": "",
+      "displayname": "SLD",
+      "compareName": "SLD",
+      "pathName": "/iaq-dashboard/iaq-sld-overview"
+    }
+  }
+}

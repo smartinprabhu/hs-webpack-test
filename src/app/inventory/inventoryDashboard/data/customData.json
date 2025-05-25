@@ -1,0 +1,50 @@
+{
+    "dashboardStatus": {
+        "TP": {
+            "id": "TP",
+            "label": "Total Products",
+            "tags":[{
+                "key": "state",
+                "value": "Ordered",
+                "label": "New Orders",
+                "type": "inarray"
+            }]
+        },
+        "TIT": {
+            "id": "incoming",
+            "label": "Incoming Transfers",
+            "tags":[
+                {
+                    "key": "picking_type_code",
+                    "value": "incoming",
+                    "label": "Transfers",
+                    "type": "text"
+                }
+            ]
+        },
+        "TINT": {
+            "id": "internal",
+            "label": "Internal Transfers",
+            "tags":[
+                {
+                    "key": "picking_type_code",
+                    "value": "internal",
+                    "label": "Transfers",
+                    "type": "text"
+                }
+            ]
+        },
+        "TSO": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "tags":[
+                {
+                    "key": "state",
+                    "value": "Cancelled",
+                    "label": "Cancelled",
+                    "type": "inarray"
+                }
+            ]
+       }    
+    }
+}

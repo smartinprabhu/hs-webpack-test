@@ -1,0 +1,14 @@
+[
+    {
+        "value": "Conference Room",
+        "label": "Conference Room"
+      },
+      {
+        "value": "Office Room",
+        "label": "Office Room"
+      },
+      {
+        "value": "Workstation Area",
+        "label": "Workstation Area"
+      }
+  ]

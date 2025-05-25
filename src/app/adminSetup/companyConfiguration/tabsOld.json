@@ -1,0 +1,36 @@
+{
+    "tabsList": {
+        "Company Configuration": {
+            "id": 1,
+            "name": "COMPANY INFO"
+        },
+        "Sites": {
+            "id": 2,
+            "name": "SITES"
+        },
+        "Users": {
+            "id": 3,
+            "name": "ADMIN USER"
+        },
+        "Teams": {
+            "id": 4,
+            "name": "TEAMS"
+        },
+        "Team Members": {
+            "id": 5,
+            "name": "TEAM MEMBERS"
+        },
+        "User Access Logs": {
+            "id": 6,
+            "name": "USER ACCESS LOGS"
+        },
+        "Shifts": {
+            "id": 7,
+            "name": "SHIFTS"
+        },
+        "Tenants": {
+            "id": 8,
+            "name": "TENANTS"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Essential",
+        "rate": "1",
+        "cost": "15",
+        "modules": [
+            {
+                "name": "Helpdesk",
+                "icon": true
+             },
+             {
+                "name": "Workorders",
+                "icon": true
+             },
+             {
+                "name": "Assets Registery",
+                "icon": true
+             },
+             {
+                "name": "Preventive Maintenance",
+                "icon": true
+             }
+         ]
+      },
+      {
+        "id": 2,
+        "name": "Professional",
+        "rate": "2",
+        "cost": "20",
+        "modules": [
+            {
+                "name": "All Essential +",
+                "icon": false
+             },
+             {
+                "name": "Purchase",
+                "icon": true
+             },
+             {
+                "name": "Analytics",
+                "icon": true
+             }
+         ]
+      },
+      {
+        "id": 3,
+        "name": "Insightful",
+        "rate": "3",
+        "cost": "25",
+        "modules": [
+            {
+                "name": "All Essential +",
+                "icon": false
+             },
+             {
+                "name": "IOT System",
+                "icon": true
+             },
+             {
+                "name": "Advanced Analytics",
+                "icon": true
+             }
+         ]
+      }
+    ]
+  }

@@ -1,0 +1,201 @@
+{
+    "fields": [
+        {
+            "label": "Reference",
+            "value": "name"
+        },
+        {
+            "label": "Partner",
+            "value": "partner_id.name"
+        },
+        {
+            "label": "PO/SO No",
+            "value": "origin"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "tableColumns": [
+        {
+            "value": "picking_type_id",
+            "label": "Operation Type"
+        },
+        {
+            "value": "location_id",
+            "label": "Source Location"
+        },
+        {
+            "value": "location_dest_id",
+            "label": "Destination Location"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Reference",
+            "accessor": "name"
+        },
+        {
+            "Header": "Vendor",
+            "accessor": "partner_id"
+        },
+        {
+            "accessor": "requested_on",
+            "Header": "Requested on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "note",
+            "Header": "Description"
+        },
+        {
+            "accessor": "request_state",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "accessor": "dc_no",
+            "Header": "DC#"
+        },
+        {
+            "accessor": "po_no",
+            "Header": "PO#"
+        },
+        {
+            "accessor": "expires_on",
+            "Header": "Expiry Date"
+        },
+        {
+            "accessor": "location_id",
+            "Header": "Source Location"
+        },
+        {
+            "accessor": "location_dest_id",
+            "Header": "Destination Location"
+        }
+    ],
+    "outColumns": [
+        {
+            "Header": "Reference",
+            "accessor": "name"
+        },
+        {
+            "Header": "Vendor",
+            "accessor": "partner_id"
+        },
+        {
+            "accessor": "requested_on",
+            "Header": "Requested on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "note",
+            "Header": "Description"
+        },
+        {
+            "accessor": "request_state",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "accessor": "dc_no",
+            "Header": "DC#"
+        },
+        {
+            "accessor": "po_no",
+            "Header": "PO#"
+        },
+        {
+            "accessor": "location_id",
+            "Header": "Source Location"
+        },
+        {
+            "accessor": "location_dest_id",
+            "Header": "Destination Location"
+        }
+    ],
+    "intColumns": [
+        {
+            "Header": "Reference",
+            "accessor": "name"
+        },
+        {
+            "Header": "Use In",
+            "accessor": "use_in"
+        },
+        {
+            "accessor": "request_state",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "Header": "Asset",
+            "accessor": "asset_id"
+        },
+        {
+            "Header": "Location",
+            "accessor": "space_id"
+        },
+        {
+            "Header": "Employee",
+            "accessor": "employee_id"
+        },
+        {
+            "Header": "Department",
+            "accessor": "department_id"
+        },
+        {
+            "accessor": "requested_on",
+            "Header": "Requested on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "note",
+            "Header": "Description"
+        },
+        {
+            "accessor": "expires_on",
+            "Header": "Expiry Date"
+        },
+        {
+            "accessor": "location_id",
+            "Header": "Source Location"
+        },
+        {
+            "accessor": "location_dest_id",
+            "Header": "Destination Location"
+        }
+    ]
+}

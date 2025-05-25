@@ -1,0 +1,11 @@
+{
+  "data": {
+    "Environment": {
+      "id": 1,
+      "name": "Environment",
+      "displayname": "Environment",
+      "compareName": "Environment",
+      "pathName": "/environment"
+    }
+      }
+}

@@ -1,0 +1,29 @@
+{
+    "reportList": [
+        {
+            "id": 1,
+            "name": "Audit Report",
+            "label": "Audit Report"
+        },
+        {
+            "id": 2,
+            "name": "Warranty Age Report",
+            "label": "Warranty Age Report"
+        },
+        {
+            "id": 3,
+            "name": "Asset Audit - Availability Report",
+            "label": "Asset Audit - Availability Report"
+        },
+        {
+            "id": 4,
+            "name": "Asset Audit - Misplaced Assets",
+            "label": "Asset Audit - Misplaced Assets"
+        },
+        {
+            "id": 5,
+            "name": "Shift Handover Report",
+            "label": "Shift Handover Report"
+        }
+    ]
+}

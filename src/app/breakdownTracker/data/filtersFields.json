@@ -1,0 +1,167 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Site",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state_id",
+            "func": true
+        },
+        {
+            "Header": "Incident Date",
+            "accessor": "incident_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Title",
+            "accessor": "title"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority"
+        },
+        {
+            "Header": "Service Category",
+            "accessor": "service_category_id"
+        },
+        {
+            "Header": "Asset",
+            "accessor": "equipment_id"
+        },
+        {
+            "Header": "Incident Age",
+            "accessor": "incident_age"
+        },
+        {
+            "Header": "Is Service Impacted?",
+            "accessor": "is_service_impacted",
+            "optionFunction": true
+        },
+        {
+            "Header": "Complaint No",
+            "accessor": "complaint_no"
+        },
+        {
+            "Header": "Reference",
+            "accessor": "name"
+        },
+        {
+            "Header": "Action Taken",
+            "accessor": "action_taken"
+        },
+        {
+            "Header": "Raised By",
+            "accessor": "raised_by_id"
+        },
+        {
+            "Header": "Space",
+            "accessor": "space_id"
+        },
+        {
+            "Header": "Attended On",
+            "accessor": "attended_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Closed On",
+            "accessor": "closed_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+         {
+            "Header": "Expected Closure Date",
+            "accessor": "expexted_closure_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Created On",
+            "accessor": "create_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Results in Statutory Non-Compliance?",
+            "accessor": "is_results_in_statutory_non_compliance",
+            "optionFunction": true
+        },
+        {
+            "Header": "Remarks",
+            "accessor": "remarks"
+        },
+        {
+            "Header": "Description",
+            "accessor": "description_of_breakdown"
+        },
+        {
+            "Header": "Last Comment",
+            "accessor": "last_comments"
+        },
+        {
+            "Header": "Type",
+            "accessor": "type"
+        },
+        {
+            "Header": "AMC Status",
+            "accessor": "amc_status"
+        },
+        {
+            "Header": "Vendor Name",
+            "accessor": "vendor_name"
+        },
+        {
+            "Header": "Vendor FSR Number (Field Service Number)",
+            "accessor": "vendor_sr_number"
+        }
+    ]
+}

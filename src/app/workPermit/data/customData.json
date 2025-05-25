@@ -1,0 +1,426 @@
+{
+    "listNatureFieldsColumns": [
+        "name",
+        "task_id",
+        "preparedness_checklist_id",
+        "approval_authority_id",
+        "ehs_authority_id",
+        "security_office_id",
+        "type_of_request",
+        "is_can_be_extended"
+    ],
+    "listfieldsShows": [
+        "reference",
+        "name",
+        "vendor_id",
+        "state",
+        "planned_start_time",
+        "planned_end_time",
+        "space_id",
+        "equipment_id",
+        "nature_work_id"
+    ],
+    "tableColumns": [
+        {
+            "value": "requestor_id",
+            "label": "Requestor"
+        },
+        {
+            "value": "maintenance_team_id",
+            "label": "Maintenance Team"
+        },
+        {
+            "value": "type",
+            "label": "Type"
+        },
+        {
+            "value": "duration",
+            "label": "Duration"
+        }
+    ],
+    "tableColumnsNature": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "ehs_instructions",
+            "label": "EHS Instructions"
+        }
+    ],
+    "inspectionType": [
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "Space",
+            "label": "Space"
+        }
+    ],
+    "inspectionTypeText": {
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        }
+    },
+    "requestType": [
+        {
+            "value": "Special",
+            "label": "Special"
+        },
+        {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        {
+            "value": "Normal",
+            "label": "General"
+        }
+    ],
+    "requestTypeText": {
+        "Special": {
+            "value": "Special",
+            "label": "Special"
+        },
+        "Night Work": {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        "Normal": {
+            "value": "Normal",
+            "label": "Normal"
+        }
+    },
+    "states": [
+        {
+            "value": "Requested",
+            "label": "Requested"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Prepared",
+            "label": "Prepared"
+        },
+        {
+            "value": "Issued Permit",
+            "label": "Issued Permit"
+        },
+        {
+            "value": "Validated",
+            "label": "Validated"
+        },
+        {
+            "value": "Work In Progress",
+            "label": "Work In Progress"
+        },
+        {
+            "value": "On Hold",
+            "label": "On Hold"
+        },
+        {
+            "value": "Cancel",
+            "label": "Cancelled"
+        },
+        {
+            "value": "Closed",
+            "label": "Closed"
+        },
+        {
+            "value": "Permit Rejected",
+            "label": "Permit Rejected"
+        },
+        {
+            "value": "Elapsed",
+            "label": "Elapsed"
+        }
+    ],
+    "validStatsus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Not Valid",
+            "label": "Not Valid"
+        }
+    ],
+    "statesLabel": {
+        "Requested": {
+            "id": "Requested",
+            "label": "Requested",
+            "color": "info"
+        },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved",
+            "color": "warning"
+        },
+        "Prepared": {
+            "id": "Prepared",
+            "label": "Prepared",
+            "color": "primary"
+        },
+        "Issued Permit": {
+            "id": "Issued Permit",
+            "label": "Issued Permit",
+            "color": "secondary"
+        },
+        "Validated": {
+            "id": "Validated",
+            "label": "Validated",
+            "color": "success"
+        },
+        "Work In Progress": {
+            "id": "Work In Progress",
+            "label": "Work In Progress",
+            "color": "primary"
+        },
+        "Permit Rejected": {
+            "id": "Permit Rejected",
+            "label": "Permit Rejected",
+            "color": "info"
+        },
+        "Closed": {
+            "id": "Closed",
+            "label": "Closed",
+            "color": "danger"
+        },
+        "Elapsed": {
+            "value": "Elapsed",
+            "label": "Elapsed",
+            "color": "danger"
+        },
+        "On Hold": {
+            "id": "On Hold",
+            "label": "On Hold",
+            "color": "warning"
+        },
+        "Cancel": {
+            "id": "Cancel",
+            "label": "Cancelled",
+            "color": "danger"
+        }
+    },
+    "dashboardStatus": {
+        "RQ": {
+            "id": "Requested",
+            "label": "Requested",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Requested",
+                    "label": "Requested",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "IP": {
+            "id": "Issued Permit",
+            "label": "Issued Permit",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Issued Permit",
+                    "label": "Issued Permit",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "AP": {
+            "id": "All Permits",
+            "label": "All Permits",
+            "tags": [
+                {
+                    "value": "All Permits",
+                    "title": "Status",
+                    "label": "All Permits"
+                }
+            ]
+        }
+    },
+    "actionItems": [
+        {
+            "id": 1,
+            "name": "AUTHORIZE",
+            "displayname": "Approve"
+        },
+        {
+            "id": 2,
+            "name": "PREPARE",
+            "displayname": "Prepare"
+        },
+        {
+            "id": 3,
+            "name": "ISSUEPERMIT",
+            "displayname": "Issue Permit"
+        },
+        {
+            "id": 4,
+            "name": "VALIDATE",
+            "displayname": "Validate"
+        },
+        {
+            "id": 5,
+            "name": "REVIEW",
+            "displayname": "Review"
+        },
+        {
+            "id": 6,
+            "name": "PRINTPDF",
+            "displayname": "Print PDF"
+        },
+        {
+            "id": 7,
+            "name": "EXTEND",
+            "displayname": "Extend"
+        },
+        {
+            "id": 8,
+            "name": "PREPARELIST",
+            "displayname": "Prepare Checklists"
+        },
+        {
+            "id": 13,
+            "name": "IPCHECKLIST",
+            "displayname": "Perform Issue Permit Checklists"
+        },
+        {
+            "id": 9,
+            "name": "PERFORMLIST",
+            "displayname": "Perform Work Checklist"
+        },
+        {
+            "id": 10,
+            "name": "On Hold",
+            "displayname": "On Hold"
+        },
+        {
+            "id": 11,
+            "name": "Resume",
+            "displayname": "Resume"
+        },
+        {
+            "id": 12,
+            "name": "Cancel",
+            "displayname": "Cancel"
+        }
+    ],
+    "actionTypes": {
+        "Approve": {
+            "value": "action_authorized",
+            "text": "Approve",
+            "msg": "Approved",
+            "button": "Approve"
+        },
+        "Prepare": {
+            "value": "action_prepared",
+            "text": "Prepare",
+            "msg": "Prepared",
+            "button": "Prepare"
+        },
+        "Issue Permit": {
+            "value": "action_permit",
+            "text": "Issue Permit",
+            "msg": "Issue Permit",
+            "button": "Issue Permit"
+        },
+        "Validate": {
+            "value": "action_validated",
+            "text": "Validate",
+            "msg": "Validated",
+            "button": "Validate"
+        },
+        "On Hold": {
+            "value": "action_onhold",
+            "text": "On Hold",
+            "msg": "On Hold",
+            "button": "On Hold"
+        },
+        "Resume": {
+            "value": "action_resume",
+            "text": "Resume",
+            "msg": "resumed",
+            "button": "Resume"
+        },
+        "Cancel": {
+            "value": "action_cancel",
+            "text": "Cancel",
+            "msg": "Cancelled",
+            "button": "Cancel"
+        },
+        "Review": {
+            "value": "Review",
+            "text": "Review",
+            "msg": "Reviewed",
+            "button": "Review"
+        }
+    },
+    "typeRequest": [
+        {
+            "value": "Special",
+            "label": "Special"
+        },
+        {
+            "value": "Night Work",
+            "label": "Night Work"
+        },
+        {
+            "value": "Normal",
+            "label": "General"
+        }
+    ],
+    "customStatusMap": {
+        "Requested": "requested_status",
+        "Approved": "approved_status",
+        "On Hold": "on_hold_status",
+        "Prepared": "prepared_status",
+        "Issued Permit": "issued_permit_status",
+        "Validated": "validated_status",
+        "Work In Progress": "work_in_progress_status",
+        "Permit Rejected": "permit_rejected_status",
+        "Closed": "closed_status",
+        "Elapsed": "elapsed_status",
+        "Cancelled": "cancel_status",
+        "Approve": "approved_status",
+        "Prepare": "prepared_status",
+        "Issue Permit": "issued_permit_status",
+        "Validate": "validated_status",
+        "Cancel": "cancel_status"
+    },
+    "customButtonMap": {
+        "Requested": "requested_button",
+        "Approve": "approved_button",
+        "On Hold": "on_hold_button",
+        "Prepare": "prepared_button",
+        "Issue Permit": "issued_permit_button",
+        "Validate": "validated_button",
+        "Work In Progress": "work_in_progress_button",
+        "Permit Rejected": "permit_rejected_button",
+        "Closed": "closed_button",
+        "Elapsed": "elapsed_button",
+        "Cancel": "cancel_button"
+    }
+}

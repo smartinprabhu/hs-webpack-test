@@ -1,0 +1,53 @@
+
+{
+    "fields": [
+        {
+            "heading": "S.no",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Type",
+            "property": "performed_by"
+        },
+        {
+            "heading": "Asset Id",
+            "property": "asset_code"
+        },
+        {
+            "heading": "Schedule",
+            "property": "schedule_period_name"
+        },
+        {
+            "heading": "Compliance Type",
+            "property": "compliance_type"
+        },
+        {
+            "heading": "Asset",
+            "property": "asset_name"
+        },
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_name"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_name"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Starts On",
+            "property": "starts_on"
+        },
+        {
+            "heading": "Ends On",
+            "property": "ends_on"
+        }
+    ]
+}

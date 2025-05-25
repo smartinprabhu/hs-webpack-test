@@ -1,0 +1,76 @@
+{
+    "productListAccess": [
+        {
+            "value": "Own Site Level",
+            "label": "Own Site Level"
+        },
+        {
+            "value": "Company Level",
+            "label": "Company Level"
+        }
+    ],
+    "requestStatus": [
+        {
+            "value": "Requested",
+            "label": "Requested"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Rejected",
+            "label": "Rejected"
+        },
+        {
+            "value": "Delivered",
+            "label": "Delivered"
+        }
+    ],
+    "typeStatus": [
+        {
+            "value": "incoming",
+            "label": "Inward"
+        },
+        {
+            "value": "outgoing",
+            "label": "Outward"
+        },
+        {
+            "value": "internal",
+            "label": "Consumption"
+        }
+    ],
+    "stateText": {
+        "Requested": {
+            "value": "Requested",
+            "label": "Requested"
+        },
+        "Approved": {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        "Rejected": {
+            "value": "Rejected",
+            "label": "Rejected"
+        },
+        "Delivered": {
+            "value": "Delivered",
+            "label": "Delivered"
+        }
+    },
+    "typeText": {
+        "incoming": {
+            "value": "incoming",
+            "label": "Inward"
+        },
+        "outgoing": {
+            "value": "outgoing",
+            "label": "Outward"
+        },
+        "internal": {
+            "value": "internal",
+            "label": "Consumption"
+        }
+    }
+}

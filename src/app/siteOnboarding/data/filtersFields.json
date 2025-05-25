@@ -1,0 +1,82 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },       
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }  
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [ 
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },     
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Parent Site",
+            "accessor": "parent_id"
+        },
+        {
+            "Header": "Site Category",
+            "accessor": "res_company_categ_id"
+        },
+        {
+            "Header": "Code",
+            "accessor": "code"
+        },
+        {
+            "Header": "Total Area",
+            "accessor": "area_sqft"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "city",
+            "Header": "City"
+        }
+    ]
+       
+}

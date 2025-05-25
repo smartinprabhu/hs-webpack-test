@@ -1,0 +1,90 @@
+{
+    "requestStatus": [
+        {
+            "value": "Requested",
+            "label": "Requested"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Prepared",
+            "label": "Prepared"
+        },
+        {
+            "value": "Issued Permit",
+            "label": "Issued Permit"
+        },
+        {
+            "value": "Validated",
+            "label": "Validated"
+        },
+        {
+            "value": "Closed",
+            "label": "Closed"
+        },
+        {
+            "value": "Permit Rejected",
+            "label": "Permit Rejected"
+        }
+    ],
+    "typeStatus": [
+       {
+            "value": "By SMS",
+            "label": "By SMS"
+        },
+        {
+            "value": "By Email",
+            "label": "By Email"
+        },
+        {
+            "value": "By Push Notification",
+            "label": "By Push Notification"
+        }
+    ],
+    "stateWPText": {
+        "Requested": {
+            "value": "Requested",
+            "label": "Requested"
+        },
+        "Approved": {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        "Prepared": {
+            "value": "Prepared",
+            "label": "Prepared"
+        },
+        "Issued Permit": {
+            "value": "Issued Permit",
+            "label": "Issued Permit"
+        },
+        "Validated": {
+            "value": "Validated",
+            "label": "Validated"
+        },
+        "Closed": {
+            "value": "Closed",
+            "label": "Closed"
+        },
+        "Permit Rejected": {
+            "value": "Permit Rejected",
+            "label": "Permit Rejected"
+        }
+    },
+    "typeWPText": {
+        "By SMS": {
+            "value": "By SMS",
+            "label": "By SMS"
+        },
+        "By Email": {
+            "value": "By Email",
+            "label": "By Email"
+        },
+        "By Push Notification": {
+            "value": "By Push Notification",
+            "label": "By Push Notification"
+        }
+    }
+}

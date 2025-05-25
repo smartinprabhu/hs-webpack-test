@@ -1,0 +1,26 @@
+{
+    "data": {
+      "Site Configuration": {
+        "id": 1,
+        "name": "SITE_CONFIGURATION",
+        "displayname": "Site Configuration",
+        "pathName": "/site-configuration",
+        "compareName": "Company Configuration"
+      },
+      "Asset Configuration": {
+        "id": 2,
+        "name": "ASSET_CONFIGURATION",
+        "displayname": "Asset Configuration",
+        "pathName": "/asset-configuration",
+        "compareName": "Asset Configuration"
+      },
+      "Maintenance": {
+        "id": 3,
+        "name": "MAINTENANCE",
+        "displayname": "Maintenance",
+        "pathName": "/maintenance-configuration",
+        "compareName": "Maintenance"
+      }
+    },
+    "title": "Admin Setup"
+  }

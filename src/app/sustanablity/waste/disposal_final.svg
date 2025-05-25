@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title/>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m22,6l-17,0l-4,9l0,9l5,0a3,3 0 0 1 6,0l8.53,0a2.47,2.47 0 0 0 2.47,-2.47l0,-14.53a1,1 0 0 0 -1,-1z" fill="#ff8100" id="svg_1" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="9" cy="24" fill="none" id="svg_2" r="3" stroke="#0f0d0d" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="25" cy="24" fill="none" id="svg_3" r="3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line fill="none" id="svg_4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="21" x2="13" y1="24" y2="24"/>
+  <path d="m28.65,24l1.99,0a1.11,1 0 0 0 1.11,-1l0,-7l-0.7,-4.42a3.32,3 0 0 0 -3.29,-2.58l-3.77,0" fill="#ff8100" id="svg_5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m5,24l-4,0l0,-9l4,-9l17,0a1,1 0 0 1 1,1l0,11.4" fill="#ff8100" id="svg_6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline fill="none" id="svg_7" points="26,10 26,16 30.838222600858444,16 " stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+  <line fill="none" id="svg_8" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="11" x2="3" y1="6.7" y2="23.5"/>
+  <circle cx="14" cy="11" fill="none" id="svg_9" r="1" stroke="#000000" stroke-miterlimit="10"/>
+  <line fill="none" id="svg_10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)" x1="5" x2="12.88" y1="13" y2="11.37"/>
+  <line fill="none" id="svg_11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" x1="30" x2="29" y1="20" y2="20"/>
+  <path d="m5.98,23.97l0,0c0,-1.69 1.37,-3.06 3.06,-3.06l0,0c0.81,0 1.59,0.32 2.16,0.9c0.57,0.57 0.9,1.35 0.9,2.16l0,0c0,1.69 -1.37,3.06 -3.06,3.06l0,0c-1.69,0 -3.06,-1.37 -3.06,-3.06zm1.53,0l0,0c0,0.84 0.68,1.53 1.53,1.53c0.84,0 1.53,-0.68 1.53,-1.53c0,-0.84 -0.68,-1.53 -1.53,-1.53l0,0c-0.84,0 -1.53,0.68 -1.53,1.53z" fill="#b7620c" id="svg_12" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m22.07,23.93l0,0c0,-1.62 1.33,-2.93 2.98,-2.93l0,0c0.79,0 1.55,0.31 2.1,0.86c0.56,0.55 0.87,1.3 0.87,2.07l0,0c0,1.62 -1.33,2.93 -2.98,2.93l0,0c-1.64,0 -2.98,-1.31 -2.98,-2.93zm1.49,0l0,0c0,0.81 0.67,1.47 1.49,1.47c0.82,0 1.49,-0.66 1.49,-1.47c0,-0.81 -0.67,-1.47 -1.49,-1.47l0,0c-0.82,0 -1.49,0.66 -1.49,1.47z" fill="#b7620c" id="svg_14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+</svg>

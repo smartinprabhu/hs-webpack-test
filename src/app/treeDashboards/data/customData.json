@@ -1,0 +1,183 @@
+{
+    "tree": {
+        "show_expand_close": true,
+        "avatarbgcolor": "#234232",
+        "avatartextcolor": "#234234"
+    },
+    "data": [
+        {
+            "id": 1,
+            "label": "GE",
+            "show": "dashboard",
+            "source": "12",
+            "target": "inline",
+            "dashboard_code": "COMPANYHOME",
+            "domain": "",
+            "avatar": "H",
+            "equipment_id": "GEHS-E-00032",
+            "space_id": "GESH-A-00089",
+            "children": [
+                {
+                    "id": 2,
+                    "label": "HT Yard",
+                    "show": "none",
+                    "source": "16",
+                    "no_information":"jhhgghghgffggf",
+                    "target": "inline",
+                    "dashboard_code": "COMPSUMMARY",
+                    "avatar": "H",
+                    "equipment_id": "GEHS-E-00032",
+                    "space_id": "GESH-A-00089"
+                },
+                {
+                    "id": 3,
+                    "label": "Electrical",
+                    "show": "equipment",
+                    "source": "12",
+                    "target": "inline",
+                    "dashboard_code": "COMPSUMMARY",
+                    "avatar": "H",
+                    "equipment_id": "GEHS-E-00032",
+                    "space_id": "GESH-A-00089",
+                    "children": [
+                        {
+                            "id": 4,
+                            "label": "Meter 101",
+                            "show": "dashboard",
+                            "source": "12",
+                            "target": "inline",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "GEHS-E-00032",
+                            "space_id": "GESH-A-00089"
+                        },
+                        {
+                            "id": 5,
+                            "label": "Meter 102",
+                            "show": "equipment",
+                            "source": "12",
+                            "target": "drawer",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "197663",
+                            "space_id": "GESH-A-00089",
+                            "children": [
+                                {
+                                    "id": 41,
+                                    "label": "Meter 101",
+                                    "show": "dashboard",
+                                    "source": "12",
+                                    "target": "inline",
+                                    "dashboard_code": "COMPSUMMARY",
+                                    "avatar": "H",
+                                    "equipment_id": "GEHS-E-00032",
+                                    "space_id": "GESH-A-00089"
+                                },
+                                {
+                                    "id": 52,
+                                    "label": "Meter 102",
+                                    "show": "equipment",
+                                    "source": "12",
+                                    "target": "inline",
+                                    "dashboard_code": "COMPSUMMARY",
+                                    "avatar": "H",
+                                    "equipment_id": "GEHS-E-00032",
+                                    "space_id": "GESH-A-00089"
+                                },
+                                {
+                                    "id": 212,
+                                    "label": "Jane Fisher",
+                                    "has_dashboard": true,
+                                    "dashboard_source": "16",
+                                    "dashboard_code": "COMPSUMMARY",
+                                    "avatar": "H",
+                                    "equipment_id": "GEHS-E-00032",
+                                    "space_id": "GESH-A-00089"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 21,
+                            "label": "Jane Fisher",
+                            "has_dashboard": true,
+                            "dashboard_source": "16",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "GEHS-E-00032",
+                            "space_id": "GESH-A-00089"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "label": "GE2",
+            "show": "dashboard",
+            "source": "16",
+            "target": "drawer",
+            "dashboard_code": "COMPSUMMARY",
+            "avatar": "H",
+            "equipment_id": "GEHS-E-00032",
+            "space_id": "GESH-A-00089",
+            "children": [
+                {
+                    "id": 7,
+                    "label": "HT Yard",
+                    "show": "dashboard|equipment|space|none",
+                    "source": "16",
+                    "target": "drawer|inline",
+                    "dashboard_code": "COMPSUMMARY",
+                    "avatar": "H",
+                    "equipment_id": "GEHS-E-00032",
+                    "space_id": "GESH-A-00089"
+                },
+                {
+                    "id": 8,
+                    "label": "Electrical",
+                    "show": "space",
+                    "source": "12",
+                    "target": "inline",
+                    "dashboard_code": "COMPSUMMARY",
+                    "avatar": "H",
+                    "equipment_id": "GEHS-E-00032",
+                    "space_id": "GESH-A-00089",
+                    "children": [
+                        {
+                            "id": 41,
+                            "label": "Meter 101",
+                            "show": "dashboard",
+                            "source": "12",
+                            "target": "inline",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "GEHS-E-00032",
+                            "space_id": "GESH-A-00089"
+                        },
+                        {
+                            "id": 52,
+                            "label": "Meter 102",
+                            "show": "equipment",
+                            "source": "12",
+                            "target": "inline",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "GEHS-E-00032",
+                            "space_id": "GESH-A-00089"
+                        },
+                        {
+                            "id": 212,
+                            "label": "Jane Fisher",
+                            "has_dashboard": true,
+                            "dashboard_source": "16",
+                            "dashboard_code": "COMPSUMMARY",
+                            "avatar": "H",
+                            "equipment_id": "GEHS-E-00032",
+                            "space_id": "GESH-A-00089"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

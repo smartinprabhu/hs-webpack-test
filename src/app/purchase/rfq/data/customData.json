@@ -1,0 +1,339 @@
+{
+    "invoiceStatusus":[
+        {
+            "value": "no",
+            "label" : "Nothing to Bill"
+        },
+        {
+            "value": "to invoice",
+            "label" : "Waiting Bills"
+        },
+        {
+            "value": "invoiced",
+            "label" : "No Bill to Receive"
+        }
+    ],
+    "invoiceStatusLabels": {
+        "no": {
+            "id": "no",
+            "label": "Nothing to Bill"
+        },
+        "to invoice": {
+            "id": "to invoice",
+            "label": "Waiting Bills"
+       },
+        "invoiced": {
+            "id": "to approve",
+            "label": "No Bill to Receive"
+       }
+    },
+    "statusTypes":[  {
+            "value": "draft",
+            "label": "RFQ"
+        },{
+            "value": "sent",
+            "label": "RFQ Sent"
+       }, {
+            "value": "to approve",
+            "label": "To Approve"
+       },
+         {
+            "value": "purchase",
+            "label": "Purchase Order"
+       },
+        {
+            "value": "done",
+            "label": "Locked"
+       },
+       {
+            "value": "cancel",
+            "label": "Cancelled"
+       }
+    ],
+    "poStatusTypes":[
+        {
+           "value": "purchase",
+           "label": "Purchase Order"
+      },
+       {
+           "value": "done",
+           "label": "Locked"
+      }
+   ],
+    "statusTransferTypes":[  
+        {
+            "value": "Requested",
+            "label": "Requested",
+            "color": "secondary"
+        }, {
+            "value": "Approved",
+            "label": "Approved",
+            "color": "info"
+       },
+        {
+            "value": "Delivered",
+            "label": "Delivered",
+            "color": "success"
+       },
+       {
+            "value": "Rejected",
+            "label": "Rejected",
+            "color": "danger"
+       }
+    ],
+    "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],     
+    "status": {
+        "draft": {
+            "id": "draft",
+            "label": "RFQ",
+            "color":"warning"
+        },
+        "sent": {
+            "id": "sent",
+            "label": "RFQ Sent",
+            "color": "info"
+       },
+        "to approve": {
+            "id": "to approve",
+            "label": "To Approve",
+            "color": "secondary"
+       },
+        "purchase": {
+            "id": "purchase",
+            "label": "Purchase Order",
+            "color": "primary"
+       },
+        "done": {
+            "id": "done",
+            "label": "Locked",
+            "color": "success"
+       },
+        "cancel": {
+            "id": "cancel",
+            "label": "Cancelled",
+            "color": "danger"
+       }
+    },
+    "statusTransfer": {
+        "Requested": {
+            "id": "Requested",
+            "label": "Requested",
+            "color":"secondary"
+        },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved",
+            "color": "info"
+       },
+        "Delivered": {
+            "id": "Delivered",
+            "label": "Delivered",
+            "color": "success"
+       },
+        "Rejected": {
+            "id": "Rejected",
+            "label": "Rejected",
+            "color": "danger"
+       }
+    },
+     "companyTypeNames": {
+        "person": {
+            "id": "person",
+            "label": "Individual"
+        },
+        "company": {
+            "id": "company",
+            "label": "Company"
+       }
+    },
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "SENDBYEMAIL",
+         "displayname": "Send by Email"
+       },
+        {
+         "id": 2,
+         "name": "PRINTRFQ",
+         "displayname": "Print RFQ"
+       },       
+        {
+         "id": 3,
+         "name": "SETTODRAFT",
+         "displayname": "Set to Draft"
+       },       
+        {
+         "id": 4,
+         "name": "CONFIRMORDER",
+         "displayname": "Confirm Order"
+       },       
+        {
+         "id": 5,
+         "name": "CANCEL",
+         "displayname": "Cancel"
+       },      
+        {
+         "id": 6,
+         "name": "SENDPOBYEMAIL",
+         "displayname": "Send PO by Email"
+       },      
+        {
+         "id": 7,
+         "name": "RESENDBYEMAIL",
+         "displayname": "Re-send by Email"
+       },       
+        {
+         "id": 8,
+         "name": "LOCK",
+         "displayname": "Lock"
+       },       
+        {
+         "id": 8,
+         "name": "UNLOCK",
+         "displayname": "Unlock"
+       },       
+        {
+         "id": 9,
+         "name": "RECEIVEPRODUCTS",
+         "displayname": "Receive Products"
+       }
+     
+     ],
+    "actionTransferItems":[
+        {
+            "id": 1,
+            "name": "APPROVE",
+            "displayname": "Approve"
+          },
+          {
+            "id": 2,
+            "name": "DELIVER",
+            "displayname": "Deliver"
+          },
+        {
+            "id": 4,
+            "name": "RETURN",
+            "displayname": "Return"
+          },
+        {
+         "id": 3,
+         "name": "REJECT",
+         "displayname": "Reject"
+       }
+     ],
+     "quotationListFields": [
+        "name",
+        "date_order",
+        "partner_id",
+        "company_id",
+        "date_planned",
+        "user_id",
+        "amount_untaxed",
+        "amount_total",
+        "state",
+        "display_name",
+        "partner_ref",
+        "requisition_id"
+    ],
+    "tableColumns": [
+        {
+            "value": "partner_ref",
+            "label": "Partner Reference"
+        },
+        {
+            "value": "display_name",
+            "label": "Display Name"
+        },
+        {
+            "value": "requisition_id",
+            "label": "Purchase Agreement"
+        }
+    ],
+    "moveTypes":[
+        {
+            "value": "direct",
+            "label" : "As soon as possible"
+        },
+        {
+            "value": "one",
+            "label" : "When all products are ready"
+        }
+    ],
+    "moveTypesName": {
+        "direct": {
+            "id": "direct",
+            "label": "As soon as possible"
+        },
+        "one": {
+            "id": "one",
+            "label": "When all products are ready"
+       }
+    },
+    "productTypeNames": {
+        "consu": {
+            "id": "consu",
+            "label": "Consumable"
+        },
+        "product": {
+            "id": "product",
+            "label": "Storable"
+       }
+    },
+    "priorities":[
+        {
+            "value": "0",
+            "label" : "Not urgent"
+        },
+        {
+            "value": "1",
+            "label" : "Normal"
+        },
+        {
+            "value": "2",
+            "label" : "Urgent"
+        },
+        {
+            "value": "3",
+            "label" : "Very urgent"
+        }
+    ],
+    "prioritiesLabel": {
+        "0": {
+            "id": "0",
+            "label": "Not urgent"
+        },
+        "1": {
+            "id": "1",
+            "label": "Normal"
+       },
+       "2": {
+            "id": "0",
+            "label": "Urgent"
+       },
+       "3": {
+            "id": "1",
+            "label": "Very urgent"
+       }
+    }
+}

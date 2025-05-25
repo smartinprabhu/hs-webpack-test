@@ -1,0 +1,81 @@
+{
+    "tableHeadCleaningManagement": [
+        {
+            "id": 1,
+            "label": "Space Name"
+        },
+        {
+            "id": 2,
+            "label": "Space Location"
+        },
+        {
+            "id": 3,
+            "label": "Space Category"
+        },
+        {
+            "id": 4,
+            "label": "Workorder Status"
+        },
+        {
+            "id": 5,
+            "label": "Planned Date"
+        }
+        
+    ],
+    "tableHeadBookingManagement":[
+        {
+            "id": 1,
+            "label": "Space Name"
+        },
+        {
+            "id": 2,
+            "label": "Space Location"
+        },
+        {
+            "id": 3,
+            "label": "Space Category"
+        },
+        {
+            "id": 4,
+            "label": "Booking Status"
+        },
+        {
+            "id": 5,
+            "label": "Employee Name"
+        },
+        {
+            "id": 6,
+            "label": "Employee Number"
+        },
+        {
+            "id": 7,
+            "label": "Booked By"
+        },
+        {
+            "id": 8,
+            "label": "Planned In"
+        },
+        {
+            "id": 9,
+            "label": "Planned Out"
+        },
+        {
+            "id": 12,
+            "label": "Guest Booking"
+        },
+        {
+            "id": 13,
+            "label": "Guest Name"
+        },
+        {
+            "id": 14,
+            "label": "Guest Email"
+        },
+        {
+            "id": 14,
+            "label": "Neighbourhood Name"
+        }
+        
+    ]
+       
+}

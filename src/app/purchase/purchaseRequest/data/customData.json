@@ -1,0 +1,99 @@
+{
+    "statusTypes":[  {
+            "value": "draft",
+            "label": "Draft"
+        },{
+            "value": "confirm",
+            "label": "Confirmed"
+       }, {
+            "value": "cancel",
+            "label": "Cancelled"
+       }
+    ],     
+    "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        },
+        {
+            "value": "Custom",
+            "label": "Custom"
+        }
+    ],     
+    "status": {
+        "draft": {
+            "id": "draft",
+            "label": "Draft",
+            "color":"warning"
+        },       
+        "confirm": {
+            "id": "confirm",
+            "label": "Confirmed",
+            "color": "success"
+       },
+        "cancel": {
+            "id": "cancel",
+            "label": "Cancelled",
+            "color": "danger"
+       }
+    },   
+    "actionItems":[        
+        {
+         "id": 1,
+         "name": "SETTODRAFT",
+         "displayname": "Set to Draft"
+       },       
+        {
+         "id": 2,
+         "name": "CONFIRMORDER",
+         "displayname": "Confirm Order"
+       },       
+        {
+         "id": 3,
+         "name": "CANCEL",
+         "displayname": "Cancel"
+       }   
+     
+     ],   
+     "requestListFields": [
+        "display_name",
+        "requisition_name",
+        "pr_id",
+        "partner_id",
+        "requestor_id",
+        "requestor_full_name",
+        "site_contact_details",
+        "requestor_email",
+        "site_spoc",
+        "state",
+        "company_id",
+        "create_date"
+    ],
+    "tableColumns": [
+        {
+            "value": "requestor_email",
+            "label": "Email"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+       
+    ]
+}

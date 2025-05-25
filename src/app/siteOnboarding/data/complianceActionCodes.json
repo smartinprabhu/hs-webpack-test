@@ -1,0 +1,6 @@
+{
+    "Add Site": "as_sites_addSite",
+    "Edit Site": "as_sites_editSites",
+    "Delete Site": "as_sites_deleteSites",
+    "Assign Owner": "ob_assign_owner"
+}

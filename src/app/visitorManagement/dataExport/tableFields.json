@@ -1,0 +1,97 @@
+
+{
+    "fields": [
+        {
+            "property": "id",
+            "heading": "ID"
+        },
+        {
+            "property": "name",
+            "heading": "Reference"
+        },
+        {
+            "property": "visitor_name",
+            "heading": "Visitor Name"
+        },
+        {
+            "property": "organization",
+            "heading": "Visitor Company"
+        },
+        {
+            "accessor": "tenant_id",
+            "Header": "Visiting Company"
+        },
+        {
+            "property": "host_name",
+            "heading": "Host Name"
+        },
+        {
+            "property": "entry_status",
+            "heading": "Entry Status"
+        },
+        {
+            "property": "state",
+            "heading": "Approval Status"
+        },
+        {
+            "property": "visitor_badge",
+            "heading": "Visitor Badge"
+        },
+        {
+            "property": "actual_in",
+            "heading": "Actual In"
+        },
+        {
+            "property": "actual_out",
+            "heading": "Actual Out"
+        },
+        {
+            "property": "phone",
+            "heading": "Visitor Phone"
+        },
+        {
+            "property": "planned_in",
+            "heading": "Planned In"
+        },
+        {
+            "property": "planned_out",
+            "heading": "Planned Out"
+        },
+        {
+            "property": "email",
+            "heading": "Visitor Email"
+        },
+        {
+            "property": "type_of_visitor",
+            "heading": "Visitor Type"
+        },
+        {
+            "property": "purpose",
+            "heading": "Purpose"
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Visitor Type",
+            "property": "type_of_visitor"
+        }
+    ],   
+    "purposeFields": [
+        {
+            "heading": "Purpose",
+            "property": "purpose"
+        }
+    ],
+    "phoneFields": [
+        {
+            "heading": "Visitor Phone",
+            "property": "phone"
+        }
+    ],  
+    "emailFields": [
+        {
+            "heading": "Visitor Email",
+            "property": "email"
+        }
+    ]  
+}

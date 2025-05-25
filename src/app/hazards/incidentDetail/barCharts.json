@@ -1,0 +1,31 @@
+{
+    "options": {
+        "legend": {
+            "display": true
+        },
+        "maintainAspectRatio" : false,
+        "responsive" : true,
+        "scales": {
+            "xAxes": [
+                {
+                    "gridLines": {
+                        "drawOnChartArea": false,
+                        "categoryPercentage": 10,
+                        "barPercentage": 10
+                    }
+                }
+            ],
+            "yAxes": [
+                {
+                    "gridLines": {
+                        "drawOnChartArea": false
+                    },
+                    "ticks": {
+                        "fontSize": 10
+                       }
+                }
+            ]
+        }
+    }
+}
+

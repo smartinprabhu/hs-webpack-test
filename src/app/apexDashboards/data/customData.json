@@ -1,0 +1,5774 @@
+{
+  "dashboards": [
+    {
+      "id": 1,
+      "name": "Assets/Equipments"
+    },
+    {
+      "id": 2,
+      "name": "Work Orders"
+    },
+    {
+      "id": 3,
+      "name": "Helpdesk"
+    },
+    {
+      "id": 4,
+      "name": "Escalation"
+    }
+  ],
+  "globalfont": {
+    "family": "Lato,sans-serif",
+    "size": 14
+  },
+  "customLayoutPie": {
+    "autosize": true,
+    "font": {
+      "family": "Lato,sans-serif"
+    },
+    "showlegend": false,
+    "legend": {
+      "orientation": "h"
+    },
+    "margin": {
+      "l": 30,
+      "r": 30,
+      "b": 20,
+      "t": 50,
+      "pad": 0
+    }
+  },
+  "customLayout": {
+    "autosize": true,
+    "showlegend": false,
+    "margin": {
+      "l": 30,
+      "r": 30,
+      "b": 50,
+      "t": 50,
+      "pad": 0
+    },
+    "xaxis": {
+      "automargin": true,
+      "tickfont": {
+        "size": 11
+      }
+    },
+    "yaxis": {
+      "automargin": true,
+      "tickfont": {
+        "size": 11
+      }
+    },
+    "font": {
+      "family": "Lato,sans-serif"
+    }
+  },
+  "customLayoutExpand": {
+    "autosize": true,
+    "font": {
+      "family": "Lato,sans-serif"
+    },
+    "showlegend": false,
+    "legend": {
+      "orientation": "v"
+    }
+  },
+  "customConfig": {
+    "showLink": false,
+    "displaylogo": false,
+    "modeBarButtonsToRemove": [
+      "pan2d",
+      "lasso2d",
+      "zoom2d",
+      "autoScale2d",
+      "zoomIn2d",
+      "zoomOut2d",
+      "select2d"
+    ],
+    "responsive": true
+  },
+  "customExpandConfig": {
+    "showLink": false,
+    "displaylogo": false,
+    "modeBarButtonsToRemove": [
+      "pan2d",
+      "lasso2d",
+      "zoom2d",
+      "autoScale2d",
+      "zoomIn2d",
+      "zoomOut2d",
+      "select2d",
+      "toImage"
+    ],
+    "responsive": true
+  },
+  "pieChartOptions": {
+    "legend": {
+      "display": true,
+      "position": "bottom"
+    },
+    "responsive": true,
+    "maintainAspectRatio": true
+  },
+  "barChartOptions": {
+    "legend": {
+      "display": true,
+      "position": "bottom"
+    },
+    "maintainAspectRatio": true,
+    "responsive": true,
+    "scales": {
+      "xAxes": [
+        {
+          "gridLines": {
+            "drawOnChartArea": false,
+            "categoryPercentage": 10,
+            "barPercentage": 10
+          }
+        }
+      ],
+      "yAxes": [
+        {
+          "gridLines": {
+            "drawOnChartArea": false
+          },
+          "ticks": {
+            "fontSize": 10
+          }
+        }
+      ]
+    }
+  },
+  "barApexChartOptions": {
+    "dataLabels": {
+      "enabled": false
+    },
+    "toolbar": {
+      "show": true
+    },
+    "zoom": {
+      "enabled": true
+    },
+    "chart": {
+      "stacked": true
+    },
+    "legend": {
+      "offsetY": 8,
+      "markers": {
+        "radius": 100
+      }
+    },
+    "grid": {
+      "xaxis": {
+        "lines": {
+          "show": false
+        }
+      }
+    },
+    "stroke": {
+      "width": 0,
+      "colors": [
+        "transparent"
+      ]
+    }
+  },
+  "barApexChartPreviewOptions": {
+    "dataLabels": {
+      "enabled": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "style": {
+        "colors": [
+          "#fff"
+        ],
+        "fontWeight": 600,
+        "fontFamily": "Suisse Intl"
+      },
+      "background": {
+        "enabled": false,
+        "foreColor": "#fff",
+        "padding": 0,
+        "borderRadius": 2,
+        "borderWidth": 0,
+        "borderColor": "#fff",
+        "opacity": 0.9
+      },
+      "dropShadow": {
+        "enabled": false,
+        "top": 1,
+        "left": 1,
+        "blur": 1,
+        "color": "#000",
+        "opacity": 0.45
+      }
+    },
+    "toolbar": {
+      "show": true
+    },
+    "zoom": {
+      "enabled": true
+    },
+    "chart": {
+      "stacked": false,
+      "id": "bar-chartzz",
+      "dropShadow": {
+        "enabled": false,
+        "top": 0,
+        "left": 0,
+        "blur": 3,
+        "color": "#000",
+        "opacity": 0.35
+      },
+      "animations": {
+        "enabled": false,
+        "easing": "linear",
+        "speed": 1000
+      }
+    },
+    "plotOptions": {
+      "bar": {
+        "borderRadius": 0,
+        "borderRadiusApplication": "around",
+        "distributed": false,
+        "hideZeroBarsWhenGrouped": false,
+        "columnWidth": "70%",
+        "dataLabels": {
+          "position": "top",
+          "maxItems": 100,
+          "hideOverflowingLabels": true,
+          "orientation": "horizontal",
+          "total": {
+            "enabled": false
+          }
+        }
+      }
+    },
+    "theme": {
+      "mode": "light",
+      "palette": "palette1",
+      "monochrome": {
+        "enabled": false
+      }
+    },
+    "legend": {
+      "show": true,
+      "position": "bottom",
+      "horizontalAlign": "center",
+      "floating": false,
+      "fontFamily": "Suisse Intl",
+      "fontWeight": 400,
+      "offsetX": 0,
+      "offsetY": 8,
+      "markers": {
+        "radius": 100
+      },
+      "itemMargin": {
+        "horizontal": 5,
+        "vertical": 0
+      }
+    },
+    "grid": {
+      "xaxis": {
+        "lines": {
+          "show": false
+        }
+      },
+      "yaxis": {
+        "lines": {
+          "show": true
+        }
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    "stroke": {
+      "width": 0,
+      "colors": [
+        "transparent"
+      ]
+    }
+  },
+  "barApexChartDefaultPreviewOptions": {
+    "dataLabels": {
+      "enabled": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "style": {
+        "colors": [
+          "#fff"
+        ],
+        "fontWeight": 600,
+        "fontFamily": "Suisse Intl"
+      },
+      "background": {
+        "enabled": false,
+        "foreColor": "#fff",
+        "padding": 0,
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "borderColor": "#fff",
+        "opacity": 0.9
+      },
+      "dropShadow": {
+        "enabled": false,
+        "top": 1,
+        "left": 1,
+        "blur": 1,
+        "color": "#000",
+        "opacity": 0.45
+      }
+    },
+    "toolbar": {
+      "show": true
+    },
+    "zoom": {
+      "enabled": true
+    },
+    "chart": {
+      "stacked": false,
+      "id": "bar-chartzz",
+      "dropShadow": {
+        "enabled": false,
+        "top": 0,
+        "left": 0,
+        "blur": 3,
+        "color": "#000",
+        "opacity": 0.35
+      },
+      "animations": {
+        "enabled": false,
+        "easing": "linear",
+        "speed": 1000
+      }
+    },
+    "plotOptions": {
+      "bar": {
+        "borderRadius": 0,
+        "borderRadiusApplication": "around",
+        "distributed": false,
+        "hideZeroBarsWhenGrouped": false,
+        "columnWidth": "70%",
+        "dataLabels": {
+          "position": "top",
+          "maxItems": 100,
+          "hideOverflowingLabels": true,
+          "orientation": "horizontal",
+          "total": {
+            "enabled": false
+          }
+        }
+      }
+    },
+    "theme": {
+      "mode": "light",
+      "palette": "palette1",
+      "monochrome": {
+        "enabled": false
+      }
+    },
+    "legend": {
+      "show": true,
+      "position": "bottom",
+      "horizontalAlign": "center",
+      "floating": false,
+      "fontFamily": "Suisse Intl",
+      "fontWeight": 400,
+      "offsetX": 0,
+      "offsetY": 8,
+      "markers": {
+        "radius": 100
+      },
+      "itemMargin": {
+        "horizontal": 5,
+        "vertical": 0
+      }
+    },
+    "grid": {
+      "xaxis": {
+        "lines": {
+          "show": false
+        }
+      },
+      "yaxis": {
+        "lines": {
+          "show": true
+        }
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    "stroke": {
+      "width": 0,
+      "colors": [
+        "transparent"
+      ]
+    }
+  },
+  "palleteOptions": [
+    {
+      "value": "palette1",
+      "label": "Palette 1"
+    },
+    {
+      "value": "palette2",
+      "label": "Palette 2"
+    },
+    {
+      "value": "palette3",
+      "label": "Palette 3"
+    },
+    {
+      "value": "palette4",
+      "label": "Palette 4"
+    },
+    {
+      "value": "palette5",
+      "label": "Palette 5"
+    },
+    {
+      "value": "palette6",
+      "label": "Palette 6"
+    },
+    {
+      "value": "palette7",
+      "label": "Palette 7"
+    },
+    {
+      "value": "palette8",
+      "label": "Palette 8"
+    },
+    {
+      "value": "palette9",
+      "label": "Palette 9"
+    },
+    {
+      "value": "palette10",
+      "label": "Palette 10"
+    }
+  ],
+  "mixedChartOptions": [
+    {
+      "value": "single_card_numeric",
+      "label": "Single Card with Primary"
+    },
+    {
+      "value": "single_card_numeric_with_one_secondary",
+      "label": "Single Card with Primary and One Secondary Value"
+    },
+    {
+      "value": "single_card_numeric_with_two_secondary",
+      "label": "Single Card with Primary and Two Secondary Values"
+    },
+    {
+      "value": "single_card_numeric_indicator",
+      "label": "Single Card Indicator with Primary"
+    },
+    {
+      "value": "single_card_numeric_indicator_with_one_secondary",
+      "label": "Single Card Indicator with Primary and One Secondary Value"
+    },
+    {
+      "value": "single_card_numeric_indicator_with_two_secondary",
+      "label": "Single Card Indicator with Primary and Two Secondary Values"
+    },
+    {
+      "value": "single_card_numeric_indicator_with_sparkline",
+      "label": "Single Card Indicator and Sparkline with Primary"
+    },
+    {
+      "value": "single_card_numeric_with_one_secondary_indicator_with_sparkline",
+      "label": "Single Card Indicator and Sparkline with Primary and One Secondary Value"
+    },
+    {
+      "value": "single_card_numeric_with_two_secondary_indicator_with_sparkline",
+      "label": "Single Card Indicator and Sparkline with Primary and Two Secondary Values"
+    }
+  ],
+  "mixedChartValueTypeOptions": [
+    {
+      "value": "first",
+      "label": "First Value"
+    },
+    {
+      "value": "last",
+      "label": "Last Value"
+    },
+    {
+      "value": "min",
+      "label": "Minimum"
+    },
+    {
+      "value": "max",
+      "label": "Maximum"
+    },
+    {
+      "value": "avg",
+      "label": "Average"
+    },
+    {
+      "value": "sum",
+      "label": "Sum"
+    },
+    {
+      "value": "expression",
+      "label": "Expression"
+    }
+  ],
+  "mixedChartValueFormatOptions": [
+    {
+      "value": "decimal2f",
+      "label": "Decimal"
+    },
+    {
+      "value": "numeric",
+      "label": "Numeric"
+    },
+    {
+      "value": "monetary",
+      "label": "Monetary"
+    }
+  ],
+  "mixedChartKpiDirectionOptions": [
+    {
+      "value": "high_is_good",
+      "label": "High is Good"
+    },
+    {
+      "value": "low_is_good",
+      "label": "Low is Good"
+    }
+  ],
+  "mixedChartSparkTypesOptions": [
+    {
+      "value": "bar",
+      "label": "Bar"
+    },
+    {
+      "value": "line",
+      "label": "Line"
+    },
+    {
+      "value": "area",
+      "label": "Area"
+    }
+  ],
+  "compareOptions": [
+    {
+      "value": "pv",
+      "label": "Primary Value"
+    },
+    {
+      "value": "sv1",
+      "label": "Secondary Value 1"
+    },
+    {
+      "value": "sv2",
+      "label": "Secondary Value 2"
+    }
+  ],
+  "otherApexChartOptions": {
+    "stroke": {
+      "curve": "smooth"
+    },
+    "markers": {
+      "size": 5
+    },
+    "toolbar": {
+      "show": true
+    },
+    "zoom": {
+      "enabled": true
+    },
+    "legend": {
+      "offsetY": 8,
+      "markers": {
+        "radius": 100
+      }
+    },
+    "grid": {
+      "xaxis": {
+        "lines": {
+          "show": false
+        }
+      }
+    }
+  },
+  "grid": {
+    "yaxis": {
+      "lines": {
+        "show": false
+      }
+    },
+    "xaxis": {
+      "lines": {
+        "show": false
+      }
+    }
+  },
+  "barStyles": {
+    "fontSize": "14px",
+    "fontWeight": "600",
+    "fontFamily": "Suisse Intl"
+  },
+  "barHeadStyles": {
+    "fontSize": "12px",
+    "fontWeight": "500",
+    "fontFamily": "Suisse Intl"
+  },
+  "dateSeries": [
+    {
+      "value": "hour",
+      "label": "Hour"
+    },
+    {
+      "value": "day",
+      "label": "Day"
+    },
+    {
+      "value": "week",
+      "label": "Week"
+    },
+    {
+      "value": "month",
+      "label": "Month"
+    },
+    {
+      "value": "quarter",
+      "label": "Quarter"
+    },
+    {
+      "value": "year",
+      "label": "Year"
+    }
+  ],
+  "dateNoTimeSeries": [
+    {
+      "value": "day",
+      "label": "Day"
+    },
+    {
+      "value": "week",
+      "label": "Week"
+    },
+    {
+      "value": "month",
+      "label": "Month"
+    },
+    {
+      "value": "quarter",
+      "label": "Quarter"
+    },
+    {
+      "value": "year",
+      "label": "Year"
+    }
+  ],
+  "mro.equipment.location": [
+    {
+      "heading": "Space Name",
+      "property": "space_name"
+    },
+    {
+      "heading": "Space Category",
+      "property": "asset_category_id"
+    },
+    {
+      "heading": "Space Status",
+      "property": "space_status"
+    },
+    {
+      "heading": "Parent Space",
+      "property": "parent_id"
+    }
+  ],
+  "mro.shift.employee": [
+    {
+      "heading": "Space Name",
+      "property": "space_name"
+    },
+    {
+      "heading": "Space Category",
+      "property": "asset_category_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Neighborhood",
+      "property": "neighbour_hood"
+    },
+    {
+      "heading": "Planned In",
+      "property": "planned_in"
+    },
+    {
+      "heading": "Planned Out",
+      "property": "planned_out"
+    },
+    {
+      "heading": "Employee Name",
+      "property": "booked_by_id"
+    },
+    {
+      "heading": "Shift Name",
+      "property": "shift_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "booking.report.model": [
+    {
+      "heading": "Space Name",
+      "property": "space_name"
+    },
+    {
+      "heading": "Space Category",
+      "property": "space_category"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Neighborhood",
+      "property": "neighbour_hood"
+    },
+    {
+      "heading": "Planned In",
+      "property": "planned_in"
+    },
+    {
+      "heading": "Planned Out",
+      "property": "planned_out"
+    },
+    {
+      "heading": "Employee Id",
+      "property": "portal_id"
+    },
+    {
+      "heading": "Employee Name",
+      "property": "booked_by_id"
+    },
+    {
+      "heading": "Shift Name",
+      "property": "shift_name"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hx.breakdown_tracker": [
+    {
+      "heading": "Site",
+      "property": "company_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state_id"
+    },
+    {
+      "heading": "Incident Date",
+      "property": "incident_date"
+    },
+    {
+      "heading": "Title",
+      "property": "title"
+    },
+    {
+      "heading": "Criticality",
+      "property": "ciriticality"
+    },
+    {
+      "heading": "Service Category",
+      "property": "service_category_id"
+    },
+    {
+      "heading": "Asset",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Incident Age",
+      "property": "incident_age"
+    },
+    {
+      "heading": "Is Service Impacted?",
+      "property": "is_service_impacted"
+    },
+    {
+      "heading": "Complaint No",
+      "property": "complaint_no"
+    },
+    {
+      "heading": "Reference",
+      "property": "name"
+    },
+    {
+      "heading": "Action Taken",
+      "property": "action_taken"
+    },
+    {
+      "heading": "Raised By",
+      "property": "raised_by_id"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Attended On",
+      "property": "attended_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Closed On",
+      "property": "closed_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Created On",
+      "property": "create_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Results in Statutory Non-Compliance?",
+      "property": "is_results_in_statutory_non_compliance"
+    },
+    {
+      "heading": "Remarks",
+      "property": "remarks"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "AMC Status",
+      "property": "amc_status"
+    },
+    {
+      "heading": "Vendor Name",
+      "property": "vendor_name"
+    },
+    {
+      "heading": "Vendor FSR Number (Field Service Number)",
+      "property": "vendor_sr_number"
+    }
+  ],
+  "hx.audit": [
+    {
+      "heading": "Sequence",
+      "property": "sequence"
+    },
+    {
+      "heading": "Audit System",
+      "property": "audit_system_id"
+    },
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Planned Start Date",
+      "property": "planned_start_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Planned End Date",
+      "property": "planned_end_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Category",
+      "property": "audit_category_id"
+    },
+    {
+      "heading": "Audit Spoc",
+      "property": "audit_spoc_id"
+    },
+    {
+      "heading": "Department",
+      "property": "department_id"
+    },
+    {
+      "heading": "Objective",
+      "property": "objective"
+    },
+    {
+      "heading": "Scope",
+      "property": "scope"
+    }
+  ],
+  "hx.audit_action": [
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Deadline",
+      "property": "deadline",
+      "dateField": "date"
+    },
+    {
+      "heading": "Severity",
+      "property": "severity"
+    },
+    {
+      "heading": "Audit",
+      "property": "audit_id"
+    },
+    {
+      "heading": "Responsible",
+      "property": "responsible_id"
+    },
+    {
+      "heading": "SLA Status",
+      "property": "sla_status"
+    }
+  ],
+  "hx.audit_action_report_view": [
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "Age",
+      "property": "age"
+    },
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Deadline",
+      "property": "deadline",
+      "dateField": "date"
+    },
+    {
+      "heading": "Severity",
+      "property": "severity"
+    },
+    {
+      "heading": "Audit",
+      "property": "audit_id"
+    },
+    {
+      "heading": "Responsible",
+      "property": "responsible_id"
+    }
+  ],
+  "mro.equipment": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Number",
+      "property": "equipment_seq"
+    },
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Block",
+      "property": "block_id"
+    },
+    {
+      "heading": "Floor",
+      "property": "floor_id"
+    },
+    {
+      "heading": "Space",
+      "property": "location_id"
+    },
+    {
+      "heading": "End of Life",
+      "property": "end_of_life",
+      "dateField": "date"
+    },
+    {
+      "heading": "Warranty Start",
+      "property": "warranty_start_date",
+      "dateField": "date"
+    },
+    {
+      "heading": "Warranty End",
+      "property": "warranty_end_date",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC Start Date",
+      "property": "amc_start_date",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC End Date",
+      "property": "amc_end_date",
+      "dateField": "date"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "dw.company": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "City",
+      "property": "city"
+    },
+    {
+      "heading": "State",
+      "property": "state"
+    },
+    {
+      "heading": "Country",
+      "property": "country"
+    }
+  ],
+  "dw.asset": [
+    {
+      "heading": "Name",
+      "property": "asset_name"
+    },
+    {
+      "heading": "Number",
+      "property": "asset_number"
+    },
+    {
+      "heading": "Category",
+      "property": "category"
+    },
+    {
+      "heading": "Space",
+      "property": "space"
+    },
+    {
+      "heading": "Warranty Start",
+      "property": "warranty_start_on",
+      "dateField": "date"
+    },
+    {
+      "heading": "Warranty End",
+      "property": "warranty_end_on",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC Start Date",
+      "property": "amc_start_on",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC End Date",
+      "property": "amc_end_on",
+      "dateField": "date"
+    },
+    {
+      "heading": "Company",
+      "property": "company_name"
+    }
+  ],
+  "dw.mvw_equipments": [
+    {
+      "heading": "Name",
+      "property": "equipment_name"
+    },
+    {
+      "heading": "Number",
+      "property": "equipment_number"
+    },
+    {
+      "heading": "Category",
+      "property": "category"
+    },
+    {
+      "heading": "Space",
+      "property": "space"
+    },
+    {
+      "heading": "Warranty Start",
+      "property": "warranty_start",
+      "dateField": "date"
+    },
+    {
+      "heading": "Warranty End",
+      "property": "warranty_end",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC Start Date",
+      "property": "amc_start",
+      "dateField": "date"
+    },
+    {
+      "heading": "AMC End Date",
+      "property": "amc_end",
+      "dateField": "date"
+    },
+    {
+      "heading": "Company",
+      "property": "company"
+    }
+  ],
+  "website.support.ticket": [
+    {
+      "heading": "Ticket Number",
+      "property": "ticket_number"
+    },
+    {
+      "heading": "Subject",
+      "property": "subject"
+    },
+    {
+      "heading": "Description",
+      "property": "description"
+    },
+    {
+      "heading": "Status",
+      "property": "state_id"
+    },
+    {
+      "heading": "SLA Status",
+      "property": "sla_status"
+    },
+    {
+      "heading": "Priority",
+      "property": "priority_id"
+    },
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "On Hold Requested",
+      "property": "is_on_hold_requested",
+      "hide": true
+    },
+    {
+      "heading": "Is Cancelled",
+      "hide": true,
+      "property": "is_cancelled"
+    }
+  ],
+  "res.company": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "City",
+      "property": "city"
+    },
+    {
+      "heading": "Address",
+      "property": "street"
+    },
+    {
+      "heading": "State",
+      "property": "state_id"
+    },
+    {
+      "heading": "Area (sq.ft)",
+      "property": "area_sqft"
+    },
+    {
+      "heading": "Total Capacity",
+      "property": "total_capacity"
+    }
+  ],
+  "hx_stats.helpdesk_service_time": [
+    {
+      "heading": "Ticket Id",
+      "property": "name"
+    },
+    {
+      "heading": "Issue Type",
+      "property": "issue_type"
+    },
+    {
+      "heading": "Average Response Time(hrs)",
+      "property": "response_time_hrs"
+    },
+    {
+      "heading": "Average Resolution Time(hrs)",
+      "property": "resolution_time_hrs"
+    }
+  ],
+  "ppm.scheduler_week": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Schedule",
+      "property": "schedule_period_id"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "dw2.inspection_log": [
+		{
+			"heading": "Scheduler",
+			"property": "group_name"
+		},
+		{
+			"heading": "Asset",
+			"property": "asset_name"
+		},
+		{
+			"heading": "Location",
+			"property": "asset_path"
+		},
+		{
+			"heading": "Status",
+			"property": "state"
+		},
+		{
+			"heading": "Start Date",
+			"property": "start_datetime",
+      "dateField": "date"
+		},
+		{
+			"heading": "End Date",
+			"property": "end_datetime",
+      "dateField": "date"
+		},
+    {
+			"heading": "Actual Start Date",
+			"property": "date_start_execution",
+      "dateField": "datetime"
+		},
+		{
+			"heading": "Actual End Date",
+			"property": "date_execution",
+      "dateField": "datetime"
+		},
+		{
+			"heading": "Maintenance Team",
+			"property": "maintenance_team_name"
+		},
+		{
+			"heading": "Maintenance Operations",
+			"property": "task_name"
+		},
+		{
+			"heading": "Team Category",
+			"property": "team_category_name"
+		},
+		{
+			"heading": "Order",
+			"property": "order_name"
+		},
+		{
+			"heading": "Order Status",
+			"property": "order_state"
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+  "dw2.ppm_scheduler_week": [
+		{
+			"heading": "Name",
+			"property": "name"
+		},
+		{
+			"heading": "Schedule",
+			"property": "schedule_period_name"
+		},
+		{
+			"heading": "Asset",
+			"property": "asset_name"
+		},
+		{
+			"heading": "Location",
+			"property": "asset_path"
+		},
+		{
+			"heading": "Status",
+			"property": "state"
+		},
+		{
+			"heading": "Week",
+			"property": "week"
+		},
+		{
+			"heading": "Start Date",
+			"property": "starts_on",
+			"dateField": "date"
+		},
+		{
+			"heading": "End Date",  
+			"property": "ends_on",
+			"dateField": "date"
+		},
+    {
+			"heading": "Actual Start Date",
+			"property": "date_start_execution",
+      "dateField": "datetime"
+		},
+		{
+			"heading": "Actual End Date",
+			"property": "date_execution",
+      "dateField": "datetime"
+		},
+		{
+			"heading": "Maintenance Operations",
+			"property": "task_name"
+		},
+		{
+			"heading": "Maintenance Team",
+			"property": "maintenance_team_name"
+		},
+		{
+			"heading": "Vendor",
+			"property": "vendor_name"
+		},
+		{
+			"heading": "Team Category",
+			"property": "team_category_name"
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+  "dw2.mv.stock.picking_report_view": [
+		{
+			"heading": "Created on",
+			"property": "date"
+		},
+		{
+			"heading": "Use In",
+			"property": "use_in"
+		},
+		{
+			"heading": "Name",
+			"property": "name"
+		},
+		{
+			"heading": "Product",
+			"property": "product_name"
+		},
+		{
+			"heading": "Status",
+			"property": "request_state"
+		},
+		{
+			"heading": "Quantity",
+			"property": "product_uom_qty",
+      "type": "number"
+		},
+		{
+			"heading": "From Location",
+			"property": "location_name"
+		},
+    {
+			"heading": "Picking ID",
+			"property": "stock_picking_id",
+      "hide": true
+		},
+		{
+			"heading": "To Location",
+			"property": "location_dest_name"
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+  "dw2_mv_stock.quant_report_view": [
+		{
+			"heading": "Name",
+			"property": "display_name"
+		},
+		{
+			"heading": "Category",
+			"property": "product_category_name"
+		},
+		{
+			"heading": "Quantity on Hand",
+			"property": "quantity",
+      "type": "number"
+		},
+		{
+			"heading": "Minimum Quantity",
+			"property": "product_min_qty",
+      "type": "number"
+		},
+    {
+			"heading": "Product",
+			"property": "product_id",
+      "hide": true
+		},
+		{
+			"heading": "Low Stock Percentage",
+			"property": "low_stock_percent"
+		},
+		{
+			"heading": "Location",
+			"property": "location_name"
+		},
+		{
+			"heading": "UOM",
+			"property": "product_uom_name"
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+	"dw2.mv_product_product_report_view": [
+		{
+			"heading": "Name",
+			"property": "name"
+		},
+		{
+			"heading": "Category",
+			"property": "categ_name"
+		},
+		{
+			"heading": "Quantity on Hand",
+			"property": "quantity",
+      "type": "number"
+		},
+		{
+			"heading": "Minimum Quantity",
+			"property": "product_min_qty",
+      "type": "number"
+		},
+		{
+			"heading": "Low Stock Percentage",
+			"property": "low_stock_percent"
+		},
+		{
+			"heading": "Location",
+			"property": "location_name"
+		},
+		{
+			"heading": "UOM",
+			"property": "uom_name"
+		},
+    {
+			"heading": "Product",
+			"property": "product_id",
+      "hide": true
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+  "ppm.scheduler_week_report_view": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Schedule",
+      "property": "schedule_period_id"
+    },
+    {
+      "heading": "Asset",
+      "property": "asset_name"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.order": [
+    {
+      "heading": "Asset",
+      "property": "equip_asset_common"
+    },
+    {
+      "heading": "Maintenance Type",
+      "property": "maintenance_type"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Scheduled Date",
+      "property": "date_start_scheduled",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hx.inspection_checklist": [
+    {
+      "heading": "Checklist",
+      "property": "check_list_id"
+    },
+    {
+      "heading": "Group",
+      "property": "group_id"
+    },
+    {
+      "heading": "Type",
+      "property": "category_type"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Start at",
+      "property": "start_at"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hx.inspection_checklist_log": [
+    {
+      "heading": "Checklist",
+      "property": "check_list_id"
+    },
+    {
+      "heading": "Type",
+      "property": "category_type"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Order",
+      "property": "order_id"
+    },
+    {
+      "heading": "Order Status",
+      "property": "order_state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hx.inspection_log_report_view": [
+    {
+      "heading": "Scheduler",
+      "property": "group_id"
+    },
+    {
+      "heading": "Asset",
+      "property": "asset_name"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Start",
+      "property": "start_datetime"
+    },
+    {
+      "heading": "End",
+      "property": "end_datetime"
+    },
+    {
+      "heading": "Order",
+      "property": "order_id"
+    },
+    {
+      "heading": "Order Status",
+      "property": "order_state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.work_permit": [
+    {
+      "heading": "Reference",
+      "property": "reference"
+    },
+    {
+      "heading": "Description",
+      "property": "name"
+    },
+    {
+      "heading": "Vendor",
+      "property": "vendor_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Planned Start Date",
+      "property": "planned_start_time",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Planned End Date",
+      "property": "planned_end_time",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "audit_system.action": [
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Deadline",
+      "property": "date_deadline"
+    },
+    {
+      "heading": "Responsible Type",
+      "property": "type_action"
+    },
+    {
+      "heading": "Audit",
+      "property": "audit_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Responsible User",
+      "property": "user_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mgmtsystem.audit": [
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Date",
+      "property": "date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "System",
+      "property": "audit_system_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Audit Manager",
+      "property": "facility_manager_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "survey.user_input": [
+    {
+      "heading": "Survey",
+      "property": "survey_id"
+    },
+    {
+      "heading": "Quizz Score",
+      "property": "quizz_score"
+    },
+    {
+      "heading": "Created on",
+      "property": "date_create",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Reviewer Name",
+      "property": "reviwer_name"
+    },
+    {
+      "heading": "Reviewer Mobile",
+      "property": "reviwer_mobile"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "survey.survey": [
+    {
+      "heading": "Title",
+      "property": "title"
+    },
+    {
+      "heading": "Type",
+      "property": "category_type"
+    },
+    {
+      "heading": "Status",
+      "property": "stage_id"
+    },
+    {
+      "heading": "Created on",
+      "property": "create_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.visit.request": [
+    {
+      "heading": "Visitor Name",
+      "property": "visitor_name"
+    },
+    {
+      "heading": "Visitor Company",
+      "property": "organization"
+    },
+    {
+      "heading": "Host Name",
+      "property": "host_name"
+    },
+    {
+      "heading": "Host Company",
+      "property": "allowed_sites_id"
+    },
+    {
+      "heading": "Approval Status",
+      "property": "state"
+    },
+    {
+      "heading": "Entry Status",
+      "property": "entry_status"
+    },
+    {
+      "heading": "Planned In",
+      "property": "planned_in",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Planned Out",
+      "property": "planned_out",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Purpose",
+      "property": "purpose"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "pantry.order": [
+    {
+      "heading": "Pantry",
+      "property": "pantry_id"
+    },
+    {
+      "heading": "Employee",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Order ID",
+      "property": "name"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Ordered on",
+      "property": "ordered_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.mailroom_inbound": [
+    {
+      "heading": "Sender Name",
+      "property": "sender"
+    },
+    {
+      "heading": "Receiver Name",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Tracking no",
+      "property": "tracking_no"
+    },
+    {
+      "heading": "Registered on",
+      "property": "received_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Registered by",
+      "property": "received_by"
+    },
+    {
+      "heading": "Parcel Dimensions",
+      "property": "parcel_dimensions"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.mailroom_outbound": [
+    {
+      "heading": "Sender Name",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Receiver Name",
+      "property": "sent_to"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Tracking no",
+      "property": "tracking_no"
+    },
+    {
+      "heading": "Registered on",
+      "property": "sent_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Registered by",
+      "property": "sent_by"
+    },
+    {
+      "heading": "Parcel Dimensions",
+      "property": "parcel_dimensions"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "bcs.compliance.obligation": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Compliance",
+      "property": "compliance_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Compliance Act",
+      "property": "compliance_act"
+    },
+    {
+      "heading": "Next Expiry Date",
+      "property": "next_expiry_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Submitted to",
+      "property": "submitted_to"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "product.template": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Category",
+      "property": "categ_id"
+    },
+    {
+      "heading": "Quantity on Hand",
+      "property": "qty_available",
+      "type": "number"
+    },
+    {
+      "heading": "UOM",
+      "property": "uom_id"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    }
+  ],
+  "stock.quant_report_view": [
+    {
+      "heading": "Name",
+      "property": "product_id"
+    },
+    {
+      "heading": "Category",
+      "property": "product_category_id"
+    },
+    {
+      "heading": "Quantity on Hand",
+      "property": "quantity",
+      "type": "number"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "Date",
+      "property": "in_date"
+    },
+    {
+      "heading": "UOM",
+      "property": "product_uom_id"
+    }
+  ],
+  "product.product_report_view": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Category",
+      "property": "categ_id"
+    },
+    {
+      "heading": "Quantity on Hand",
+      "property": "quantity",
+      "type": "number"
+    },
+    {
+      "heading": "Minimum Quantity",
+      "property": "product_min_qty",
+      "type": "number"
+    },
+    {
+      "heading": "Low Stock Percentage",
+      "property": "low_stock_percent"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "UOM",
+      "property": "uom_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "product.company_product_report_view": [
+		{
+			"heading": "Name",
+			"property": "name"
+		},
+		{
+			"heading": "Category",
+			"property": "categ_id"
+		},
+		{
+			"heading": "Quantity on Hand",
+			"property": "quantity",
+      "type": "number"
+		},
+		{
+			"heading": "Minimum Quantity",
+			"property": "product_min_qty",
+      "type": "number"
+		},
+		{
+			"heading": "Low Stock Percentage",
+			"property": "low_stock_percent"
+		},
+		{
+			"heading": "Location",
+			"property": "location_id"
+		},
+		{
+			"heading": "UOM",
+			"property": "uom_id"
+		},
+		{
+			"heading": "Company",
+			"property": "company_id"
+		}
+	],
+  "stock.scrap": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Product",
+      "property": "product_id"
+    },
+    {
+      "heading": "Created on",
+      "property": "create_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Quantity",
+      "property": "scrap_qty",
+      "type": "number"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "Scrap Location",
+      "property": "scrap_location_id"
+    }
+  ],
+  "stock.picking": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Product",
+      "property": "product_id"
+    },
+    {
+      "heading": "Created on",
+      "property": "create_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Quantity",
+      "property": "scrap_qty",
+      "type": "number"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "Scrap Location",
+      "property": "scrap_location_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "stock.picking_report_view": [
+    {
+      "heading": "Created on",
+      "property": "date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Use In",
+      "property": "use_in"
+    },
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Product",
+      "property": "product_id"
+    },
+    {
+      "heading": "Status",
+      "property": "request_state"
+    },
+    {
+      "heading": "Quantity",
+      "property": "product_uom_qty",
+      "type": "number"
+    },
+    {
+      "heading": "From Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "To Location",
+      "property": "location_dest_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "tanker.transactions": [
+    {
+      "heading": "Commodity",
+      "property": "commodity"
+    },
+    {
+      "heading": "Capacity",
+      "property": "capacity"
+    },
+    {
+      "heading": "Vendor",
+      "property": "vendor_id"
+    },
+    {
+      "heading": "Initial Reading",
+      "property": "initial_reading"
+    },
+    {
+      "heading": "Final Reading",
+      "property": "final_reading"
+    },
+    {
+      "heading": "Difference",
+      "property": "difference"
+    },
+    {
+      "heading": "Tanker",
+      "property": "tanker_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "maintenance.reading.log": [
+    {
+      "heading": "Name",
+      "property": "display_name"
+    },
+    {
+      "heading": "Value",
+      "property": "value"
+    },
+    {
+      "heading": "Date",
+      "property": "date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Reading",
+      "property": "reading_id"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "Category",
+      "property": "type_category"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.gatepass": [
+    {
+      "heading": "Purpose",
+      "property": "description"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "Asset / Item",
+      "property": "gatepass_type"
+    },
+    {
+      "heading": "Requestor",
+      "property": "requestor_id"
+    },
+    {
+      "heading": "Requested on",
+      "property": "requested_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.gatepass.to_be_returned_report_view": [
+    {
+      "heading": "Purpose",
+      "property": "description"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    },
+    {
+      "heading": "Requestor",
+      "property": "requestor_id"
+    },
+    {
+      "heading": "Requested on",
+      "property": "requested_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "To be Returned on",
+      "property": "to_be_returned_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.gatepass.reported_on_report_view": [
+    {
+      "heading": "Purpose",
+      "property": "description"
+    },
+    {
+      "heading": "Type",
+      "property": "type"
+    }, 
+    {
+      "heading": "Requestor",
+      "property": "requestor_id"
+    },
+    {
+      "heading": "Requested on",
+      "property": "requested_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "To be Returned on",
+      "property": "to_be_returned_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Vendor",
+      "property": "vendor_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hr.employee": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Work Email",
+      "property": "work_email"
+    },
+    {
+      "heading": "Work Phone",
+      "property": "work_phone"
+    },
+    {
+      "heading": "Status",
+      "property": "registration_status"
+    },
+    {
+      "heading": "Department",
+      "property": "department_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.maintenance.team": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Category",
+      "property": "team_category_id"
+    },
+    {
+      "heading": "Team Leader",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Type",
+      "property": "team_type"
+    },
+    {
+      "heading": "Av.Maiantenance.Cost",
+      "property": "maintenance_cost_analytic_account_id"
+    },
+    {
+      "heading": "Hourly Labour Cost",
+      "property": "labour_cost_unit"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mro.meter.line": [
+    {
+      "heading": "Measure Date",
+      "property": "date"
+    },
+    {
+      "heading": "Measure Value",
+      "property": "value"
+    },
+    {
+      "heading": "Meter",
+      "property": "meter_id"
+    },
+    {
+      "heading": "UOM",
+      "property": "meter_uom"
+    },
+    {
+      "heading": "Planning Run Result",
+      "property": "planning_run_result"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Equipment Location",
+      "property": "equipment_location_name"
+    },
+    {
+      "heading": "Maintenance Order",
+      "property": "order_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "res.country": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Code",
+      "property": "code"
+    }
+  ],
+  "employee.team.members": [
+    {
+      "heading": "Technician",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "User",
+      "property": "user_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "stock.inventory": [
+    {
+      "heading": "Audit Description",
+      "property": "name"
+    },
+    {
+      "property": "date",
+      "heading": "Audit Date"
+    },
+    {
+      "heading": "Audited By",
+      "property": "create_uid"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Reason",
+      "property": "reason_id"
+    },
+    {
+      "heading": "Comments",
+      "property": "comments"
+    },
+    {
+      "heading": "Total Quantity",
+      "property": "total_qty",
+      "type": "number"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "sla.summary": [
+    {
+      "heading": "Name",
+      "property": "name"
+    }
+  ],
+  "website.support.ticket.subcategory": [
+    {
+      "heading": "Name",
+      "property": "name"
+    },
+    {
+      "heading": "Parent Category",
+      "property": "parent_category_id"
+    },
+    {
+      "heading": "Planned Duration L1",
+      "property": "sla_timer"
+    },
+    {
+      "heading": "Planned Duration L2",
+      "property": "sla_timer_l2"
+    },
+    {
+      "heading": "Planned Duration L2",
+      "property": "sla_timer_l3"
+    },
+    {
+      "heading": "Default Assignee",
+      "property": "default_assignee"
+    }
+  ],
+  "mro.gauge.line": [
+    {
+      "heading": "Measure Date",
+      "property": "date"
+    },
+    {
+      "heading": "Measure Value",
+      "property": "value"
+    },
+    {
+      "heading": "Gauge",
+      "property": "gauge_id"
+    },
+    {
+      "heading": "UOM",
+      "property": "meter_uom"
+    },
+    {
+      "heading": "Planning Run Result",
+      "property": "planning_run_result"
+    },
+    {
+      "heading": "Space",
+      "property": "space_id"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Equipment Location",
+      "property": "equipment_location_name"
+    },
+    {
+      "heading": "Maintenance Order",
+      "property": "order_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "stock.move.line": [
+    {
+      "heading": "Date",
+      "property": "date"
+    },
+    {
+      "heading": "Product",
+      "property": "product_id"
+    },
+    {
+      "heading": "Quantity Done",
+      "property": "qty_done",
+      "type": "number"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "From",
+      "property": "location_id"
+    },
+    {
+      "heading": "To",
+      "property": "location_dest_id"
+    },
+    {
+      "heading": "UOM",
+      "property": "product_uom_id"
+    },
+    {
+      "heading": "Real Reserved Quantity",
+      "property": "product_qty",
+      "type": "number"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "hx.inventory_request": [
+    {
+      "heading": "Order Reference",
+      "property": "name"
+    },
+    {
+      "heading": "Requested by",
+      "property": "requested_by_id"
+    },
+    {
+      "heading": "Requested on",
+      "property": "requested_on",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Use In",
+      "property": "use_in"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Asset",
+      "property": "asset_id"
+    },
+    {
+      "heading": "Location",
+      "property": "location_id"
+    },
+    {
+      "heading": "Employee",
+      "property": "employee_id"
+    },
+    {
+      "heading": "Department",
+      "property": "department_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "mgmtsystem.action": [
+    {
+      "heading": "Reference",
+      "property": "reference"
+    },
+    {
+      "heading": "Subject",
+      "property": "name"
+    },
+    {
+      "heading": "Response Type",
+      "property": "type_action"
+    },
+    {
+      "heading": "Responsible",
+      "property": "user_id"
+    },
+    {
+      "heading": "Dead Line",
+      "property": "date_deadline"
+    },
+    {
+      "heading": "Stage",
+      "property": "stage_id"
+    },
+    {
+      "heading": "Create Date",
+      "property": "create_date"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "survey.user_input_line": [
+    {
+      "heading": "Page",
+      "property": "page_id"
+    },
+    {
+      "heading": "Question",
+      "property": "question_id"
+    },
+    {
+      "heading": "Answer Type",
+      "property": "answer_type"
+    },
+    {
+      "heading": "Create Date",
+      "property": "create_date"
+    },
+    {
+      "heading": "Score",
+      "property": "quizz_mark"
+    },
+    {
+      "heading": "Suggested Answer",
+      "property": "value_suggested"
+    },
+    {
+      "heading": "Number Answer",
+      "property": "value_number"
+    },
+    {
+      "heading": "Skipped",
+      "property": "skipped"
+    },
+    {
+      "heading": "Text Answer",
+      "property": "value_text"
+    },
+    {
+      "heading": "Row Answer",
+      "property": "value_suggested_row"
+    }
+  ],
+  "dmr_stats.dg_consumption": [
+    {
+      "heading": "Template",
+      "property": "template_id"
+    },
+    {
+      "heading": "Date",
+      "property": "mdate"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Block",
+      "property": "block_id"
+    },
+    {
+      "heading": "Structure Name",
+      "property": "structure_name"
+    },
+    {
+      "heading": "First Reading",
+      "property": "first_reading"
+    },
+    {
+      "heading": "Last Reading",
+      "property": "last_reading"
+    },
+    {
+      "heading": "Consumption",
+      "property": "diesel_consumption"
+    },
+    {
+      "heading": "Running Hours",
+      "property": "run_hours"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "First Reading Time",
+      "property": "first_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Last Reading Time",
+      "property": "last_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    }
+  ],
+  "dmr_stats.eb_consumption": [
+    {
+      "heading": "Date",
+      "property": "mdate"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Block",
+      "property": "block"
+    },
+    {
+      "heading": "Space",
+      "property": "equipment_space"
+    },
+    {
+      "heading": "First Reading",
+      "property": "first_reading"
+    },
+    {
+      "heading": "Last Reading",
+      "property": "last_reading"
+    },
+    {
+      "heading": "Consumption",
+      "property": "eb_consumption"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "First Reading Time",
+      "property": "first_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Last Reading Time",
+      "property": "last_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    }
+  ],
+  "dmr_stats.water_consumption": [
+    {
+      "heading": "Date",
+      "property": "mdate"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Block",
+      "property": "block"
+    },
+    {
+      "heading": "First Reading",
+      "property": "first_reading"
+    },
+    {
+      "heading": "Last Reading",
+      "property": "last_reading"
+    },
+    {
+      "heading": "Consumption",
+      "property": "water_consumption"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "First Reading Time",
+      "property": "first_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Last Reading Time",
+      "property": "last_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    }
+  ],
+  "dmr_stats.eb_consumption_view": [
+    {
+      "heading": "Date",
+      "property": "mdate"
+    },
+    {
+      "heading": "Equipment",
+      "property": "asset_name"
+    },
+    {
+      "heading": "Block",
+      "property": "block"
+    },
+    {
+      "heading": "Space",
+      "property": "equipment_space"
+    },
+    {
+      "heading": "First Reading",
+      "property": "first_reading"
+    },
+    {
+      "heading": "Last Reading",
+      "property": "last_reading"
+    },
+    {
+      "heading": "Consumption",
+      "property": "eb_consumption"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "First Reading Time",
+      "property": "first_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Last Reading Time",
+      "property": "last_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    }
+  ],
+  "dmr_stats.ppm_performance": [
+    {
+      "heading": "Template",
+      "property": "template_id"
+    },
+    {
+      "heading": "Date",
+      "property": "mdate"
+    },
+    {
+      "heading": "Equipment",
+      "property": "equipment_id"
+    },
+    {
+      "heading": "Block",
+      "property": "block_id"
+    },
+    {
+      "heading": "Structure Name",
+      "property": "structure_name"
+    },
+    {
+      "heading": "First Reading",
+      "property": "first_reading"
+    },
+    {
+      "heading": "Last Reading",
+      "property": "last_reading"
+    },
+    {
+      "heading": "Consumption",
+      "property": "eb_consumption"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "First Reading Time",
+      "property": "first_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Last Reading Time",
+      "property": "last_reading_at",
+      "hide": true,
+      "dateField": "datetime"
+    }
+  ],
+  "hx.sla.kpi_audit": [
+    {
+      "heading": "Reference",
+      "property": "audit_for"
+    },
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Audit Template",
+      "property": "audit_template_id"
+    },    
+		{
+      "heading": "Achieved Score",
+      "property": "overall_score"
+  },
+  {
+      "heading": "Penalty Amount",
+      "property": "has_target_amount_penalized"
+  },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    }
+  ],
+  "hx.tracker": [
+    {
+      "heading": "Reference",
+      "property": "audit_for"
+    },
+    {
+      "heading": "Title",
+      "property": "name"
+    },
+    {
+      "heading": "Type",
+      "property": "temp_type_id"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    },
+    {
+      "heading": "Billing Start Date",
+      "property": "start_date"
+    },
+    {
+      "heading": "Billing End Date",
+      "property": "end_date"
+    },
+    {
+      "heading": "Tracker Template",
+      "property": "tracker_template_id"
+    }
+  ],
+  "hx.tracker_line": [
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Question Group",
+      "property": "question_group_id"
+    },
+    {
+      "heading": "Question",
+      "property": "mro_activity_id"
+    },
+    {
+      "heading": "Target",
+      "property": "target"
+    },
+    {
+      "heading": "Answer",
+      "property": "answer"
+    }
+  ],
+  "hx.incident": [
+    {
+      "heading": "Reference",
+      "property": "reference"
+    },
+    {
+      "heading": "Subject",
+      "property": "name"
+    },
+    {
+      "heading": "Status",
+      "property": "state",
+      "func": true
+    },
+    {
+      "heading": "Category",
+      "property": "category_id"
+    },
+    {
+      "heading": "Severity",
+      "property": "severity_id"
+    },
+    {
+      "heading": "Priority",
+      "property": "priority_id"
+    },
+    {
+      "heading": "Target Closure Date",
+      "property": "target_closure_date",
+      "dateFunction": true,
+      "dateDisplayType": "datetime"
+    },
+    {
+      "heading": "Maintenance Team",
+      "property": "maintenance_team_id"
+    },
+    {
+      "heading": "Company",
+      "property": "company_id"
+    }
+  ],
+  "dw.reading_history": [
+    {
+      "heading": "Device",
+      "property": "device_id"
+    },
+    {
+      "heading": "Asset Name",
+      "property": "asset_id"
+    },
+    {
+      "heading": "Asset Number",
+      "property": "asset_number"
+    },
+    {
+      "heading": "Reading Name",
+      "property": "alias_name"
+    },
+    {
+      "heading": "Value",
+      "property": "answer_value"
+    },
+    {
+      "heading": "Timestamp",
+      "property": "measured_ts",
+      "dateField": "datetime"
+    }
+  ],
+  "dw.reading_report": [
+    {
+      "heading": "Asset Name",
+      "property": "asset_name"
+    },
+    {
+      "heading": "Asset Number",
+      "property": "asset_number"
+    },
+    {
+      "heading": "Floor",
+      "property": "floor"
+    },
+    {
+      "heading": "Building",
+      "property": "block"
+    },
+    {
+      "heading": "Reading Name",
+      "property": "reading_name"
+    },
+    {
+      "heading": "Value",
+      "property": "answer_value"
+    },
+    {
+      "heading": "Timestamp",
+      "property": "measured_ts",
+      "dateField": "datetime"
+    }
+  ],
+  "hx.alarms": [
+    {
+      "heading": "Asset",
+      "property": "asset_id"
+    },
+    {
+      "heading": "Event",
+      "property": "event_id"
+    },
+    {
+      "heading": "Created On",
+      "property": "create_date",
+      "dateField": "datetime"
+    },
+    {
+      "heading": "Status",
+      "property": "state"
+    },
+    {
+      "heading": "Resolution",
+      "property": "resolution"
+    }
+  ],
+  "dateFiltersCurrent": [
+    {
+      "label": "Today",
+      "value": "l_day"
+    },
+    {
+      "label": "This Week",
+      "value": "t_week"
+    },
+    {
+      "label": "This Month",
+      "value": "t_month"
+    },
+    {
+      "label": "This Quarter",
+      "value": "t_quarter"
+    },
+    {
+      "label": "This Year",
+      "value": "t_year"
+    }
+  ],
+  "dateFiltersCurrentMini": [
+    {
+      "label": "Today",
+      "value": "l_day"
+    },
+    {
+      "label": "This Week",
+      "value": "t_week"
+    },
+    {
+      "label": "This Month",
+      "value": "t_month"
+    },
+    {
+      "label": "This Year",
+      "value": "t_year"
+    }
+  ],
+  "dateFiltersFuture": [
+    {
+      "label": "Next Day",
+      "value": "n_day"
+    },
+    {
+      "label": "Next Week",
+      "value": "n_week"
+    },
+    {
+      "label": "Next Month",
+      "value": "n_month"
+    },
+    {
+      "label": "Next Quarter",
+      "value": "n_quarter"
+    },
+    {
+      "label": "Next Year",
+      "value": "n_year"
+    }
+  ],
+  "dateFiltersPast": [
+    {
+      "label": "Last Day",
+      "value": "ls_day"
+    },
+    {
+      "label": "Last Week",
+      "value": "ls_week"
+    },
+    {
+      "label": "Last Month",
+      "value": "ls_month"
+    },
+    {
+      "label": "Last Quarter",
+      "value": "ls_quarter"
+    },
+    {
+      "label": "Last Year",
+      "value": "ls_year"
+    }
+  ],
+  "dateFiltersPastMini": [
+    {
+      "label": "Last Day",
+      "value": "ls_day"
+    },
+    {
+      "label": "Last Week",
+      "value": "ls_week"
+    },
+    {
+      "label": "Last Month",
+      "value": "ls_month"
+    },
+    {
+      "label": "Last Year",
+      "value": "ls_year"
+    }
+  ],
+  "noDetailViewModels": [
+    "hx_stats.helpdesk_service_time",
+    "survey.user_input",
+    "mro.equipment.location",
+    "mro.meter.line",
+    "res.country",
+    "sla.summary",
+    "mro.gauge.line",
+    "website.support.ticket.subcategory",
+    "hx.inventory_request",
+    "dmr_stats.eb_consumption",
+    "dmr_stats.eb_consumption_view",
+    "dmr_stats.dg_consumption",
+    "dmr_stats.water_consumption",
+    "dmr_stats.ppm_performance",
+    "survey.user_input_line",
+    "product.template",
+    "maintenance.reading.log",
+    "hx.tracker_line",
+    "dw.reading_history",
+    "hx.alarm"
+  ],
+  "dateFiltersPastDays": [
+    {
+      "label": "Last 7 Days",
+      "value": "l_week"
+    },
+    {
+      "label": "Last 30 Days",
+      "value": "l_month"
+    },
+    {
+      "label": "Last 90 Days",
+      "value": "l_quarter"
+    },
+    {
+      "label": "Last 365 Days",
+      "value": "l_year"
+    },
+    {
+      "label": "Custom Date",
+      "value": "l_custom"
+    },
+    {
+      "label": "All Time",
+      "value": "l_none"
+    }
+  ],
+  "dateFiltersPastDaysMini": [
+    {
+      "label": "Last 7 Days",
+      "value": "l_week"
+    },
+    {
+      "label": "Last 30 Days",
+      "value": "l_month"
+    },
+    {
+      "label": "Last 90 Days",
+      "value": "l_quarter"
+    },
+    {
+      "label": "Custom Date",
+      "value": "l_custom"
+    }
+  ],
+  "dateFiltersText": {
+    "l_day": "Today",
+    "t_week": "This Week",
+    "t_month": "This Month",
+    "t_quarter": "This Quarter",
+    "t_year": "This Year",
+    "n_week": "Next Week",
+    "n_month": "Next Month",
+    "n_quarter": "Next Quarter",
+    "n_year": "Next Year",
+    "ls_week": "Last Week",
+    "ls_month": "Last Month",
+    "ls_quarter": "Last Quarter",
+    "ls_day": "Last Day",
+    "ls_year": "Last Year",
+    "l_week": "Last 7 Days",
+    "l_month": "Last 30 Days",
+    "l_quarter": "Last 90 Days",
+    "l_year": "Last 365 Days",
+    "l_custom": "Custom Date",
+    "l_none": "All Time"
+  },
+  "powers": [
+    {
+      "month": "Jan",
+      "consumption": 439
+    },
+    {
+      "month": "Feb",
+      "consumption": 434
+    },
+    {
+      "month": "Mar",
+      "consumption": 381
+    },
+    {
+      "month": "Apr",
+      "consumption": 332
+    },
+    {
+      "month": "May",
+      "consumption": 232
+    },
+    {
+      "month": "Jun",
+      "consumption": 498
+    },
+    {
+      "month": "Jul",
+      "consumption": 381
+    },
+    {
+      "month": "Aug",
+      "consumption": 488
+    },
+    {
+      "month": "Sep",
+      "consumption": 256
+    },
+    {
+      "month": "Oct",
+      "consumption": 469
+    },
+    {
+      "month": "Nov",
+      "consumption": 392
+    },
+    {
+      "month": "Dec",
+      "consumption": 353
+    }
+  ],
+  "airQuality": [
+    {
+      "id": 1,
+      "date": "7/14/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Elevator Lobby",
+      "temperature": 31,
+      "humidity": 20,
+      "h25": 297,
+      "co2": 518,
+      "luminance": 3,
+      "pm25": 2.5,
+      "site": "MSFT - A"
+    },
+    {
+      "id": 2,
+      "date": "7/15/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Trash Room",
+      "temperature": 34,
+      "humidity": 25,
+      "h25": 255,
+      "co2": 585,
+      "luminance": 4,
+      "pm25": 5.0,
+      "site": "MSFT - C"
+    },
+    {
+      "id": 3,
+      "date": "7/16/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Bathrooms",
+      "temperature": 31,
+      "humidity": 26,
+      "h25": 233,
+      "co2": 595,
+      "luminance": 4,
+      "pm25": 3.0,
+      "site": "MSFT - B"
+    },
+    {
+      "id": 4,
+      "date": "7/17/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Offices",
+      "temperature": 29,
+      "humidity": 27,
+      "h25": 286,
+      "co2": 503,
+      "luminance": 5,
+      "pm25": 10.5,
+      "site": "MSFT - D"
+    },
+    {
+      "id": 5,
+      "date": "7/18/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Elevator Lobby",
+      "temperature": 30,
+      "humidity": 23,
+      "h25": 208,
+      "co2": 596,
+      "luminance": 1,
+      "pm25": 7.5,
+      "site": "MSFT - H"
+    },
+    {
+      "id": 6,
+      "date": "7/19/2021",
+      "space_or_floor": "WMB#01",
+      "device": "Trash Room",
+      "temperature": 33,
+      "humidity": 23,
+      "h25": 265,
+      "co2": 522,
+      "luminance": 9,
+      "pm25": 11.5,
+      "site": "MSFT - A"
+    },
+    {
+      "id": 7,
+      "date": "7/20/2021",
+      "space_or_floor": "WMB#02",
+      "device": "Bathrooms",
+      "temperature": 28,
+      "humidity": 25,
+      "h25": 244,
+      "co2": 587,
+      "luminance": 7,
+      "pm25": 2.5,
+      "site": "MSFT - C"
+    },
+    {
+      "id": 8,
+      "date": "7/2021/2021",
+      "space_or_floor": "WMB#02",
+      "device": "Offices",
+      "temperature": 26,
+      "humidity": 29,
+      "h25": 247,
+      "co2": 538,
+      "luminance": 7,
+      "pm25": 12.5,
+      "site": "MSFT - D"
+    },
+    {
+      "id": 9,
+      "date": "7/22/2021",
+      "space_or_floor": "WMB#02",
+      "device": "Elevator Lobby",
+      "temperature": 35,
+      "humidity": 22,
+      "h25": 205,
+      "co2": 528,
+      "luminance": 5,
+      "pm25": 6.5,
+      "site": "MSFT - H"
+    },
+    {
+      "id": 10,
+      "date": "7/23/2021",
+      "space_or_floor": "WMB#02",
+      "device": "Trash Room",
+      "temperature": 34,
+      "humidity": 29,
+      "h25": 280,
+      "co2": 520,
+      "luminance": 3,
+      "pm25": 7.5,
+      "site": "MSFT - B"
+    },
+    {
+      "id": 11,
+      "date": "7/24/2021",
+      "space_or_floor": "WMB#02",
+      "device": "Bathrooms",
+      "temperature": 35,
+      "humidity": 23,
+      "h25": 216,
+      "co2": 592,
+      "luminance": 8,
+      "pm25": 2.5,
+      "site": "MSFT - D"
+    },
+    {
+      "id": 12,
+      "date": "7/25/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Offices",
+      "temperature": 25,
+      "humidity": 27,
+      "h25": 286,
+      "co2": 566,
+      "luminance": 4,
+      "pm25": 2.5,
+      "site": "MSFT - C"
+    },
+    {
+      "id": 13,
+      "date": "7/26/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Elevator Lobby",
+      "temperature": 25,
+      "humidity": 20,
+      "h25": 239,
+      "co2": 567,
+      "luminance": 10,
+      "pm25": 2.5,
+      "site": "MSFT - B"
+    },
+    {
+      "id": 14,
+      "date": "7/27/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Trash Room",
+      "temperature": 30,
+      "humidity": 21,
+      "h25": 297,
+      "co2": 591,
+      "luminance": 10,
+      "pm25": 0.5,
+      "site": "MSFT - H"
+    },
+    {
+      "id": 15,
+      "date": "7/28/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Bathrooms",
+      "temperature": 30,
+      "humidity": 24,
+      "h25": 215,
+      "co2": 535,
+      "luminance": 10,
+      "pm25": 8.5,
+      "site": "MSFT - A"
+    },
+    {
+      "id": 16,
+      "date": "7/29/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Offices",
+      "temperature": 34,
+      "humidity": 26,
+      "h25": 217,
+      "co2": 600,
+      "luminance": 7,
+      "pm25": 10.0,
+      "site": "MSFT - C"
+    },
+    {
+      "id": 17,
+      "date": "7/30/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Elevator Lobby",
+      "temperature": 32,
+      "humidity": 29,
+      "h25": 218,
+      "co2": 576,
+      "luminance": 4,
+      "pm25": 2.5,
+      "site": "MSFT - B"
+    },
+    {
+      "id": 18,
+      "date": "7/31/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Trash Room",
+      "temperature": 28,
+      "humidity": 27,
+      "h25": 286,
+      "co2": 579,
+      "luminance": 6,
+      "pm25": 7.5,
+      "site": "MSFT - D"
+    },
+    {
+      "id": 19,
+      "date": "8/1/2021",
+      "space_or_floor": "WMB#03",
+      "device": "Bathrooms",
+      "temperature": 34,
+      "humidity": 22,
+      "h25": 274,
+      "co2": 540,
+      "luminance": 10,
+      "pm25": 2.5,
+      "site": "MSFT - H"
+    }
+  ],
+  "powerConsumtions": [
+    {
+      "id": 1,
+      "date": "7/14/2021",
+      "site": "MSFT - A",
+      "unit": "Kw/hr",
+      "consumption": 800,
+      "avg_consumption": 1200,
+      "deviation": -2.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 2,
+      "date": "7/15/2021",
+      "site": "MSFT - B",
+      "unit": "Kw/hr",
+      "consumption": 820,
+      "avg_consumption": 1200,
+      "deviation": 2.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 3,
+      "date": "7/16/2021",
+      "site": "MSFT - B",
+      "unit": "Kw/hr",
+      "consumption": 850,
+      "avg_consumption": 1200,
+      "deviation": -2.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 4,
+      "date": "7/17/2021",
+      "site": "MSFT - D",
+      "unit": "Kw/hr",
+      "consumption": 1200,
+      "avg_consumption": 1200,
+      "deviation": -3,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 5,
+      "date": "7/18/2021",
+      "site": "MSFT - H",
+      "unit": "Kw/hr",
+      "consumption": 1500,
+      "avg_consumption": 1200,
+      "deviation": 4,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 6,
+      "date": "7/18/2021",
+      "site": "MSFT - A",
+      "unit": "Kw/hr",
+      "consumption": 1000,
+      "avg_consumption": 1200,
+      "deviation": 3.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 7,
+      "date": "7/19/2021",
+      "site": "MSFT - H",
+      "unit": "Kw/hr",
+      "consumption": 1250,
+      "avg_consumption": 1200,
+      "deviation": -1.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 8,
+      "date": "7/13/2021",
+      "site": "MSFT - D",
+      "unit": "Kw/hr",
+      "consumption": 1100,
+      "avg_consumption": 1200,
+      "deviation": -5.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 9,
+      "date": "7/12/2021",
+      "site": "MSFT - H",
+      "unit": "Kw/hr",
+      "consumption": 1220,
+      "avg_consumption": 1200,
+      "deviation": 2.5,
+      "action": "Check Equipment"
+    },
+    {
+      "id": 10,
+      "date": "7/12/2021",
+      "site": "MSFT - A",
+      "unit": "Kw/hr",
+      "consumption": 900,
+      "avg_consumption": 1200,
+      "deviation": 2.7,
+      "action": "Check Equipment"
+    }
+  ],
+  "criticalAlarms": [
+    {
+      "id": 1,
+      "date": "7/14/2021",
+      "equipment": "Chiller #12",
+      "time_elapsed": "3:00",
+      "condition": "High Temperature",
+      "risk": "Can Fall, action Required",
+      "site": "MSFT - A"
+    },
+    {
+      "id": 2,
+      "date": "7/15/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "4:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - B"
+    },
+    {
+      "id": 3,
+      "date": "7/16/2021",
+      "equipment": "CNC #1",
+      "time_elapsed": "5:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - H"
+    },
+    {
+      "id": 4,
+      "date": "7/17/2021",
+      "equipment": "Chiller #13",
+      "time_elapsed": "6:00",
+      "condition": "High Temperature",
+      "risk": "Ventilation Failure",
+      "site": "MSFT - D"
+    },
+    {
+      "id": 5,
+      "date": "7/18/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "7:00",
+      "condition": "Motor Failure",
+      "risk": "Can Fall, action Required",
+      "site": "MSFT - A"
+    },
+    {
+      "id": 6,
+      "date": "7/19/2021",
+      "equipment": "CNC #2",
+      "time_elapsed": "8:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - D"
+    },
+    {
+      "id": 7,
+      "date": "7/20/2021",
+      "equipment": "Chiller #14",
+      "time_elapsed": "9:00",
+      "condition": "High Temperature",
+      "risk": "Motor Failure",
+      "site": "MSFT - B"
+    },
+    {
+      "id": 8,
+      "date": "7/2021/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "10:00",
+      "condition": "Motor Failure",
+      "risk": "Ventilation Failure",
+      "site": "MSFT - H"
+    },
+    {
+      "id": 9,
+      "date": "7/22/2021",
+      "equipment": "CNC #3",
+      "time_elapsed": "11:00",
+      "condition": "Motor Failure",
+      "risk": "Can Fall, action Required",
+      "site": "MSFT - A"
+    },
+    {
+      "id": 10,
+      "date": "7/23/2021",
+      "equipment": "Chiller #15",
+      "time_elapsed": "12:00",
+      "condition": "High Temperature",
+      "risk": "Motor Failure",
+      "site": "MSFT - A"
+    },
+    {
+      "id": 11,
+      "date": "7/24/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "13:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - B"
+    },
+    {
+      "id": 12,
+      "date": "7/25/2021",
+      "equipment": "CNC #4",
+      "time_elapsed": "14:00",
+      "condition": "Motor Failure",
+      "risk": "Ventilation Failure",
+      "site": "MSFT - D"
+    },
+    {
+      "id": 13,
+      "date": "7/26/2021",
+      "equipment": "Chiller #16",
+      "time_elapsed": "15:00",
+      "condition": "High Temperature",
+      "risk": "Can Fall, action Required",
+      "site": "MSFT - C"
+    },
+    {
+      "id": 14,
+      "date": "7/27/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "16:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - C"
+    },
+    {
+      "id": 15,
+      "date": "7/28/2021",
+      "equipment": "CNC #5",
+      "time_elapsed": "17:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - H"
+    },
+    {
+      "id": 16,
+      "date": "7/29/2021",
+      "equipment": "Chiller #17",
+      "time_elapsed": "18:00",
+      "condition": "High Temperature",
+      "risk": "Ventilation Failure",
+      "site": "MSFT - A"
+    },
+    {
+      "id": 17,
+      "date": "7/30/2021",
+      "equipment": "Condenser Pump",
+      "time_elapsed": "19:00",
+      "condition": "Motor Failure",
+      "risk": "Can Fall, action Required",
+      "site": "MSFT - D"
+    },
+    {
+      "id": 18,
+      "date": "7/31/2021",
+      "equipment": "CNC #6",
+      "time_elapsed": "20:00",
+      "condition": "Motor Failure",
+      "risk": "Motor Failure",
+      "site": "MSFT - B"
+    },
+    {
+      "id": 19,
+      "date": "8/1/2021",
+      "equipment": "Chiller #18",
+      "time_elapsed": "21:00",
+      "condition": "High Temperature",
+      "risk": "Motor Failure",
+      "site": "MSFT - C"
+    }
+  ],
+  "commodityTransactions": [
+    {
+      "id": 1,
+      "date": "7/14/2021",
+      "vendor": "MK Pvt Ldt",
+      "tanker_no": "TN28T203",
+      "block": "A",
+      "commodity": "Water",
+      "status": "Tanker In",
+      "timings": "35:45:00",
+      "site": "MSFT - A",
+      "capacity": 12000,
+      "delivery_challan": "09876",
+      "initial_reading": 500,
+      "final_reading": 8000,
+      "require_to_deliver": 10000,
+      "risk": "Less amount delivered"
+    },
+    {
+      "id": 2,
+      "date": "7/15/2021",
+      "vendor": "GH Pvt Ldt",
+      "tanker_no": "TN28T204",
+      "block": "B",
+      "commodity": "Oil",
+      "status": "Tanker Out",
+      "timings": "36:45:00",
+      "site": "MSFT - B",
+      "capacity": 12000,
+      "delivery_challan": "09876",
+      "initial_reading": 900,
+      "final_reading": 10000,
+      "require_to_deliver": 10000,
+      "risk": "Same challan number has been used, Dt: 12/07/2021, Site: MSFT - B"
+    },
+    {
+      "id": 3,
+      "date": "7/16/2021",
+      "vendor": "SM Pvt Ldt",
+      "tanker_no": "TN28T205",
+      "block": "C",
+      "commodity": "Sewage",
+      "status": "Tanker In",
+      "timings": "37:45:00",
+      "site": "MSFT - H",
+      "capacity": 20000,
+      "delivery_challan": "08590",
+      "initial_reading": 1200,
+      "final_reading": 10020,
+      "require_to_deliver": 10000,
+      "risk": "More amount delivered"
+    },
+    {
+      "id": 4,
+      "date": "7/17/2021",
+      "vendor": "44 Pvt Ldt",
+      "tanker_no": "TN28T206",
+      "block": "D",
+      "commodity": "Sewage",
+      "status": "Tanker Out",
+      "timings": "38:45:00",
+      "site": "MSFT - H",
+      "capacity": 25000,
+      "delivery_challan": "02347",
+      "initial_reading": 400,
+      "final_reading": 8000,
+      "require_to_deliver": 10000,
+      "risk": "Less amount delivered"
+    },
+    {
+      "id": 5,
+      "date": "7/18/2021",
+      "vendor": "44 Pvt Ldt",
+      "tanker_no": "TN28T206",
+      "block": "D",
+      "commodity": "Sewage",
+      "status": "Tanker Out",
+      "timings": "38:45:00",
+      "site": "MSFT - H",
+      "capacity": 25000,
+      "delivery_challan": "02347",
+      "initial_reading": 400,
+      "final_reading": 8000,
+      "require_to_deliver": 10000,
+      "risk": "Less amount delivered"
+    }
+  ],
+  "externalVisitors": [
+    {
+      "date": "01/01/2021",
+      "visitor_id": "0001",
+      "status": "Scheduled",
+      "extended_hrs": 1
+    },
+    {
+      "date": "01/02/2021",
+      "visitor_id": "0002",
+      "status": "Currently Inside",
+      "extended_hrs": 2
+    },
+    {
+      "date": "01/03/2021",
+      "visitor_id": "0003",
+      "status": "Scheduled",
+      "extended_hrs": 3
+    },
+    {
+      "date": "01/04/2021",
+      "visitor_id": "0004",
+      "status": "Currently Inside",
+      "extended_hrs": 4
+    },
+    {
+      "date": "01/05/2021",
+      "visitor_id": "0005",
+      "status": "Scheduled",
+      "extended_hrs": 5
+    },
+    {
+      "date": "01/06/2021",
+      "visitor_id": "0006",
+      "status": "Currently Inside",
+      "extended_hrs": 6
+    },
+    {
+      "date": "01/07/2021",
+      "visitor_id": "0007",
+      "status": "Scheduled",
+      "extended_hrs": 7
+    },
+    {
+      "date": "01/08/2021",
+      "visitor_id": "0008",
+      "status": "Currently Inside",
+      "extended_hrs": 8
+    },
+    {
+      "date": "01/09/2021",
+      "visitor_id": "0009",
+      "status": "Scheduled",
+      "extended_hrs": 9
+    },
+    {
+      "date": "01/10/2021",
+      "visitor_id": "0010",
+      "status": "Currently Inside",
+      "extended_hrs": 10
+    },
+    {
+      "date": "01/11/2021",
+      "visitor_id": "0011",
+      "status": "Scheduled",
+      "extended_hrs": 11
+    },
+    {
+      "date": "01/12/2021",
+      "visitor_id": "0012",
+      "status": "Currently Inside",
+      "extended_hrs": 12
+    },
+    {
+      "date": "01/13/2021",
+      "visitor_id": "0013",
+      "status": "Scheduled",
+      "extended_hrs": 13
+    },
+    {
+      "date": "01/14/2021",
+      "visitor_id": "0014",
+      "status": "Currently Inside",
+      "extended_hrs": 14
+    },
+    {
+      "date": "01/15/2021",
+      "visitor_id": "0015",
+      "status": "Scheduled",
+      "extended_hrs": 15
+    },
+    {
+      "date": "01/16/2021",
+      "visitor_id": "0016",
+      "status": "Currently Inside",
+      "extended_hrs": 16
+    },
+    {
+      "date": "01/17/2021",
+      "visitor_id": "0017",
+      "status": "Scheduled",
+      "extended_hrs": 17
+    },
+    {
+      "date": "01/18/2021",
+      "visitor_id": "0018",
+      "status": "Currently Inside",
+      "extended_hrs": 18
+    },
+    {
+      "date": "01/19/2021",
+      "visitor_id": "0019",
+      "status": "Scheduled",
+      "extended_hrs": 19
+    }
+  ],
+  "workOrderSchedules": [
+    {
+      "date": "01/01/2021",
+      "wo_id": "001",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/02/2021",
+      "wo_id": "002",
+      "status": "Not Assigned"
+    },
+    {
+      "date": "01/03/2021",
+      "wo_id": "003",
+      "status": "Escalated L1"
+    },
+    {
+      "date": "01/04/2021",
+      "wo_id": "004",
+      "status": "Escalated L2"
+    },
+    {
+      "date": "01/05/2021",
+      "wo_id": "005",
+      "status": "Escalated L3"
+    },
+    {
+      "date": "01/06/2021",
+      "wo_id": "006",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/07/2021",
+      "wo_id": "007",
+      "status": "Not Assigned"
+    },
+    {
+      "date": "01/08/2021",
+      "wo_id": "008",
+      "status": "Escalated L4"
+    },
+    {
+      "date": "01/09/2021",
+      "wo_id": "009",
+      "status": "Escalated L5"
+    },
+    {
+      "date": "01/10/2021",
+      "wo_id": "010",
+      "status": "Escalated L6"
+    },
+    {
+      "date": "01/11/2021",
+      "wo_id": "011",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/12/2021",
+      "wo_id": "012",
+      "status": "Not Assigned"
+    },
+    {
+      "date": "01/13/2021",
+      "wo_id": "013",
+      "status": "Escalated L7"
+    },
+    {
+      "date": "01/14/2021",
+      "wo_id": "014",
+      "status": "Escalated L8"
+    },
+    {
+      "date": "01/15/2021",
+      "wo_id": "015",
+      "status": "Escalated L9"
+    },
+    {
+      "date": "01/16/2021",
+      "wo_id": "016",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/17/2021",
+      "wo_id": "017",
+      "status": "Not Assigned"
+    },
+    {
+      "date": "01/18/2021",
+      "wo_id": "018",
+      "status": "Escalated L10"
+    },
+    {
+      "date": "01/19/2021",
+      "wo_id": "019",
+      "status": "Escalated L11"
+    }
+  ],
+  "assetsEquipments": [
+    {
+      "date": "01/01/2021",
+      "equipment_id": "001",
+      "status": "Breakdown",
+      "healthy_hrs": 2800,
+      "warranty_date": "02/02/2021",
+      "total_downtime_hrs": 0
+    },
+    {
+      "date": "01/02/2021",
+      "equipment_id": "002",
+      "status": "Operative",
+      "healthy_hrs": 2801,
+      "warranty_date": "02/03/2021",
+      "total_downtime_hrs": 1
+    },
+    {
+      "date": "01/03/2021",
+      "equipment_id": "003",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2802,
+      "warranty_date": "02/04/2021",
+      "total_downtime_hrs": 2
+    },
+    {
+      "date": "01/04/2021",
+      "equipment_id": "004",
+      "status": "Breakdown",
+      "healthy_hrs": 2803,
+      "warranty_date": "02/05/2021",
+      "total_downtime_hrs": 3
+    },
+    {
+      "date": "01/05/2021",
+      "equipment_id": "005",
+      "status": "Operative",
+      "healthy_hrs": 2804,
+      "warranty_date": "02/06/2021",
+      "total_downtime_hrs": 4
+    },
+    {
+      "date": "01/06/2021",
+      "equipment_id": "006",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2805,
+      "warranty_date": "02/07/2021",
+      "total_downtime_hrs": 5
+    },
+    {
+      "date": "01/07/2021",
+      "equipment_id": "007",
+      "status": "Breakdown",
+      "healthy_hrs": 2806,
+      "warranty_date": "02/08/2021",
+      "total_downtime_hrs": 6
+    },
+    {
+      "date": "01/08/2021",
+      "equipment_id": "008",
+      "status": "Operative",
+      "healthy_hrs": 2807,
+      "warranty_date": "02/09/2021",
+      "total_downtime_hrs": 7
+    },
+    {
+      "date": "01/09/2021",
+      "equipment_id": "009",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2808,
+      "warranty_date": "02/10/2021",
+      "total_downtime_hrs": 8
+    },
+    {
+      "date": "01/10/2021",
+      "equipment_id": "010",
+      "status": "Breakdown",
+      "healthy_hrs": 2809,
+      "warranty_date": "02/11/2021",
+      "total_downtime_hrs": 9
+    },
+    {
+      "date": "01/11/2021",
+      "equipment_id": "011",
+      "status": "Operative",
+      "healthy_hrs": 2810,
+      "warranty_date": "02/12/2021",
+      "total_downtime_hrs": 10
+    },
+    {
+      "date": "01/12/2021",
+      "equipment_id": "012",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2811,
+      "warranty_date": "02/13/2021",
+      "total_downtime_hrs": 11
+    },
+    {
+      "date": "01/13/2021",
+      "equipment_id": "013",
+      "status": "Breakdown",
+      "healthy_hrs": 2812,
+      "warranty_date": "02/14/2021",
+      "total_downtime_hrs": 12
+    },
+    {
+      "date": "01/14/2021",
+      "equipment_id": "014",
+      "status": "Operative",
+      "healthy_hrs": 2813,
+      "warranty_date": "02/15/2021",
+      "total_downtime_hrs": 13
+    },
+    {
+      "date": "01/15/2021",
+      "equipment_id": "015",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2814,
+      "warranty_date": "02/16/2021",
+      "total_downtime_hrs": 14
+    },
+    {
+      "date": "01/16/2021",
+      "equipment_id": "016",
+      "status": "Breakdown",
+      "healthy_hrs": 2815,
+      "warranty_date": "02/17/2021",
+      "total_downtime_hrs": 15
+    },
+    {
+      "date": "01/17/2021",
+      "equipment_id": "017",
+      "status": "Operative",
+      "healthy_hrs": 2816,
+      "warranty_date": "02/18/2021",
+      "total_downtime_hrs": 16
+    },
+    {
+      "date": "01/18/2021",
+      "equipment_id": "018",
+      "status": "Under Maintenance",
+      "healthy_hrs": 2817,
+      "warranty_date": "02/19/2021",
+      "total_downtime_hrs": 17
+    },
+    {
+      "date": "01/19/2021",
+      "equipment_id": "019",
+      "status": "Breakdown",
+      "healthy_hrs": 2818,
+      "warranty_date": "02/20/2021",
+      "total_downtime_hrs": 18
+    }
+  ],
+  "tickets": [
+    {
+      "date": "01/01/2021",
+      "ticket_id": "001",
+      "status": "New",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/02/2021",
+      "ticket_id": "002",
+      "status": "Closed",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/03/2021",
+      "ticket_id": "003",
+      "status": "In Progress",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/04/2021",
+      "ticket_id": "004",
+      "status": "New",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/05/2021",
+      "ticket_id": "005",
+      "status": "Closed",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/06/2021",
+      "ticket_id": "006",
+      "status": "In Progress",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/07/2021",
+      "ticket_id": "007",
+      "status": "New",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/08/2021",
+      "ticket_id": "008",
+      "status": "Closed",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/09/2021",
+      "ticket_id": "009",
+      "status": "In Progress",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/10/2021",
+      "ticket_id": "010",
+      "status": "New",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/11/2021",
+      "ticket_id": "011",
+      "status": "Closed",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/12/2021",
+      "ticket_id": "012",
+      "status": "In Progress",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/13/2021",
+      "ticket_id": "013",
+      "status": "New",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/14/2021",
+      "ticket_id": "014",
+      "status": "Closed",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/15/2021",
+      "ticket_id": "015",
+      "status": "In Progress",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/16/2021",
+      "ticket_id": "016",
+      "status": "New",
+      "sla": "Elapsed"
+    },
+    {
+      "date": "01/17/2021",
+      "ticket_id": "017",
+      "status": "Closed",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/18/2021",
+      "ticket_id": "018",
+      "status": "In Progress",
+      "sla": "Within SLA"
+    },
+    {
+      "date": "01/19/2021",
+      "ticket_id": "019",
+      "status": "New",
+      "sla": "Elapsed"
+    }
+  ],
+  "preventiveMaintenances": [
+    {
+      "date": "01/01/2021",
+      "equipment_id": "001",
+      "frequency": "Daily",
+      "status": "Done"
+    },
+    {
+      "date": "01/02/2021",
+      "equipment_id": "002",
+      "frequency": "Weekly",
+      "status": "Delayed"
+    },
+    {
+      "date": "01/03/2021",
+      "equipment_id": "003",
+      "frequency": "Monthly",
+      "status": "Done"
+    },
+    {
+      "date": "01/04/2021",
+      "equipment_id": "004",
+      "frequency": "Daily",
+      "status": "Done"
+    },
+    {
+      "date": "01/05/2021",
+      "equipment_id": "005",
+      "frequency": "Weekly",
+      "status": "Done"
+    },
+    {
+      "date": "01/06/2021",
+      "equipment_id": "006",
+      "frequency": "Monthly",
+      "status": "Delayed"
+    },
+    {
+      "date": "01/07/2021",
+      "equipment_id": "007",
+      "frequency": "Daily",
+      "status": "Done"
+    },
+    {
+      "date": "01/08/2021",
+      "equipment_id": "008",
+      "frequency": "Weekly",
+      "status": "Done"
+    },
+    {
+      "date": "01/09/2021",
+      "equipment_id": "009",
+      "frequency": "Monthly",
+      "status": "Done"
+    },
+    {
+      "date": "01/10/2021",
+      "equipment_id": "010",
+      "frequency": "Daily",
+      "status": "Delayed"
+    },
+    {
+      "date": "01/11/2021",
+      "equipment_id": "011",
+      "frequency": "Weekly",
+      "status": "Done"
+    },
+    {
+      "date": "01/12/2021",
+      "equipment_id": "012",
+      "frequency": "Monthly",
+      "status": "Done"
+    },
+    {
+      "date": "01/13/2021",
+      "equipment_id": "013",
+      "frequency": "Daily",
+      "status": "Done"
+    },
+    {
+      "date": "01/14/2021",
+      "equipment_id": "014",
+      "frequency": "Weekly",
+      "status": "Delayed"
+    },
+    {
+      "date": "01/15/2021",
+      "equipment_id": "015",
+      "frequency": "Monthly",
+      "status": "Done"
+    },
+    {
+      "date": "01/16/2021",
+      "equipment_id": "016",
+      "frequency": "Daily",
+      "status": "Done"
+    },
+    {
+      "date": "01/17/2021",
+      "equipment_id": "017",
+      "frequency": "Weekly",
+      "status": "Done"
+    },
+    {
+      "date": "01/18/2021",
+      "equipment_id": "018",
+      "frequency": "Monthly",
+      "status": "Delayed"
+    },
+    {
+      "date": "01/19/2021",
+      "equipment_id": "019",
+      "frequency": "Daily",
+      "status": "Done"
+    }
+  ],
+  "visitors": [
+    {
+      "date": "01/01/2021",
+      "visitor_id": "001",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/02/2021",
+      "visitor_id": "002",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/03/2021",
+      "visitor_id": "003",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/04/2021",
+      "visitor_id": "004",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/05/2021",
+      "visitor_id": "005",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/06/2021",
+      "visitor_id": "006",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/07/2021",
+      "visitor_id": "007",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/08/2021",
+      "visitor_id": "008",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/09/2021",
+      "visitor_id": "009",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/10/2021",
+      "visitor_id": "010",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/11/2021",
+      "visitor_id": "011",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/12/2021",
+      "visitor_id": "012",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/13/2021",
+      "visitor_id": "013",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/14/2021",
+      "visitor_id": "014",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/15/2021",
+      "visitor_id": "015",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/16/2021",
+      "visitor_id": "016",
+      "status": "Scheduled"
+    },
+    {
+      "date": "01/17/2021",
+      "visitor_id": "017",
+      "status": "Currently Inside"
+    },
+    {
+      "date": "01/18/2021",
+      "visitor_id": "018",
+      "status": "Cancelled"
+    },
+    {
+      "date": "01/19/2021",
+      "visitor_id": "019",
+      "status": "Scheduled"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "date": "01/01/2021",
+      "site": "MSFT - A",
+      "warehouse": "Warehouse 1",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 2,
+      "date": "01/02/2021",
+      "site": "MSFT - B",
+      "warehouse": "Warehouse 2",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 3,
+      "date": "01/03/2021",
+      "site": "MSFT - C",
+      "warehouse": "Warehouse 3",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 4,
+      "date": "01/04/2021",
+      "site": "MSFT - D",
+      "warehouse": "Warehouse 4",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 5,
+      "date": "01/05/2021",
+      "site": "MSFT - A",
+      "warehouse": "Warehouse 5",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 6,
+      "date": "01/06/2021",
+      "site": "MSFT - B",
+      "warehouse": "Warehouse 6",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 7,
+      "date": "01/07/2021",
+      "site": "MSFT - C",
+      "warehouse": "Warehouse 7",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 8,
+      "date": "01/08/2021",
+      "site": "MSFT - D",
+      "warehouse": "Warehouse 8",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 9,
+      "date": "01/09/2021",
+      "site": "MSFT - A",
+      "warehouse": "Warehouse 9",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 10,
+      "date": "01/10/2021",
+      "site": "MSFT - B",
+      "warehouse": "Warehouse 10",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 11,
+      "date": "01/11/2021",
+      "site": "MSFT - C",
+      "warehouse": "Warehouse 11",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 12,
+      "date": "01/12/2021",
+      "site": "MSFT - D",
+      "warehouse": "Warehouse 12",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 13,
+      "date": "01/13/2021",
+      "site": "MSFT - A",
+      "warehouse": "Warehouse 13",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 14,
+      "date": "01/14/2021",
+      "site": "MSFT - B",
+      "warehouse": "Warehouse 14",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 15,
+      "date": "01/15/2021",
+      "site": "MSFT - C",
+      "warehouse": "Warehouse 15",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 16,
+      "date": "01/16/2021",
+      "site": "MSFT - D",
+      "warehouse": "Warehouse 16",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    },
+    {
+      "id": 17,
+      "date": "01/17/2021",
+      "site": "MSFT - A",
+      "warehouse": "Warehouse 17",
+      "product": "Air Filter",
+      "status": "Fast Moving",
+      "action": 0
+    },
+    {
+      "id": 18,
+      "date": "01/18/2021",
+      "site": "MSFT - B",
+      "warehouse": "Warehouse 18",
+      "product": "Tape",
+      "status": "Not Available",
+      "action": 0
+    },
+    {
+      "id": 19,
+      "date": "01/19/2021",
+      "site": "MSFT - C",
+      "warehouse": "Warehouse 19",
+      "product": "Cable Tie",
+      "status": "Below Threshold",
+      "action": 0
+    }
+  ],
+  "buildingCompliances": [
+    {
+      "id": 1,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire",
+      "action": "ARN/02/52"
+    },
+    {
+      "id": 2,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal"
+    },
+    {
+      "id": 3,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired",
+      "action": "ARN/02/53"
+    },
+    {
+      "id": 4,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire"
+    },
+    {
+      "id": 5,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal",
+      "action": "ARN/02/54"
+    },
+    {
+      "id": 6,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired"
+    },
+    {
+      "id": 7,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire",
+      "action": "ARN/02/55"
+    },
+    {
+      "id": 8,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal"
+    },
+    {
+      "id": 9,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired",
+      "action": "ARN/02/56"
+    },
+    {
+      "id": 10,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire"
+    },
+    {
+      "id": 11,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal",
+      "action": "ARN/02/57"
+    },
+    {
+      "id": 12,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired"
+    },
+    {
+      "id": 13,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire",
+      "action": "ARN/02/58"
+    },
+    {
+      "id": 14,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal"
+    },
+    {
+      "id": 15,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired",
+      "action": "ARN/02/59"
+    },
+    {
+      "id": 16,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire"
+    },
+    {
+      "id": 17,
+      "building": "Miscrosoft",
+      "floor": "2nd Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "07/27/2021",
+      "certificate_status": "In Process of Renewal",
+      "action": "ARN/02/60"
+    },
+    {
+      "id": 18,
+      "building": "CTS",
+      "floor": "Ground Floor",
+      "certificate_type": "EHS",
+      "certificate_expiry_date": "07/15/2021",
+      "certificate_status": "Expired"
+    },
+    {
+      "id": 19,
+      "building": "MCloud",
+      "floor": "1st Floor",
+      "certificate_type": "Fire",
+      "certificate_expiry_date": "08/15/2021",
+      "certificate_status": "About to Expire",
+      "action": "ARN/02/61"
+    }
+  ],
+  "covid": [
+    {
+      "date": "01/01/2021",
+      "case_id": "0001",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/02/2021",
+      "case_id": "0002",
+      "status": "Active"
+    },
+    {
+      "date": "01/03/2021",
+      "case_id": "0003",
+      "status": "New"
+    },
+    {
+      "date": "01/04/2021",
+      "case_id": "0004",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/05/2021",
+      "case_id": "0005",
+      "status": "Active"
+    },
+    {
+      "date": "01/06/2021",
+      "case_id": "0006",
+      "status": "New"
+    },
+    {
+      "date": "01/07/2021",
+      "case_id": "0007",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/08/2021",
+      "case_id": "0008",
+      "status": "Active"
+    },
+    {
+      "date": "01/09/2021",
+      "case_id": "0009",
+      "status": "New"
+    },
+    {
+      "date": "01/10/2021",
+      "case_id": "0010",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/11/2021",
+      "case_id": "0011",
+      "status": "Active"
+    },
+    {
+      "date": "01/12/2021",
+      "case_id": "0012",
+      "status": "New"
+    },
+    {
+      "date": "01/13/2021",
+      "case_id": "0013",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/14/2021",
+      "case_id": "0014",
+      "status": "Active"
+    },
+    {
+      "date": "01/15/2021",
+      "case_id": "0015",
+      "status": "New"
+    },
+    {
+      "date": "01/16/2021",
+      "case_id": "0016",
+      "status": "Recovered"
+    },
+    {
+      "date": "01/17/2021",
+      "case_id": "0017",
+      "status": "Active"
+    },
+    {
+      "date": "01/18/2021",
+      "case_id": "0018",
+      "status": "New"
+    },
+    {
+      "date": "01/19/2021",
+      "case_id": "0019",
+      "status": "Recovered"
+    }
+  ],
+  "meetingRoomOccupancy": [
+    {
+      "date": "01/01/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 12,
+      "total_seats": 100
+    },
+    {
+      "date": "01/02/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Free",
+      "seats_vacant": 19,
+      "total_seats": 100
+    },
+    {
+      "date": "01/03/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 6,
+      "total_seats": 100
+    },
+    {
+      "date": "01/04/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/05/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 5,
+      "total_seats": 100
+    },
+    {
+      "date": "01/06/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 6,
+      "total_seats": 100
+    },
+    {
+      "date": "01/07/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/08/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Free",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/09/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/10/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/11/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/12/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/13/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/14/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Free",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/15/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/16/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/17/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/18/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    },
+    {
+      "date": "01/19/2021",
+      "meeting_room": "Meeting Room 1",
+      "status": "Occupied",
+      "seats_vacant": 4,
+      "total_seats": 100
+    }
+  ],
+  "attendanceManagement": [
+    {
+      "id": 1,
+      "date": "01/01/2021",
+      "site": "MSFT - A",
+      "team": "Housekeeping",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 2,
+      "date": "01/02/2021",
+      "site": "MSFT - B",
+      "team": "IT",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 720,
+      "deviation": 1.5,
+      "action": "Get Approval from Manager"
+    },
+    {
+      "id": 3,
+      "date": "01/03/2021",
+      "site": "MSFT - C",
+      "team": "Electrical",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 360,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 4,
+      "date": "01/04/2021",
+      "site": "MSFT - D",
+      "team": "Sales",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 5,
+      "date": "01/05/2021",
+      "site": "MSFT - A",
+      "team": "Housekeeping",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 6,
+      "date": "01/06/2021",
+      "site": "MSFT - B",
+      "team": "IT",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 720,
+      "deviation": 1.5,
+      "action": "Get Approval from Manager"
+    },
+    {
+      "id": 7,
+      "date": "01/07/2021",
+      "site": "MSFT - C",
+      "team": "Electrical",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 360,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 8,
+      "date": "01/08/2021",
+      "site": "MSFT - D",
+      "team": "Sales",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 9,
+      "date": "01/09/2021",
+      "site": "MSFT - A",
+      "team": "Housekeeping",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 10,
+      "date": "01/10/2021",
+      "site": "MSFT - B",
+      "team": "IT",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 720,
+      "deviation": 1.5,
+      "action": "Get Approval from Manager"
+    },
+    {
+      "id": 11,
+      "date": "01/11/2021",
+      "site": "MSFT - C",
+      "team": "Electrical",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 360,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 12,
+      "date": "01/12/2021",
+      "site": "MSFT - D",
+      "team": "Sales",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 13,
+      "date": "01/13/2021",
+      "site": "MSFT - A",
+      "team": "Housekeeping",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 14,
+      "date": "01/14/2021",
+      "site": "MSFT - B",
+      "team": "IT",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 720,
+      "deviation": 1.5,
+      "action": "Get Approval from Manager"
+    },
+    {
+      "id": 15,
+      "date": "01/15/2021",
+      "site": "MSFT - C",
+      "team": "Electrical",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 360,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 16,
+      "date": "01/16/2021",
+      "site": "MSFT - D",
+      "team": "Sales",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 17,
+      "date": "01/17/2021",
+      "site": "MSFT - A",
+      "team": "Housekeeping",
+      "scheduled_hrs_per_day": 48,
+      "performed_hrs_per_day": 40,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    },
+    {
+      "id": 18,
+      "date": "01/18/2021",
+      "site": "MSFT - B",
+      "team": "IT",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 720,
+      "deviation": 1.5,
+      "action": "Get Approval from Manager"
+    },
+    {
+      "id": 19,
+      "date": "01/19/2021",
+      "site": "MSFT - C",
+      "team": "Electrical",
+      "scheduled_hrs_per_day": 480,
+      "performed_hrs_per_day": 360,
+      "deviation": 0.8,
+      "action": "Staff Absent/Shift"
+    }
+  ],
+  "criticalAlerts": [
+    {
+      "date": "01/01/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/02/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/03/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/04/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/05/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/06/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/07/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/08/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/09/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/10/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/11/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/12/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/13/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/14/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/15/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/16/2021",
+      "reported_issue": "No of people have not taken test today"
+    },
+    {
+      "date": "01/17/2021",
+      "reported_issue": "No of people have answered they have cough today"
+    },
+    {
+      "date": "01/18/2021",
+      "reported_issue": "No of people have answered they have cough but not fever"
+    },
+    {
+      "date": "01/19/2021",
+      "reported_issue": "No of people have not taken test today"
+    }
+  ],
+  "employees": [
+    {
+      "date": "01/01/2021",
+      "employee_id": "001",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "1.00%"
+    },
+    {
+      "date": "01/02/2021",
+      "employee_id": "002",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "2.00%"
+    },
+    {
+      "date": "01/03/2021",
+      "employee_id": "003",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "3.20%"
+    },
+    {
+      "date": "01/04/2021",
+      "employee_id": "004",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "1.20%"
+    },
+    {
+      "date": "01/05/2021",
+      "employee_id": "005",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "0.50%"
+    },
+    {
+      "date": "01/06/2021",
+      "employee_id": "006",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "0.40%"
+    },
+    {
+      "date": "01/07/2021",
+      "employee_id": "007",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "1.20%"
+    },
+    {
+      "date": "01/08/2021",
+      "employee_id": "008",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "1.50%"
+    },
+    {
+      "date": "01/09/2021",
+      "employee_id": "009",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "2.23%"
+    },
+    {
+      "date": "01/10/2021",
+      "employee_id": "010",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "4.50%"
+    },
+    {
+      "date": "01/11/2021",
+      "employee_id": "011",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "3.30%"
+    },
+    {
+      "date": "01/12/2021",
+      "employee_id": "012",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "1.20%"
+    },
+    {
+      "date": "01/13/2021",
+      "employee_id": "013",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "5.30%"
+    },
+    {
+      "date": "01/14/2021",
+      "employee_id": "014",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "3.20%"
+    },
+    {
+      "date": "01/15/2021",
+      "employee_id": "015",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "4.00%"
+    },
+    {
+      "date": "01/16/2021",
+      "employee_id": "016",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "2.10%"
+    },
+    {
+      "date": "01/17/2021",
+      "employee_id": "017",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "2.30%"
+    },
+    {
+      "date": "01/18/2021",
+      "employee_id": "018",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "3.50%"
+    },
+    {
+      "date": "01/19/2021",
+      "employee_id": "019",
+      "working_hrs": 8,
+      "agreed_man_hrs": 7,
+      "absenteesim_rate": "2.10%"
+    }
+  ]
+}

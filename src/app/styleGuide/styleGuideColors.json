@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Cinnabar",
+        "code": "#e94c23",
+        "color": "bg-cinnabar"
+    },
+    {
+        "name": "Cloud Burst",
+        "code": "#374152",
+        "color": "bg-cloud-burst"
+    },
+    {
+        "name": "Dark Cerulean",
+        "code": "#0b4b7d",
+        "color": "bg-dark-cerulean"
+    },
+    {
+        "name": "Mandy",
+        "code": "#d84e59",
+        "color": "bg-color-mandy"
+    }
+] 

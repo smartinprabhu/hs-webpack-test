@@ -1,0 +1,36 @@
+{
+    "categoryIcons": [
+        {
+            "id": 0,
+            "image": "./images/ready.svg"
+        },
+        {
+            "id": 1,
+            "image": "./images/booked.svg"
+        },
+        {
+            "id": 2,
+            "image": "./images/maintain.svg"
+        },
+        {
+            "id": 3,
+            "image": "./images/partialBooked.svg"
+        },
+        {
+            "id": 4,
+            "image": "./images/orangePin.svg"
+        },
+        {
+            "id": 5,
+            "image": "./images/pinkPin.svg"
+        },
+        {
+            "id": 6,
+            "image": "./images/tealPin.svg"
+        },
+        {
+            "id": 7,
+            "image": "./images/seaGreenPin.svg"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/commodity-overview"
+    },
+    "Operations": {
+      "id": 2,
+      "name": "OPERATIONS",
+      "displayname": "Operations",
+      "pathName": "/commodity/operations"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/commodity/reports"
+    },
+    "title": "Commodity Transactions"
+  }
+}

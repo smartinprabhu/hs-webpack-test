@@ -1,0 +1,7 @@
+{
+    "Add Survey": "survey_create_survey",
+    "Edit Survey": "survey_edit_survey",
+    "Delete Survey": "survey_delete_survey",
+    "View Answers": "survey_view_survey_results",
+    "Download Answers": "survey_download_answer_results"
+}

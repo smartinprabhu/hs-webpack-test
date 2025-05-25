@@ -1,0 +1,20 @@
+{
+    "data": {
+        "z": {
+            "id": 1,
+            "name": "Teams",
+            "displayname": "Teams",
+            "viewName": "Teams",
+            "pathName": "/teams"
+        },
+        "Team Members": {
+            "id": 2,
+            "name": "Team Members",
+            "activename": "Team Members",
+            "displayname": "Team Members",
+            "viewName": "Team Members",
+            "pathName": "/team-members"
+        },
+        "title": "Users"
+    }
+}

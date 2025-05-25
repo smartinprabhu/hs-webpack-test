@@ -1,0 +1,6 @@
+{
+    "SLA Audit Report Export": "slaaudit_downloadexcel_pdf",
+    "Smart Logger Report Export": "smartloggerwo_downloadexcel_pdf",
+    "Inspection Checklist Report Export": "ppmchecklist_downloadexcel_pdf",
+    "Employee Performance Export": "employeeperformance_downloadexcel_pdf"
+}

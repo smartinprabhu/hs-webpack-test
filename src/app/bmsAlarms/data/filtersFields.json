@@ -1,0 +1,111 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Site",
+            "accessor": "company_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Generated on",
+            "accessor": "generated_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Subject",
+            "accessor": "subject"
+        },
+        {
+            "Header": "Severity",
+            "accessor": "severity"
+        },
+        {
+            "Header": "Type",
+            "accessor": "type_category"
+        },
+        {
+            "Header": "Asset",
+            "accessor": "equipment_id"
+        },
+        {
+            "Header": "Space",
+            "accessor": "space_id"
+        },
+        {
+            "Header": "Category",
+            "accessor": "category_id"
+        },
+        {
+            "Header": "Sub Category",
+            "accessor": "sub_category_id"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "Header": "Requested by",
+            "accessor": "requested_by"
+        },
+        {
+            "Header": "Planned SLA End Date",
+            "accessor": "planned_sla_end_date",
+             "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Resolution",
+            "accessor": "resolution"
+        }
+    ]
+}

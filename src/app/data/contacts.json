@@ -1,0 +1,23 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "IT Service Desk",
+            "number": "8100 4000 / 8101 4000",
+            "usText": "US",
+            "usNumber": "888-532-6021",
+            "tollFreeText": "Additional toll free numbers",
+            "availableHere": "available here",
+            "availableHereLink": "https://nttdatagroup.sharepoint.com/sites/SRVS-myHubInfo/SitePages/IT-Support.aspx",
+            "serviceRequestText": "Submit Service Request",
+            "serviceRequestLink": "https://services-onentt.okta.com/home/nttdataservices_remedycorporateitproduction_1/0oa8j40sdhtWNZnqO2p7/aln8j49l1dZjNHLYm2p7"
+        },
+        {
+            "id": 2,
+            "name": "OKC Facilities",
+            "person": "Bobby Duncan",
+            "mail": "bobby.duncan@nttdata.com",
+            "number": "+1 588-975-2740"
+        }
+    ]
+}

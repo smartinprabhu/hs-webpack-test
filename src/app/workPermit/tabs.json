@@ -1,0 +1,12 @@
+{
+    "tabsList": {
+        "Checklist": {
+            "id": 1,
+            "name": "Checklist"
+        },
+        "Nature of Work": {
+            "id": 2,
+            "name": "Nature of Work"
+        }
+    }
+}

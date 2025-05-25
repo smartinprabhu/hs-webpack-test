@@ -1,0 +1,129 @@
+{
+    "states": {
+        "requested_display": {
+            "textClassName": "text-grey",
+            "text": "Requested",
+            "borderClassName": "scheduled-inspection-border",
+            "badgeClassName": "bg-scheduled-inspection",
+            "strokeObj": {
+                "pathColor": "#3a4354"
+            }
+        },
+        "approved_display": {
+            "textClassName": "text-lightblue",
+            "text": "Approved",
+            "borderClassName": "upcoming-inspection-border",
+            "badgeClassName": "bg-upcoming-inspection",
+            "strokeObj": {
+                "pathColor": "#1582c8"
+            }
+        },
+        "delivered_display": {
+            "textClassName": "text-completed-inspection",
+            "text": "Delivered",
+            "borderClassName": "completed-inspection-border",
+            "badgeClassName": "bg-completed-inspection",
+            "strokeObj": {
+                "pathColor": "#009937"
+            }
+        },
+        "rejected_display": {
+            "textClassName": "text-missed-inspection",
+            "text": "Cancelled",
+            "borderClassName": "missed-inspection-border",
+            "badgeClassName": "bg-missed-inspection",
+            "strokeObj": {
+                "pathColor": "#ec5824"
+            }
+        }
+    },
+    "types": {
+        "incoming": {
+            "text": "Inward Stock",
+            "label": "Accept Inward"
+        },
+        "outgoing": {
+            "text": "Outward Stock",
+            "label": "Create Outward"
+        },
+        "internal": {
+            "text": "Material Requests",
+            "label": "Request Material"
+        }
+    },
+    "stateList": [
+        {
+            "value": "requested_count",
+            "label": "requested_display",
+            "key": "Requested"
+        },
+        {
+            "value": "approved_count",
+            "label": "approved_display",
+            "key": "Approved"
+        },
+        {
+            "value": "delivered_count",
+            "label": "delivered_display",
+            "key": "Delivered"
+        },
+        {
+            "value": "rejected_count",
+            "label": "rejected_display",
+            "key": "Rejected"
+        }
+    ],
+    "barChartOptions": {
+        "legend": {
+            "display": true,
+            "position": "bottom"
+        },
+        "maintainAspectRatio": false,
+        "responsive": true,
+        "steppedLine": true,
+        "scales": {
+            "xAxes": [
+                {
+                    "gridLines": {
+                        "drawOnChartArea": false,
+                        "categoryPercentage": 10,
+                        "barPercentage": 10
+                    }
+                }
+            ],
+            "yAxes": [
+                {
+                    "gridLines": {
+                        "drawOnChartArea": false
+                    },
+                    "ticks": {
+                        "fontSize": 10
+                    }
+                }
+            ],
+            "trendlineLinear": {
+                "style": "#3e95cd",
+                "lineStyle": "line",
+                "width": 1
+            },
+            "annotation": {
+                "annotations": [
+                    {
+                        "type": "line",
+                        "mode": "horizontal",
+                        "scaleID": "y-axis-0",
+                        "value": 800,
+                        "endValue": 200,
+                        "borderColor": "rgb(75, 192, 192)",
+                        "borderWidth": 4,
+                        "label": {
+                            "enabled": true,
+                            "content": "Trendline",
+                            "yAdjust": -16
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

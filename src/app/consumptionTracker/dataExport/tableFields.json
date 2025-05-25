@@ -1,0 +1,78 @@
+{
+    "fields": [
+    {
+        "heading": "Reference",
+        "property": "audit_for"
+    },
+    {
+        "heading": "Title",
+        "property": "name"
+    },
+    {
+        "heading": "Type",
+        "property": "temp_type_id"
+    },
+    {
+        "heading": "Status",
+        "property": "state"
+    },
+    {
+        "heading": "Company",
+        "property": "company_id"
+    },    
+    {
+        "heading": "Billing Start Date",
+        "property": "start_date"
+    },
+    {
+        "heading": "Billing End Date",
+        "property": "end_date"
+    },
+    {
+        "heading": "Tracker Template",
+        "property": "tracker_template_id"
+    }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],
+    "createdByFields": [
+        {
+            "heading": "Created By",
+            "property": "created_by_id"
+        }
+    ],
+    "createdOnFields": [
+        {
+            "heading": "Created On",
+            "property": "created_on"
+        }
+    ],
+    "reviewedByFields": [
+        {
+            "heading": "Reviewed By",
+            "property": "reviewed_by_id"
+        }
+    ],
+    "reviewedOnFields": [
+        {
+            "heading": "Reviewed On",
+            "property": "reviewed_on"
+        }
+    ],
+    "approvedByFields": [
+        {
+            "heading": "Approved By",
+            "property": "approved_by_id"
+        }
+    ],
+    "approvedOnFields": [
+        {
+            "heading": "Approved On",
+            "property": "approved_on"
+        }
+    ]
+}

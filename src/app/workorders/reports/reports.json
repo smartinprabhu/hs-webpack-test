@@ -1,0 +1,23 @@
+
+{
+    "reportList": [
+        {
+            "id": 1,
+            "name": "SLA Audit Report"
+        },       
+        {
+            "id": 2,
+            "name": "PPM Checklist Report"
+        },
+        {
+            "id": 3,
+            "name": "Smart Logger Report",
+            "apiname": "smart_reading"
+        },
+        {
+            "id": 4,
+            "name": "Employee Performance Report"
+        }
+    ]
+       
+}

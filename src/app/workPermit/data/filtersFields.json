@@ -1,0 +1,146 @@
+{    
+    "fields": [      
+        {
+            "label": "Reference",
+            "value": "reference"
+        },
+        {
+            "label": "Title",
+            "value": "name"
+        }         
+    ],   
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "reference",
+            "Header": "Reference"
+        },
+        {
+            "accessor": "name",
+            "Header": "Description"
+        },
+        {
+            "accessor": "vendor_id",
+            "Header": "Vendor"
+        },
+        {
+            "accessor": "state",
+            "Header": "Status",
+            "func":true
+        },
+        {
+            "accessor": "planned_start_time",
+            "Header": "Planned Start Date",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "planned_end_time",
+            "Header": "Planned End Date",
+            "dateFunction" : true,
+            "dateDisplayType" : "datetime"
+        },
+        {
+            "accessor": "space_id",
+            "Header": "Space"
+        },
+        {
+            "accessor": "equipment_id",
+            "Header": "Equipment"
+        },
+        {
+            "accessor": "nature_work_id",
+            "Header": "Nature of Work"
+        },
+        {
+            "accessor": "requestor_id",
+            "Header": "Requestor"
+        },
+        {
+            "accessor": "maintenance_team_id",
+            "Header": "Maintenance Team"
+        },
+        {
+            "accessor": "type",
+            "Header": "Type"
+        },
+        {
+            "accessor": "duration",
+            "Header": "Duration"
+        }  
+    ],
+    "natureOfWorkColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Title"
+        },
+        {
+            "accessor": "task_id",
+            "Header": "Maintenance Checklist"
+        },
+        {
+            "accessor": "preparedness_checklist_id",
+            "Header": "Readiness Checklist"
+        },
+        {
+            "accessor": "approval_authority_id",
+            "Header": "Approval Authority"
+        },
+        {
+            "accessor": "ehs_authority_id",
+            "Header": "EHS Authority"
+        },
+        {
+            "accessor": "security_office_id",
+            "Header": "Security Office"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "ehs_instructions",
+            "Header": "EHS Instructions"
+        }
+    ]
+       
+}

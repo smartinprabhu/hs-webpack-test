@@ -1,0 +1,11 @@
+{
+    "Create Work Permit" :"wp_workpermit_createworkpermit",    
+    "Edit Work Permit" :"wp_workpermit_editworkpermit",
+    "Delete Work Permit" :"wp_workpermit_deleteworkpermit",
+    "Approve" :"wp_workpermit_authorize",    
+    "Prepare" :"wp_workpermit_prepare",
+    "Issue Permit" :"wp_workpermit_issuepermit",
+    "Validate" :"wp_workpermit_validate",
+    "Review" :"wp_workpermit_review",
+    "Print PDF" :"wp_workpermit_print_pdf"
+}

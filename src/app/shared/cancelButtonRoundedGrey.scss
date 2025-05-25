@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.buttonGrey:hover {
+    color: $color-pink-swan !important;
+}
+
+.buttonGrey {
+    background-color: $color-white !important;
+    border: 1px solid $color-pink-swan !important;
+    border-radius: 1rem !important;
+    color: $color-pink-swan !important;
+    font-weight: 100;
+}
+
+.buttonGrey:not(:disabled):not(.disabled):active:focus,
+.buttonGrey:not(:disabled):not(.disabled):active:focus,
+.show > .buttonGrey.dropdown-toggle:focus {
+    box-shadow: none !important;
+}

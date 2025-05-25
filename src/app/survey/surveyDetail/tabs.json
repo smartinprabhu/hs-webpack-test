@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Survey Overview"
+        },
+        {
+            "id": 2,
+            "name": "Questions"
+        }
+    ]
+       
+}

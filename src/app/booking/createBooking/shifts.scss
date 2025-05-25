@@ -1,0 +1,159 @@
+@import "../../../styles/variables.scss";
+
+.shifts-height {
+    max-height: 250px;
+    width: 480px;
+    overflow-y: auto;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+#shifts {
+    .font-weight-900 {
+        font-size: 12px;
+    }
+}
+
+#shifts {
+    /* width */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Handle */
+    // ::-webkit-scrollbar-thumb {
+    //     background: $color-grey;
+    // }
+}
+
+.centered-2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.bookingModalWindowHeight {
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+    .title{
+        font-size: 1.5em;
+    }
+}
+.height-270{
+    height: 270px;
+    @media only screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+.shift-custom-box{
+    width: 100%;
+    height: 100%;
+    @media only screen and (max-width: 768px) {
+        height: 100px;
+        width: 250px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+ul{
+    margin-top: 2px;
+    padding-inline-start: 10px;
+    margin-block-end:0px
+}
+.margin-left-4rem{
+    margin-left: 4rem !important;
+}
+
+// .text-color-amber{
+//  color: #FFBF00;
+// }
+.font-size-11px{
+    font-size: 11px;
+}
+.customTimeFullcalendar{
+.fc-toolbar-title{
+    display: none !important
+}
+.fc-today-button{
+    display: none !important
+}
+.fc-timeGridWeek-button{
+    display: none !important
+}
+.fc-dayGridMonth-button{
+    display: none !important
+}
+.fc-timeGridDay-button{
+    display: none !important
+}
+.fc-next-button{
+    display: none !important;
+}
+.fc-prev-button{
+    display: none !important;
+}
+.fc .fc-daygrid-day {
+    display: none;
+}
+.fc .fc-daygrid-body-unbalanced {
+    display: none;
+}
+.fc .fc-event-time {
+    display: none;
+}
+.fc-timegrid-col{
+    width: auto !important;
+    // background-color: $color-white !important;
+}
+.fc-scrollgrid-section-header {
+    // background-color:$color-azure;
+    border-color: none !important;
+}
+.fc-view-harness{
+    height: 280px !important;
+}
+.fc-toolbar{
+    display: none !important;
+}
+}
+
+.MobileNumber-field{
+    // border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    padding: 0.375rem 0.75rem;
+}
+
+.PhoneInputCountrySelect {
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    padding-top: 1.5em;
+    margin-left: 2em;
+    border: 0;
+}
+
+.PhoneInputCountryIconImg {
+    height: 1em;
+}
+
+.PhoneInputInput{
+    margin-left: 2.5em;
+    border: 0;
+}
+
+  .card-disabled{
+    pointer-events: none;
+    opacity:0.8;
+}

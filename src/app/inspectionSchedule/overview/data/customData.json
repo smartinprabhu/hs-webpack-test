@@ -1,0 +1,125 @@
+{
+    
+    "states": {
+        "Scheduled": {
+            "textClassName": "text-grey",
+            "text": "Scheduled",
+            "borderClassName": "border-left-0 border-bottom-0 border-top-0 border-radius-0",
+            "badgeClassName": "bg-scheduled-inspection",
+            "strokeObj": {
+                "pathColor": "rgb(58, 67, 84)"
+            }
+        },
+        "Completed": {
+            "textClassName": "text-completed-inspection",
+            "text": "Completed",
+            "borderClassName": "border-left-0 border-right-0 border-top-0 border-bottom-0",
+            "badgeClassName": "bg-completed-inspection",
+            "strokeObj": {
+                "pathColor": "rgb(40, 167, 69)"
+            }
+        },
+        "Upcoming": {
+            "textClassName": "text-lightblue",
+            "text": "Upcoming",
+            "borderClassName": "border-left-0 border-bottom-0 border-top-0 border-radius-0",
+            "badgeClassName": "bg-upcoming-inspection",
+            "strokeObj": {
+                "pathColor": "rgb(16, 146, 220)"
+            }
+        },
+        "Missed": {
+            "textClassName": "text-missed-inspection",
+            "text": "Missed",
+            "borderClassName": "border-left-0 border-right-0 border-top-0 border-bottom-0",
+            "badgeClassName": "bg-missed-inspection",
+            "strokeObj": {
+                "pathColor": "#ec5824"
+            }
+        }
+    },
+    "stateList": [
+        {
+            "value": "total_count",
+            "label": "Scheduled"
+        },
+        {
+            "value": "completed_count",
+            "label": "Completed"
+        },
+        {
+            "value": "upcoming_count",
+            "label": "Upcoming"
+        },
+        {
+            "value": "missed_count",
+            "label": "Missed"
+        }
+    ],
+    "stateTeamList": [
+        {
+            "value": "total_count",
+            "label": "Scheduled"
+        },
+        {
+            "value": "completed_count",
+            "label": "Completed"
+        },
+        {
+            "value": "upcoming_count",
+            "label": "Upcoming"
+        },
+        {
+            "value": "missed_count",
+            "label": "Missed"
+        }
+    ],
+
+"barChartOptions": {
+    "legend": {
+        "display": true,
+        "position": "bottom"
+    },
+    "maintainAspectRatio" : false,
+    "responsive" : true,
+    "steppedLine": true,
+    "scales": {
+        "xAxes": [
+            {
+                "gridLines": {
+                    "drawOnChartArea": false,
+                    "categoryPercentage": 10,
+                    "barPercentage": 10
+                }
+            }
+        ],
+        "yAxes": [
+            {
+                "gridLines": {
+                    "drawOnChartArea": false
+                },
+                "ticks": {
+                    "fontSize": 10
+                   }
+            }
+        ],
+        "trendlineLinear": { "style": "#3e95cd", "lineStyle": "line", "width": 1 },
+        "annotation": {
+            "annotations": [{
+                "type": "line",
+                "mode": "horizontal",
+                "scaleID": "y-axis-0",
+                "value": 800,
+                "endValue": 200,
+                "borderColor": "rgb(75, 192, 192)",
+                "borderWidth": 4,
+                "label": {
+                    "enabled": true,
+                    "content": "Trendline",
+                    "yAdjust": -16
+              }
+            }]
+          }
+    }
+ }
+}

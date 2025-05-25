@@ -1,0 +1,245 @@
+{
+    "tableColumns": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "active",
+            "label": "Status"
+        },
+        {
+            "value": "price",
+            "label": "Price"
+        },
+        {
+            "value": "stock_value",
+            "label": "Value"
+        },
+        {
+            "value": "volume",
+            "label": "Volume"
+        },
+        {
+            "value": "weight",
+            "label": "Weight"
+        }
+    ],
+    "productStates": [
+        {
+            "value": "draft",
+            "label": "Company"
+        },
+        {
+            "value": "cancel",
+            "label": "Price"
+        },
+        {
+            "value": "stock_value",
+            "label": "Value"
+        },
+        {
+            "value": "volume",
+            "label": "Volume"
+        },
+        {
+            "value": "weight",
+            "label": "Weight"
+        }
+    ],
+    "listFields": [
+        "display_name",
+        "stock_value",
+        "qty_at_date",
+        "product_id",
+        "uom_id",
+        "company_id",
+        "price",
+        "volume",
+        "weight",
+        "active"
+  ],
+     "listFieldsShows": [
+        "display_name",
+        "qty_at_date",
+        "uom_id"
+    ],
+    "listFieldsPM": [
+        "date",
+        "product_id",
+        "location_id",
+        "location_dest_id",
+        "qty_done",
+        "state",
+        "product_uom_id",
+        "product_qty"
+    ],
+    "listFieldsPMShows": [
+        "date",
+        "product_id",
+        "location_dest_id",
+        "qty_done",
+        "state"
+    ],
+    "tableColumnsPM": [
+        {
+            "value": "location_id",
+            "label": "From"
+        },
+        {
+            "value": "product_uom_id",
+            "label": "UOM"
+        },
+        {
+            "value": "product_qty",
+            "label": "Real Reserved Quantity"
+        }  
+    ],
+    "pmStateTypes": [
+        {
+            "value": "draft",
+            "label": "New"
+        },
+        {
+            "value": "cancel",
+            "label": "Cancelled"
+        },
+        {
+            "value": "waiting",
+            "label": "Waiting Another Move"
+        },
+        {
+            "value": "confirmed",
+            "label": "Waiting Availability"
+        },
+        {
+            "value": "partially_available",
+            "label": "Partially Available"
+        },
+        {
+            "value": "assigned",
+            "label": "Available"
+        },
+        {
+            "value": "done",
+            "label": "Done"
+        }
+    ],
+    "listFieldsIRShows": [
+        "product_id",
+        "location_id",
+        "reserved_quantity",
+        "quantity",
+        "company_id"
+    ],
+    "listFieldsIR": [
+        "product_id",
+        "location_id",
+        "reserved_quantity",
+        "quantity",
+        "company_id",
+        "owner_id",
+        "product_uom_id",
+        "in_date"
+    ],
+    "tableColumnsIR": [
+        {
+            "value": "owner_id",
+            "label": "Owner"
+        },
+        {
+            "value": "product_uom_id",
+            "label": "UOM"
+        },
+        {
+            "value": "in_date",
+            "label": "Incoming Date"
+        }  
+    ],
+    "MaterialIssuedStartHeadings":[
+        {
+            "value": "Sl No",
+            "label": "Sl No"
+        },{
+            "value": "Material Name",
+            "label": "Material Name"
+        },{
+            "value": "UOM",
+            "label": "UOM"
+        },{
+            "value": "Vendor Name",
+            "label": "Vendor Name"
+        },{
+            "value": "Opening Stock",
+            "label": "Opening Stock"
+        },{
+            "value": "Stock Ordered",
+            "label": "Stock Ordered"
+        },{
+            "value": "Total Stock",
+            "label": "Total Stock"
+        }
+    ],
+    "MaterialIssuedEndHeadings":[
+        {
+            "value": "Total Consumption",
+            "label": "Total Consumption"
+        },{
+            "value": "Closing Stock",
+            "label": "Closing Stock"
+        },{
+            "value": "Units/Qty",
+            "label": "Units/Qty"
+        },{
+            "value": "Unit Rate",
+            "label": "Unit Rate"
+        },{
+            "value": "Total Cost",
+            "label": "Total Cost"
+        }
+    ],
+    "MaterialReceivedStartHeadings":[
+        {
+            "value": "Sl No",
+            "label": "Sl No"
+        },{
+            "value": "Material Name",
+            "label": "Material Name"
+        },{
+            "value": "UOM",
+            "label": "UOM"
+        },{
+            "value": "Vendor Name",
+            "label": "Vendor Name"
+        }
+    ],
+    "MaterialReceivedEndHeadings":[
+        {
+            "value": "Total Stock Received",
+            "label": "Total Stock Received"
+        },{
+            "value": "Units/Qty",
+            "label": "Units/Qty"
+        },{
+            "value": "Unit Rate",
+            "label": "Unit Rate"
+        },{
+            "value": "Total Cost",
+            "label": "Total Cost"
+        }
+    ],
+    "reportFilterSmart": [
+        {
+            "value": "%(current_week)s",
+            "label": "This Week"
+        },
+        {
+            "value": "%(last_week)s",
+            "label": "Last Week"
+        },
+        {
+            "value": "%(custom)s",
+            "label": "Custom"
+        }
+    ]
+}

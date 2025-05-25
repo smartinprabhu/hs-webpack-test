@@ -1,0 +1,26 @@
+
+{
+    "tabsList": [ 
+        {
+            "id": 1,
+            "name": "Asset Overview"
+        },      
+        {
+            "id": 2,
+            "name": "Transactions"
+        },       
+        {
+            "id": 3,
+            "name": "Asset History"
+        },
+        {
+            "id": 4,
+            "name": "Documents"
+        }, 
+        {
+            "id": 5,
+            "name": "Audit Log"
+        }
+    ]
+       
+}

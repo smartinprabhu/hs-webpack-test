@@ -1,0 +1,84 @@
+/* eslint-disable import/no-unresolved */
+import React, { useState } from 'react';
+import {
+  Card,
+  CardBody,
+  Col,
+  Row,
+} from 'reactstrap';
+import { useSelector } from 'react-redux';
+
+import { Tabs } from 'antd';
+
+import Loader from '@shared/loading';
+import ErrorContent from '@shared/errorContent';
+import Products from './products';
+import OtherInformation from './otherInformation';
+import AuditLog from '../../../assets/assetDetails/auditLog';
+import LogNotes from '../../../assets/assetDetails/logNotes';
+import ScheduleActivities from '../../../assets/assetDetails/scheduleActivities';
+
+import tabs from './tabs.json';
+import { generateErrorMessage } from '../../../util/appUtils';
+
+const appModels = require('../../../util/appModels').default;
+
+const { TabPane } = Tabs;
+const RfqDetailTabs = () => {
+  const [currentTab, setActive] = useState('Products');
+
+  const changeTab = (key) => {
+    setActive(key);
+  };
+  const { quotationDetails } = useSelector((state) => state.purchase);
+
+  return (
+    <Row>
+      <Col md="12" sm="12" lg="12" xs="12">
+        <Card className="border-0 h-100">
+          {quotationDetails && (quotationDetails.data && quotationDetails.data.length > 0) && (
+            <CardBody>
+              <Row>
+                <Col md={12} sm={12} xs={12} lg={12}>
+                  <Tabs defaultActiveKey={currentTab} onChange={changeTab}>
+                    {tabs && tabs.tabsList.map((tabData) => (
+                      <TabPane tab={tabData.name} key={tabData.name} />
+                    ))}
+                  </Tabs>
+                  {currentTab === 'Products'
+                    ? <Products />
+                    : ''}
+                  {currentTab === 'Other Information'
+                    ? <OtherInformation />
+                    : ''}
+                  {currentTab === 'Audit Logs'
+                    ? <AuditLog ids={quotationDetails.data[0].message_ids} />
+                    : ''}
+                  {currentTab === 'Log Note'
+                    ? <LogNotes ids={quotationDetails.data[0].message_ids} />
+                    : ''}
+                  {currentTab === 'Schedule Activity'
+                    ? <ScheduleActivities resModalName={appModels.PURCHASEORDER} resId={quotationDetails.data[0].id} />
+                    : ''}
+                </Col>
+              </Row>
+              <br />
+            </CardBody>
+          )}
+          {quotationDetails && quotationDetails.loading && (
+            <CardBody className="mt-4" data-testid="loading-case">
+              <Loader />
+            </CardBody>
+          )}
+          {(quotationDetails && quotationDetails.err) && (
+            <CardBody>
+              <ErrorContent errorTxt={generateErrorMessage(quotationDetails)} />
+            </CardBody>
+          )}
+        </Card>
+      </Col>
+    </Row>
+  );
+};
+
+export default RfqDetailTabs;

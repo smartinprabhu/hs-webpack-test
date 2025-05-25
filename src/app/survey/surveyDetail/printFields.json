@@ -1,0 +1,20 @@
+{
+    "fields":[
+        {
+            "heading" : "Name",
+            "property" : "reviwer_name"
+        },
+        {
+            "heading" : "Question",
+            "property" : "question_id"
+        },
+        {
+            "heading" : "Answer",
+            "property" : "value_suggested"
+        },
+        {
+            "heading" : "Answered On",
+            "property" : "date_create"
+        }
+    ]
+}

@@ -1,0 +1,388 @@
+{
+    "listFields": [
+        "recipient",
+        "parcel_dimensions",
+        "sender",
+        "tracking_no",
+        "collected_on",
+        "collected_by",
+        "department_id",
+        "shelf",
+        "state",
+        "courier_id",
+        "received_on",
+        "received_by",
+        "employee_id",
+        "courier_id"
+    ],
+    "listfieldsShows": [
+        "id",
+        "sender",
+        "employee_id",
+        "state",
+        "received_on",
+        "received_by",
+        "parcel_dimensions",
+        "tracking_no"
+    ],
+    "detailFields": [
+        "name",
+        "employee_id",
+        "pantry_id",
+        "space_id",
+        "ordered_on",
+        "company_id",
+        "reason_for_cancellation",
+        "state",
+        "confirmed_on",
+        "cancelled_on",
+        "delivered_on"
+    ],   
+    "tableColumns": [
+        {
+            "value": "courier_id",
+            "label": "Courier"
+        },
+        {
+            "value": "recipient",
+            "label": "Type"
+        },
+        {
+            "value": "department_id",
+            "label": "Department"
+        },
+        {
+            "value": "collected_on",
+            "label": "Delivered On"
+        },
+        {
+            "value": "collected_by",
+            "label": "Delivered By"
+        }
+    ],
+    "tableColumnsOutbound": [
+        {
+            "value": "courier_id",
+            "label": "Courier"
+        },
+        {
+            "value": "recipient",
+            "label": "Type"
+        },
+        {
+            "value": "department_id",
+            "label": "Department"
+        },
+        {
+            "value": "delivered_on",
+            "label": "Delivered On"
+        },
+        {
+            "value": "delivered_by",
+            "label": "Delivered By"
+        }
+    ],
+    "listFieldsOutbound": [
+        "id",
+        "parcel_dimensions",
+        "sent_to",
+        "tracking_no",
+        "sent_on",
+        "received_by",
+        "sent_by",
+        "recipient",
+        "department_id",
+        "shelf",
+        "state",
+        "courier_id",
+        "delivered_on",
+        "delivered_by",
+        "employee_id"
+    ],
+    "listfieldsShowsOutbound": [
+        "id",
+        "employee_id",
+        "sent_to",
+        "state",
+        "sent_on",
+        "received_by",
+        "parcel_dimensions",
+        "tracking_no",
+        "shelf"
+        
+    ],  
+    "recipientTypes": [
+        {
+            "value": "Employee",
+            "label": "Employee"
+        },
+        {
+            "value": "Department",
+            "label": "Department"
+        }
+    ],   
+    "recipientTypesText": {
+        "Employee": {
+            "value": "Employee",
+            "label": "Employee"
+        },
+        "Department": {
+            "value": "Department",
+            "label": "Department"
+        }      
+    },
+    "parcelDimensionsType": [
+        {
+            "value": "Letter",
+            "label": "Letter"
+        },
+        {
+            "value": "Small",
+            "label": "Small"
+        },
+        {
+            "value": "Medium",
+            "label": "Medium"
+        },
+        {
+            "value": "Large",
+            "label": "Large"
+        }
+    ],  
+    "parcelDimensionsText": {
+        "Letter": {
+            "value": "Letter",
+            "label": "Letter"
+        },
+        "Small": {
+            "value": "Small",
+            "label": "Small"
+        },      
+        "Medium": {
+            "value": "Medium",
+            "label": "Medium"
+        },      
+        "Large": {
+            "value": "Large",
+            "label": "Large"
+        }      
+    },
+    "stateTypes": [
+        {
+            "value": "Registered",
+            "label": "Registered"
+        },
+        {
+            "value": "Delivered",
+            "label": "Delivered"
+        },
+        {
+            "value": "Archived",
+            "label": "Archived"
+        },
+        {
+            "value": "Shredded",
+            "label": "Shredded"
+        },
+        {
+            "value": "Returned",
+            "label": "Returned"
+        }
+    ],
+    "stateTypesText": {
+        "Registered" : {
+            "value": "Registered",
+            "label": "Registered",
+            "badgeClassName": "bg-missed-inspection",
+            "color": "info"
+        },
+        "Delivered" : {
+            "value": "Delivered",
+            "label": "Delivered",
+            "badgeClassName": "bg-completed-inspection",
+            "color": "success"
+        },
+        "Archived" : {
+            "value": "Archived",
+            "label": "Archived",
+            "badgeClassName": "bg-danger-inspection",
+            "color": "secondary"
+        },
+        "Shredded" : {
+            "value": "Shredded",
+            "label": "Shredded",
+            "badgeClassName": "bg-danger-inspection",
+            "color": "warning"
+        },
+        "Returned" : {
+            "value": "Returned",
+            "label": "Returned",
+            "badgeClassName": "bg-upcoming-inspection",
+            "color": "danger"
+        }
+    },
+    "dashboardStatus": {
+        "WC": {
+            "id": "Registered",
+            "label": "Inbound Waiting Collection",
+            "type": "inbound",
+            "tags":[{
+                "key": "state",
+                "title": "Status",
+                "value": "Registered",
+                "label": "Inbound Waiting Collections",
+                "type": "inarray"
+            }]
+        },
+        "DD": {
+            "id": "Delivered",
+            "type": "inbound",
+            "label": "Inbound Delivered",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Delivered",
+                    "label": "Inbound Delivered",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "AD": {
+            "id": "Archived",
+            "type": "inbound",
+            "label": "Inbound Archeived",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Archived",
+                    "label": "Inbound Archeived",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "SD": {
+            "id": "Shredded",
+            "type": "inbound",
+            "label": "Inbound Shredded",
+            "tags":[
+                {
+                    "key": "state",
+                    "title": "Status",
+                    "value": "Shredded",
+                    "label": "Inbound Shredded",
+                    "type": "inarray"
+                }
+            ]
+       },
+       "WCO": {
+        "id": "Registered",
+        "type": "outbound",
+        "label": "Outbound Waiting Collection",
+        "tags":[
+            {
+                "key": "state",
+                "title": "Status",
+                "value": "Registered",
+                "label": "Outbound Waiting Collection",
+                "type": "inarray"
+            }
+        ]
+      },
+      "DDO": {
+        "id": "Delivered",
+        "type": "outbound",
+        "label": "Outbound Delivered",
+        "tags":[
+            {
+                "key": "state",
+                "title": "Status",
+                "value": "Delivered",
+                "label": "Outbound Delivered",
+                "type": "inarray"
+            }
+        ]
+      },
+      "ADO": {
+        "id": "Archived",
+        "type": "outbound",
+        "label": "Outbound Archeived",
+        "tags":[
+            {
+                "key": "state",
+                "title": "Status",
+                "value": "Archived",
+                "label": "Outbound Archeived",
+                "type": "inarray"
+            }
+        ]
+      },
+      "SDO": {
+        "id": "Shredded",
+        "type": "outbound",
+        "label": "Outbound Shredded",
+        "tags":[
+            {
+                "key": "state",
+                "title": "Status",
+                "value": "Shredded",
+                "label": "Outbound Shredded",
+                "type": "inarray"
+            }
+        ]
+      }    
+    },
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "DELIVERED",
+         "displayname": "Deliver",
+         "displaynameOutBound": "Delivered OutBound"
+       },
+        {
+         "id": 2,
+         "name": "ARCHIVED",
+         "displayname": "Archived",
+         "displaynameOutBound": "Archived OutBound"
+       },          
+       {
+         "id": 3,
+         "name": "SHREDDED",
+         "displayname": "Shredded",
+         "displaynameOutBound": "Archived OutBound"
+       },
+        {
+         "id": 4,
+         "name": "RETURNED",
+         "displayname": "Returned",
+         "displaynameOutBound": "Archived OutBound"
+       }      
+     ],
+     "actionTypes": {
+        "Deliver": {
+            "value": "action_delivered",
+            "text": "Deliver",
+            "msg": "delivered",
+            "button": "Deliver"
+        },
+        "Archived": {
+            "value": "action_archived",
+            "text": "Archived",
+            "msg": "archived",
+            "button": "Archive"
+        },
+        "Shredded": {
+            "value": "action_shredded",
+            "text": "Shredded",
+            "msg": "shredded",
+            "button": "Shred"
+        },
+        "Returned": {
+            "value": "action_returned",
+            "text": "Returned",
+            "msg": "returned",
+            "button": "Return"
+        }
+    }
+}

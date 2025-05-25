@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Bookings in calendar view",
+            "image": "src/app/images/myBookingsBlue.ico",
+            "route": "/bookings"
+        },
+        {
+            "id": 2,
+            "name": "Raise A Ticket",
+            "image": "src/app/images/covidIncidentBlue.ico",
+            "route": "/raise-a-ticket"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "reportList": [
+        {
+            "id": 1,
+            "name": "Daily Attendance Details",
+            "label": "Daily Attendance Details"
+        },
+        {
+            "id": 2,
+            "name": "Monthly Attendance Details",
+            "label": "Monthly Attendance Details"
+        },
+        {
+            "id": 3,
+            "name": "Monthly Biometric",
+            "label": "Monthly Biometric"
+        },
+        {
+            "id": 4,
+            "name": "Form XXVI",
+            "label": "Form XXVI"
+        },
+        {
+            "id": 5,
+            "name": "Employee wise biometric report",
+            "label": "Employee wise biometric report"
+        }
+    ]
+}

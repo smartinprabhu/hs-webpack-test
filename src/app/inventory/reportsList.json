@@ -1,0 +1,44 @@
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Inventory Report",
+            "label": "Inventory Report"
+        },
+        {
+            "id": 2,
+            "name": "Inventory Valuation",
+            "label": "Inventory Valuation"
+        },
+        {
+            "id": 3,
+            "name": "Product Moves",
+            "label": "Product Moves"
+        },
+        {
+            "id": 4,
+            "name": "Material Issued",
+            "label": "Material Issued"
+        },
+        {
+            "id": 5,
+            "name": "Material Received",
+            "label": "Material Received"
+        },
+        {
+            "id": 6,
+            "name": "Transfers Report - Summary",
+            "label": "Transfers Report - Summary"
+        },
+        {
+            "id": 7,
+            "name": "Transfers Report - Detail",
+            "label": "Transfers Report - Detail"
+        },
+        {
+            "id": 10,
+            "name": "Inventory Overview",
+            "label": "Inventory Overview"
+        }
+    ]
+}

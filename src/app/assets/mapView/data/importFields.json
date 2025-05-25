@@ -1,0 +1,72 @@
+{
+    "fields" : [
+         [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "asset_category_id": false,
+              "parent_id": false,
+              "tenant_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          },
+        "False"
+    ],
+    "ulpoadFields" : [
+        [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "asset_category_id": false,
+              "parent_id": false,
+              "tenant_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          }
+    ],
+    "fieldLabels": ["Space Name", "Space Category", "Booking Allowed", "Parent Space", "Tenant"]
+}

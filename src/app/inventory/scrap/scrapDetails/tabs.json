@@ -1,0 +1,14 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "Scrap Overview"
+        },
+        {
+            "id": 2,
+            "name": "Product Moves"
+        }
+    ]
+       
+}

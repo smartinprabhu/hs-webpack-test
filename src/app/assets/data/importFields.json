@@ -1,0 +1,38 @@
+{
+    "fields" : [
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"],
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"], 
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "%Y-%m-%d",
+            "datetime_format": "%Y-%m-%d %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        },
+        "False"
+    ],
+    "ulpoadFields" : [
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"],
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"], 
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "%Y-%m-%d",
+            "datetime_format": "%Y-%m-%d %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        }
+    ],
+    "fieldLabels": ["Name", "Location", "Model", "Serial", "Category", "Equipment Number", "Status", "Warranty Start Date", "warranty End Date", "Maintenance Team", "Parent", "Commodit"]
+}

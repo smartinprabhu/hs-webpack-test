@@ -1,0 +1,254 @@
+
+{
+    "fields": {
+        "Name":  {
+            "id": 1,
+            "label": "Company Name",
+            "name": "name",
+            "value": "",
+            "type": "text",
+            "align": "left",
+            "readonly": false
+        },
+        "CategoryId":  {
+            "id": 2,
+            "label": "Category",
+            "name": "res_company_categ_id",
+            "value": "",
+            "type": "array",
+            "align": "right",
+            "readonly": true
+        },
+        "WebsiteId": {
+            "id": 3,
+            "label": "Website",
+            "name": "website",
+            "value": "",
+            "type": "url",
+            "align": "left",
+            "readonly": false
+        },
+        "CurrencyId": {
+            "id": 11,
+            "label": "Currency",
+            "name": "currency_id",
+            "value": [],
+            "type": "array",
+            "align": "right",
+            "readonly": true
+        },
+        "AddressId": {
+            "id": 4,
+            "label": "Address",
+            "name": "street",
+            "value": "",
+            "type": "text",
+            "align": "left",
+            "readonly": false
+        },
+        "TimeZone": {
+            "id": 12,
+            "label": "Time Zone",
+            "name": "company_tz",
+            "value": [],
+            "type": "array",
+            "align": "left",
+            "readonly": true
+        },
+        "CityId": {
+            "id": 7,
+            "label": "City",
+            "name": "city",
+            "value": "",
+            "type": "text",
+            "align": "left",
+            "readonly": false
+        },
+        "CountryId": {
+            "id": 9,
+            "label": "Country",
+            "name": "country_id",
+            "value": [],
+            "type": "array",
+            "align": "left",
+            "readonly": false
+        },
+		"ZipId": {
+            "id": 10,
+            "label": "ZIP",
+            "name": "zip",
+            "value": "",
+            "type": "text",
+            "align": "left",
+            "readonly": false
+        },
+        "StateId": {
+            "id": 8,
+            "label": "State",
+            "name": "state_id",
+            "value": [],
+            "type": "array",
+            "align": "left",
+            "readonly": false
+        }
+    },
+    "additionalFields": [
+        {
+            "id": 1,
+            "label": "Short Code",
+            "name": "code",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 2,
+            "label": "Phone",
+            "name": "phone",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 4,
+            "label": "Email",
+            "name": "email",
+            "value": "",
+            "type": "email",
+            "readonly": false
+        },
+        {
+            "id": 5,
+            "label": "Tax ID",
+            "name": "vat",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 6,
+            "label": "Company Registry",
+            "name": "company_registry",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 7,
+            "label": "Default Incoterm",
+            "name": "incoterm_id",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 8,
+            "label": "Nomenclature",
+            "name": "nomenclature_id",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 9,
+            "label": "Is Parent",
+            "name": "is_parent",
+            "value": [],
+            "type": "checkbox",
+            "readonly": false
+        },
+        {
+            "id": 10,
+            "label": "Latitude",
+            "name": "latitude",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        },
+        {
+            "id": 11,
+            "label": "Longitude",
+            "name": "longitude",
+            "value": "",
+            "type": "text",
+            "readonly": false
+        }
+    ],
+    "logoFields": [
+        {
+            "id": 1,
+            "label": "Theme Logo",
+            "name": "theme_logo",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 2,
+            "label": "Theme Icon",
+            "name": "theme_icon",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "Vendor Logo",
+            "name": "vendor_logo",
+            "value": [],
+            "type": "array",
+            "readonly": false
+        }
+    ],
+    "socialFields": [
+        {
+            "id": 1,
+            "label": "Twitter Account",
+            "name": "social_twitter",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        },
+        {
+            "id": 2,
+            "label": "Facebook Account",
+            "name": "social_facebook",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        },
+        {
+            "id": 3,
+            "label": "Github Account",
+            "name": "social_github",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        },
+        {
+            "id": 4,
+            "label": "Linkedin Account",
+            "name": "social_linkedin",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        },
+        {
+            "id": 5,
+            "label": "Youtube Account",
+            "name": "social_youtube",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        },
+        {
+            "id": 6,
+            "label": "Instagram Account",
+            "name": "social_instagram",
+            "value": "",
+            "type": "url",
+            "readonly": false
+        }
+    ]
+       
+}

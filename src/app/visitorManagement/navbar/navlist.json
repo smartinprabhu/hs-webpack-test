@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/visitormanagement-overview"
+    },
+    "Visit Request": {
+      "id": 2,
+      "name": "VISITREQUEST",
+      "displayname": "Visit Request",
+      "pathName": "/visitormanagement/visitrequest"
+    },
+    "title": "Visitor Management"
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Type",
+            "property": "type_category"
+        },
+        {
+            "heading": "All Category?",
+            "property": "is_all_category"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+
+{
+    "fields": [
+        {
+            "heading": "Reference",
+            "property": "name"
+        },
+        {
+            "heading": "Vendor",
+            "property": "partner_id"
+        },
+        {
+            "heading": "Requested on",
+            "property": "requested_on"
+        },
+        {
+            "heading": "Description",
+            "property": "note"
+        },
+        {
+            "heading": "Status",
+            "property": "request_state"
+        }
+    ], 
+    "intFields": [
+        {
+            "heading": "Reference",
+            "property": "name"
+        },
+        {
+            "heading": "Use In",
+            "property": "use_in"
+        },
+        {
+            "property": "request_state",
+            "heading": "Status",
+            "func": true
+        },
+        {
+            "heading": "Asset",
+            "property": "asset_id"
+        },
+        {
+            "heading": "Location",
+            "property": "space_id"
+        },
+        {
+            "heading": "Employee",
+            "property": "employee_id"
+        },
+        {
+            "heading": "Department",
+            "property": "department_id"
+        },
+        {
+            "property": "requested_on",
+            "heading": "Requested on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "property": "note",
+            "heading": "Description"
+        }
+    ],     
+    "dcFields": [
+        {
+            "heading": "DC#",
+            "property": "dc_no"
+        }
+    ],
+    "poFields":[
+        {
+            "heading": "PO#",
+            "property": "po_no"
+        }
+    ],
+    "sourceLocationFields":[
+        {
+            "heading": "Source Location",
+            "property": "location_id"
+        }
+    ],
+    "destinationLocationFields":[
+        {
+            "heading": "Destination Location",
+            "property": "location_dest_id"
+        }
+    ],
+    "exFields":[
+        {
+            "heading": "Expiry Date",
+            "property": "expires_on"
+        }
+    ]
+   
+       
+}

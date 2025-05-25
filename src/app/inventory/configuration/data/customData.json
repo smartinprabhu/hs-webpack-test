@@ -1,0 +1,311 @@
+{
+    "tableColumns": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "price",
+            "label": "Price"
+        },
+        {
+            "value": "stock_value",
+            "label": "Value"
+        },
+        {
+            "value": "volume",
+            "label": "Volume"
+        },
+        {
+            "value": "weight",
+            "label": "Weight"
+        }
+    ],
+    "productStates": [
+        {
+            "value": "draft",
+            "label": "Company"
+        },
+        {
+            "value": "cancel",
+            "label": "Price"
+        },
+        {
+            "value": "stock_value",
+            "label": "Value"
+        },
+        {
+            "value": "volume",
+            "label": "Volume"
+        },
+        {
+            "value": "weight",
+            "label": "Weight"
+        }
+    ],
+    "listFields": [
+        "display_name",
+        "stock_value",
+        "qty_at_date",
+        "product_id",
+        "uom_id",
+        "company_id",
+        "price",
+        "volume",
+        "weight"
+  ],
+     "listFieldsShows": [
+        "display_name",
+        "qty_at_date",
+        "uom_id"
+    ],
+    "listFieldsPMShows": [
+        "name",
+        "lot_stock_id",
+        "partner_id",
+        "active"
+    ],
+    "listFieldsOPTShows": [
+        "name",
+        "warehouse_id",
+        "sequence_id",
+        "active"
+    ],
+    "tableColumnsWH": [
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "tableColumnsLOC": [
+        {
+            "value": "partner_id",
+            "label": "Owner"
+        },
+        {
+            "value": "posx",
+            "label": "Corridor (X)"
+        },
+        {
+            "value": "posy",
+            "label": "Shelves (Y)"
+        },
+        {
+            "value": "posz",
+            "label": "Height (Z)"
+        },
+        {
+            "value": "barcode",
+            "label": "Barcode"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "tableColumnsOpt": [
+        {
+            "value": "default_location_src_id",
+            "label": "Default Source Location"
+        },
+        {
+            "value": "default_location_dest_id",
+            "label": "Default Destination Location"
+        },
+        {
+            "value": "code",
+            "label": "Type of Operation"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "operationTypes":[  
+        {
+            "value": "incoming",
+            "label": "Vendors"
+        },
+        {
+            "value": "outgoing",
+            "label": "Customers"
+        }, 
+        {
+            "value": "internal",
+            "label": "Internal"
+        }
+    ],
+    "pmStateTypes": [
+        {
+            "value": "draft",
+            "label": "New"
+        },
+        {
+            "value": "cancel",
+            "label": "Cancelled"
+        },
+        {
+            "value": "waiting",
+            "label": "Waiting Another Move"
+        },
+        {
+            "value": "confirmed",
+            "label": "Waiting Availability"
+        },
+        {
+            "value": "partially_available",
+            "label": "Partially Available"
+        },
+        {
+            "value": "assigned",
+            "label": "Available"
+        },
+        {
+            "value": "done",
+            "label": "Done"
+        }
+    ],
+    "listFieldsLocationShows": [
+        "display_name",
+        "usage",
+        "company_id",
+        "active"
+    ],
+    "listFieldsLocation": [
+        "create_date",
+        "display_name",
+        "name",
+        "usage",
+        "location_id",
+        "partner_id",
+        "company_id",
+        "scrap_location",
+        "return_location",
+        "posx",
+        "posy",
+        "posz",
+        "barcode",
+        "comment",
+        "active"
+    ],
+    "exportFieldsLocation": [
+        "create_date",
+        "display_name",
+        "usage",
+        "location_id",
+        "partner_id",
+        "company_id",
+        "scrap_location",
+        "return_location",
+        "posx",
+        "posy",
+        "posz",
+        "barcode",
+        "comment",
+        "active"
+    ],
+    "tableColumnsIR": [
+        {
+            "value": "owner_id",
+            "label": "Owner"
+        },
+        {
+            "value": "product_uom_id",
+            "label": "UOM"
+        },
+        {
+            "value": "in_date",
+            "label": "Incoming Date"
+        }  
+    ],
+    "locationTypeList": [
+        {
+            "value": "supplier",
+            "label": "Vendor Location"
+        },
+        {
+            "value": "view",
+            "label": "View"
+        },
+        {
+            "value": "internal",
+            "label": "Internal Location"
+        },
+        {
+            "value": "customer",
+            "label": "Customer Location"
+        },
+        {
+            "value": "inventory",
+            "label": "Inventory Loss"
+        },
+        {
+            "value": "procurement",
+            "label": "Procurement"
+        },
+        {
+            "value": "production",
+            "label": "Production"
+        },
+        {
+            "value": "transit",
+            "label": "Transit Location"
+        },
+        {
+            "value": "equi",
+            "label": "Spare Parts Consumption"
+        }
+    ],
+    "locationTypes": {
+        "supplier": {
+            "value": "supplier",
+            "label": "Vendor Location"
+        },
+        "view": {
+            "value": "view",
+            "label": "View"
+        },
+        "internal": {
+            "value": "internal",
+            "label": "Internal Location"
+        },
+        "customer": {
+            "value": "customer",
+            "label": "Customer Location"
+        },
+        "inventory": {
+            "value": "inventory",
+            "label": "Inventory Loss"
+        },
+        "procurement": {
+            "value": "procurement",
+            "label": "Procurement"
+        },
+        "production": {
+            "value": "production",
+            "label": "Production"
+        },
+        "transit": {
+            "value": "transit",
+            "label": "Transit Location"
+        },
+        "equi": {
+            "value": "equi",
+            "label": "Spare Parts Consumption"
+        }
+    },
+    "operationTypeList": {
+        "incoming": {
+            "value": "incoming",
+            "label": "Vendors"
+        },
+        "outgoing": {
+            "value": "outgoing",
+            "label": "Customers"
+        },
+        "internal": {
+            "value": "internal",
+            "label": "Internal"
+        }
+    }
+}

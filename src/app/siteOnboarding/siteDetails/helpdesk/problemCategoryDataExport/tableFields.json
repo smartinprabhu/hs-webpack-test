@@ -1,0 +1,33 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Category Name",
+            "property": "name"
+        },
+        {
+            "heading": "Team Category",
+            "property": "team_category_id"
+        },
+        {
+            "heading": "Company",
+            "property": "company_id"
+        },        
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }       
+          
+    ],
+    "dateFields": [
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ]
+       
+}

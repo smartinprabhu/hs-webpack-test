@@ -1,0 +1,546 @@
+{
+    "definitionList": {
+        "helpertextbuilding": {
+            "definition": "The list displays all available buildings for the selected location."
+        },
+        "helpertextfloor": {
+            "definition": "The list displays all available floors for the selected building."
+        },
+        "helpertextroom": {
+            "definition": "The list displays all available rooms for the selected building/floor/wing."
+        },
+        "helpertextwings": {
+            "definition": "The list displays all available wings for the selected building/floor."
+        },
+        "helpertextspace": {
+            "definition": "The list displays all available spaces for the selected building/floor/wing."
+        },
+        "helpertextequipment": {
+            "definition": "The list displays all available equipment for the selected space."
+        },
+        "createteam": {
+            "definition": "Create Team"
+        },
+        "create_ppm_schedule": {
+            "definition": "Create PPM Schedule"
+        },
+        "create_inspection_schedule": {
+            "definition": "Create Inspection Schedule"
+        },
+        "createbuilding": {
+            "definition": "Create Building for the site"
+        },
+        "createfloor": {
+            "definition": "Create Floor for the building"
+        },
+        "createroom": {
+            "definition": "Create Room for the Building/Floor to be located"
+        },
+        "createwings": {
+            "definition": "Create Wings for the Building/Floor to be located"
+        },
+        "createspace": {
+            "definition": "Create Space the Building/Floor to be located"
+        },
+        "createequipment": {
+            "definition": "Create Equipment for the Building/Floor/Room/Space to be located"
+        },
+        "teamname": {
+            "definition": "Name of the team"
+        },  
+        "teamcategory": {
+            "definition": "Category of the team"
+        },
+        "teamType": {
+            "definition": "Type of the team"
+        },
+        "buildingName": {
+            "definition": "Name of the building"
+        },  
+        "floorName": {
+            "definition": "Name of the Floor"
+        },  
+        "roomName": {
+            "definition": "Name of the Room"
+        },  
+        "wingName": {
+            "definition": "Name of the Wing"
+        },  
+        "spaceName": {
+            "definition": "Name of the Space"
+        },
+        "buildingRef": {
+            "definition": "Reference Number of the building"
+        },  
+        "floorRef": {
+            "definition": "Reference Number of the Floor"
+        },  
+        "roomRef": {
+            "definition": "Reference Number of the Room"
+        },  
+        "wingRef": {
+            "definition": "Reference Number of the Wing"
+        },  
+        "spaceRef": {
+            "definition": "Reference Number of the Space"
+        },  
+        "buildingoccupancy": {
+            "definition": "Maximum Occupancy of the Building"
+        },  
+        "flooroccupancy": {
+            "definition": "Maximum Occupancy of the Floor"
+        },  
+         "roomoccupancy": {
+            "definition": "Maximum Occupancy of the Room"
+        },  
+         "wingoccupancy": {
+            "definition": "Maximum Occupancy of the Wing"
+        },  
+        "spaceoccupancy": {
+            "definition": "Maximum Occupancy of the Space"
+        },
+        "buildingarea": {
+            "definition": " Area Sqft of the Building"
+        },  
+        "floorarea": {
+            "definition": "Area Sqft of the Floor"
+        },  
+         "roomarea": {
+            "definition": "Area Sqft of the Room"
+        },  
+         "wingarea": {
+            "definition": "Area Sqft of the Wing"
+        },  
+        "spacearea": {
+            "definition": "Area Sqft of the Space"
+        },
+        "buildingCode": {
+            "definition": "Short Code of the building"
+        },  
+        "floorCode": {
+            "definition": "Short Code of the Floor"
+        },  
+        "roomCode": {
+            "definition": "Short Code of the Room"
+        },  
+        "wingCode": {
+            "definition": "Short Code of the Wing"
+        },  
+        "spaceCode": {
+            "definition": "Short Code of the Space"
+        },  
+        "buildingteam": {
+            "definition": " Maintenance Team of the Building"
+        },  
+        "floorteam": {
+            "definition": "Maintenance Team of the Floor"
+        },  
+         "roomteam": {
+            "definition": "Maintenance Team of the Room"
+        },  
+         "wingteam": {
+            "definition": "Maintenance Team of the Wing"
+        },  
+        "spaceteam": {
+            "definition": "Maintenance Team  of the Space"
+        }, 
+        "roomParentList": {
+            "definition": "Name of the Building/Floor where the room is located"
+        }, 
+        "wingParentList": {
+            "definition": "Name of the Building/Floor where the wing is located"
+        }, 
+        "spaceParentList": {
+            "definition": "Name of the Building/Floor where the space is located"
+        }, 
+        "roomBuilding": {
+            "definition": "Name of the Building where the room is located"
+        }, 
+        "wingBuilding": {
+            "definition": "Name of the Building where the wing is located"
+        }, 
+        "spaceBuilding": {
+            "definition": "Name of the Building where the space is situated"
+        }, 
+        "wingFloor": {
+            "definition": "Name of the Floor where the wing is located"
+        }, 
+        "roomFloor": {
+            "definition": "Name of the Floor where the room is located"
+        }, 
+        "spaceFloor": {
+            "definition": "Name of the Floor where the space is situated"
+        }, 
+        "floorParentList": {
+            "definition": "Name of the Building where the floor is located"
+        },
+        "roomParent": {
+            "definition": "Select Building/Floor for the room to be located"
+        }, 
+        "wingParent": {
+            "definition": "Select Building/Floor for the wing to be located"
+        }, 
+        "spaceParent": {
+            "definition": "Select Building/Floor for the space to be located"
+        }, 
+        "floorParent": {
+            "definition": "Select Building for the floor to be located"
+        }, 
+        "image_small": {
+            "definition": "Picture of the asset"
+        },
+        "assetName": {
+            "definition": "Name of the asset"
+        },
+        "assetRef": {
+            "definition": "Reference Number of the asset"
+        }, 
+        "assetteam": {
+            "definition": "Maintenance Team of the asset"
+        },
+        "location_id": {
+            "definition": "The exact space that the equipment is located at the facility"
+        },
+        "floor_id": {
+            "definition": "The exact floor that the equipment is located at the facility"
+        },
+        "block_id": {
+            "definition": "The exact building that the equipment is located at the facility"
+        },
+        "equipment_seq": {
+            "definition": "A Unique number generated by the Helix Platform to identify the asset",
+            "label": "Equipment Number"
+        },
+        "category_id": {
+            "definition": "Category of the Asset"
+        },
+        "criticality": {
+            "definition": "Criticality of the Asset"
+        },
+        "amc_type": {
+            "definition": "AMC Type of the Asset"
+        },
+        "amc_cost": {
+            "definition": "AMC Cost of the Asset"
+        },
+        "amc_start_date": {
+            "definition": "AMC Start date of the Asset"
+        },
+        "amc_end_date": {
+            "definition": "AMC End date of the Asset"
+        },
+        "last_breakdown_on": {
+            "definition": "Last breakdown date of the Asset"
+        },
+        "breakdown_reason": {
+            "definition": "Breakdown reason of the Asset"
+        },
+        "expected_mtbf": {
+            "definition": "Expected Mean time between failures of the Asset"
+        },
+        "mtbf_hours": {
+            "definition": "Actual Mean time between failures of the Asset"
+        },
+        "rav": {
+            "definition": "Replacement Asset Value"
+        },
+        "mttf_hours": {
+            "definition": "Mean time between failures of the Asset"
+        },
+        "total_parts_cost": {
+            "definition": "Total Parts Cost of the Asset"
+        },
+        "total_tools_cost": {
+            "definition": "Total Tools Cost of the Asset"
+        },
+        "total_labor_cost": {
+            "definition": "Total Labor Cost of the Asset"
+        },
+        "model": {
+            "definition": "The Model number of the asset by the manufacturer"
+        },
+        "serial": {
+            "definition": "The Serial number of the asset by the manufacturer"
+        },
+        "asset_id": {
+            "definition": "Purchase Order reference number"
+        },
+        "customer_id": {
+            "definition": "Customer Accounting string reference number (Fixed Assets)"
+        },
+        "purchase_value": {
+            "definition": "Value of the asset"
+        },
+        "purchase_date": {
+            "definition": "Date of the Purchase of Asset (As per the Purchase Order)"
+        },
+        "cost_info": {
+            "definition": "Fixed Cost"
+        },
+        "start_date": {
+            "definition": "Date of the asset was installed at the facility"
+        },
+        "state": {
+            "definition": "Status of the asset",
+            "label": "Status"
+        },
+        "warranty_start_date": {
+            "definition": "Start date of the warranty"
+        },
+        "warranty_end_date": {
+            "definition": "End Date of the warranty"
+        },
+        "warranty_description": {
+            "definition": "Description of the warranty coverage"
+        },
+        "tag_status": {
+            "definition": "Physical / Virtual Tagging Status"
+        },
+        "assignment_status": {
+            "definition": "Assigned / Not Assigned Status"
+        },
+        "manufacturer_id": {
+            "definition": "Name of the Manufacturer"
+        },
+        "vendor_id": {
+            "definition": "Name of the vendor who supplied the asset"
+        },
+        "monitored_by_id": {
+            "definition": "Name of the vendor / team who monitors the asset (Command Center / FM Team etc.)"
+        },
+        "managed_by_id": {
+            "definition": "Name of the vendor / team who manages  the asset (External vendor / FM Team etc.)"
+        },
+        "maintained_by_id": {
+            "definition": "Name of the vendor / team who maintains  the asset (External vendor / FM Team etc.)"
+        },
+        "commodity_id": {
+            "definition": "The unique UNSPSC code for the asset"
+        },
+        "equipment_number": {
+            "definition": "Description of the asset"
+        },
+        "comment": {
+            "definition": "Additional Comments"
+        },
+        "validation_status": {
+            "definition": "Validation status of the Asset"
+        },
+        "validated_by": {
+            "definition": "The user who validated the Asset"
+        },
+        "validated_on": {
+            "definition": "The last validated date of the Asset"
+        },
+        "geolocations": {
+            "definition": "The Geo locations of the Asset"
+        },
+        "positions": {
+            "definition": "The positions of the Asset"
+        },
+        "make": {
+            "definition": "The make code of the Asset"
+        },
+        "capacity": {
+            "definition": "The Capacity of the Asset"
+        },
+        "operating_hours": {
+            "definition": "The Working hours of the Asset"
+        },
+        "last_service_done": {
+            "definition": "The last service done date of the Asset"
+        },
+        "refilling_due_date": {
+            "definition": "The Refilling due date of the Asset"
+        },
+        "employee_id": {
+            "definition": "The employee who assigned for the Asset"
+        },
+        "brand": {
+            "definition": "The brand for the Asset"
+        },
+        "resource_calendar_id": {
+            "definition": "Working Capacity of the Asset"
+        },
+        "latitude": {
+            "definition": "Latitude of the Asset"
+        },
+        "longitude": {
+            "definition": "Longitude of the Asset"
+        },
+        "xpos": {
+            "definition": "xPos of the Asset"
+        },
+        "ypos": {
+            "definition": "yPos of the Asset"
+        },
+        "userName": {
+            "definition": "Name of the user"
+        },
+        "userActive": {
+            "definition": "Active Status of the user"
+        },  
+        "userEmail": {
+            "definition": "Email of the user"
+        },
+        "userStatus": {
+            "definition": "Status of the user"
+        },  
+        "userPassword": {
+            "definition": "Password of the user"
+        },  
+        "userRole": {
+            "definition": "Current role of the user"
+        },
+        "userAssociate": {
+            "definition": "The User Associates to"
+        },
+        "userEntity": {
+            "definition": "The User Associate Entity"
+        },
+        "userEmpId": {
+            "definition": "Employee ID of the user"
+        },
+        "userDept": {
+            "definition": "Department of the user"
+        },
+        "userShift": {
+            "definition": "Shift of the user"
+        },
+        "userSite": {
+            "definition": "Current site of the user"
+        },
+        "userMobile": {
+            "definition": "Is Mobile User Only"
+        },  
+        "schedulertype": {
+            "definition": "Type of the Scheduler"
+        },
+        "schedulerFor": {
+            "definition": "Type of the Asset"
+        },
+        "categoryEquipment": {
+            "definition": "Name of the Equipment Category"
+        },
+        "categorySpace": {
+            "definition": "Name of the Space Categorry"
+        },
+        "pathEquipment": {
+            "definition": "Path Name of the Equipment"
+        },
+        "pathSpace": {
+            "definition": "Path Name of the Space"
+        },
+        "inspection": {
+            "definition": "Inspection Schedule"
+        },
+        "preventive": {
+            "definition": "PPM Schedule"
+        },
+        "repeatSchedule": {
+            "definition": "Repeat Schedule"
+        }, 
+        "durationSchedule": {
+            "definition": "Duration of the Schedule"
+        },
+        "excludeDays": {
+            "definition": "Exclude Days"
+        },
+        "starts_at": {
+            "definition": "Schedule Start At"
+        },
+        "duration": {
+            "definition": "Duration of the Schedule"
+        },
+        "MaintenanceOperation": {
+            "definition": "Maintenance Operation of the Schedule"
+        },
+        "MaintenanceChecklist": {
+            "definition": "Maintenance Checklist of the Schedule"
+        },
+        "commences_on":{
+            "definition": "Commences On"
+        },
+        "maintenance_team_id":{
+            "definition": "Maintenance Team of the schedule"
+        },
+        "ends_on":{
+            "definition": "End date of the schedule"
+        },
+        "description_Ins":{
+            "definition": "Description of the inspection schedule"
+        },
+        "max_duration":{
+            "definition": "Maximum duration of the inspection schedule"
+        },
+        "min_duration":{
+            "definition": "Minimum duration of the inspection schedule"
+        },
+        "maintenance_type":{
+            "definition": "Maintenance Type"
+        },
+        "asset_type":{
+            "definition": "Asset Type"
+        },
+        "space_list":{
+            "definition": "Space List"
+        },
+        "equipment_list":{
+            "definition": "Equipment List"
+        },
+        "tools":{
+            "definition": "Name of the tool"
+        },
+        "starts_on":{
+            "definition": "Start Date of the schedule"
+        },
+        "maintenance_year_id":{
+            "definition": "Maintenance year of the schedule"
+        },
+        "schedulePeriod":{
+            "definition": "Schedule Period of the PPM"
+        },
+        "week":{
+            "definition": "Week"
+        },
+        "performedBy":{
+            "definition": "Performed By"
+        },
+        "stateBulkInspection":{
+            "definition": "Inspection State"
+        },
+        "group_id":{
+            "definition": "Checklist Group"
+        },
+        "bulk_lines":{
+            "definition": "Selected Equipments/Spaces"
+        },
+        "siteName":{
+            "definition": "Name of the site"
+        },
+        "siteCode":{
+            "definition": "Code for the site"
+        },
+        "siteCity":{
+            "definition": "City name where this site is located"
+        },
+        "siteCountry":{
+            "definition": "Country where this site is located"
+        },
+        "siteState":{
+            "definition": "State where this site is located"
+        },
+        "siteAddress":{
+            "definition": "Address where this site is located"
+        },
+        "isMobileUser":{
+            "definition": "Is Mobile User?"
+        },
+        "teamMemberName":{
+            "definition": "Name of the team member"
+        },
+        "company":{
+            "definition": "Name of the Company"
+        }
+    }
+}

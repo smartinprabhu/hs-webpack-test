@@ -1,0 +1,20 @@
+{
+    "Ready to occupy": {
+        "color": "text-success"
+    },
+    "Maintenance in Progress": {
+        "color": "text-alizarin"
+    },
+    "Partial": {
+        "color": "text-success"
+    },
+    "Blocked": {
+        "color": "text-neon-blue"
+    },
+    "Booked": {
+        "color": "text-alizarin"
+    },
+    "Occupied": {
+        "color": "text-alizarin"
+    }
+}

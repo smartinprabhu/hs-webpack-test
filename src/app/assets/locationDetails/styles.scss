@@ -1,0 +1,27 @@
+@import "../../../styles/variables.scss";
+
+.activity-list{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#containerImage {
+  height: 200px;
+  width:100%;
+  overflow:auto;
+  float:left;
+  text-align:center;  
+}
+
+.bg-lavender-blush {
+  // background-color: $color-lavender-blush;
+}
+
+.assets-table thead th {
+
+    border-bottom: 1px solid $color-pattens-blue !important;
+}
+.export-icon{
+  float: right !important;
+  margin-top: -5px;
+}

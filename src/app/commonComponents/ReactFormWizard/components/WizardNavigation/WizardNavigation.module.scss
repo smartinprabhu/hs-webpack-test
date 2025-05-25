@@ -1,0 +1,16 @@
+.root {
+  padding: 8px 24px;
+  min-width: 180px;
+  width: 18%;
+  height: 100vh;
+  border-right: 1px solid gray; 
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 32px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}

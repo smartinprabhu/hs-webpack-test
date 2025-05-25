@@ -1,0 +1,76 @@
+@import "../../../styles/variables.scss";
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: $color-alice-blue !important;
+}
+
+.vertical-timeline-element-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-light-cyan;
+    box-shadow: none !important;
+}
+
+
+
+.vertical-timeline-element-icon svg {
+    display: block;
+    width: 24px !important;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    color: $color-navy-blue;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: 7px !important;
+}
+
+.vertical-timeline-element-content {
+    position: relative;
+    margin-left: 60px;
+    background: $color-white;
+    border-radius: .25em;
+    padding: 0em !important;;
+    box-shadow: none !important;
+}
+
+.vertical-timeline-element-content p {
+    margin: 0 0 0 !important;
+}
+
+@media only screen and (min-width: 1170px)
+{
+.vertical-timeline-element {
+    margin: 1.50em 0 0 0 !important;
+}
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    padding: 0em 0 !important;
+}
+
+.vertical-timeline {
+
+    padding: 0.50em 0 0 0 !important;
+}
+
+.time-ul li::marker {
+    color: $color-navy-blue;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+}
+
+.audits-list {
+    max-height: 620px;
+    overflow-y: auto;
+}

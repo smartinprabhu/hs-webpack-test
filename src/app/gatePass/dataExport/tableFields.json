@@ -1,0 +1,63 @@
+{
+    "fields": [
+        {
+            "property": "description",
+            "heading": "Purpose"
+        },
+        {
+            "property": "type",
+            "heading": "Type"
+        },
+        {
+            "heading": "Requestor",
+            "property": "requestor_id"
+        },
+        {
+            "property": "requested_on",
+            "heading": "Requested on"
+        },
+        {
+            "property": "state",
+            "heading": "Status"
+        },
+        {
+            "heading": "Reference",
+            "property": "reference"
+        },
+        {
+            "property": "space_id",
+            "heading": "Space"
+        }
+    ],
+    "nameField": [
+        {
+            "heading": "Bearer Name",
+            "property": "name"
+        }
+    ],
+    "mailField": [
+        {
+            "heading": "Bearer Email",
+            "property": "email"
+        }
+    ],
+    "returnOnField": [
+        {
+            "heading": "Returned on",
+            "property": "bearer_return_on"
+        }
+    ],      
+    "appOnField": [
+        {
+            "heading": "Approved on",
+            "property": "approved_on"
+        }
+    ],
+    "appByField": [
+        {
+            "heading": "Approved by",
+            "property": "approved_by"
+        }
+    ]
+       
+}

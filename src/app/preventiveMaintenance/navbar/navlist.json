@@ -1,0 +1,45 @@
+{
+  "data": {
+    "Insights": {
+      "id": 5,
+      "name": "PPMInsights",
+      "activename": "PPMInsightsACTIVE",
+      "displayname": "Insights",
+      "viewName": "Insights",
+      "pathName": "/preventive-overview"
+    },
+    "Viewer": {
+      "id": 2,
+      "name": "PPMOldViewer",
+      "activename": "PPMOldViewerACTIVE",
+      "displayname": "Viewer",
+      "viewName": "Viewer",
+      "pathName": "/preventive-overview/preventive-viewer"
+    },
+    "Scheduler": {
+      "id": 3,
+      "name": "PPMScheduler",
+      "activename": "PPMSchedulerACTIVE",
+      "displayname": "Scheduler",
+      "viewName": "Scheduler",
+      "pathName": "/preventive-overview/preventive-schedule"
+    },
+    "Cancel Requests": {
+      "id": 5,
+      "name": "Cancel Requests",
+      "activename": "ReportsACTIVE",
+      "displayname": "Cancel Requests",
+      "viewName": "Cancel Requests",
+      "pathName": "/preventive-overview/cancel-requests"
+    },
+    "Report": {
+      "id": 4,
+      "name": "Reports",
+      "activename": "ReportsACTIVE",
+      "displayname": "Reports",
+      "viewName": "Reports",
+      "pathName": "/preventive-overview/preventive/reports"
+    },
+    "title": "52 Week PPM"
+  }
+}

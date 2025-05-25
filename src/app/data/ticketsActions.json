@@ -1,0 +1,112 @@
+{
+    "modes": [
+        {
+            "value": "email",
+            "label": "Email"
+        },
+        {
+            "value": "mobile app",
+            "label": "Mobile App"
+        },
+        {
+            "value": "phone",
+            "label": "Phone"
+        },
+        {
+            "value": "web",
+            "label": "Web"
+        }
+    ],
+    "issuetypes": [
+        {
+            "value": "complaint",
+            "label": "Complaint"
+        },
+        {
+            "value": "EHS",
+            "label": "EHS"
+        },
+        {
+            "value": "incident",
+            "label": "Incident"
+        },
+        {
+            "value": "request",
+            "label": "Request"
+        }
+    ],
+    "states": {
+        "Open": {
+            "color": "danger",
+            "text": "Open"
+        },
+        "In Progress": {
+            "color": "info",
+            "text": "In Progress"
+        },
+        "Staff Closed": {
+            "color": "success",
+            "text": "Staff Closed"
+        },
+        "Staff Replied": {
+            "color": "primary",
+            "text": "Staff Replied"
+        },
+        "Customer Replied": {
+            "color": "primary",
+            "text": "Customer Replied"
+        },
+        "Awaiting Approval": {
+            "color": "warning",
+            "text": "Awaiting Approval"
+        },
+        "Approval Accepted": {
+            "color": "primary",
+            "text": "Approval Accepted"
+        },
+        "Approval Rejected": {
+            "color": "danger",
+            "text": "Approval Rejected"
+        },
+        "Customer Closed": {
+            "color": "success",
+            "text": "Customer Closed"
+        },
+        "On Hold": {
+            "color": "danger",
+            "text": "On Hold"
+        }
+    },
+    "slastatuses": {
+        "SLA Elapsed": {
+            "color": "danger",
+            "text": "SLA Elapsed"
+        },
+        "Within SLA": {
+            "color": "success",
+            "text": "Within SLA"
+        }
+    },
+    "priorities": {
+        "Breakdown": {
+            "color": "success",
+            "text": "Breakdown"
+        },
+        "High": {
+            "color": "danger",
+            "text": "High"
+        },
+        "Low": {
+            "color": "primary",
+            "text": "Low"
+        },
+        "Normal": {
+            "color": "warning",
+            "text": "Normal"
+        },
+        "Standard": {
+            "color": "info",
+            "text": "Standard"
+        }
+    }
+}

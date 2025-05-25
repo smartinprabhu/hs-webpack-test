@@ -1,0 +1,54 @@
+
+{
+    "fields": [
+        {
+            "id": 1,
+            "label": "Work Email",
+            "name": "work_email",
+            "value": "",
+            "type": "email",
+            "readonly": true
+        },
+        {
+            "id": 2,
+            "label": "Work Phone",
+            "name": "work_phone",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 3,
+            "label": "Job Title",
+            "name": "job_title",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 4,
+            "label": "Work Location",
+            "name": "work_location",
+            "value": "",
+            "type": "text",
+            "readonly": true
+        },
+        {
+            "id": 5,
+            "label": "Registration Status",
+            "name": "registration_status",
+            "value": "",
+            "type": "array",
+            "readonly": true
+        },
+        {
+            "id": 6,
+            "label": "Allowed Neighbourhoods",
+            "name": "space_neighbour_ids",
+            "value": [],
+            "type": "array",
+            "readonly": true
+        }
+    ]
+       
+}

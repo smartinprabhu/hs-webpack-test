@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "heading": "Portal id",
+            "property": "employee_id_seq"
+        },
+        {
+            "heading": "Employee name",
+            "property": "name"
+        },
+        {
+            "heading": "Email",
+            "property": "email"
+        },
+        {
+            "heading": "Role",
+            "property": "user_role_id"
+        },
+        {
+            "heading": "Neighbourhood groups",
+            "property": "neighbour_groups_ids"
+        }
+    ],
+    "numberOfRowsOptions": [10, 20, 50, 100, 500]
+  }

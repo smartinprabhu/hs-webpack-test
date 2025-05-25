@@ -1,0 +1,40 @@
+
+{
+    "fields": [
+        {
+            "heading": "Warehouse",
+            "property": "name"
+        },
+        {
+            "heading": "Location Stock",
+            "property": "lot_stock_id"
+        },
+        {
+            "heading": "Address",
+            "property": "partner_id"
+        },
+        {
+            "heading": "Status",
+            "property": "active",
+            "labels": {
+                "Active": {
+                    "id": "active",
+                    "text": "Active",
+                    "color":"success"
+                },
+                "Inactive": {
+                    "id": "inactive",
+                    "text": "Inactive",
+                    "color": "danger"
+               }
+            }
+        }
+    ],
+    "dateFields": [
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ]
+       
+}

@@ -1,0 +1,32 @@
+{
+    "tabsList": {
+        "Sites": {
+            "id": 1,
+            "name": "SITES"
+        },
+        "Teams": {
+            "id": 2,
+            "name": "TEAMS"
+        },
+        "Buildings": {
+            "id": 3,
+            "name": "BUILDINGS"
+        },
+        "Floors": {
+            "id": 4,
+            "name": "FLOORS"
+        },
+        "Rooms": {
+            "id": 5,
+            "name": "ROOMS"
+        },
+        "Spaces": {
+            "id": 6,
+            "name": "SPACES"
+        },
+        "Equipment": {
+            "id": 7,
+            "name": "EQUIPMENT"
+        }
+    }
+}

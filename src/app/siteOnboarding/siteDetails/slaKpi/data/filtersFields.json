@@ -1,0 +1,174 @@
+{
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Name"
+        },
+        {
+            "accessor": "categ_id",
+            "Header": "Product Category",
+            "func": true
+        },
+        {
+            "accessor": "pantry_ids",
+            "Header": "Pantry",
+            "func": true
+        },
+        {
+            "accessor": "minimum_order_qty",
+            "Header": "Minimum Order Qty"
+        },
+        {
+            "accessor": "maximum_order_qty",
+            "Header": "Maximum Order Qty"
+        },
+        {
+            "accessor": "active",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "accessor": "weight",
+            "Header": "Weight"
+        },
+        {
+            "accessor": "volume",
+            "Header": "Volume"
+        },
+        {
+            "accessor": "new_until",
+            "Header": "New Until",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "company_id.name",
+            "Header": "Company"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "problemCategoryColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Category Name"
+        },
+        {
+            "accessor": "team_category_id",
+            "Header": "Team Category"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "problemSubCategoryColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Sub Category Name"
+        },
+        {
+            "accessor": "parent_category_id",
+            "Header": "Parent Category"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "pantryColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Name"
+        },
+        {
+            "accessor": "pantry_sequence",
+            "Header": "Pantry Sequence"
+        },
+        {
+            "accessor": "maintenance_team_id",
+            "Header": "Maintenance Team"
+        },
+        {
+            "accessor": "resource_calendar_id",
+            "Header": "Working Time"
+        },
+        {
+            "accessor": "state",
+            "Header": "Status",
+            "func": true
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "escalationLevelColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Name"
+        },
+        {
+            "accessor": "level",
+            "Header": "Level"
+        },
+        {
+            "accessor": "type_category",
+            "Header": "Type"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        },
+        {
+            "accessor": "location_ids",
+            "Header": "Space"
+        },
+        {
+            "accessor": "recipients_ids",
+            "Header": "Recipients"
+        }
+    ]
+}

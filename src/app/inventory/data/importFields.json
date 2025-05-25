@@ -1,0 +1,91 @@
+{
+    "fields": [
+        [
+            "department_id",
+            "categ_id",
+            "name",
+            "specification",
+            "brand",
+            "qty_available",
+            "uom_id",
+            "standard_price",
+            "reordering_min_qty",
+            "reordering_max_qty",
+            "alert_level_qty",
+            "preferred_vendor"
+           
+        ],
+        [
+            "department_id",
+            "categ_id",
+            "name",
+            "specification",
+            "brand",
+            "qty_available",
+            "uom_id",
+            "standard_price",
+            "reordering_min_qty",
+            "reordering_max_qty",
+            "alert_level_qty",
+            "preferred_vendor"
+           
+        ],
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "",
+            "datetime_format": "%m/%d/%Y %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        },
+        "False"
+    ],
+    "ulpoadFields": [
+        [
+            "department_id",
+            "categ_id",
+            "name",
+            "specification",
+            "brand",
+            "qty_available",
+            "uom_id",
+            "standard_price",
+            "reordering_min_qty",
+            "reordering_max_qty",
+            "alert_level_qty",
+            "preferred_vendor"
+        ],
+        [
+            "department_id",
+            "categ_id",
+            "name",
+            "specification",
+            "brand",
+            "qty_available",
+            "uom_id",
+            "standard_price",
+            "reordering_min_qty",
+            "reordering_max_qty",
+            "alert_level_qty",
+            "preferred_vendor"
+        ],
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "",
+            "datetime_format": "%m/%d/%Y %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        }
+    ]
+}

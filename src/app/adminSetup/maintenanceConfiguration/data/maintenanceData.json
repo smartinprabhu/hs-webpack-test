@@ -1,0 +1,279 @@
+{
+    "maintenanceTypes":[
+        {
+            "value": "bm",
+            "label" : "Corrective"
+        },
+        {
+            "value": "pm",
+            "label" : "Preventive"
+        },
+        {
+            "value": "oc",
+            "label" : "On Condition"
+        },
+        {
+            "value": "pr",
+            "label" : "Periodic"
+        },
+        {
+            "value": "pd",
+            "label" : "Predictive"
+        }
+    ],
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        }
+    ],
+    "operationTableColumnsShow": [
+        "name",
+        "maintenance_type",
+        "order_duration",
+        "active",
+        "create_date"
+    ],
+    "operationTableColumns": [
+        {
+            "value": "type_category",
+            "label": "Type"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "userTableColumns": [
+        {
+            "value": "mobile",
+            "label": "Mobile"
+        },
+        {
+            "value": "active",
+            "label": "Active"
+        }
+        
+    ],
+    "checklistTableColumnsShow": [
+        "name",
+        "active",
+        "create_date"
+    ],
+    "checklistTableApiFields": [
+        
+    ],
+    "checklistTableColumns": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "toolsTableColumnsShow": [
+        "name",
+        "tool_cost_unit",
+        "active",
+        "create_date"
+    ],
+    "toolsTableColumns": [
+        {
+            "value": "order_id",
+            "label": "Maintenance Order"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "partsTableColumnsShow": [
+        "name",
+        "list_price",
+        "standard_price",
+        "weight",
+        "volume",
+        "create_date"
+    ],
+    "productTableColumnsShow": [
+        "name",
+        "categ_id",
+        "pantry_ids",
+        "minimum_order_qty",
+        "maximum_order_qty"
+    ],
+    "partsTableColumns": [
+        {
+            "value": "type",
+            "label": "Type"
+        },
+        {
+            "value": "categ_id",
+            "label": "Category"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "productTableColumns": [
+        {
+            "value": "active",
+            "label": "Status"
+        },
+        {
+            "value": "weight",
+            "label": "Weight"
+        },
+        {
+            "value": "volume",
+            "label": "Volume"
+        },
+        {
+            "value": "new_until",
+            "label": "New Until"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        },
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }        
+    ],
+    "productTypes": {
+        "consu": {
+            "id": "consu",
+            "label": "Consumable"
+        },
+        "service": {
+            "id": "service",
+            "label": "Service"
+       },
+       "product": {
+            "id": "product",
+            "label": "Storable Product"
+      }
+    },
+    "statusTypes":[
+        {
+            "value": "Active",
+            "label": "Active"
+        },
+        {
+            "value": "Inactive",
+            "label": "Inactive"
+        }
+    ],
+    "viewFieldsParts": [
+        "list_price",
+        "name",
+        "standard_price",
+        "weight","volume",
+        "create_date",
+        "company_id",
+        "type",
+        "categ_id",
+        "uom_id",
+        "uom_po_id"
+      ],
+    "operationalExpenses": [
+        "name",
+        "type_id",
+        "consumption",
+        "company_id",
+        "unit_cost",
+        "total_cost",
+        "from_date",
+        "to_date",
+        "item_id",
+        "equipment_id",
+        "description",
+        "company_id"
+      ],
+    "listfieldsShows": [
+        "name",
+        "email",
+        "partner_id",
+        "role_ids",
+        "__last_update",
+        "mobile",
+        "active"
+      ],
+    "operationalExpensesColumns": [
+        "name",
+        "type_id",
+        "consumption",
+        "unit_cost",
+        "total_cost"
+      ],
+      "expensesTableColumns": [
+        {
+            "value": "from_date",
+            "label": "From Date"
+        },
+        {
+            "value": "to_date",
+            "label": "To Date"
+        },
+        {
+            "value": "item_id",
+            "label": "Sub Type"
+        },
+        {
+            "value": "equipment_id",
+            "label": "Equipment Id"
+        },
+        {
+            "value": "description",
+            "label": "Description"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+    ],
+    "expensesActionItems":[
+       {
+         "id": 1,
+         "name": "EXPENSEBULKUPLOAD",
+         "displayname": "Expenses Bulk Upload",
+         "accessName": "Import Expenses"
+       }        
+     ],
+     "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Name"
+        },
+        {
+            "accessor": "active",
+            "Header": "Active",
+            "func":true
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        }
+    ],
+    "states": {
+        "true": {
+            "color": "success",
+            "colorClass": "text-success",
+            "text": "Yes"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+
+{
+    "tabsList": [ 
+        {
+            "id": 1,
+            "name": "Work Permit Overview"
+        },
+        {
+            "id": 2,
+            "name": "Preparedness Checklist"
+        },
+        {
+            "id": 3,
+            "name": "Work Checklist"
+        },
+        {
+            "id": 4,
+            "name": "Spare Parts"
+        },
+        {
+            "id": 5,
+            "name": "Attachments"
+        },
+        {
+            "id": 6,
+            "name": "Status Logs"
+        }
+    ]
+       
+}

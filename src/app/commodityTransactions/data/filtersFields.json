@@ -1,0 +1,119 @@
+{    
+    "fields": [      
+        {
+            "label": "Tanker",
+            "value": "tanker_id.name"
+        }       
+    ],  
+    "fieldsTanker": [      
+        {
+            "label": "Registration No",
+            "value": "name"
+        }       
+    ],  
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "Header": "Commodity",
+            "accessor": "commodity"
+        },
+        {
+            "Header": "Capacity",
+            "accessor": "capacity"
+        },
+        {
+            "Header": "Vendor",
+            "accessor": "vendor_id"
+        },
+        {
+            "Header": "Initial Reading",
+            "accessor": "initial_reading"
+        },
+        {
+            "Header": "Final Reading",
+            "accessor": "final_reading"
+        },
+        {
+            "Header": " Difference",
+            "accessor": "difference"
+        },
+        {
+            "Header": " Tanker",
+            "accessor": "tanker_id"
+        },
+        {
+            "Header": " Sequence",
+            "accessor": "sequence"
+        },
+        {
+            "Header": " Block",
+            "accessor": "location_id"
+        },
+        {
+            "Header": " In Date",
+            "accessor": "in_datetime"
+        },
+        {
+            "Header": " Out Date",
+            "accessor": "out_datetime"
+        }
+    ],
+    "tankercolumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "Header": "Registration No",
+            "accessor": "name"
+        },
+        {
+            "Header": "Commodity",
+            "accessor": "commodity"
+        },
+        {
+            "Header": "Capacity",
+            "accessor": "capacity"
+        },
+        {
+            "Header": "Vendor",
+            "accessor": "vendor_id"
+        }
+        
+    ]
+}

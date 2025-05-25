@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/consumption-tracker-overview"
+    },
+    "Consumption Trackers": {
+      "id": 2,
+      "name": "CONSUMPTIONTRACKERS",
+      "displayname": "Consumption Trackers",
+      "pathName": "/consumption-trackers"
+    }, 
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/consumption-tracker-reports"
+    },  
+    "title": "Consumption Trackers"
+  }
+}

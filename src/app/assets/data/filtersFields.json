@@ -1,0 +1,185 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },
+        {
+            "label": "Sequence",
+            "value": "equipment_seq"
+        },
+        {
+            "label": "Maintenance Team",
+            "value": "maintenance_team_id.name"
+        },
+        {
+            "label": "Model Code",
+            "value": "model"
+        },
+        {
+            "label": "Serial Number",
+            "value": "serial"
+        },
+        {
+            "label": "Monitored By",
+            "value": "monitored_by_id.name"
+        },
+        {
+            "label": "Managed By",
+            "value": "managed_by_id.name"
+        },
+        {
+            "label": "Maintained By",
+            "value": "maintained_by_id.name"
+        },
+        {
+            "label": "Validation Status",
+            "value": "validation_status"
+        },
+        {
+            "label": "Validated By",
+            "value": "validated_by"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last Week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last Month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 Months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This Week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This Month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "readingLogFields": [
+        {
+            "label": "Type",
+            "value": "type"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Reference Number",
+            "accessor": "equipment_seq"
+        },
+        {
+            "Header": "Category",
+            "accessor": "category_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Space",
+            "accessor": "location_id"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "accessor": "equipment_number",
+            "Header": "Description"
+        },
+        {
+            "accessor": "model",
+            "Header": "Model Code"
+        },
+        {
+            "accessor": "purchase_date",
+            "Header": "Purchase Date"
+        },
+        {
+            "accessor": "serial",
+            "Header": "Serial Number"
+        },
+        {
+            "accessor": "vendor_id",
+            "Header": "Vendor"
+        },
+        {
+            "accessor": "monitored_by_id",
+            "Header": "Monitored By"
+        },
+        {
+            "accessor": "managed_by_id",
+            "Header": "Managed By"
+        },
+        {
+            "accessor": "maintained_by_id",
+            "Header": "Maintained By"
+        },
+        {
+            "accessor": "manufacturer_id",
+            "Header": "Manufacturer"
+        },
+        {
+            "accessor": "warranty_start_date",
+            "Header": "Warranty Start Date"
+        },
+        {
+            "accessor": "warranty_end_date",
+            "Header": "Warranty End Date"
+        },
+        {
+            "accessor": "tag_status",
+            "Header": "Tag Status"
+        },
+        {
+            "accessor": "validation_status",
+            "Header": "Validation Status"
+        },
+        {
+            "accessor": "validated_by",
+            "Header": "Validated By"
+        },
+        {
+            "accessor": "validated_on",
+            "Header": "Validated On"
+        },
+        {
+            "accessor": "amc_start_date",
+            "Header": "AMC Start Date"
+        },
+        {
+            "accessor": "amc_end_date",
+            "Header": "AMC End Date"
+        },
+        {
+            "accessor": "amc_type",
+            "Header": "AMC Type"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        }
+    ]
+}

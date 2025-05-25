@@ -1,0 +1,33 @@
+
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Category Name",
+            "property": "name"
+        },
+        {
+            "heading": "Parent Category",
+            "property": "parent_id"
+        },
+        {
+            "heading": "Product",
+            "property": "product_count"
+        },        
+        {
+            "heading": "Inventory Valuation",
+            "property": "property_valuation"
+        }       
+          
+    ],
+    "dateFields": [
+        {
+            "heading": "Created Date",
+            "property": "create_date"
+        }
+    ]
+       
+}

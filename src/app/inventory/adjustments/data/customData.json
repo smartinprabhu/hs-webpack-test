@@ -1,0 +1,168 @@
+{
+    "stateTypes":[
+        {
+            "value": "draft",
+            "label" : "Draft"
+        },
+        {
+            "value": "confirm",
+            "label" : "In Progress"
+        },
+        {
+            "value": "done",
+            "label" : "Validated"
+        }
+    ],
+    "inventoryTypes":[
+        {
+            "value": "none",
+            "label" : "All Products"
+        },
+        {
+            "value": "category",
+            "label" : "One Product Category"
+        },
+        {
+            "value": "product",
+            "label" : "One Product Only"
+        },
+        {
+            "value": "partial",
+            "label" : "Select Products Manually"
+        }
+    ],
+    "inventoryTypesText": {
+        "none": {
+            "value": "none",
+            "text": "All Products"
+        },
+        "category": {
+            "value": "category",
+            "text": "One Product Category"
+        },
+        "product": {
+            "value": "product",
+            "text": "One Product Only"
+        },
+        "partial": {
+            "value": "partial",
+            "text": "Select Products Manually"
+        }
+    },
+    "states": {
+        "draft": {
+            "color": "info",
+            "text": "Draft"
+        },
+        "confirm": {
+            "color": "warning",
+            "text": "In Progress"
+        },
+        "done": {
+            "color": "lightGreen",
+            "text": "Validated"
+        },
+        "cancel": {
+            "color": "danger",
+            "text": "Cancelled"
+        }
+    },
+    "actionTypes": {
+        "Start": {
+            "value": "action_start",
+            "text": "Start",
+            "msg": "started",
+            "targetStatus": "confirm"
+        },
+        "Validate": {
+            "value": "action_validate",
+            "text": "Validate",
+            "msg": "validated",
+            "targetStatus": "done"
+        },
+        "Set to Draft": {
+            "value": "action_cancel_draft",
+            "text": "Set to Draft",
+            "msg": "drafted",
+            "targetStatus": "draft"
+        }
+    },
+    "tableColumnsAdjustments": [
+        {
+            "value": "total_qty",
+            "label": "Total Quantity"
+        },
+        {
+            "value": "location_id",
+            "label": "Inventory Location"
+        }
+        
+    ],
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "START",
+         "displayname": "Start"
+       },
+       {
+        "id": 2,
+        "name": "VALIDATE",
+        "displayname": "Validate"
+      },
+      {
+        "id": 3,
+        "name": "CANCEL",
+        "displayname": "Set to Draft"
+      }
+     ],
+     "orderDateFilters":[     
+        {
+            "value": "Today",
+            "label": "Today"
+        },
+        {
+            "value": "This week",
+            "label": "This week"
+        },
+        {
+            "value": "This month",
+            "label": "This month"
+        },
+        {
+            "value": "This year",
+            "label": "This year"
+        }
+    ],
+     "listAdjustmentFieldsShows": [
+        "name",
+        "create_uid",
+        "date",
+        "state",
+        "location_id",
+        "line_ids"
+    ],
+    "statesLabels": {
+        "true": {
+            "text": "Active",
+            "color":"success"
+        },     
+        "false": {
+            "text": "InActive",
+            "color":"danger"
+        }
+    },
+    "operationTypeList": {
+        "incoming": {
+            "value": "incoming",
+            "label": "Vendors"
+        },
+        "outgoing": {
+            "value": "outgoing",
+            "label": "Customers"
+        },
+        "internal": {
+            "value": "internal",
+            "label": "Internal"
+        }
+    }
+}

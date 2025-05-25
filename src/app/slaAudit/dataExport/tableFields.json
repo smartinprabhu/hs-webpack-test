@@ -1,0 +1,66 @@
+{
+    "fields": [
+    {
+        "heading": "Reference",
+        "property": "audit_for"
+    },
+    {
+        "heading": "Title",
+        "property": "name"
+    },
+    {
+        "heading": "Audit Template",
+        "property": "audit_template_id"
+    },
+    {
+        "heading": "Company",
+        "property": "company_id"
+    },
+    {
+        "heading": "Status",
+        "property": "state"
+    }
+    ],
+    "idFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        }
+    ],
+    "createdByFields": [
+        {
+            "heading": "Created By",
+            "property": "created_by_id"
+        }
+    ],
+    "createdOnFields": [
+        {
+            "heading": "Created On",
+            "property": "created_on"
+        }
+    ],
+    "reviewedByFields": [
+        {
+            "heading": "Reviewed By",
+            "property": "reviewed_by_id"
+        }
+    ],
+    "reviewedOnFields": [
+        {
+            "heading": "Reviewed On",
+            "property": "reviewed_on"
+        }
+    ],
+    "approvedByFields": [
+        {
+            "heading": "Approved By",
+            "property": "approved_by_id"
+        }
+    ],
+    "approvedOnFields": [
+        {
+            "heading": "Approved On",
+            "property": "approved_on"
+        }
+    ]
+}

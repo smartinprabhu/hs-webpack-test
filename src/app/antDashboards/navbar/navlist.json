@@ -1,0 +1,12 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "Insights",
+      "displayname": "Insights",
+      "viewName": "Insights",
+      "pathName": "/airquality-overview"
+    },
+    "title": "Air Quality Monitoring"
+  }
+}

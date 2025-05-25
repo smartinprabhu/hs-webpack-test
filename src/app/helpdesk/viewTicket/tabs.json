@@ -1,0 +1,50 @@
+
+{
+    "tabsList": [
+        {
+            "id": 1,
+            "name": "Ticket Overview"
+        },
+        {
+            "id": 2,
+            "name": "Notes"
+        },       
+        {
+            "id": 4,
+            "name": "Attachments"
+        },    
+        {
+            "id": 5,
+            "name": "Resolutions"
+        }
+      
+    ],
+    "tabsListIncident": [
+        {
+            "id": 1,
+            "name": "Incident Overview"
+        },
+        {
+            "id": 2,
+            "name": "Notes"
+        },
+        {
+            "id": 2,
+            "name": "Injuries and Damages"
+        },    
+        {
+            "id": 6,
+            "name": "Attachments"
+        },    
+        {
+            "id": 7,
+            "name": "Assessments"
+        },
+        {
+            "id": 8,
+            "name": "Remediations"
+        }
+      
+    ]
+       
+}

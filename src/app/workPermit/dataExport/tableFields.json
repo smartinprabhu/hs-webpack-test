@@ -1,0 +1,127 @@
+{
+    "fields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Reference",
+            "property": "reference"
+        },
+        {
+            "heading": "Description",
+            "property": "name"
+        },
+        {
+            "heading": "Vendor",
+            "property": "vendor_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },    
+        {
+            "heading": "Planned Start Date",
+            "property": "planned_start_time"
+        },
+        {
+            "heading": " Planned End Date",
+            "property": "planned_end_time"
+        },
+        {
+            "heading": "Space",
+            "property": "space_id"
+        },
+        {
+            "heading": "Equipment",
+            "property": "equipment_id"
+        },   
+        {
+            "heading": "Nature of Work",
+            "property": "nature_work_id"
+        }   
+    ],
+    "requestorField": [
+        {
+            "heading": "Requestor",
+            "property": "requestor_id"
+        }
+    ],
+    "teamField": [
+        {
+            "heading": "Maintenance Team",
+            "property": "maintenance_team_id"
+        }
+    ],
+    "typeField": [
+        {
+            "heading": "Type",
+            "property": "type"
+        }
+    ],      
+    "durationField": [
+        {
+            "heading": "Duration",
+            "property": "duration"
+        }
+    ],
+    "natureFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Title",
+            "property": "name"
+        },
+        {
+            "heading": "Maintenance Checklist",
+            "property": "task_id"
+        },
+        {
+            "heading": "Readiness Checklist",
+            "property": "preparedness_checklist_id"
+        },
+        {
+            "heading": "Approval Authority",
+            "property": "approval_authority_id"
+        },
+        {
+            "heading": "EHS Authority",
+            "property": "ehs_authority_id"
+        },
+        {
+            "heading": "Security Office",
+            "property": "security_office_id"
+        }
+    ],
+    "companyField": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ],
+    "ehsField": [
+        {
+            "heading": "EHS Instruction",
+            "property": "ehs_instructions"
+        }
+    ],
+    "termsAndConditionField": [
+        {
+            "heading": "Terms and Conditions",
+            "property": "terms_conditions"
+        }
+    ],
+    "locationFields": [
+        {
+            "heading": "Work Location",
+            "property": "work_location"
+        }
+    ]
+       
+}

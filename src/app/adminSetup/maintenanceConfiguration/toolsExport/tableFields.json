@@ -1,0 +1,34 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Hourly Tool Host",
+            "property": "tool_cost_unit"
+        },
+        {
+            "heading": "Active",
+            "property": "active"
+        },
+        {
+            "heading": "Create Date",
+            "property": "create_date"
+        }
+    ],
+    "orderFields": [
+        {
+            "heading": "Maintenance Order",
+            "property": "order_id"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

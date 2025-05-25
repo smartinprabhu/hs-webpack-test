@@ -1,0 +1,38 @@
+[
+    {
+        "a_publisher":"Dev Team",
+        "a_state":"active",
+        "a_expires_on":"2021-04-06 10:14:59",
+        "a_priority":"info",
+        "code":"WMB",
+        "a_commences_on":"2021-04-05 10:14:59",
+        "a_title":"Check out at 6:00PM",
+        "a_description":"The festival marks the end of winter and the beginning of spring. Holi is\ncelebrated during the Phalguna month, which typically falls in the month of\nMarch.\n\n","id":"1",
+        "type":"announcement",
+        "a_is_publish_to_all":"False"
+    },   
+    {
+        "a_publisher":"Dev Team",
+        "a_state":"active",
+        "a_expires_on":"2021-04-06 10:14:59",
+        "a_priority":"info",
+        "code":"WMB",
+        "a_commences_on":"2021-04-05 10:14:59",
+        "a_title":"Holiday on Monday",
+        "a_description":"The festival marks the end of winter and the beginning of spring. Holi is\ncelebrated during the Phalguna month, which typically falls in the month of\nMarch.\n\n","id":"2",
+        "type":"announcement",
+        "a_is_publish_to_all":"False"
+    },  
+    {
+        "a_publisher":"Dev Team",
+        "a_state":"active",
+        "a_expires_on":"2021-04-06 10:14:59",
+        "a_priority":"info",
+        "code":"WMB",
+        "a_commences_on":"2021-04-05 10:14:59",
+        "a_title":"Be Safe from COVID 2.0",
+        "a_description":"The festival marks the end of winter and the beginning of spring. Holi is\ncelebrated during the Phalguna month, which typically falls in the month of\nMarch.\n\n","id":"3",
+        "type":"announcement",
+        "a_is_publish_to_all":"False"
+    }   
+]

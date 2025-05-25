@@ -1,0 +1,101 @@
+
+{
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        },       
+        {
+            "label": "Compliance Act",
+            "value": "compliance_act"
+        }  
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "ID",
+            "accessor": "id"
+        },
+        {
+            "Header": "Name",
+            "accessor": "name"
+        },
+        {
+            "Header": "Compliance",
+            "accessor": "compliance_id"
+        },
+        {
+            "Header": "Status",
+            "accessor": "state",
+            "func": true
+        },
+        {
+            "Header": "Compliance Act",
+            "accessor": "compliance_act"
+        },
+        {
+            "Header": "Next Expiry Date",
+            "accessor": "next_expiry_date",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Submitted To",
+            "accessor": "submitted_to"
+        },
+        {
+            "accessor": "compliance_category_id",
+            "Header": "Category"
+        },
+        {
+            "accessor": "sla_status",
+            "Header": "SLA Status"
+        },
+        {
+            "accessor": "applies_to",
+            "Header": "Applies To"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "accessor": "company_id",
+            "Header": "Company"
+        }
+    ]
+       
+}

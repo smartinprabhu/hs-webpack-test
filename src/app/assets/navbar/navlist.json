@@ -1,0 +1,41 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/asset-overview"
+    },
+    "Locations": {
+      "id": 2,
+      "name": "LOCATIONS",
+      "displayname": "Locations",
+      "pathName": "/asset-overview/locations"
+    },
+    "Assets": {
+      "id": 3,
+      "name": "ASSETS",
+      "displayname": "Assets",
+      "pathName": "/asset-overview/equipments"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/asset-overview/reports"
+    },
+    "Map View": {
+      "id": 4,
+      "name": "MAPVIEW",
+      "displayname": "Map View",
+      "pathName": "/asset-overview/mapview"
+    },
+    "Insights2": {
+      "id": 5,
+      "name": "INSIGHTS",
+      "displayname": "Insights2",
+      "pathName": "/asset-overview/noc/assets"
+    },
+    "title": "Asset Registry"
+  }
+}

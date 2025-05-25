@@ -1,0 +1,43 @@
+
+{
+    "associatesList": [
+        {
+            "value": "Client",
+            "label": "Client"
+        },
+        {
+            "value": "Vendor",
+            "label": "Vendor"
+        },
+        {
+            "value": "Tenant",
+            "label": "Tenant"
+        }
+    ],
+    "facilityData": {
+        "manage_building": {
+            "prefix": "Building-",
+             "isEditable":"Yes"
+        },
+        "manage_floor": {
+            "prefix": "Floor-",
+            "isEditable":"Yes"            
+        },
+        "manage_wing": {
+            "prefix": "Wing-",
+            "isEditable":"Yes"
+        },
+        "manage_room": {
+            "prefix": "Room-",
+            "isEditable":"Yes"
+        },
+        "manage_space": {
+            "prefix": "Space-",
+            "isEditable":"Yes"
+        },
+        "manage_equipment": {
+            "prefix": "Equipment-",
+            "isEditable":"Yes"
+        }
+    }
+}

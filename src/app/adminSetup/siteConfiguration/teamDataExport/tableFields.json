@@ -1,0 +1,49 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "Header": "Team Members",
+            "accessor": "member_ids.length"
+        },
+        {
+            "heading": "Category",
+            "property": "team_category_id"
+
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Type",
+            "property": "team_type"
+        }
+    ],
+    "leaderFields": [
+        {
+            "heading": "Team Leader",
+            "property": "employee_id"
+        }
+    ],   
+    "analyticFields": [
+        {
+            "heading": "Av.Maiantenance.Cost",
+            "property": "maintenance_cost_analytic_account_id"
+        }
+    ],
+    "costFields": [
+        {
+            "heading": "Hourly Labour Cost",
+            "property": "labour_cost_unit"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

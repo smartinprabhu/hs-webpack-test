@@ -1,0 +1,20 @@
+{
+    "tabsList": {
+        "Teams": {
+            "id": 1,
+            "name": "TEAMS"
+        },
+        "Team Members": {
+            "id": 2,
+            "name": "TEAM MEMBERS"
+        },
+        "Shifts": {
+            "id": 3,
+            "name": "SHIFTS"
+        },
+        "Tenants": {
+            "id": 4,
+            "name": "TENANTS"
+        }
+    }
+}

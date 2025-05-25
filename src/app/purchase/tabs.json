@@ -1,0 +1,34 @@
+{
+    "tabsList": {
+        "Request for Quotation": {
+            "id": 1,
+            "name": "Request for Quotation",
+            "pathName": "/purchase/requestforquotation"
+        },
+        "Purchase Request": {
+            "id": 2,
+            "name": "Purchase Request",
+            "pathName": "/purchase/purchaserequest"
+        },
+        "Purchase Orders": {
+            "id": 3,
+            "name": "Purchase Orders",
+            "pathName": "/purchase/purchaseorders"            
+        },
+        "Purchase Agreements": {
+            "id": 4,
+            "name": "Purchase Agreements",
+            "pathName": "/purchase/purchaseagreements"
+        },
+        "Vendors": {
+            "id": 5,
+            "name": "Vendors",
+            "pathName": "/purchase/vendors"
+        },
+        "Products": {
+            "id": 6,
+            "name": "Products",
+            "pathName": "/purchase/products"
+        }
+    }
+}

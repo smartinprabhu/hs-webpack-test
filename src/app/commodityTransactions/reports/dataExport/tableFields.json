@@ -1,0 +1,34 @@
+
+{
+    "fields": [
+        {
+            "heading": "Commodity",
+            "property": "commodity_export"
+        },
+        {
+            "heading": "Capacity",
+            "property": "capacity"
+        },
+        {
+            "heading": "Tanker",
+            "property": "tanker_id_export"
+        }, 
+        {
+            "heading": "Vendor",
+            "property": "vendor_id_export"
+        },      
+        {
+            "heading": "Initial Reading",
+            "property": "initial_reading"
+        },
+        {
+            "heading": "Final Reading",
+            "property": "final_reading"
+        },
+        {
+            "heading": "Difference",
+            "property": "difference"
+        }          
+    ]  
+       
+}

@@ -1,0 +1,824 @@
+[
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": "",
+      "category_id": [
+          2071,
+          "Electrical/ELCB Meter"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "ABC-E-10682",
+      "id": 197666,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28307,
+          "CHNCAM/T1"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          383,
+          "CHN - M&E Team2"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Open Tickets",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": "",
+      "category_id": [
+          2074,
+          "Electrical/Fan"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10679",
+      "id": 197663,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28350,
+          "WIRP/New Cafe"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          2130,
+          "New Test"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "   CUP WASHING MACHINE",
+      "purchase_date": false,
+      "serial": "",
+      "state": "op",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": "Valid",
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": "",
+      "category_id": [
+          2071,
+          "Electrical/ELCB Meter"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10678",
+      "id": 197662,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36533,
+          "WIPRC/Substation1/GF/Chiller Room"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          383,
+          "CHN - M&E Team2"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Test",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": "",
+      "category_id": [
+          2073,
+          "Electrical/Battery Monitering System"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10677",
+      "id": 197661,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          39551,
+          "WIRP/New Cafe/STP"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          383,
+          "CHN - M&E Team2"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "New Asset",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10676",
+      "id": 197660,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28307,
+          "CHNCAM/T1"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          327,
+          "New Cafe - Soft Service Team"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Asset new",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": "Valid",
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2074,
+          "Electrical/Fan"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10675",
+      "id": 197659,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28350,
+          "WIRP/New Cafe"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          409,
+          "CHNTeam"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": [
+          7008,
+          "HCJJ"
+      ],
+      "model": "",
+      "monitored_by_id": false,
+      "name": "New Asset",
+      "purchase_date": "2024-02-21",
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": [
+          7301,
+          "LL Services"
+      ],
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10658",
+      "id": 197642,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          39550,
+          "WIRP/New Cafe/WTP"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Asset#002",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10657",
+      "id": 197641,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36531,
+          "WIPRC/Substation1/GF/DG Room"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "New Asset",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2070,
+          "Electrical/CO2 Meter"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10656",
+      "id": 197640,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28429,
+          "CHNCAM/T1/1F"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          327,
+          "New Cafe - Soft Service Team"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "UPS#00",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10655",
+      "id": 197639,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28350,
+          "WIRP/New Cafe"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Test",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2074,
+          "Electrical/Fan"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10654",
+      "id": 197638,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36515,
+          "WIPRC/Substation2C/1F"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          327,
+          "New Cafe - Soft Service Team"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "bags - HP1",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10653",
+      "id": 197636,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28350,
+          "WIRP/New Cafe"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          326,
+          "MLCP - Soft Service Team"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "   CUP WASHING MACHINE",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": "Valid",
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2071,
+          "Electrical/ELCB Meter"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10652",
+      "id": 197635,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          28307,
+          "CHNCAM/T1"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Generator #004",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10651",
+      "id": 197634,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36491,
+          "WIPRC/Substation2C"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Generator #003",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10650",
+      "id": 197633,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          39550,
+          "WIRP/New Cafe/WTP"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Generator #002",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2076,
+          "DG/Pump"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10649",
+      "id": 197632,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36492,
+          "WIPRC/Substation1/FirePumpRoom1"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          382,
+          "CHN - Soft Service Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Genrator #001",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          1952,
+          "Wheel Chair"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "",
+      "equipment_seq": "WIPRC-E-10648",
+      "id": 197631,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          36515,
+          "WIPRC/Substation2C/1F"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          327,
+          "New Cafe - Soft Service Team"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": false,
+      "model": "",
+      "monitored_by_id": false,
+      "name": "Cupboards22",
+      "purchase_date": false,
+      "serial": "",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": false,
+      "warranty_end_date": false,
+      "warranty_start_date": false
+  },
+  {
+      "amc_end_date": false,
+      "amc_start_date": false,
+      "amc_type": false,
+      "brand": false,
+      "category_id": [
+          2073,
+          "Electrical/Battery Monitering System"
+      ],
+      "company_id": [
+          98,
+          "ABC Cowork Space"
+      ],
+      "equipment_number": "tytyty",
+      "equipment_seq": "WIPRC-E-10647",
+      "id": 197630,
+      "is_nfc_tagged": false,
+      "is_qr_tagged": false,
+      "is_rfid_tagged": false,
+      "is_virtually_tagged": false,
+      "location_id": [
+          39551,
+          "WIRP/New Cafe/STP"
+      ],
+      "maintained_by_id": false,
+      "maintenance_team_id": [
+          265,
+          "CHN - M&E Team1"
+      ],
+      "managed_by_id": false,
+      "manufacturer_id": [
+          7384,
+          "Flora"
+      ],
+      "model": "34355",
+      "monitored_by_id": false,
+      "name": "Test",
+      "purchase_date": "2024-02-07",
+      "serial": "3435553",
+      "state": "wh",
+      "tag_status": false,
+      "validated_by": false,
+      "validated_on": false,
+      "validation_status": false,
+      "vendor_id": [
+          7384,
+          "Flora"
+      ],
+      "warranty_end_date": "2024-02-29",
+      "warranty_start_date": "2024-02-06"
+  }
+]

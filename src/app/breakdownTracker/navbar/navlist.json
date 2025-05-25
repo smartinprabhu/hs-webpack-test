@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/breakdown-overview"
+    },
+    "Breakdown Trackers": {
+      "id": 2,
+      "name": "BREAKDOWNTRACKERS",
+      "displayname": "Breakdown Trackers",
+      "pathName": "/breakdown-tracker"
+    },  
+    "title": "Breakdown Tracker"
+  }
+}

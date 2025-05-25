@@ -1,0 +1,192 @@
+{
+    "maintenanceTypes":[
+        {
+            "value": "bm",
+            "label" : "Corrective"
+        },
+        {
+            "value": "pm",
+            "label" : "Preventive"
+        },
+        {
+            "value": "oc",
+            "label" : "On Condition"
+        },
+        {
+            "value": "pr",
+            "label" : "Periodic"
+        },
+        {
+            "value": "pd",
+            "label" : "Predictive"
+        }
+    ],
+    "fields": [
+        {
+            "label": "Name",
+            "value": "name"
+        }
+    ],
+    "operationTableColumnsShow": [
+        "name",
+        "order_duration",
+        "maintenance_type",
+        "active",
+        "create_date"
+    ],
+    "operationTableColumns": [
+        {
+            "value": "type_category",
+            "label": "Type"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "userTableColumns": [
+        {
+            "value": "mobile",
+            "label": "Mobile"
+        },
+        {
+            "value": "active",
+            "label": "Active"
+        }
+        
+    ],
+    "checklistTableColumnsShow": [
+        "name",
+        "active",
+        "create_date"
+    ],
+    "checklistTableColumns": [
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "toolsTableColumnsShow": [
+        "name",
+        "tool_cost_unit",
+        "active",
+        "create_date"
+    ],
+    "toolsTableColumns": [
+        {
+            "value": "order_id",
+            "label": "Maintenance Order"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "partsTableColumnsShow": [
+        "name",
+        "list_price",
+        "standard_price",
+        "weight",
+        "volume",
+        "create_date"
+    ],
+    "partsTableColumns": [
+        {
+            "value": "type",
+            "label": "Type"
+        },
+        {
+            "value": "categ_id",
+            "label": "Category"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+        
+    ],
+    "productTypes": {
+        "consu": {
+            "id": "consu",
+            "label": "Consumable"
+        },
+        "service": {
+            "id": "service",
+            "label": "Service"
+       },
+       "product": {
+            "id": "product",
+            "label": "Storable Product"
+      }
+    },
+    "viewFieldsParts": [
+        "list_price",
+        "name",
+        "standard_price",
+        "weight","volume",
+        "create_date",
+        "company_id",
+        "type",
+        "categ_id",
+        "uom_id",
+        "uom_po_id"
+      ],
+    "operationalExpenses": [
+        "name",
+        "type_id",
+        "consumption",
+        "company_id",
+        "unit_cost",
+        "total_cost",
+        "from_date",
+        "to_date",
+        "item_id",
+        "equipment_id",
+        "description",
+        "company_id"
+      ],
+    "operationalExpensesColumns": [
+        "name",
+        "type_id",
+        "consumption",
+        "unit_cost",
+        "total_cost"
+      ],
+      "expensesTableColumns": [
+        {
+            "value": "from_date",
+            "label": "From Date"
+        },
+        {
+            "value": "to_date",
+            "label": "To Date"
+        },
+        {
+            "value": "item_id",
+            "label": "Sub Type"
+        },
+        {
+            "value": "equipment_id",
+            "label": "Equipment Id"
+        },
+        {
+            "value": "description",
+            "label": "Description"
+        },
+        {
+            "value": "company_id",
+            "label": "Company"
+        }
+    ],
+    "expensesActionItems":[
+       {
+         "id": 1,
+         "name": "EXPENSEBULKUPLOAD",
+         "displayname": "Expenses Bulk Upload",
+         "accessName": "Import Expenses"
+       }        
+     ]
+}

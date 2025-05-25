@@ -1,0 +1,11 @@
+{
+    "Add Escalation" :"helpdesk_add_escalation_level",
+    "Edit Escalation" :"helpdesk_edit_escalation_level",
+    "Delete Escalation" :"helpdesk_delete_escalation_level",
+    "Add Problem Category" :"add_problem_category",
+    "Edit Problem Category" :"edit_problem_category",
+    "Delete Problem Category" :"delete_problem_category",
+    "Add Problem Category Group" :"add_problem_category_group",
+    "Edit Problem Category Group" :"edit_problem_category_group",
+    "Delete Problem Category Group" :"delete_problem_category_group"
+}

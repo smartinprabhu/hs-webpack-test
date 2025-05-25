@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/audit-overview"
+    },
+    "Operations": {
+      "id": 2,
+      "name": "OPERATIONS",
+      "displayname": "Operations",
+      "pathName": "/audit-operations"
+    },
+    "Reportss": {
+      "id": 4,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/audit/reports"
+    },
+    "title": "Audit System"
+  }
+}

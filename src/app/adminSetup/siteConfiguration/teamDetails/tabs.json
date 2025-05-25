@@ -1,0 +1,18 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "General"
+        },
+        {
+            "id": 2,
+            "name": "Team Members"
+        },
+        {
+            "id": 3,
+            "name": "Spaces"
+        }
+    ]
+       
+}

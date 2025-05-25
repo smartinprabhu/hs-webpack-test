@@ -1,0 +1,16 @@
+{
+    "tabsList": {
+        "Pantry": {
+            "id": 1,
+            "name": "Pantry"
+        },
+        "Product": {
+            "id": 2,
+            "name": "Product"
+        },
+        "Product Category": {
+            "id": 3,
+            "name": "Product Category"
+        }
+    }
+}

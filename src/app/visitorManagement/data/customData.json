@@ -1,0 +1,299 @@
+{
+    "listFieldsVR": [
+        "name",
+        "organization",
+        "host_name",
+        "visitor_name",
+        "allowed_sites_id",
+        "partner_id",
+        "company_id",
+        "entry_status",
+        "type_of_visitor",
+        "actual_in",
+        "actual_out",
+        "purpose",
+        "purpose_id",
+        "state",
+        "phone",
+        "planned_in",
+        "planned_out",
+        "email" ,
+        "allowed_sites_id",
+        "time_elapsed_reason",
+        "visitor_badge",
+        "tenant_id"
+    ],
+    "entryStates":[
+        {
+            "value": "Invited",
+            "label": "Invited"
+        },      
+        {
+            "value": "Checkin",
+            "label": "Checked In"
+        },
+        {
+            "value": "Checkout",
+            "label": "Checked Out"
+        },   
+        {
+            "value": "time_elapsed",
+            "label": "Time Elapsed"
+        }
+    ],
+    "entryStatesLabel": {
+        "Invited": {
+            "id": "Invited",
+            "label": "Invited",
+            "color":"info"
+        },     
+        "Checkin": {
+            "id": "Checkin",
+            "label": "Checked In",
+            "color": "warning"
+       },
+       "Checkout": {
+        "id": "Checkout",
+        "label": "Checked Out",
+        "color": "success"
+        },        
+        "time_elapsed": {
+            "id": "time_elapsed",
+            "label": "Time Elapsed",
+            "color": "danger"
+       }
+    },
+    "approveStates":[
+        {
+            "value": "To Approve",
+            "label": "To Approve"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        },
+        {
+            "value": "Rejected",
+            "label": "Rejected"
+        }
+    ],
+    "approveStatesLabel": {
+        "To Approve": {
+            "id": "To Approve",
+            "label": "To Approve",
+            "color":"info"
+        },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved",
+            "color": "success"
+       },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "warning"
+       },
+       "Rejected": {
+        "id": "Rejected",
+        "label": "Rejected",
+        "color": "danger"
+        }
+    },   
+    "tableColumnsVR": [    
+        {
+            "label": "Visitor Phone",
+            "value": "phone"
+        },  
+        {
+            "label": "Visitor Email",
+            "value": "email"
+        },   
+        {
+            "value": "type_of_visitor",
+            "label": "Visitor Type"
+        },  
+        {
+            "value": "purpose",
+            "label": "Purpose"
+        }       
+    ],
+    "dashboardStatus": {
+        "AV": {
+            "id": "All Visits",
+            "label": "All Visits",
+            "tags":[{
+                "key": "state",
+                "value": "Approved",
+                "Header":"Entry Status",
+                "title" : "Type",
+                "label": "All Visits",
+                "type": "inarray"
+            }]
+        },
+        "CI": {
+            "id": "Checked In",
+            "label": "Checked In",
+            "tags":[
+                {
+                    "key": "entry_status",
+                    "title" : "Entry Status",
+                    "Header":"Entry Status",
+                    "value": "Checkin",
+                    "label": "Checked In",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CO": {
+            "id": "Checked Out",
+            "label": "Checked Out",
+            "tags":[
+                {
+                    "key": "entry_status",
+                    "title" : "Entry Status",
+                    "Header":"Entry Status",
+                    "value": "Checkout",
+                    "label": "Checked Out",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "UPV": {
+            "id": "Upcoming Visits",
+            "label": "Upcoming Visits",
+            "tags":[
+                {
+                    "key": "entry_status",
+                    "title" : "Entry Status",
+                    "Header":"Entry Status",
+                    "value": "Invited",
+                    "label": "Invited",
+                    "type": "inarray"
+                }
+            ]
+       },
+       "TE": {
+        "id": "Time Elapsed",
+        "label": "Time Elapsed",
+        "tags":[
+            {
+                "key": "entry_status",
+                "title" : "Entry Status",
+                "Header":"Entry Status",
+                "value": "time_elapsed",
+                "label": "Time Elapsed",
+                "type": "inarray"
+            }
+        ]
+   }    
+    },  
+    "originStates":[
+        {
+            "value": "scheduled_wo",
+            "label": "Scheduled WO"
+        },
+        {
+            "value": "unscheduled_wo",
+            "label": "Unscheduled WO"
+        },
+        {
+            "value": "employee_initiated",
+            "label": "Employee Initiated"
+        },
+        {
+            "value": "reception_admin_initiated",
+            "label": "Reception Admin Initiated"
+        },
+        {
+            "value": "Guest Initiated",
+            "label": "Guest Initiated"
+        }
+    ],
+    "originStatesLabel":{
+        "scheduled_wo" : {
+            "value": "scheduled_wo",
+            "label": "Scheduled WO"
+        },
+        "unscheduled_wo" : {
+            "value": "unscheduled_wo",
+            "label": "Unscheduled WO"
+        },
+        "employee_initiated" : {
+            "value": "employee_initiated",
+            "label": "Employee Initiated"
+        },
+        "reception_admin_initiated" : {
+            "value": "reception_admin_initiated",
+            "label": "Reception Admin Initiated"
+        },
+        "Guest Initiated" : {
+            "value": "Guest Initiated",
+            "label": "Guest Initiated"
+        }
+    },
+    "actionItems":[
+        {
+         "id": 1,
+         "name": "APPROVED",
+         "displayname": "Approve"
+       },
+       {
+        "id": 2,
+        "name": "CHECKIN",
+        "displayname": "Check In"
+      },     
+       {
+        "id": 3,
+        "name": "CHECKOUT",
+        "displayname": "Check Out"
+      } ,
+        {
+         "id": 4,
+         "name": "CANCELLED",
+         "displayname": "Cancel"
+       },       
+        {
+         "id": 5,
+         "name": "REJECTED",
+         "displayname": "Reject"
+       }
+     ],
+     "actionTypes": {
+        "Cancel": {
+            "value": "action_cancelled",
+            "text": "Cancel",
+            "msg": "cancelled",
+            "button": "Cancel"
+        },
+        "Reject": {
+            "value": "action_rejected",
+            "text": "Reject",
+            "msg": "rejected",
+            "button": "Reject"
+        },
+        "Approve": {
+            "value": "action_approve",
+            "text": "Approve",
+            "msg": "approved",
+            "button": "Approve"
+        },
+        "Check In": {
+            "value": "action_checkin",
+            "text": "Check In",
+            "msg": "checked in",
+            "button": "Check In"
+        },
+        "Check Out": {
+            "value": "action_checkout",
+            "text": "Check Out",
+            "msg": "checked out",
+            "button": "Check Out"
+        }
+    },
+    "disableEditButton": ["Checkout"]
+
+}

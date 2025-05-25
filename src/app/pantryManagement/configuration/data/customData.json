@@ -1,0 +1,77 @@
+{
+    "listFieldsCPTShows": [
+        "name",
+        "pantry_sequence",
+        "maintenance_team_id",
+        "resource_calendar_id",
+        "state",
+        "company_id"       
+    ],
+    "listFieldsPantry": [
+        "name",
+        "categ_id",
+        "pantry_ids",
+        "minimum_order_qty",
+        "maximum_order_qty",
+        "active", 
+        "weight", 
+        "volume", 
+        "new_until", 
+        "company_id", 
+        "create_date" 
+    ],
+    "tableColumnsCPT": [
+        {
+            "value": "create_date",
+            "label": "Created On"
+        }
+    ],
+    "listFieldsCPCShows": [
+        "name",
+        "parent_id",
+        "product_count",
+        "property_valuation"
+    ],
+    "inventoryText":{
+        "manual_periodic" : {
+             "value": "manual_periodic",
+             "label": "Manual"
+         },
+        "real_time" : {
+             "value": "real_time",
+             "label": "Automated"
+         }
+     },
+     "statesLabels": {
+        "true": {
+            "text": "Active",
+            "color":"success"
+        },     
+        "false": {
+            "text": "InActive",
+            "color":"danger"
+        }
+    },
+    "stateTypes":[
+        {
+            "value": "all",
+            "label" : "All"
+        },
+        {
+            "value": "yes",
+            "label" : "Active"
+        },
+        {
+            "value": "no",
+            "label" : "InActive"
+        }
+    ],
+     "statesPantryLabel": {
+        "Active": {
+            "id": "Active",
+            "label": "Active",
+            "color":"success"
+        }
+    }
+
+}

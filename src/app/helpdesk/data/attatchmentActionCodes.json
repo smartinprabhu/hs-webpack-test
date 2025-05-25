@@ -1,0 +1,6 @@
+{
+    "Add Image" :"attach_add_attachment",
+    "Delete Image" :"attach_delete_attachment",
+    "Add Document" :"attach_add_document",
+    "Delete Document" :"attach_delete_document"
+}

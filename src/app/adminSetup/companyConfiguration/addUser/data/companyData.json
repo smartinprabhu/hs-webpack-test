@@ -1,0 +1,17 @@
+
+{
+    "associatesList": [
+        {
+            "value": "Client",
+            "label": "Client"
+        },
+        {
+            "value": "Vendor",
+            "label": "Vendor"
+        },
+        {
+            "value": "Tenant",
+            "label": "Tenant"
+        }
+    ]
+}

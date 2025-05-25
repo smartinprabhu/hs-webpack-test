@@ -1,0 +1,23 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "Compliance Overview"
+        },
+        {
+            "id": 2,
+            "name": "Compliance Evidences"
+        },
+        {
+            "id": 3,
+            "name": "Logs"
+        },
+        {
+            "id": 4,
+            "name": "Document References"
+        }
+      
+    ]
+       
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "Engineering": {
+      "id": 1,
+      "name": "ENGINEERING",
+      "displayname": "Engineering",
+      "pathName": "/noc/engineering"
+    },
+    "Assets": {
+      "id": 2,
+      "name": "ASSETS",
+      "displayname": "Assets",
+      "pathName": "/noc/assets"
+    },
+    "Workplace Management": {
+      "id": 3,
+      "name": "WORKPLACE",
+      "displayname": "Workplace Management",
+      "pathName": "/noc/workplace-management"
+    },
+    "title": "NOC Dashboards"
+  }
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CovidResources testing snapshot testing for GET_CONFIGURATION action 1`] = `
+<DocumentFragment>
+  <div
+    class="p-3 border-cinnabar-1px rounded ml-3 mr-0 h-100 dashboardTileHeight"
+  />
+</DocumentFragment>
+`;
+
+exports[`CovidResources testing snapshot testing for GET_CONFIGURATION_SUCCESS action 1`] = `
+<DocumentFragment>
+  <div
+    class="p-3 border-cinnabar-1px rounded ml-3 mr-0 h-100 dashboardTileHeight"
+  />
+</DocumentFragment>
+`;

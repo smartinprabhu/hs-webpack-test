@@ -1,0 +1,52 @@
+
+{
+    "fields": [
+        {
+            "heading": "Description",
+            "property": "name"
+        },
+        {
+            "heading": "Product",
+            "property": "product_id"
+        },
+        {
+            "heading": "Create Date",
+            "property": "create_date"
+        },
+        {
+            "heading": "Quantity",
+            "property": "scrap_qty"
+        },
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Scrap Location",
+            "property": "scrap_location_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }
+    ],
+    "pickFields": [
+        {
+            "heading": "Picking",
+            "property": "picking_id"
+        }
+    ],   
+    "dateFields": [
+        {
+            "heading": "Expected Date",
+            "property": "date_expected"
+        }
+    ],
+    "originFields": [
+        {
+            "heading": "Source Document",
+            "property": "origin"
+        }
+    ]
+       
+}

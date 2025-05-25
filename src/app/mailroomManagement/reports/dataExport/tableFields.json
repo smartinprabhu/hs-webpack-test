@@ -1,0 +1,96 @@
+
+{
+    "inboundfields": [
+        {
+            "heading": "Sender Name",
+            "property": "sender"
+        },
+        {
+            "heading": "Receiver Name",
+            "property": "employee_id_export"
+        }, 
+        {
+            "heading": "Status",
+            "property": "state"
+        },  
+        {
+            "heading": "Courier",
+            "property": "courier_id_export"
+        },
+        {
+            "heading": "Tracking Number",
+            "property": "tracking_no"
+        }, 
+        {
+            "heading": "Parcel Dimensions",
+            "property": "parcel_dimensions"
+        }, 
+        {
+            "heading": "Notes",
+            "property": "notes"
+        }, 
+        {
+            "heading": "Registered On",
+            "property": "received_on_export"
+        },
+        {
+            "heading": "Registered By",
+            "property": "received_by_export"
+        },
+        {
+            "heading": "Delivered On",
+            "property": "collected_on_export"
+        },
+        {
+            "heading": "Delivered By",
+            "property": "collected_by_export"
+        }
+    ],
+    "outBoundfields": [
+        {
+            "heading": "Sender Name",
+            "property": "employee_id_export"
+        }, 
+        {
+            "heading": "Receiver Name",
+            "property": "sent_to"
+        }, 
+        {
+            "heading": "Status",
+            "property": "state"
+        },      
+        {
+            "heading": "Courier",
+            "property": "courier_id_export"
+        },
+        {
+            "heading": "Tracking Number",
+            "property": "tracking_no"
+        },
+        {
+            "heading": "Parcel Dimensions",
+            "property": "parcel_dimensions"
+        }, 
+        {
+            "heading": "Notes",
+            "property": "notes"
+        },   
+        {
+            "heading": "Registered On",
+            "property": "sent_on_export"
+        },
+        {
+            "heading": "Registered By",
+            "property": "sent_by_export"
+        },
+        {
+            "heading": "Delivered On",
+            "property": "delivered_on_export"
+        },   
+        {
+            "heading": "Delivered By",
+            "property": "delivered_by_export"
+        }
+    ]  
+       
+}

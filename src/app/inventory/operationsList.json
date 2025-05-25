@@ -1,0 +1,28 @@
+{
+    "tabsList": {
+        "Overview": {
+            "id": 1,
+            "name": "Overview"
+        },
+        "Inward Stock": {
+            "id": 2,
+            "name": "Inward Stock"
+        },
+        "Outward Stock": {
+            "id": 3,
+            "name": "Outward Stock"
+        },
+        "Material Requests": {
+            "id": 4,
+            "name": "Material Requests"
+        },
+        "Stock Audits": {
+            "id": 5,
+            "name": "Stock Audits"
+        },
+        "Scrap": {
+            "id": 6,
+            "name": "Scrap"
+        }
+    }
+}

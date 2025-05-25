@@ -1,0 +1,101 @@
+{
+    "dashboardTiles": {
+        "SA": {
+            "id": "sc",
+            "label": "Scrapped",
+            "tags":[{
+                "key": "state",
+                "value": "sc",
+                "title" : "Status",
+                "label": "Scrapped",
+                "type": "inarray"
+            }]
+        },
+        "WA": {
+            "id": "wh",
+            "label": "Warehouse",
+            "tags":[{
+                "key": "state",
+                "value": "wh",
+                "title" : "Status",
+                "label": "Warehouse",
+                "type": "inarray"
+            }]
+        },
+        "OA": {
+            "id": "op",
+            "label": "Operative",
+            "tags":[{
+                "key": "state",
+                "value": "op",
+                "title" : "Status",
+                "label": "Operative",
+                "type": "inarray"
+            }]
+        },
+        "UM": {
+            "id": "mn",
+            "label": "Maintenance",
+            "tags":[{
+                "key": "state",
+                "value": "mn",
+                "title" : "Status",
+                "label": "Maintenance",
+                "type": "inarray"
+            }]
+        }
+    },
+    "dashboardStatus": {
+        "TA": {
+            "id": "Total Assets",
+            "label": "Total Assets",
+            "tags":[{
+                "value": "Total Assets",
+                "title" : "Total Assets",
+                "label": "Total Assets"
+            }]
+        },
+        "EQ": {
+            "id": "Equipment",
+            "label": "Equipment",
+            "type": "Equipments",
+            "tags":[
+                {
+                    "key": "category_type",
+                    "title": "Equipment",
+                    "value": "Equipment",
+                    "label": "Equipment",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CO": {
+            "id": "Components",
+            "label": "Components",
+            "type": "Components",
+            "tags":[
+                {
+                    "key": "category_type",
+                    "title": "Components",
+                    "value": "Component",
+                    "label": "Components",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "AC": {
+            "id": "Accessories",
+            "label": "Accessories",
+            "type": "Accessories",
+            "tags":[
+                {
+                    "key": "category_type",
+                    "title": "Accessories",
+                    "value":  "Accessory",
+                    "label": "Accessories",
+                    "type": "inarray"
+                }
+            ]
+        }              
+    }
+}

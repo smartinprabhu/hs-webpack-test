@@ -1,0 +1,45 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "PPMViewer",
+      "activename": "PPMViewerACTIVE",
+      "displayname": "Insights",
+      "compareName": "Insights",
+      "pathName": "/inspection-overview"
+    },
+    "Inspection Viewer": {
+      "id": 2,
+      "name": "InspectionViewer",
+      "activename": "InspectionViewerACTIVE",
+      "displayname": "Viewer",
+      "compareName": "Inspection Viewer",
+      "pathName": "/inspection-overview/inspection-viewer"
+    },
+    "Scheduler": {
+      "id": 3,
+      "name": "PPMScheduler",
+      "activename": "PPMSchedulerACTIVE",
+      "displayname": "Scheduler",
+      "compareName": "Scheduler",
+      "pathName": "/inspection-overview/inspection-schedule"
+    },
+    "Cancel Requests": {
+      "id": 4,
+      "name": "Cancel Requests",
+      "activename": "ReportsACTIVE",
+      "displayname": "Cancel Requests",
+      "compareName": "Cancel Requests",
+      "pathName": "/inspection-overview/cancel-requests"
+    },
+    "Reports": {
+      "id": 5,
+      "name": "Reports",
+      "activename": "ReportsACTIVE",
+      "displayname": "Reports",
+      "compareName": "Reports",
+      "pathName": "/inspection-overview/inspection/reports"
+    },
+    "title": "Inspection Schedule"
+  }
+}

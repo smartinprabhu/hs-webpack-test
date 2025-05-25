@@ -1,0 +1,60 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Maintenance Type",
+            "property": "maintenance_type",
+            "labels": {
+                "bm": {
+                    "value": "bm",
+                    "text": "Corrective"
+                },
+                "pm": {
+                    "value": "pm",
+                    "text": "Preventive"
+                },
+                "oc": {
+                    "value": "oc",
+                    "text": "On Condition"
+                },
+                "pr": {
+                    "value": "pr",
+                    "text": "Periodic"
+                },
+                "pd": {
+                    "value": "pd",
+                    "text": "Predictive"
+                }
+            }
+        },
+        {
+            "heading": "Duration",
+            "property": "order_duration"
+        },
+        {
+            "heading": "Active",
+            "property": "active"
+        },
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],
+    "typeFields": [
+        {
+            "heading": "Type",
+            "property": "type_category"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

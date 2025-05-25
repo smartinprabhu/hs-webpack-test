@@ -1,0 +1,29 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/buildingcompliance-overview"
+    },
+    "Compliance": {
+      "id": 2,
+      "name": "COMPLIANCE",
+      "displayname": "Compliance",
+      "pathName": "/buildingcompliance"
+    },  
+    "Compliance Obligation": {
+      "id": 3,
+      "name": "TEMPLATE",
+      "displayname": "Templates",
+      "pathName": "/buildingcompliance/templates"
+    },
+    "Reports": {
+      "id": 3,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/buildingcompliance/reports"
+    }, 
+    "title": "Building Compliance"
+  }
+}

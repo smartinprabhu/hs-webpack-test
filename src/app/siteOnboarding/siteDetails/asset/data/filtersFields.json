@@ -1,0 +1,42 @@
+{
+    "spaceCategoryColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Category Name"
+        },
+        {
+            "accessor": "parent_id",
+            "Header": "Parent Space Category"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ],
+    "assetCategoryColumns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "name",
+            "Header": "Category Name"
+        },
+        {
+            "accessor": "parent_id",
+            "Header": "Parent"
+        },
+        {
+            "accessor": "create_date",
+            "Header": "Created On",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        }
+    ]
+}

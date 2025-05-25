@@ -1,0 +1,366 @@
+
+// .restrooms-resolved-orders-card {
+//   width: 293px;
+//   height: 187px;
+//   display: flex;
+//   flex-direction: column;
+//   margin-bottom: 8px;
+//   background: #fdfdfd 0% 0% no-repeat padding-box;
+//   box-shadow: 0px 3px 2px #a4a2a229;
+//   opacity: 1;
+//   padding-left: 15px;
+//   padding-top: 15px;
+// }
+.restrooms-order-info-outer {
+ 
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 2px #76767629;
+  list-style-type: none;
+  margin: 0px 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.order-img {
+  height: 40px;
+  width: 40px;
+}
+
+.order-text {
+  font: normal normal normal 18px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.order-count {
+  font: normal normal medium Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.restrooms-cards-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 15vw;
+}
+
+.analytics-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 293px;
+  height: 93px;
+  background: #fdfdfd 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 2px #dfdddd29;
+  border: 1px solid #efefef;
+  opacity: 1;
+  margin-left: 8px;
+  margin-top: 4px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-right: 25px;
+}
+.analytics-data {
+  font: normal normal normal 14px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  font-weight: 600;
+}
+.analytics-count {
+  font: normal normal medium Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.analytics-img {
+  height: 48px;
+  width: 48px;
+}
+
+.analytics-items {
+  margin-top: 15px;
+}
+
+.livedata-graph {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  // margin-top: 7px;
+  
+}
+.livedata-graph-view {
+  display: flex;
+ 
+}
+.livedata-graph-container {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.livedata-filter-active {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.17px;
+  color: #000000de;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.livedata-filter-disable {
+  opacity: 0.3;
+}
+.view {
+  padding: 8px;
+  text-align: left;
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  opacity: 1;
+  font-weight: 600;
+}
+.reset-button {
+  text-align: left;
+  font: normal normal normal 15px Suisse Intl;
+  color: #000000de;
+  font-weight: 500;
+  background-color: transparent;
+  border-style: none;
+  width: 50px;
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 230px;
+}
+.graph-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.hourly-usage-trend {
+  font-weight: 600;
+  text-align: left;
+  font: normal normal 600 20px/24px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  // text-transform: capitalize;
+  padding-left: 10px;
+  padding-top: 10px;
+  opacity: 1;
+  height: 50px;
+  border-bottom: 1px solid #efefef;
+}
+.vertical-graph {
+  width: 36vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-top: 20px;
+}
+.vertical-graph-container {
+  display: flex;
+}
+.indoor-air-quality-container {
+  width: 35vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.indoor-air-heading {
+  text-align: left;
+  font: normal normal 600 20px/24px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  // text-transform: capitalize;
+  opacity: 1;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #efefef;
+  height: 50px;
+}
+
+.radial-container-good {
+  width: 40%;
+}
+.radial-container-overal {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.radial-reviews {
+  margin-top: 25px;
+  width: 200px;
+}
+.co2 {
+  text-align: left;
+  font: normal normal normal 16px/20px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  opacity: 1;
+}
+
+.analytics-graph {
+  display: flex;
+  flex-direction: column;
+}
+.positive-survey-heading {
+  text-align: left;
+  font: normal normal normal 24px/29px Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 20px;
+}
+.positive-count {
+  text-align: left;
+  font: normal normal normal 24px/29px Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 20px;
+}
+.survey-img {
+  width: 62px;
+  height: 63px;
+}
+
+.positive-survey-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5ec450;
+  padding: 8px;
+
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 544px;
+}
+.positive-reviews {
+  padding: 15px;
+  width: 544px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-left: 10px;
+}
+.positive-reviews-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d6d6d6;
+  border-radius: 9px;
+  opacity: 1;
+  height: 60px;
+  padding: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.review-data {
+  text-align: left;
+  font: normal normal normal 20px/26px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  opacity: 1;
+}
+
+.review-count {
+  font: normal normal normal 20px/24px Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.reviews-container {
+  display: flex;
+  margin-right: 15px;
+}
+
+.negitive-survey-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d33b5e;
+  padding: 8px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 544px;
+}
+
+.healthy-icon {
+  width: 43px;
+  height: 43px;
+  margin-top: 54px;
+}
+.review-count1 {
+  font: normal normal normal 20px/24px Suisse Intl;
+  letter-spacing: 0.6px;
+  color: #000000;
+  opacity: 1;
+  font-weight: 600;
+  padding-left: 50px;
+}
+.dropdowns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.form-control {
+  width: 220px;
+  margin-right: 10px;
+}
+
+.linebar-chart {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin: 10px;
+  width: 71vw;
+}
+
+
+.line-chart{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin: 10px;
+  width: 71vw;
+}
+.usages-workorders-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #efefef;
+
+}
+.usages-workorders-header {
+  text-align: left;
+  font: normal normal normal 18px/24px Suisse Intl;
+  letter-spacing: 0.4px;
+  color: #000000de;
+  opacity: 1;
+  margin: 15px;
+}
+.men-button {
+  background: #0b694c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #dbdbdb29;
+  border-radius: 4px;
+  opacity: 1;
+  font: normal normal normal 1p6x/21px Suisse Intl;
+  letter-spacing: 0.17px;
+  color: #ffffffde;
+  width: 77px;
+height: 40px;
+  
+
+}
+.women-button {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #DBDBDB29;
+  border: 1px solid #0000001F;
+  border-radius: 4px;
+  opacity: 1;
+  width: 97px;
+  height: 40px;
+  margin: 10px;
+  
+
+}

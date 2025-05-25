@@ -1,0 +1,42 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Type",
+            "property": "company_type"
+        },
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        },
+        {
+            "heading": "Mobile",
+            "property": "mobile"
+        },
+        {
+            "heading": "Language",
+            "property": "lang"
+        },
+        {
+            "heading": "Address",
+            "property": "street"
+        }
+    ],
+    "emailFields": [
+        {
+            "heading": "Email",
+            "property": "email"
+        }
+    ],   
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

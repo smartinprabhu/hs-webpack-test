@@ -1,0 +1,17 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/bms-alarms-overview"
+    },
+    "BMS Alarms": {
+      "id": 2,
+      "name": "BMSALARMS",
+      "displayname": "BMS Alarms",
+      "pathName": "/bms-alarms"
+    },  
+    "title": "BMS Alarms"
+  }
+}

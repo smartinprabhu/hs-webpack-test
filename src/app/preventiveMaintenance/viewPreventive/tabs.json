@@ -1,0 +1,19 @@
+
+{
+    "tabsList": [
+        
+        {
+            "id": 1,
+            "name": "PPM Overview"
+        },
+        {
+            "id": 2,
+            "name": "Assets"
+        },
+        {
+            "id": 3,
+            "name": "Options"
+        }
+    ]
+       
+}

@@ -1,0 +1,82 @@
+{    
+    "fieldsSV": [
+        {
+            "label": "Title",
+            "value": "title"
+        }
+    ],   
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "accessor": "id",
+            "Header": "ID"
+        },
+        {
+            "accessor": "title",
+            "Header": "Title"
+        },
+        {
+            "accessor": "stage_id",
+            "Header": "Status",            
+            "func":true
+        },
+        {
+            "accessor": "tot_comp_survey",
+            "Header": "Completed"
+        },
+        {
+            "accessor": "uuid",
+            "Header": "Survey Link",
+            "copyUrlFunc":true
+        },
+        {
+            "accessor": "user_input_ids",
+            "Header": "Viewed"
+        },
+        {
+            "accessor": "category_type",
+            "Header": "Type",
+            "func":true
+        },      
+        {
+            "accessor": "tot_sent_survey",
+            "Header": "Invitations Sent"
+        },
+        {
+            "accessor": "tot_start_survey",
+            "Header": "Started"
+        }
+    ]
+       
+}

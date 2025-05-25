@@ -1,0 +1,23 @@
+{
+    "data": {
+        "Overview": {
+            "id": 1,
+            "name": "Overview",
+            "displayname": "Overview",
+            "pathName": "/setup-overview"
+        },
+        "Sites": {
+            "id": 2,
+            "name": "Sites",
+            "displayname": "Sites",
+            "pathName": "/setup-site"
+        },
+        "Users": {
+            "id": 3,
+            "name": "Users",
+            "displayname": "Users",
+            "pathName": "/setup-users"
+        }
+    },
+    "title": "Admin Setup"
+}

@@ -1,0 +1,246 @@
+{
+    "dashboardStatus": {
+        "OP": {
+            "id": "Open",
+            "label": "Open",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Open",
+                    "label": "Open",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "IP": {
+            "id": "In Progress",
+            "label": "In Progress",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "In Progress",
+                    "label": "In Progress",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "OH": {
+            "id": "Onhold",
+            "label": "Onhold",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "On Hold",
+                    "label": "On Hold",
+                    "type": "inarray"
+                }
+            ]
+        },
+        "CL": {
+            "id": "Closed",
+            "label": "Closed",
+            "tags": [
+                {
+                    "key": "state_id",
+                    "title": "Status",
+                    "value": "Closed",
+                    "label": "Closed",
+                    "type": "inarray"
+                }
+            ]
+        }
+    },
+    "complianceListFields": [
+        "audit_for",
+        "name",
+        "temp_type_id",
+        "tracker_template_id",
+        "company_id",
+        "start_date",
+        "end_date",
+        "state",
+        "created_by_id",
+        "created_on",
+        "reviewed_by_id",
+        "reviewed_on",
+        "approved_by_id",
+        "approved_on"
+    ],
+    "listfieldsShows": [
+        "audit_for",
+        "name",
+        "temp_type_id",
+        "tracker_template_id",
+        "company_id",
+        "start_date",
+        "end_date",
+        "state"
+    ],
+    "criticalTextForm": {
+        "Critical": {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        "Non-Critical": {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    },
+    "critical": [
+        {
+            "value": "Critical",
+            "label": "Critical"
+        },
+        {
+            "value": "Non-Critical",
+            "label": "Non-Critical"
+        }
+    ],
+    "typeTextForm": {
+        "Space": {
+            "value": "Space",
+            "label": "Space"
+        },
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    },
+    "reqType": [
+        {
+            "value": "Space",
+            "label": "Space"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        }
+    ],
+    "amcTextForm": {
+        "Valid": {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        "Expired": {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        "Not Available": {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    },
+    "amcStatus": [
+        {
+            "value": "Valid",
+            "label": "Valid"
+        },
+        {
+            "value": "Expired",
+            "label": "Expired"
+        },
+        {
+            "value": "Not Available",
+            "label": "Not Available"
+        }
+    ],
+    "stateTypes": [
+        {
+            "value": "Draft",
+            "label": "Draft"
+        },
+        {
+            "value": "Submitted",
+            "label": "Submitted"
+        },
+        {
+            "value": "Reviewed",
+            "label": "Reviewed"
+        },
+        {
+            "value": "Approved",
+            "label": "Approved"
+        },
+        {
+            "value": "Cancelled",
+            "label": "Cancelled"
+        }
+    ],
+    "status": {
+        "Draft": {
+            "id": "Draft",
+            "label": "Draft",
+            "color":"secondary"
+        },
+        "Submitted": {
+            "id": "Submitted",
+            "label": "Submitted",
+            "color": "info"
+       },
+        "Reviewed": {
+            "id": "Reviewed",
+            "label": "Reviewed",
+            "color": "primary"
+       },
+        "Approved": {
+            "id": "Approved",
+            "label": "Approved",
+            "color": "success"
+       },
+        "Cancelled": {
+            "id": "Cancelled",
+            "label": "Cancelled",
+            "color": "danger"
+       }
+    },
+    "actionItems":[
+        {
+            "id": 1,
+            "name": "DRAFT",
+            "displayname": "Set to Draft",
+            "method": "action_to_draft",
+            "buttonName": "Confirm",
+            "statusName": "Draft",
+            "message": "This tracker has been set to draft successfully.."
+        },
+        {
+            "id": 2,
+            "name": "SUBMIT",
+            "displayname": "Submit for Review",
+            "method": "action_to_submitted",
+            "buttonName": "Submit",
+            "statusName": "Submitted",
+            "message": "This tracker has been submitted for review successfully.."
+        },
+        {
+            "id": 3,
+            "name": "REVIEW",
+            "displayname": "Review & Submit for Approval",
+            "method": "action_to_reviewed",
+            "buttonName": "Review",
+            "statusName": "Reviewed",
+            "message": "This tracker has been reviewed and submitted for approval successfully.."
+        },
+        {
+            "id": 4,
+            "name": "APPROVE",
+            "displayname": "Approve",
+            "method": "action_to_approved",
+            "buttonName": "Confirm",
+            "statusName": "Approved",
+            "message": "This tracker has been approved successfully.."
+        }, 
+        {
+            "id": 5,
+            "name": "CANCEL",
+            "displayname": "Cancel Tracker",
+            "method": "action_to_cancelled",
+            "buttonName": "Cancel",
+            "statusName": "Cancelled",
+            "message": "This tracker has been cancelled successfully.."
+        }        
+     ]
+}

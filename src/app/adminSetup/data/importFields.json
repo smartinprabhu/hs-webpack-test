@@ -1,0 +1,188 @@
+{
+    "spaceFields" : [
+         [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "asset_category_id": false,
+              "parent_id": false,
+              "tenant_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          },
+        "False"
+    ],
+    "spaceUploadFields" : [
+        [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          [
+            "space_name",
+            "asset_category_id",
+            "is_booking_allowed",
+            "parent_id",
+            "tenant_id"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "asset_category_id": false,
+              "parent_id": false,
+              "tenant_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          }
+    ],
+    "spaceFieldLabels": ["Space Name", "Space Category", "Booking Allowed", "Parent Space", "Tenant"],
+    "spaceFieldsNew" : [
+         [
+            "block_id",
+            "floor_id",
+            "type_id",
+            "space_name",
+            "name",
+            "asset_category_id",
+            "note"
+          ],
+          [
+            "block_id",
+            "floor_id",
+            "type_id",
+            "space_name",
+            "name",
+            "asset_category_id",
+            "note"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "block_id": false,
+              "floor_id": false,
+              "type_id": false,
+              "asset_category_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          },
+        "False"
+    ],
+    "spaceUploadFieldsNew" : [
+          [
+            "block_id",
+            "floor_id",
+            "type_id",
+            "space_name",
+            "name",
+            "asset_category_id",
+            "note"
+          ],
+          [
+            "block_id",
+            "floor_id",
+            "type_id",
+            "space_name",
+            "name",
+            "asset_category_id",
+            "note"
+          ],
+          {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "name_create_enabled_fields": {
+              "block_id": false,
+              "floor_id": false,
+              "type_id": false,
+              "asset_category_id": false
+            },
+            "encoding": "",
+            "separator": "",
+            "quoting": "\"",
+            "date_format": "",
+            "datetime_format": "",
+            "float_thousand_separator": ",",
+            "float_decimal_separator": ".",
+            "fields": []
+          }
+    ],
+    "spaceFieldLabelsNew": ["Building Name", "Floor Name", "Wing / Zone", "Space Name", "Short Code", "Space Category", "Remarks / Notes for the area (if any)"],
+    "assetFields" : [
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"],
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"], 
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "%Y-%m-%d",
+            "datetime_format": "%Y-%m-%d %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        },
+        "False"
+    ],
+    "assetUploadFields" : [
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"],
+        ["name", "location_id", "model", "serial", "category_id", "equipment_number", "state", "warranty_start_date", "warranty_end_date", "maintenance_team_id", "parent_id", "commodity_id"], 
+        {
+            "headers": "True",
+            "advanced": "False",
+            "keep_matches": "False",
+            "encoding": "",
+            "separator": "",
+            "quoting": "",
+            "date_format": "%Y-%m-%d",
+            "datetime_format": "%Y-%m-%d %H:%M:%S",
+            "float_thousand_separator": "",
+            "float_decimal_separator": ".",
+            "fields": []
+        }
+    ],
+    "assetFieldLabels": ["Name", "Location", "Model", "Serial", "Category", "Equipment Number", "Status", "Warranty Start Date", "warranty End Date", "Maintenance Team", "Parent", "Commodit"]
+}

@@ -1,0 +1,32 @@
+
+{
+    "tabsList": [  
+        {
+            "id": 1,
+            "name": "Overview"
+        }, 
+        {
+            "id": 2,
+            "name": "Attachments"
+        },
+        {
+            "id": 5,
+            "name": "Audit Log"
+        }
+    ],
+    "notesList": [  
+        {
+            "id": 1,
+            "name": "Send Message"
+        },    
+        {
+            "id": 2,
+            "name": "Log Note"
+        },             
+        {
+            "id": 3,
+            "name": "Schedule Activity"
+        }            
+    ]
+
+}

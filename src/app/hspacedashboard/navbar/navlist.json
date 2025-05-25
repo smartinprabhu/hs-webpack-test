@@ -1,0 +1,12 @@
+{
+    "data": {
+        "Insights": {
+            "id": 1,
+            "name": "Locations",
+            "displayname": "Locations",
+            "viewName": "Locations",
+            "pathName": "/hspace-home"
+        },
+        "title": "HSpace - Space Management"
+    }
+}

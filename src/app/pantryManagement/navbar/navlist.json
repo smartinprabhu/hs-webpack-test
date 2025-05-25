@@ -1,0 +1,29 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/pantry-overview"
+    },
+    "Orders": {
+      "id": 2,
+      "name": "ORDERS",
+      "displayname": "Orders",
+      "pathName": "/pantry/orders"
+    },
+    "Configuration": {
+      "id": 3,
+      "name": "CONFIGURATION",
+      "displayname": "Configuration",
+      "pathName": "/pantry/configuration"
+    },
+    "Report": {
+      "id": 4,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "/pantry/reports"
+    },
+    "title": "Pantry Management"
+  }
+}

@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "name": "Asset Registry",
+        "displayName": "Asset Registry",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faPencilAlt",
+        "status": true,
+        "url": "/asset-overview"
+    },
+    {
+        "id": 2,
+        "name": "Helpdesk",
+        "displayName": "Helpdesk",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faTools",
+        "status": true,
+        "url" :"/helpdesk-insights-overview"
+    },
+    {
+        "id": 3,
+        "name": "Work Orders",
+        "displayName": "Work Orders",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/workorders-overview"
+    },
+    {
+        "id": 4,
+        "name": "52 Week PPM",
+        "displayName": "52 Week PPM",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faTag",
+        "status": true,
+        "url": "/preventive-viewer"
+    },
+    {
+        "id": 5,
+        "name": "Analytics",
+        "displayName": "Analytics",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/analytics"
+    },
+    {
+        "id": 6,
+        "name": "Inspection Schedule",
+        "displayName": "Inspection Schedule",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faTag",
+        "status": true,
+        "url": "/inspection-overview"
+    },
+    {
+        "id": 7,
+        "name": "Admin Setup",
+        "displayName": "Admin Setup",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/site-configuration"
+    },
+    {
+        "id": 8,
+        "name": "Purchase",
+        "displayName": "Purchase",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/purchase/requestforquotation"
+    },
+    {
+        "id": 9,
+        "name": "Inventory",
+        "displayName": "Inventory",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/inventory/operations"
+    },
+    {
+        "id": 10,
+        "name": "IOT System",
+        "displayName": "IOT System",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/iot-system"
+    },
+    {
+        "id": 11,
+        "name": "Energy Management",
+        "displayName": "Energy Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/energy-management"
+    },
+    {
+        "id": 12,
+        "name": "Mail Room Management",
+        "displayName": "Mail Room Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/mailroom-overview"
+    },
+    {
+        "id": 13,
+        "name": "Smart Washroom",
+        "displayName": "Smart Washroom",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/smart-clean"
+    },
+    {
+        "id": 14,
+        "name": "Building Compliance",
+        "displayName": "Building Compliance",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/buildingcompliance-overview"
+    },
+    {
+        "id": 15,
+        "name": "Visitor Management",
+        "displayName": "Visitor Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/visitormanagement-overview"
+    },
+    {
+        "id": 16,
+        "name": "Incident Management",
+        "displayName": "Incident Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/incident-overview"
+    },
+    {
+        "id": 17,
+        "name": "Survey",
+        "displayName": "Survey",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/survey-overview"
+    },
+    {
+        "id": 18,
+        "name": "Pantry Management",
+        "displayName": "Pantry Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/pantry-overview"
+    },
+    {
+        "id": 19,
+        "name": "Commodity Transactions",
+        "displayName": "Commodity Transactions",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/commodity-overview"
+    },
+    {
+        "id": 20,
+        "name": "Work Permit",
+        "displayName": "Work Permit",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/workpermit-overview"
+    },
+    {
+        "id": 21,
+        "name": "IT Asset Management",
+        "displayName": "IT Asset Management",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/itasset-overview"
+    },
+    {
+        "id": 22,
+        "name": "Audit System",
+        "displayName": "Audit System",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/audit-overview"
+    },
+    {
+        "id": 23,
+        "name": "Air Quality Monitoring",
+        "displayName": "Air Quality Monitoring",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/airquality-overview"
+    },
+    {
+        "id": 24,
+        "name": "Breakdown Tracker",
+        "displayName": "Breakdown Tracker",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/breakdown-overview"
+    },
+    {
+        "id": 25,
+        "name": "FIT Tracker",
+        "displayName": "FIT Tracker",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/fitTracker-overview"
+    }
+    , {
+        "id": 26,
+        "name": "HX Incident Report",
+        "displayName": "Incident",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/incident-overview"
+    }
+    , {
+        "id": 27,
+        "name": "CXO Analytics",
+        "displayName": "CXO Analytics",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/cxo-summary"
+    },
+    {
+        "id": 28,
+        "name": "ESG Tracker",
+        "displayName": "ESG Tracker",
+        "activeStatusIcon": "faCheckCircle",
+        "icon": "faEdit",
+        "status": true,
+        "url": "/esg-monitoring/overview"
+    }
+]

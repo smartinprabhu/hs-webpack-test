@@ -1,0 +1,28 @@
+{
+    "tabsList": {
+        "PPM Schedule": {
+            "id": 1,
+            "name": "PPM Schedule"
+        },
+        "Operations": {
+            "id": 2,
+            "name": "Operations"
+        },
+        "Checklists": {
+            "id": 3,
+            "name": "Checklist"
+        },
+        "Tools": {
+            "id": 4,
+            "name": "Tools"
+        },
+        "Parts": {
+            "id": 5,
+            "name": "Parts"
+        },
+        "Operational Expenses": {
+            "id": 6,
+            "name": "Operational Expenses"
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "data": {
+        "asset": {
+            "id": 1,
+            "name": "ASSET",
+            "displayname": "ASSET REGISTRY"
+        },
+        "helpdesk": {
+            "id": 2,
+            "name": "HELPDESK",
+            "displayname": "HELPDESK"
+        },
+        "workorder": {
+            "id": 3,
+            "name": "WORKORDER",
+            "displayname": "WORKORDER"
+        },
+        "hx_inspection": {
+            "id": 4,
+            "name": "INSPECTION",
+            "displayname": "INSPECTION"
+        },
+        "52_week_ppm": {
+            "id": 5,
+            "name": "PREVENTIVEMAINTENANCE",
+            "displayname": "PREVENTIVE MAINTENANCE"
+        },
+        "inventory": {
+            "id": 6,
+            "name": "INVENTORY",
+            "displayname": "INVENTORY"
+        },
+        "visitor_pass": {
+            "id": 7,
+            "name": "VISITORMANAGEMENT",
+            "displayname": "VISITOR MANAGEMENT"
+        },
+        "work_permit": {
+            "id": 8,
+            "name": "WORKPERMIT",
+            "displayname": "WORK PERMIT"
+        },
+        "pantry": {
+            "id": 9,
+            "name": "PANTRYMANAGEMENT",
+            "displayname": "PANTRY MANAGEMENT"
+        },
+        "incident": {
+            "id": 10,
+            "name": "INCIDENT",
+            "displayname": "INCIDENT"
+        },
+        "mailroom": {
+            "id": 11,
+            "name": "MAILROOMMANAGEMENT",
+            "displayname": "MAILROOM MANAGEMENT"
+        },
+        "gatepass": {
+            "id": 12,
+            "name": "GATEPASS",
+            "displayname": "GATE PASS"
+        },
+        "audit": {
+            "id": 13,
+            "name": "AUDITSYSTEM",
+            "displayname": "AUDIT SYSTEM"
+        },
+        "sla_kpi": {
+            "id": 14,
+            "name": "SLAKPI",
+            "displayname": "SLA KPI"
+        }
+    }
+}

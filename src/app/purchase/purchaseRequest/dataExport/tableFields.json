@@ -1,0 +1,52 @@
+
+{
+    "fields": [        
+        {
+            "heading": "Requisition Purpose",
+            "property": "requisition_name"
+        },
+        {
+            "heading": "PR Code",
+            "property": "pr_id"
+        },
+        {
+            "heading": "Vendor",
+            "property": "partner_id"
+        },
+        {
+            "heading": "Requestor Name",
+            "property": "requestor_full_name "
+        },
+        {
+            "heading": "Site Contact Details",
+            "property": "site_contact_details"
+        },
+        {
+            "heading": "Site Spoc",
+            "property": "site_spoc"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        }
+    ],
+    "emailFields": [
+        {
+            "heading": "Email",
+            "property": "email"
+        }
+    ],   
+    "createFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],
+    "companyFields": [
+        {
+            "heading": "Company",
+            "property": "company_id"
+        }
+    ]
+       
+}

@@ -1,0 +1,51 @@
+
+{
+    "fields": [
+        {
+            "heading": "Name",
+            "property": "name"
+        },
+        {
+            "heading": "Product",
+            "property": "product_id"
+        },
+        {
+            "heading": "Location",
+            "property": "location_id"
+        },
+        {
+            "heading": "Warehouse",
+            "property": "warehouse_id"
+        }
+    ],
+    "createFields": [
+        {
+            "heading": "Created On",
+            "property": "create_date"
+        }
+    ],
+    "minQuantityFields":[
+        {
+            "heading": "Reorder Level",
+            "property": "product_min_qty"
+        }
+    ],
+    "maxQuantityFields":[
+        {
+            "heading": "Reorder Quantity",
+            "property": "product_max_qty"
+        }
+    ],
+    "alertQunatityFields":[
+        {
+            "heading": "Alert Level",
+            "property": "product_alert_level_qty"
+        }
+    ],
+    "uomFields":[
+        {
+            "heading": "Unit Of Measure",
+            "property": "product_uom"
+        }
+    ]
+}

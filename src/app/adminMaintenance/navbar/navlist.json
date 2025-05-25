@@ -1,0 +1,16 @@
+{
+    "data": {
+      "Cleaning Management": {
+        "id": 1,
+        "name": "CLEANING",
+        "displayname":"Cleaning Management",
+        "pathName": "/booking-maintenance"
+      },
+      "Booking Management": {
+        "id": 2,
+        "name": "BOOKING",
+        "displayname":"Booking Management",
+        "pathName": "/booking-management"
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "Insights": {
+            "id": 1,
+            "name": "Insights",            
+            "activename":"InsightsACTIVE",
+            "displayname":"Insights",
+            "viewName":"Insights",
+            "pathName": "/smart-clean"
+        },
+        "Analytics": {
+            "id": 2,
+            "name": "Analytics",            
+            "activename":"AnalyticsACTIVE",
+            "displayname":"Analytics",
+            "viewName":"Analytics",
+            "pathName": "/smart-clean/smartwashroom-analytics"
+        },
+        "title": "Smart Washroom"
+    }
+}

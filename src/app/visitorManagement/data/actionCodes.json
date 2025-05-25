@@ -1,0 +1,12 @@
+{
+    "Create New Visit Request" :"vp_createnewvisitrequest",
+    "Edit Visit Request" :"vp_editvisitrequest",
+    "Delete Visit Request" :"vp_deletevisitrequest",
+    "Check In" :"vp_checkin",
+    "Check Out" :"vp_checkout",
+    "Cancel" :"vp_cancelvisitrequest",
+    "Approve" :"vp_approvevisitrequest",
+    "Reject" :"vp_rejectvisitrequest",
+    "Check In Remarks" :"checkin_remarks",
+    "Check Out Remarks" :"checkout_remarks"
+}

@@ -1,0 +1,114 @@
+
+{
+    "inboundFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Sender Name",
+            "property": "sender"
+        },
+        {
+            "heading": "Receiver Name",
+            "property": "employee_id"
+        },
+        {
+            "heading": "Status",
+            "property": "state"
+        },      
+        {
+            "heading": "Registered On",
+            "property": "received_on"
+        },
+        {
+            "heading": "Registered By",
+            "property": "received_by"
+        },
+        {
+            "heading": "Parcel Dimensions",
+            "property": "parcel_dimensions"
+        },
+        {
+            "heading": "Tracking Number",
+            "property": "tracking_no"
+        }   
+    ],
+    "deliverOnField": [
+        {
+            "heading": "Delivered On",
+            "property": "collected_on"
+        }
+    ],
+    "deliverByField": [
+        {
+            "heading": "Delivered By",
+            "property": "collected_by"
+        }
+    ],
+    "courierField": [
+        {
+            "heading": "Courier",
+            "property": "courier_id"
+        }
+    ],
+    "typeField": [
+        {
+            "heading": "Type",
+            "property": "recipient"
+        }
+    ],
+    "departmentField": [
+        {
+            "heading": "Department",
+            "property": "department_id"
+        }
+    ],
+    "outboundFields": [
+        {
+            "heading": "ID",
+            "property": "id"
+        },
+        {
+            "heading": "Sender Name",
+            "property": "employee_id"
+        },  
+        {
+            "heading": "Receiver Name",
+            "property": "sent_to"
+        },     
+        {
+            "heading": "Status",
+            "property": "state"
+        },       
+        {
+            "heading": "Registered On",
+            "property": "sent_on"
+        },
+        {
+            "heading": "Registered By",
+            "property": "received_by"
+        },
+        {
+            "heading": "Parcel Dimensions",
+            "property": "parcel_dimensions"
+        },        
+        {
+            "heading": "Tracking Number",
+            "property": "tracking_no"
+        }         
+    ],
+    "deliveredOnField": [
+        {
+            "heading": "Delivered On",
+            "property": "delivered_on"
+        }
+    ],
+    "deliveredByField": [
+        {
+            "heading": "Delivered By",
+            "property": "delivered_by"
+        }
+    ]     
+       
+}

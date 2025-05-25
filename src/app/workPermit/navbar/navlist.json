@@ -1,0 +1,29 @@
+{
+  "data": {
+    "Insights": {
+      "id": 1,
+      "name": "INSIGHTS",
+      "displayname": "Insights",
+      "pathName": "/workpermit-overview"
+    },
+    "Work Permits": {
+      "id": 2,
+      "name": "WORKPERMIT",
+      "displayname": "Work Permit",
+      "pathName": "/workpermits"
+    },
+    "Configuration": {
+      "id": 3,
+      "name": "CONFIGURATION",
+      "displayname": "Configuration",
+      "pathName": "/workpermits-configuration"
+    },
+    "Reportss": {
+      "id": 4,
+      "name": "REPORTS",
+      "displayname": "Reports",
+      "pathName": "#"
+    },
+    "title": "Work Permit"
+  }
+}

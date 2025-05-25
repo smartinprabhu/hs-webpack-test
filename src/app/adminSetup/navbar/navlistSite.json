@@ -1,0 +1,29 @@
+{
+    "data": {
+        "Overview": {
+            "id": 1,
+            "name": "Overview",
+            "displayname": "Overview",
+            "pathName": "/setup-overview"
+        },
+        "Facility": {
+            "id": 2,
+            "name": "Facility",
+            "displayname": "Facility",
+            "pathName": "/setup-facility"
+        },
+        "Maintenance": {
+            "id": 3,
+            "name": "Maintenance",
+            "displayname": "Maintenance",
+            "pathName": "/setup-maintenance-configuration"
+        },
+        "Team Management": {
+            "id": 4,
+            "name": "Team Management",
+            "displayname": "Team Management",
+            "pathName": "/setup-team-management"
+        }
+    },
+    "title": "Admin Setup"
+}

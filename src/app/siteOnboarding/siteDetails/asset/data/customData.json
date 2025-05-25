@@ -1,0 +1,79 @@
+{
+    "listFieldsSC": [
+        "create_date",
+        "name",
+        "parent_id",
+        "company_id"
+    ],
+    "listFieldsSCShows": [
+        "name",
+        "parent_id",
+        "create_date"
+    ],
+    "listFieldsAC": [
+        "id",
+        "create_date",
+        "name",
+        "parent_id",
+        "company_id"
+    ],
+    "listFieldsACShows": [
+        "name",
+        "parent_id",
+        "create_date"
+    ],
+    "visitorTypes": [
+        {
+            "value": "System",
+            "label": "System"
+        },
+        {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        {
+            "value": "Component",
+            "label": "Component"
+        },
+        {
+            "value": "Accessory",
+            "label": "Accessory"
+        }
+    ],
+    "visitorTypesText": {
+        "System": {
+            "value": "System",
+            "label": "System"
+        },
+        "Equipment": {
+            "value": "Equipment",
+            "label": "Equipment"
+        },
+        "Component": {
+            "value": "Component",
+            "label": "Component"
+        },
+        "Accessory": {
+            "value": "Accessory",
+            "label": "Accessory"
+        }
+    },
+    "spaceTypes": [
+        {
+            "value": "building",
+            "label": "Building"
+        },
+        {
+            "value": "floor",
+            "label": "Floor"
+        },
+        {
+            "value": "room",
+            "label": "Room"
+        },
+        {
+            "value": "space",
+            "label": "Space"
+        }
+    ]
+}

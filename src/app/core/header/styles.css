@@ -1,0 +1,160 @@
+.header-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 2px #76767629;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+}
+.light-mode .header-box{
+  background: #1e1f1e 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 2px #76767629;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+
+}
+
+.header-box2 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border: 1px solid #76767629 !important;
+  border-top: none !important;
+}
+.light-mode .header-box2{
+  background:#2D2E2D 0% 0% no-repeat padding-box;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border: 1px solid #76767629 !important;
+  border-top: none !important;
+
+}
+
+.header-box2-no-border {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.light-mode .header-box2-no-border {
+  background: #2d2e2d 0% 0% no-repeat padding-box;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.header-text {
+  font: normal normal 600 18px Suisse Intl;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: default;
+  margin: 0;
+}
+
+.header-text2 {
+  font: normal normal 600 16px Suisse Intl;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: default;
+  margin: 0;
+}
+.header-text2.light-mode {
+  font: normal normal 600 16px Suisse Intl;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: default;
+  margin: 0;
+  color: white !important;
+}
+
+
+.header-drop-icon-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-drop-icon-box-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-drop-icon-box-search>h1 {
+  width: max-content;
+}
+
+.profile-box {
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.next-path-style {
+  font: normal normal normal 18px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000de;
+  margin-left: 6px;
+}
+
+.profile {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-name {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: #000000de;
+  margin: 0px 0px 0px 10px;
+}
+.light-mode .profile-name {
+  font: normal normal normal 15px Suisse Intl;
+  letter-spacing: 0px;
+  color: white;
+  margin: 0px 0px 0px 10px;
+
+}

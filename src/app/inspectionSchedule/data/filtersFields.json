@@ -1,0 +1,114 @@
+{
+    "fields": [
+        {
+            "label": "Asset Number",
+            "value": "asset_number"
+        },
+        {
+            "label": "Group",
+            "value": "group_id.name"
+        },
+        {
+            "label": "Identifier",
+            "value": "uuid"
+        },
+        {
+            "label": "Equipment",
+            "value": "equipment_id.name"
+        },
+        {
+            "label": "Space",
+            "value": "space_id.path_name"
+        }
+    ],
+    "dateFilters": [
+        {
+            "label": "Last week",
+            "value": 7,
+            "type": "past"
+        },
+        {
+            "label": "Last month",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "Last 3 months",
+            "value": 30,
+            "type": "past"
+        },
+        {
+            "label": "This week",
+            "value": 71,
+            "type": "week"
+        },
+        {
+            "label": "This month",
+            "value": 31,
+            "type": "month"
+        },
+        {
+            "label": "Today",
+            "value": 1,
+            "type": "today"
+        }
+    ],
+    "columns": [
+        {
+            "Header": "Equipment",
+            "accessor": "equipment_id"
+        },
+        {
+            "Header": "Asset Number",
+            "accessor": "asset_number"
+        },
+        {
+            "Header": "Type",
+            "accessor": "category_type"
+        },
+        {
+            "Header": "Commences On",
+            "accessor": "commences_on",
+            "dateFunction": true,
+            "dateDisplayType": "datetime"
+        },
+        {
+            "Header": "Starts At",
+            "accessor": "starts_at"
+        },
+        {
+            "Header": "Duration",
+            "accessor": "duration"
+        },
+        {
+            "Header": "Group",
+            "accessor": "group_id"
+        },
+        {
+            "Header": "Maintenance Team",
+            "accessor": "maintenance_team_id"
+        },
+        {
+            "Header": "Checklist",
+            "accessor": "check_list_id"
+        },
+        {
+            "Header": "Maintenance Operation",
+            "accessor": "task_id"
+        },
+        {
+            "Header": "Priority",
+            "accessor": "priority",
+            "func": true
+        },
+        {
+            "Header": "Identifier",
+            "accessor": "uuid"
+        },
+        {
+            "Header": "Parent Schedule",
+            "accessor": "parent_id"
+        }
+    ]
+    
+}
