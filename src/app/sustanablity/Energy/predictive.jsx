@@ -1,5 +1,5 @@
 import React, {
-  useEffect, useState, useRef, useCallback, useMemo,
+  useEffect, useState, useRef, useCallback, useMemo, useContext, // Add useContext
 } from 'react';
 import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
@@ -30,6 +30,7 @@ import { getSequencedMenuItems } from '../../util/appUtils';
 import Card from './CardRes';
 import PlotTypeSelector from './PlotSelector';
 import { useTheme } from '../../ThemeContext';
+import { ApiDataContext } from './ApiDataContext'; // Import the context
 import './EnergyAnalytics.css';
 import performance from './image/Performance.svg';
 import target from './image/TargetGoal.svg';
@@ -619,16 +620,17 @@ const Predictive = ({
   defaultDate, headerText, showBackButton, onBackButtonClick, fontSize, equipmentId, uuid,
   code,
 }) => {
+  const { apiData, isLoading: contextIsLoading, error: contextError, fetchData } = useContext(ApiDataContext); // Access context
   const [menu, setMenu] = useState({});
   const [dashboardCode, setDashboardCode] = useState('');
   const [activeGroupFilter, setActiveGroupFilter] = useState(defaultDate);
-  const [plotData, setPlotData] = useState({});
+  // const [plotData, setPlotData] = useState({}); // Remove
   const [traceVisibility, setTraceVisibility] = useState({});
-  const [error, setError] = useState('');
+  // const [error, setError] = useState(''); // Remove
   const [plotType, setPlotType] = useState('Day');
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false); // Remove
   const plotContainerRef = useRef(null);
-  const isFetchingRef = useRef(false);
+  // const isFetchingRef = useRef(false); // Remove
   const isDropdown = useMediaQuery('(max-width: 576px)');
   const isDropdown932 = useMediaQuery('(max-width: 932px) and (max-height: 430px)');
   const isDropdown820 = useMediaQuery('(max-width: 820px) and (max-height: 1180px)');
@@ -701,59 +703,27 @@ const Predictive = ({
   const params = new URLSearchParams(location.search);
   const sid = equipmentId || params.get('sid');
 
-  const fetchPlotData = useCallback(async () => {
-    if (isFetchingRef.current) {
-      console.log('Fetch already in progress, skipping...');
-      return;
-    }
-    isFetchingRef.current = true;
-    setIsLoading(true);
-    setPlotData({});
-    try {
-      const bodyParams = {
-        warehouse_url: warehouseUrl,
-        uuid: globalUUID,
-        code: globalCode,
-        equipment_id: sid,
-        company_timezone: userTimeZone,
-        model: selectedModel,
-        forecast_period: `${forecastNumber} ${forecastPeriod}`,
-        seasonality,
-      };
-      console.log('Fetching with payload:', bodyParams);
-      const forecastResponse = await fetch(WEBAPPAPIURL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(bodyParams),
-        credentials: 'include',
-      });
-      if (!forecastResponse.ok) {
-        throw new Error(`Error fetching forecast data: ${forecastResponse.status}`);
-      }
-      const data = await forecastResponse.json();
-      console.log('Full API Response:', data);
-      let plotData = {};
-      if (Array.isArray(data) && data.length > 0 && Array.isArray(data[0]) && data[0][0] === 'Data') {
-        plotData = data[0][1]?.plot || {};
-      } else if (data.data && Array.isArray(data.data)) {
-        plotData = data;
-      } else {
-        console.warn('Unexpected API response structure:', data);
-        plotData = { data: [] };
-      }
-      console.log('Processed Plot Data:', plotData);
-      setPlotData(plotData);
-      setLastUpdated(new Date());
-      setError('');
-    } catch (error) {
-      setError(error.message || 'An error occurred while fetching the plot data.');
-      setPlotData({});
-      console.error('Fetch error:', error);
-    } finally {
-      setIsLoading(false);
-      isFetchingRef.current = false;
-    }
-  }, [globalUUID, globalCode, warehouseUrl, userTimeZone, selectedModel, forecastNumber, forecastPeriod, seasonality]);
+  // const fetchPlotData = useCallback(async () => { ... }); // Removed
+
+  const callFetchDataFromContext = useCallback(() => {
+    const bodyParams = {
+      warehouse_url: warehouseUrl,
+      uuid: globalUUID,
+      code: globalCode,
+      equipment_id: sid,
+      company_timezone: userTimeZone,
+      model: selectedModel,
+      forecast_period: `${forecastNumber} ${forecastPeriod}`,
+      seasonality,
+      // Indicate that this is a predictive fetch if the API needs to differentiate
+      // fetch_type: 'predictive', 
+    };
+    console.log('Calling context fetchData with payload for predictive:', bodyParams);
+    fetchData(bodyParams).then(() => {
+        setLastUpdated(new Date());
+    });
+  }, [fetchData, warehouseUrl, globalUUID, globalCode, sid, userTimeZone, selectedModel, forecastNumber, forecastPeriod, seasonality]);
+
 
   const handleResize = useCallback(() => {
     setPlotDimensions({
@@ -764,9 +734,9 @@ const Predictive = ({
 
   useEffect(() => {
     if (globalUUID && globalCode) {
-      fetchPlotData();
+      callFetchDataFromContext();
     }
-  }, [fetchPlotData, globalUUID, globalCode]);
+  }, [callFetchDataFromContext, globalUUID, globalCode]); // Removed direct fetchPlotData
 
   useEffect(() => {
     handleResize();
@@ -779,7 +749,7 @@ const Predictive = ({
   }, [defaultDate]);
 
   const handleUpdateModel = () => {
-    fetchPlotData();
+    callFetchDataFromContext(); // Use context fetch
   };
 
   const handlePlotTypeChange = useCallback((event) => {
@@ -803,16 +773,16 @@ const Predictive = ({
   }), [themes]);
 
   const currentData = useMemo(() => {
-    const parsedData = parseApiData(plotData);
+    const parsedData = parseApiData(apiData); // Use apiData from context
     const aggregatedTraces = parsedData.traces.map((trace) => aggregateData(trace, plotType, lastUpdated, activeGroupFilter));
-    const kpiData = calculateKPI(aggregatedTraces, plotType, lastUpdated, costPerKWh, plotData);
+    const kpiData = calculateKPI(aggregatedTraces, plotType, lastUpdated, costPerKWh, apiData); // Pass apiData
     return {
       traces: aggregatedTraces,
       layout: parsedData.layout,
       Root_Cause_Analysis: parsedData.Root_Cause_Analysis,
       ...kpiData,
     };
-  }, [plotData, plotType, lastUpdated, activeGroupFilter, costPerKWh]);
+  }, [apiData, plotType, lastUpdated, activeGroupFilter, costPerKWh]);
 
   const customLayout = useMemo(() => ({
     paper_bgcolor: themes === 'light' ? '#2D2E2D' : '#FEFDFE',
@@ -1052,16 +1022,16 @@ const Predictive = ({
 
   return (
     <ThemeProvider theme={theme}>
-      {isLoading || !globalUUID ? (
+      {contextIsLoading || !globalUUID ? ( // Use contextIsLoading
         <Box sx={{
           display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh',
         }}
         >
           <CircularProgress />
         </Box>
-      ) : error ? (
+      ) : contextError ? ( // Use contextError
         <Box sx={{ color: themes === 'light' ? '#FFFFFF' : '#000000' }}>
-          <Typography>{error}</Typography>
+          <Typography>{contextError}</Typography>
         </Box>
       ) : (
         <Card>

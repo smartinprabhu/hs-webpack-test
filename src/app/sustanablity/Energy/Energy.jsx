@@ -4,6 +4,7 @@ import React, {
   useRef,
   useCallback,
   useMemo,
+  useContext, // Add useContext
 } from 'react';
 import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
@@ -32,6 +33,7 @@ import CardHeader from './CardHeaderRes';
 import Card from './CardRes';
 import PlotTypeSelector from './PlotSelector';
 import { useTheme } from '../../ThemeContext';
+import { ApiDataContext } from './ApiDataContext'; // Import the context
 import './EnergyAnalytics.css';
 import co2 from './image/emmision.svg';
 import totalcost from './image/totalcost.svg';
@@ -398,16 +400,17 @@ const Energy = ({
   code,
   equipmentId,
 }) => {
+  const { apiData, isLoading: contextIsLoading, error: contextError, fetchData, setApiData: setContextApiData } = useContext(ApiDataContext);
   const [menu, setMenu] = useState({});
   const [dashboardCode, setDashboardCode] = useState('');
   const [activeGroupFilter, setActiveGroupFilter] = useState(defaultDate);
-  const [plotData, setPlotData] = useState({});
+  // const [plotData, setPlotData] = useState({}); // Remove
   const [traceVisibility, setTraceVisibility] = useState({});
-  const [error, setError] = useState('');
+  // const [error, setError] = useState(''); // Remove
   const [plotType, setPlotType] = useState('Day');
-  const [isLoading, setIsLoading] = useState(false);
+  // const [isLoading, setIsLoading] = useState(false); // Remove
   const plotContainerRef = useRef(null);
-  const isFetchingRef = useRef(false);
+  // const isFetchingRef = useRef(false); // Remove
   const isDropdown = useMediaQuery('(max-width: 576px)');
   const isDropdown932 = useMediaQuery('(max-width: 932px) and (max-height: 430px)');
   const isDropdown820 = useMediaQuery('(max-width: 820px) and (max-height: 1180px)');
@@ -473,104 +476,7 @@ const Energy = ({
   const params = new URLSearchParams(location.search);
   const sid = params.get('sid');
 
-  const fetchPlotData = useCallback(async () => {
-    if (isFetchingRef.current) {
-      console.log('Fetch already in progress, skipping...');
-      return;
-    }
-    isFetchingRef.current = true;
-    setIsLoading(true);
-    setPlotData({});
-    try {
-      const bodyParams = {
-        warehouse_url: warehouseUrl,
-        uuid: code && uuid ? uuid : menu.uuid,
-        code: code || dashboardCode,
-        equipment_id: equipmentId || sid,
-        company_timezone: userTimeZone,
-      };
-      console.log('Fetching with payload:', bodyParams);
-      const forecastResponse = await fetch(WEBAPPAPIURL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(bodyParams),
-        credentials: 'include',
-      });
-      if (!forecastResponse.ok) {
-        throw new Error(`Error fetching forecast data: ${forecastResponse.status}`);
-      }
-      const data = await forecastResponse.json();
-      console.log('Full API Response:', data);
-      let plotData = {};
-      if (Array.isArray(data) && data.length > 0 && Array.isArray(data[0]) && data[0].length > 1) {
-        plotData = data[0][1].plot || {};
-      } else {
-        console.warn('Invalid API response structure. No data available.');
-        plotData = {};
-      }
-      console.log('Processed Plot Data:', plotData);
-      setPlotData(plotData);
-      setLastUpdated(new Date());
-      setError('');
-    } catch (error) {
-      setError(error.message || 'An error occurred while fetching the plot data.');
-      setPlotData({});
-      console.error('Fetch error:', error);
-    } finally {
-      setIsLoading(false);
-      isFetchingRef.current = false;
-    }
-  }, [menu.uuid, dashboardCode, warehouseUrl, userTimeZone]);
-
-  
-  const fetchPlotDataExt = useCallback(async () => {
-    if (isFetchingRef.current) {
-      console.log('Fetch already in progress, skipping...');
-      return;
-    }
-    isFetchingRef.current = true;
-    setIsLoading(true);
-    setPlotData({});
-    try {
-      const bodyParams = {
-        warehouse_url: warehouseUrl,
-        uuid: code && uuid ? uuid : menu.uuid,
-        code: code || dashboardCode,
-        equipment_id: equipmentId || sid,
-        company_timezone: userTimeZone,
-      };
-      console.log('Fetching with payload:', bodyParams);
-      const forecastResponse = await fetch(WEBAPPAPIURL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(bodyParams),
-        credentials: 'include',
-      });
-      if (!forecastResponse.ok) {
-        throw new Error(`Error fetching forecast data: ${forecastResponse.status}`);
-      }
-      const data = await forecastResponse.json();
-      console.log('Full API Response:', data);
-      let plotData = {};
-      if (Array.isArray(data) && data.length > 0 && Array.isArray(data[0]) && data[0].length > 1) {
-        plotData = data[0][1].plot || {};
-      } else {
-        console.warn('Invalid API response structure. No data available.');
-        plotData = {};
-      }
-      console.log('Processed Plot Data:', plotData);
-      setPlotData(plotData);
-      setLastUpdated(new Date());
-      setError('');
-    } catch (error) {
-      setError(error.message || 'An error occurred while fetching the plot data.');
-      setPlotData({});
-      console.error('Fetch error:', error);
-    } finally {
-      setIsLoading(false);
-      isFetchingRef.current = false;
-    }
-  }, [code, uuid, warehouseUrl, userTimeZone]);
+  // fetchPlotData and fetchPlotDataExt removed
 
   const handleResize = useCallback(() => {
     setPlotDimensions({
@@ -581,16 +487,35 @@ const Energy = ({
 
   useEffect(() => {
     if (menu.uuid && dashboardCode && !code) {
-      fetchPlotData();
+      const bodyParams = {
+        warehouse_url: warehouseUrl,
+        uuid: menu.uuid,
+        code: dashboardCode,
+        equipment_id: equipmentId || sid,
+        company_timezone: userTimeZone,
+      };
+      fetchData(bodyParams).then(() => {
+        // Assuming fetchData is successful, update lastUpdated
+        // If fetchData itself updated a timestamp in context, that could be used too.
+        setLastUpdated(new Date());
+      });
     }
-  }, [fetchPlotData, menu.uuid, dashboardCode, code]);
+  }, [fetchData, menu.uuid, dashboardCode, code, warehouseUrl, equipmentId, sid, userTimeZone]);
 
-  
   useEffect(() => {
     if (uuid && code) {
-      fetchPlotDataExt();
+      const bodyParams = {
+        warehouse_url: warehouseUrl,
+        uuid,
+        code,
+        equipment_id: equipmentId || sid,
+        company_timezone: userTimeZone,
+      };
+      fetchData(bodyParams).then(() => {
+        setLastUpdated(new Date());
+      });
     }
-  }, [fetchPlotDataExt, uuid, code]);
+  }, [fetchData, uuid, code, warehouseUrl, equipmentId, sid, userTimeZone]);
 
   useEffect(() => {
     handleResize();
@@ -613,10 +538,10 @@ const Energy = ({
   }), []);
 
   const currentData = useMemo(() => {
-    const data = plotData || {};
-    console.log('Current Data:', data);
+    const data = apiData || {}; // Use apiData from context
+    console.log('Current Data from context:', data);
     return data;
-  }, [plotData]);
+  }, [apiData]);
 
   const customLayout = useMemo(() => ({
     paper_bgcolor: themes === 'light' ? '#2D2E2D' : '#FEFDFE',
@@ -750,16 +675,16 @@ const Energy = ({
 
   return (
     <ThemeProvider theme={theme}>
-      {isLoading || !menu ? (
+      {contextIsLoading || !menu ? ( // Use contextIsLoading
         <Box sx={{
           display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh',
         }}
         >
           <CircularProgress />
         </Box>
-      ) : error ? (
+      ) : contextError ? ( // Use contextError
         <Box sx={{ color: 'white' }}>
-          <Typography>{error}</Typography>
+          <Typography>{contextError}</Typography>
         </Box>
       ) : (
         <Card>

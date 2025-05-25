@@ -22,6 +22,7 @@ import { updateHeaderData } from '../core/header/actions';
 import { resetTreeDashboard } from '../analytics/analytics.service';
 import SldOverView from './Sld/SldOverview';
 import Energy from './Energy/Energy';
+import { ApiDataProvider } from './Energy/ApiDataContext';
 import Sld from './waste/sld';
 import Waste from './waste/waste';
 import Water from './Water/water';
@@ -168,7 +169,7 @@ const OperationsSegments = () => {
       </div>
       {(() => {
         if (location.pathname === '/energy-sld') {
-          return <Energy showBackButton />;
+          return <ApiDataProvider><Energy showBackButton /></ApiDataProvider>;
         }
         if (location.pathname === '/water-sld') {
           // Extract sid from query string
